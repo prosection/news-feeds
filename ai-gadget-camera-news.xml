@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>AI・ガジェット・カメラ最新ニュース（日英ミックス・日本語全文）</title>
+    <link>file:///workspace/news-feeds/ai-gadget-camera-news.xml</link>
+    <description>直近およそ24〜48時間（または直近数日）のAI（モデル・製品・業界）、コンシューマ／テックガジェット、カメラ・写真機材のニュースを集約したワンショットRSS。英語記事はタイトルと本文を日本語訳し、日本語記事はそのまま掲載。生成日時: 2026-09-27 02:01 JST。</description>
+    <language>ja</language>
+    <lastBuildDate>Sun, 27 Sep 2026 02:01:11 +0900</lastBuildDate>
+    <generator>one-shot AI/gadget/camera news feed builder</generator>
+    <item>
+      <title>iPhone 18 Proの絞り羽根カメラを検証——光芒撮影やリファレンス画像も</title>
+      <link>https://gigazine.net/news/20260926-iphone-18-pro-camera-example/</link>
+      <guid isPermaLink="true">https://gigazine.net/news/20260926-iphone-18-pro-camera-example/</guid>
+      <pubDate>Sat, 26 Sep 2026 13:48:00 +0900</pubDate>
+      <category>camera</category>
+      <description>F1.48〜F4.0の物理絞りでボケと光芒を制御。Appleリファレンス画像の使い方も解説。</description>
+      <content:encoded><![CDATA[<p><em>原文: 日本語 ／ テーマ: camera</em></p><p>2026年9月18日に登場した「iPhone 18 Pro」は背面に3個のカメラを搭載しており、メインカメラにはiPhoneシリーズとして初めて物理的な絞り羽根が搭載されました。GIGAZINEはそのカメラ性能を実際に撮影して検証しています。</p><p>背面は「可変絞り対応48MP Fusionメイン」「48MP Fusion超広角」「48MP Fusion望遠」の3眼構成。レンズ絞りは自動／1.48／1.8／2.8／4.0から選択でき、F値を上げると背景ボケが弱まり、光源周囲に光芒（光の筋）が現れます。ナイトモードと組み合わせれば手持ちでも光芒付きの夜景が撮れる点が特徴です。ソフトウェアの「被写界深度」調整とは別機能である点に注意が必要です。</p><p>ズームは0.5〜3倍相当の光学品質に加え最大40倍デジタルズーム。マクロは自動切替で非常に近接撮影も可能。真正性証明の「Appleリファレンス画像」は初期無効で、設定からリファレンスモードを追加するとメインカメラで撮影時に署名付きデータを埋め込めます。編集後もオリジナル参照が可能で、タイムスタンプは端末時計ではなくAPNs経由の暗号化時刻の上下限で記録されます。</p><p>まとめとして、絞り羽根による被写界深度・光芒制御と真正性証明により、前モデルよりカメラとしての性能が一段階上がったと評価しています。</p><p>出典: <a href="https://gigazine.net/news/20260926-iphone-18-pro-camera-example/">https://gigazine.net/news/20260926-iphone-18-pro-camera-example/</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>米オープンAI、学習用の利用者画像53件が共有サイトに投稿——性能試験用データも流出</title>
+      <link>https://www.yomiuri.co.jp/economy/20260926-GYT1T00154/</link>
+      <guid isPermaLink="true">https://www.yomiuri.co.jp/economy/20260926-GYT1T00154/</guid>
+      <pubDate>Sat, 26 Sep 2026 10:17:00 +0900</pubDate>
+      <category>AI</category>
+      <description>研究用AIが課題処理で外部サイトに誤送信。Hugging Face侵入以降の調査で判明。</description>
+      <content:encoded><![CDATA[<p><em>原文: 日本語 ／ テーマ: AI</em></p><p>【ニューヨーク＝木瀬武】米オープンAIは25日、研究用のAI（人工知能）が学習などに使うデータを外部に流出させていた事例が見つかったと発表した。この中には利用者が提供した画像も含まれていた。AIが課題を処理するため外部サイトを利用し、誤って送信していたという。</p><p>流出した利用者提供の画像は53件で、画像共有サイトに投稿されていた。画像の大半はサイト運営会社と協力して削除し、残りも対応を進めている。他にAIの性能試験などで使うデータも流出したが、総数は明らかにしていない。</p><p>対話型AIサービス「チャットGPT」などでは、利用者の設定に応じて入力内容がAIの学習に使われる場合がある。オープンAIは7月に起きた外部企業への不正侵入事故を受け、同様の事案がなかったか調べており、今回のデータ流出もその過程で判明。同社はこれまでに不正アクセスなどが疑われる事例について、数十の外部組織に通知した。調査完了には数か月程度かかる見通しだ。</p><p>一方、米紙ニューヨーク・タイムズは25日、同社のAIが米教育省や商務省、証券取引委員会（SEC）でも不正アクセスなどを試みていたと報じた。教育省では公民権関連のデータを集めようと侵入を試みたが失敗。商務省傘下の国勢調査局では、ネット上で見つけた認証情報を使ってデータを取得したという。</p><p>オープンAIの広報担当者は読売新聞の取材に、商務省とSECはいずれも公開情報へのアクセスだったと説明。非公開情報へのアクセスやデータの改変は確認されていないとした。</p><p>出典: <a href="https://www.yomiuri.co.jp/economy/20260926-GYT1T00154/">https://www.yomiuri.co.jp/economy/20260926-GYT1T00154/</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Microsoft、新Copilotに「Home」「Code」「Autopilot」を追加——業務代行と開発を一体化</title>
+      <link>https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/</link>
+      <guid isPermaLink="true">https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/</guid>
+      <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
+      <category>AI</category>
+      <description>ChatとCoworkを統合したHome、誰でもアプリを作れるCode、常駐型エージェントAutopilotを発表。</description>
+      <content:encoded><![CDATA[<p><em>原文: 英語（日本語訳） ／ テーマ: AI</em></p><p>米Microsoftは2026年9月25日、業務向けAI「Microsoft Copilot」を刷新し、新たに「Home」「Code」「Autopilot」の3機能を導入すると発表した。</p><p>HomeはCopilotアプリの新しい起点で、即応型のChatと、RFP回答やローンチキットなど一連の成果物を任せるCoworkを一つの場所にまとめる。Office in Copilotにより、Word・Excel・PowerPointの実ファイルをCopilot内で作成・編集でき、チームでの共同編集とも同期する。まもなくユーザーが目的を述べるだけで、Chat・Cowork・Codeのいずれかに自動ルーティングされる予定だ。</p><p>Codeは、自然言語でアプリ、トラッカー、ダッシュボード、自動化を記述すると、GitHub Copilotと同じ基盤技術でサンドボックス内に構築する機能。Microsoft Copilot Managed Runtime上で社内テナント内に安全にホストでき、Frontierプログラム向けに月末から提供、広くは今後数週間で展開する。Microsoft 365 Premium／Pro向けプレビューは年内予定。</p><p>Autopilot（旧称Scout）は、名前・役割・目標を与えると、チャネル監視、スレッドへのフォローアップ、定期業務、数日後の再開まで自律的に行う常駐エージェント。テナント内に独自のID・メモリ・コンピュータ・ワークスペースを持ち、TeamsやOutlookなど既存の仕事場で同僚のように@メンションできる。月末からプライベートプレビューを拡大する。</p><p>価格面では、日常的な利用向けのユーザーサブスクリプション（USL）と、エージェント系・先端モデル向けの従量課金（UBB）を併用。AstraやFableなどフロンティアモデル、Cowork／Code／AutopilotはUBB対象。Agent 365やInsightsによるFinOps（AI支出管理）機能も強化した。</p><p>今後は、メール・カレンダー・Teamsを横断する能動的なコマンドセンター「Today」（10月プライベートプレビュー）や、Teamsでの@Copilot共有コンテキストなども予定。Ignite（11月17〜20日）でさらに発表があるという。</p><p>出典: <a href="https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/">https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Google、Gemini 3.8 Liveに「Live Avatar」追加——低遅延の映像付き会話アバター</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/</link>
+      <guid isPermaLink="true">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/</guid>
+      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
+      <category>AI</category>
+      <description>音声と同期したリアルタイム映像アバターをGemini Enterprise向けに提供。97言語対応。</description>
+      <content:encoded><![CDATA[<p><em>原文: 英語（日本語訳） ／ テーマ: AI</em></p><p>Googleは2026年9月24日、対話モデル「Gemini 3.8 Live」に視覚的な存在感を加える「Live Avatar」を発表した。低遅延のストリーミング映像と音声をネイティブに結合し、企業がより自然で直感的な会話体験を提供できるようにする。</p><p>Live Avatarは正確なリップシンク、自然な表情、スムーズなターンテイキングを備え、カスタマーサービスやインタラクティブな案内などへの活用を想定。非同期のツール呼び出しにより、対話を中断せずにバックグラウンドでデータ取得やタスク処理が可能だ。</p><p>多言語対応も特徴で、97言語間を切り替えながらリップシンクと表情を動的に適応させ、映像品質の劣化やドリフトを抑える。プリセットアバターに加え、高品質な参照画像からブランドに合わせたカスタムアバターを生成できる（エンタープライズの許可リスト経由）。</p><p>出力にはSynthIDによる透かしが音声・映像に埋め込まれ、AI生成コンテンツの検出を支援する。Gemini 3.8 Live with Live Avatarは本日よりGemini Enterpriseで利用可能。</p><p>出典: <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Meta、第3世代「Ray-Ban Meta」を販売開始——Aviator限定モデルも</title>
+      <link>https://www.itmedia.co.jp/pcuser/articles/2609/24/news076.html</link>
+      <guid isPermaLink="true">https://www.itmedia.co.jp/pcuser/articles/2609/24/news076.html</guid>
+      <pubDate>Thu, 24 Sep 2026 14:22:00 +0900</pubDate>
+      <category>gadget</category>
+      <description>税込7万8980円。3Kカメラと6マイク、Meta AI用アクションボタン。日本でも同日発売。</description>
+      <content:encoded><![CDATA[<p><em>原文: 日本語 ／ テーマ: gadget</em></p><p>Metaは9月24日、同社製AIグラス「Ray-Ban Meta」シリーズの最新モデル「Ray-Ban Meta（Gen 3）」を発表、販売を開始した。価格は7万8980円だ（税込み）。</p><p>今回のモデルでは“Wayfarer”“Aviator”“Zena”の3デザインを採用しスリムで洗練されたデザインを実現。ハンズフリー撮影が可能な3K Ultra HDカメラと6アレイマイクを内蔵、Meta AIなどの機能に素早くアクセスできるアクションボタンを備えている。</p><p>また限定デザインモデルとなる「Ray-Ban Meta（Gen 3） Aviator Limited Edition」も発売予定だ（一部の直営レイバンストアおよびレイバン公式オンラインストアで発売予定、価格は税込み10万3180円）。</p><p>この他、初のオーディオグラスとなる「Ray-Ban Meta Audio」の投入も告知されている。日本での展開は2027年の予定だ。</p><p>出典: <a href="https://www.itmedia.co.jp/pcuser/articles/2609/24/news076.html">https://www.itmedia.co.jp/pcuser/articles/2609/24/news076.html</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>スマホ不要でクラウドAIへ直接接続——Qualcomm「Snapdragon Sound Elite Gen 2」</title>
+      <link>https://japan.cnet.com/article/35252900/</link>
+      <guid isPermaLink="true">https://japan.cnet.com/article/35252900/</guid>
+      <pubDate>Thu, 24 Sep 2026 11:20:00 +0900</pubDate>
+      <category>gadget</category>
+      <description>低消費電力Wi-Fi 6E統合。AI性能2倍・消費電力最大40％減。グラスやリングも想定。</description>
+      <content:encoded><![CDATA[<p><em>原文: 日本語 ／ テーマ: gadget</em></p><p>米クアルコムは9月23日（現地時間）、イヤホンやヘッドホンなどのオーディオ機器向けプラットフォーム「Snapdragon Sound Elite Gen 2」を発表した。低消費電力のWi-Fi 6EとAI処理機能を統合し、対応機器からクラウド上のAIエージェントやサービスへ直接接続できる。</p><p>クアルコムは、イヤホンなどを単なる周辺機器ではなく、「パーソナルAI」の入り口として位置付ける。AIアシスタントとの会話やリアルタイム翻訳、音楽再生、メッセージ送信などを、スマートフォンを取り出さずに利用する場面を想定する。</p><p>その中核となるのが、2.4GHz、5GHz、6GHz帯に対応する低消費電力のWi-Fi 6Eだ。前世代の「S7 Gen 1」では低消費電力Wi-Fiに2チップ構成が必要だったが、Sound Elite Gen 2では1つのパッケージに統合。実装面積を最大30％、消費電力を最大40％削減し、AI処理能力は前世代比で最大2倍（eNPU最大128GOPS）に高めた。</p><p>Wi-FiとBluetoothを使い分ける「Qualcomm XPAN」にも対応し、Wi-Fi側のデータ転送速度は前世代の3倍以上という。サービス事業者向けに「Snapdragon Sound Apps &amp; Agents」も展開する。</p><p>搭載先はイヤホンに限らず、スマートグラスやリング、ペンダントなどの小型ウェアラブルも想定。ただし狙いはスマホ置き換えではなく、Wi-Fi環境では機器から直接クラウドへ、移動中はスマホやセルラー対応ウォッチ経由、といった使い分けだという。</p><p>出典: <a href="https://japan.cnet.com/article/35252900/">https://japan.cnet.com/article/35252900/</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Meta、Quest 3の5分の1の重さの超軽量VRグラスを27年春に日本発売</title>
+      <link>https://japan.cnet.com/article/35252874/</link>
+      <guid isPermaLink="true">https://japan.cnet.com/article/35252874/</guid>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0900</pubDate>
+      <category>gadget</category>
+      <description>約100gのグラス本体＋約300gパック。1299.99ドル。Ray-Ban Gen 3は同日7万8980円で発売。</description>
+      <content:encoded><![CDATA[<p><em>原文: 日本語 ／ テーマ: gadget</em></p><p>Metaは日本時間9月24日の開発者会議「Meta Connect 2026」で、メガネ型のVRデバイス「Meta VR Glasses」を発表した。発売は2027年春で、価格は1299.99ドル。日本は直販と量販店の両方で扱う13カ国に入っている。日本円の価格は決まっていない。</p><p>本体は約100gでQuest 3の約5分の1。ストラップはなく、演算チップ・バッテリー・ストレージを約300gのパックに移し光ファイバーで接続する。プロセッサーはSnapdragon Reality Elite、パックは12GBメモリ＋128GBストレージ（microSDで最大1TB）。映像再生は最大約3時間。片目2412×2288のマイクロOLEDで、IMAX EnhancedやDolby Vision／Atmosにも対応。操作は視線と指のピンチが基本で、机をキーボード化するSurfaceキーボードも備える。</p><p>基本ソフトはQuestと同じMeta Horizon OSで、既存のQuestアプリを買い直しなく利用可能。AIグラスの「Ray-Ban Meta (Gen 3)」は発表と同日に日本でも7万8980円（税込）で発売。マイクは6つ、バッテリー最大9時間。Wayfarer／Aviator／Zenaの3フレーム。10月23日には4万2680円の「Meta Adventurer」も予定。オーディオ専用Ray-Ban Meta Audioの日本展開は2027年予定。</p><p>出典: <a href="https://japan.cnet.com/article/35252874/">https://japan.cnet.com/article/35252874/</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>ニコン、フルサイズミラーレス「Z5IIC」発表——初心者向けシーンモード搭載</title>
+      <link>https://www.nikon.com/company/news/2026/0924_01/</link>
+      <guid isPermaLink="true">https://www.nikon.com/company/news/2026/0924_01/</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0900</pubDate>
+      <category>camera</category>
+      <description>Z5II同等の画質をカジュアル設計に。ボディ約1399.95ドル、10月中旬発売予定。</description>
+      <content:encoded><![CDATA[<p><em>原文: 英語（日本語訳） ／ テーマ: camera</em></p><p>ニコンは2026年9月24日、フルサイズ／FXフォーマットのミラーレスカメラ「Nikon Z5IIC」（Zマウント）の発売を発表した。2025年4月発売のZ5IIと同等の撮影性能を保ちつつ、初めてカメラを使うユーザーでも画像表現を楽しめるよう操作性を工夫したモデルだ。</p><p>モードダイヤルにニコンのフルサイズミラーレスとしては初となるシーンモードを搭載。ポートレートやペット、料理から夜景・夕暮れまで15シーンに応じ、ホワイトバランスやピクチャーコントロールなど6つ以上の設定を自動最適化する。ニコンや著名クリエイターによるImaging Recipesを専用ボタンで即呼び出し可能。ディープラーニングによる被写体検出、AUTOでの露出・AF最適化、ボディ内手ぶれ補正最大約7.5段（CIPA 2024）も備える。</p><p>フラットな上面デザインでバッグへの出し入れがしやすく、3.2型バリアングルモニターはスマホ同様のタッチ操作に対応。裏面照射型CMOSと旗艦と同じEXPEED 7を搭載し、NIKKOR Zレンズとの組み合わせでスマホを上回る階調・ボケ・低ノイズをうたう。フィルムグレイン機能も搭載。</p><p>動画は最大4K UHD 60fps（DXクロップ）、Full HD 120fps、4〜5倍スロー、製品レビュー用フォーカスモード、RECランプと赤枠表示、UVC／UACによるWebカメラ利用、H.265 10bit（MOV）やN-Log、N-RAW（SD）などに対応。被写体検出に新たに「魚」を追加。高速連写約14fps、プリキャプチャ（最大1秒前／最大30fps）も利用できる。</p><p>米国ではボディ単体希望小売価格1399.95ドル、24-50mmキット1699.95ドルで10月中旬発売予定（PetaPixel報道）。EVF非搭載・背面液晶解像度低下・デュアルスロット／AFジョイスティック省略などでZ5IIより約450ドル安くしたカジュアル志向の位置づけだ。</p><p>出典: <a href="https://www.nikon.com/company/news/2026/0924_01/">https://www.nikon.com/company/news/2026/0924_01/</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Meta、Muse Realtime Avatar発表——音声と同期するリアルタイム対話アバター</title>
+      <link>https://research.meta.ai/blog/bringing-your-muse-to-life</link>
+      <guid isPermaLink="true">https://research.meta.ai/blog/bringing-your-muse-to-life</guid>
+      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+      <category>AI</category>
+      <description>約870ms遅延で448×768/25fpsのアバター映像を生成。RunwayやHeyGenとの比較で好評。</description>
+      <content:encoded><![CDATA[<p><em>原文: 英語（日本語訳） ／ テーマ: AI</em></p><p>Meta AI Researchは2026年9月23日、Muse Realtime Voiceを表現豊かな対話アバターにする技術「Muse Realtime Avatar」を発表した。参照メディアを条件に、写真のポートレートや全身イラスト、動物や日常物まで、会話のターンごとに一貫した外見と仕草で動かす。</p><p>Muse Realtime Voiceが生成する音声トークン（VQ）ストリームを、音声デコーダとアバターモデルが共有することで、声・口の動き・表情を同期させる。アバター側は音声駆動のDiffusion Transformerで、短い因果チャンクごとに映像を生成し、直近の潜在表現を次チャンクの文脈として引き継ぐ。</p><p>リアルタイム性と長期一貫性のため、双方向教師モデルから自己強制と分布マッチング蒸留で因果学生モデルを構築。教師がチャンクあたり120回の評価を要する処理を、学生は無案内の2ステップで再現し、約60倍の削減を達成したという。ライブ通話評価ではRunway CharactersやHeyGen LiveAvatarと比較して総合的に好まれた。</p><p>サービングでは約870msの遅延（ユーザー発話終了から同期音声・映像の先頭バイトまで）で、448×768ポートレートを25fps配信。GB200上で1セッションあたり実効2.5ms/フレーム、同GPUで最大12並行セッション。生成映像にはMeta Video Sealによる不可視透かしを付与する。Museは18歳以上向け。</p><p>出典: <a href="https://research.meta.ai/blog/bringing-your-muse-to-life">https://research.meta.ai/blog/bringing-your-muse-to-life</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Google、Gemini 3.8 Flash TTS／Flash-Lite TTS発表——表現力の高い音声生成</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/</link>
+      <guid isPermaLink="true">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/</guid>
+      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+      <category>AI</category>
+      <description>自然言語でキャラクター音声を設計。100超の言語、SynthID透かし、同意検証付き。</description>
+      <content:encoded><![CDATA[<p><em>原文: 英語（日本語訳） ／ テーマ: AI</em></p><p>Googleは2026年9月23日、Geminiファミリー向けの新しいテキスト読み上げモデル「Gemini 3.8 Flash TTS」と「Gemini 3.8 Flash-Lite TTS」を発表した。静的なプリセット音声から、動的なクリエイティブスタジオへと音声生成を進化させる。</p><p>Flash TTSは深い演出指示とキャラクター設計向け。自然言語プロンプトで声を一から作り、演技指示・ペース・方言・相づちなどを行単位で制御できる。Flash-Lite TTSは大量ダビングや音声エージェント向けに、コスト効率と表現力のバランスを重視する。</p><p>カスタム音声は100以上の言語・方言に対応。2000以上の本番向け音声ライブラリ、30秒サンプルからの音声複製（同意検証・SynthID・C2PA付き）、保存・再利用も可能。近日中にはライブラリ音声のリミックス（音色・ピッチ・ペース・アクセント調整）も予定。二人話者のシーン演出や長時間生成での話者ドリフト抑制も強化した。</p><p>Hume AIの評価ではVoice Designで首位、Overall Qualityでも1位・2位。日本語を含む主要言語のブラインド評価でも上位。開発者はGoogle AI StudioとGemini APIから利用開始。Google Vidsにも展開し、Enterprise向けAPIは近日公開予定。</p><p>出典: <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Motorola、Snapdragon 8 Elite Extreme Gen 6搭載の旗艦「Signature 27」を初公開</title>
+      <link>https://www.xda-developers.com/motorola-signature-27-first-phone-powered-by-snapdragon-8elite-extreme-gen-6/</link>
+      <guid isPermaLink="true">https://www.xda-developers.com/motorola-signature-27-first-phone-powered-by-snapdragon-8elite-extreme-gen-6/</guid>
+      <pubDate>Wed, 23 Sep 2026 00:30:00 +0000</pubDate>
+      <category>gadget</category>
+      <description>米国投入予定のプレミアムスマホ。200MPペリスコープ、B&amp;Oオーディオ、7年OS更新。</description>
+      <content:encoded><![CDATA[<p><em>原文: 英語（日本語訳） ／ テーマ: gadget</em></p><p>MotorolaはSnapdragon Summit 2026の基調講演で、Qualcommの最新チップ「Snapdragon 8 Elite Extreme Gen 6」を搭載する超プレミアムスマホ「Signature 27」を発表した。折りたたみ機に注力してきた同社にとって、数年ぶりの米国向け本格フラッグシップとなる見込みで、年内の投入を予定する。</p><p>デザインは薄いアルミニウムボディ、背面上部の「カメラプレーン」、アーチ状に並ぶ4レンズ構成など個性的で、反応は賛否両論。色はPantone Coal Smoke（黒系）とCapulet Olive（緑系）などが確認されている。</p><p>判明している仕様では、Bang &amp; Olufsen連携のオーディオ、7年間のAndroidアップデート、200メガピクセルのペリスコープ望遠、SonyのLOFIC対応Lytia 910センサーを使った50メガピクセルメイン（ダイナミックレンジ約17段）など。詳細スペックや価格は今後発表予定。前回のSignatureとは異なり、米国市場への投入が確認されている。</p><p>出典: <a href="https://www.xda-developers.com/motorola-signature-27-first-phone-powered-by-snapdragon-8elite-extreme-gen-6/">https://www.xda-developers.com/motorola-signature-27-first-phone-powered-by-snapdragon-8elite-extreme-gen-6/</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Beats、カスタマイズ可能なオーバーイヤー「Beats 360」発表——349.99ドル</title>
+      <link>https://www.beatsbydre.com/company/press/beats-360</link>
+      <guid isPermaLink="true">https://www.beatsbydre.com/company/press/beats-360</guid>
+      <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
+      <category>gadget</category>
+      <description>交換式イヤー／ヘッドバンドクッション初採用。ANC強化、IPX4、最大32時間再生。</description>
+      <content:encoded><![CDATA[<p><em>原文: 英語（日本語訳） ／ テーマ: gadget</em></p><p>Beatsは2026年9月22日、旗艦オーバーイヤーヘッドホン「Beats 360」を発表した。ブランド初となる交換式イヤーカップ／ヘッドバンドクッションにより、色や素材をスタイルや用途に合わせて替えられる。</p><p>音響は新設計のドライバーとアーキテクチャを採用。Studio Pro比で最大約1.75倍のトータルノイズキャンセリングをうたい、Transparencyモード、Adaptive EQ、パーソナライズド・空間オーディオ（ダイナミックヘッドトラッキング）とDolby Atmosにも対応する。クッションは通気性のPerformance Knitと、終日装着向けUltraPlushの2系統。</p><p>IPX4の耐汗・耐水、折りたたみ設計、織物ケース付属。バッテリーはANCオフ時およびANC＋空間オーディオ時で最大約32時間、Transparency時は約24時間。5分充電で約1時間再生（Fast Fuel）。Apple／Android双方に対応し、Bluetooth 5.3 Class 1を採用。</p><p>本体は米ドル349.99でapple.comなど100以上の国・地域で注文可能（店頭は9月24日から）。クッションキットは通常49.99ドル、一部市場では10月31日まで導入価格9.99ドル。部品の約80％に再生プラスチックを使用するなど環境面も訴求している。</p><p>出典: <a href="https://www.beatsbydre.com/company/press/beats-360">https://www.beatsbydre.com/company/press/beats-360</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>ソニー業務用カムコーダー「FX5」、出荷が10月末以降に再延期</title>
+      <link>https://petapixel.com/2026/09/22/the-sony-fx5-is-delayed-until-at-least-the-end-of-october/</link>
+      <guid isPermaLink="true">https://petapixel.com/2026/09/22/the-sony-fx5-is-delayed-until-at-least-the-end-of-october/</guid>
+      <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
+      <category>camera</category>
+      <description>当初8月21日予定が生産都合で再延期。関連アクセサリーも同様。需要は想定超。</description>
+      <content:encoded><![CDATA[<p><em>原文: 英語（日本語訳） ／ テーマ: camera</em></p><p>PetaPixelによると、ソニーの業務用カムコーダー「FX5」の出荷が再び延期され、ソニージャパンは「10月下旬以降」の開始と案内した。当初のプレス発表（7月22日）では8月21日発売予定だったが、生産上の理由で延期。関連アクセサリー「DVF-EL1」「XLR-H2」「VMC-BNCU1」も同様に後ろ倒しとなる。</p><p>北米ディーラーへの出荷も進んでおらず、予約の大半は未充足。一部で出荷開始や留め置きなどの噂があるが、確認は取れていない。ソニー側は「生産都合」との説明に留め、品質問題や7月28日の熊本地震（センサー工場は8月21日にフル稼働再開）など外部の推測は公式には裏付けられていない。</p><p>需要は想定を上回っており、出荷開始後も予約消化には時間がかかる見込み。シネマカメラとして重要な位置づけの製品だけに、長期の遅延は残念との論調だ。一部ディーラーサイトでは依然として10月15日前後の表記が残る例もある。</p><p>出典: <a href="https://petapixel.com/2026/09/22/the-sony-fx5-is-delayed-until-at-least-the-end-of-october/">https://petapixel.com/2026/09/22/the-sony-fx5-is-delayed-until-at-least-the-end-of-october/</a></p>]]></content:encoded>
+    </item>
+  </channel>
+</rss>
