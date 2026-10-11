@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI・ガジェット・カメラ ニュースダイジェスト（2026-10-11 19:55 JST）</title>
+  <title>AI・ガジェット・カメラ ニュースダイジェスト（2026-10-12 07:59 JST）</title>
   <style>
 :root { --bg:#0f1419; --card:#1a2332; --text:#e7ecf3; --muted:#9aa7b8; --accent:#5b9dff; --border:#2a3548; }
 * { box-sizing: border-box; }
@@ -59,8 +59,8 @@ footer a { color:var(--accent); }
 <header>
   <h1>AI・ガジェット・カメラ ニュースダイジェスト</h1>
   <p>海外の一次情報（企業公式・公式プレス・国際テック報道）のみを収集し、タイトルと本文を日本語訳したHTMLダイジェストです。RSS配信は終了しました。</p>
-  <p>生成: 2026-10-11 19:55 JST ／ 件数: 9 ／ 晩更新</p>
-  <p class="counts"><span>AI 3</span><span>ガジェット 3</span><span>カメラ 3</span></p>
+  <p>生成: 2026-10-12 07:59 JST ／ 件数: 10 ／ 朝更新</p>
+  <p class="counts"><span>AI 3</span><span>ガジェット 4</span><span>カメラ 3</span></p>
 </header>
 <nav>
   <a href="./">最新ダイジェスト</a>
@@ -70,155 +70,167 @@ footer a { color:var(--accent); }
 <p class="hint">タイトルをタップ／クリックすると日本語本文を展開・折りたたみできます。</p>
 <details class="item" id="a1">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>1. AIエージェント各社が「プライバシー」を約束——本当に守れるのか</span></div>
-    <div class="meta"><span class="tag">AI</span>The Verge ／ 2026-10-09
-      ／ 原文: <a href="https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots" rel="noopener noreferrer">https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots</a></div>
-    <p class="summary">OpenAIの新エージェントDotsとMetaのMuseが互いに安全性を競うが、Museでは脆弱性やデータ収集の問題が早くも表面化。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>1. 音声AIはまだ「ChatGPTの瞬間」を迎えていない——PolyAIとOtterの幹部が語る課題</span></div>
+    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-10-11
+      ／ 原文: <a href="https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/" rel="noopener noreferrer">https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/</a></div>
+    <p class="summary">全二重モデルは実現したが、高速な推論、音声認識の精度、AIであることの透明性が次の課題だという。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: AI</em></p>
-<p>今年のOpenAI DevDayで、サム・アルトマンCEOは新しいAIエージェント「Dots」を発表し、「フロンティアAIにおけるプライバシーの新たな基準を打ち立てたい」と語った。OpenAIはこの日、ユーザーデータを守れていないとして最大の競合であるMetaの「Muse」を暗に批判し続けた。だがそのMuse自体も、数カ月前に前身のOpenClawより安全な代替として登場し、マーク・ザッカーバーグCEOは「プライバシーとセキュリティのために一から設計した」と約束していた。</p>
-<p>企業が顧客の個人データをため込み、サイバー攻撃が日常化する時代に、AIラボはユーザーにさらに多くの情報をエージェントへ預けるよう説得しようとしている。最新の戦略は、ライバルと違って自社はデータを守ると約束して競合を出し抜くことだ。問題は、その約束を守れるかどうかである。</p>
-<p>Meta Superintelligence Labsのプロダクト責任者ナット・フリードマン氏はXで、Museの目標は「OpenClawのようなものを、安全で使いやすく、数十億人に拡張できる形で作ること」だったと書いた。ユーザーデータは、ザッカーバーグ氏が「ブラウザ、CPU、メモリ、ストレージを備えた隔離されたLinuxコンピューター」と表現する安全なVMに保存される。Metaのブログは「Museは今後も間違いを犯すが、組み込んだ安全システムにより頻度も被害もずっと小さくなると見込んでいる」としていた。</p>
-<p>しかしMuseはApp Storeで首位に立ち、Apptopiaによれば数週間で米国の日間アクティブユーザー60万人を獲得したものの、Metaの約束は守られていないようだ。データは他ユーザーから隔離されており、Metaは年内にVM内データへの自社アクセスを暗号学的・検証可能な形で防ぐ仕組みを導入予定だが、現時点ではMeta自身はデータにアクセスできる。セキュリティ研究者はMuseを乗っ取れるゼロデイ脆弱性（現在は修正済み）をすぐに暴き、404 Mediaによれば公開直前にはMetaの内部データベースにアクセスできかねない重大な問題も複数見つかっていたという。</p>
-<p>Museはデータを大量に収集し、場合によっては外部に渡してもいるようだ。初期設定ではユーザーの入力をモデル学習に使うことを許可している（オプトアウトは可能）。Inc.の記者は、頼んでもいないのにMuseが自分の非公開メッセージをアップロードして読んだと訴え、あるYouTuberはMarketplaceで見知らぬ相手に自分の住所を教えようとしたと述べた。いずれもMuseは仕様どおりに動いていたが、ユーザーはどこまでやるのか理解していなかった。Wiredは、Museが「友人や家族の詳細なプロフィール」を作成すると報じている。（以下、原文はOpenAIのDotsの約束の検証へ続く）</p>
-<p><a href="https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
+<p>音声が次の主要インターフェースになるという見方は勢いを増しており、投資家はモデル開発企業から企業向けカスタマーサービス、会議の議事録作成、AI音声入力まで、音声AIスタートアップに数十億ドルを投じている。毎週のように「人間のように話し、会話できる」と謳う新モデルやツールが登場するが、実態は必ずしもそうではない。</p>
+<p>企業向け音声AIプラットフォームPolyAIのCTO、ショーン・ウェン氏は、聞きながら同時に話せる「全二重（フルデュプレックス）」モデルが登場したものの、音声AIはまだ「ChatGPTの瞬間」を迎えていないと考えている。先月のHumanXカンファレンスの壇上で同氏は「全二重モデルの開発というマイルストーンには到達した。次の課題は推論を非常に速くし、モデルが素早く答えを取得して会話が自然に感じられるようにすることだ」と語った。</p>
+<p>同氏はまた、カスタマーサービスのAIエージェントはロボットのように聞こえてはならず、問題を解決できるという安心感を通話者に与えるべきだと述べた。「音声が十分に良くなり、顧客が最初の2〜3往復に付き合ってくれれば、彼らは信頼を築き始める。やがて、エージェントが問題を解決できるなら人間と話す必要はないと感じるようになる」。</p>
+<p>会議議事録ツールOtterのCMO、アレックス・ゲイ氏は、話者の識別、意図の把握、それを組織のナレッジと結びつけることが自動化の鍵だとの見方を示した。同社は会議で本人を代理する「デジタルツイン」にも取り組んでおり、その出力音声が人間と同じ感情表現を持つことが極めて重要だという。「最良の会話は、議論や戦略的な話し合いができ、その根底に関係性があると感じられるものだ。アバターとそれができなければ、ただのQ&Aチャットボットにすぎない」。</p>
+<h3>理解力と透明性</h3>
+<p>音声AIモデルは改善したが、アシスタントがユーザーを理解できなかったり、議事録ツールが誤った文字起こしや要約を示したりすることはまだ多い。ウェン氏は、自動音声認識（ASR）モデルが重要なキーワードを取りこぼし、文脈全体の把握に支障をきたすことがあると指摘。ゲイ氏も同意し、言語対応も改善が必要な領域だと述べた。「文字起こしはゴールではなく、生産性向上の土台にすぎない。最初の文字起こしの精度が足りなければ、その後のアクションはすべて欠陥を抱える。誤った行動を取った瞬間、プラットフォームへの信頼は失われる」。</p>
+<p>新しい音声ツールには透明性の問題もある。録音していることやAIと話していることを顧客に明示すべきだという点で両氏は一致した。Otterはボットが参加していない会議でも、チャットで全員に録音中であることを通知するなどの方法を試したいとしており、PolyAIのウェン氏も企業の通話では相手がAIであることを明確にすることが重要だと述べた。</p>
+<p><a href="https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a2">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2. Petra Power、AIデータセンターと軍用車両向けに電力の近代化を狙う</span></div>
-    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-10-10
-      ／ 原文: <a href="https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/" rel="noopener noreferrer">https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/</a></div>
-    <p class="summary">燃焼させずに発電する固体酸化物形燃料電池でAI時代の電力需要に挑む。2028年に初導入を目標。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2. ローカルAIを学ぶのは刺激的で、圧倒され、もどかしい——M5 Ultra Mac StudioでHermes Agentを試す</span></div>
+    <div class="meta"><span class="tag">AI</span>The Verge ／ 2026-10-11
+      ／ 原文: <a href="https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress" rel="noopener noreferrer">https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress</a></div>
+    <p class="summary">256GBメモリのMac Studioで125BパラメータのQwenを動かし、Steamライブラリ整理などに活用。プライバシーが決め手だが万能ではない。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
-<p>AIが消費するエネルギーが増え続ける中、効率的で費用対効果の高い電源探しが進んでいる。その先頭を走る企業の一つがPetra Powerだ。</p>
-<p>2017年創業のPetraは固体酸化物形燃料電池を販売している。天然ガスなどの燃料を燃やさずに電力へ変換するセラミック装置で、データセンターや大型車両をより効率的かつ環境に優しく動かす手段として売り込んでいる。</p>
-<p>創業者のアーロン・グッドマン氏はTechCrunchに対し、同社製品は従来の電源より燃料費と排出量が大幅に少なく、小型軽量なので設置面積もずっと小さいと語った。「燃焼は燃料から爆発を起こし、その爆発が熱を生み、熱が運動を生み、運動が起電力を生んで最終的に電気になる。工程が多く、どれも損失が大きいので非常に非効率なシステムになる」</p>
-<p>「燃料電池は燃料から直接電子を取り出して電気を生む。1工程で損失がなく、理論上ははるかに効率的だ」と同氏は説明する。</p>
-<p>ただ顧客基盤はまだ形成途上だ。対象はデータセンターと国防総省の2種類。具体的な契約は明かさなかったが、ハイパースケーラーより一段下のネオクラウドやインフラ事業者と協業中で、初導入は2028年、本格量産は2029年を目指すという。「ハイパースケーラーは理想的な顧客で頻繁に話しているが、確定したものはまだない」</p>
-<p>政府向けには、主エンジン停止時に車載機器へ電力を供給する陸上車両の補助電源を想定しているが、実車への配備はまだで試験段階にある。Petraは約15人の小さなチームだが成長中だという。</p>
-<p><a href="https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: AI</em></p>
+<p>The Vergeのレビュアー、アントニオ・G・ディ・ベネデット氏は、これまで避けてきた「AIを日常的に使う」旅に乗り出した。個人データをクラウドに預けることが大きな障壁だったが、強力なモデルをローカルで動かせるようになってきたためだ。高価なRAMを積んだPCに大金を投じる価値があるのかを、自身の試行錯誤を通じて探るという。</p>
+<p>Appleは新しいMacデスクトップをローカルAI向けとして売り込み、最大128GBのRAMを備えたRTX Spark搭載Windows機も間もなく登場する。OpenAIやGoogle、Microsoft、Anthropicではなく自分だけに従う「机の上の小さな使い走り」という考えは、クラウドサービスを信頼したりチャットボットを契約したりするのとは違う響きがある、と同氏は書く。</p>
+<p>M5 Ultra Mac Studioのテストの一環として、同氏はまずオープンソースのセルフホスト型AIエージェント「Hermes Agent」（macOS・Windows・Linux対応、ローカルLLMなら無料）を導入。256GBのユニファイドメモリを生かし、約105GB・1250億パラメータの「Qwen 3.8 Flash Next」を選んだ。今後はM6 Mac mini、M5 MacBook Air、AMD Strix Halo搭載のAsus TUF Gaming A14、RTX Sparkなどで小型のQwenモデルも試す予定だ。Telegramボット経由でスマホから操作できるようにもした。</p>
+<p>最初はYouTubeの助言に従い、メールとカレンダーを確認して天気も伝える「朝のブリーフィング」をcronジョブで作成。macOSがスリープしていると7時30分の実行に失敗することに気づき、今は時間通りに動いているという。より役立ったのは400本以上あるSteamライブラリの整理で、SteamのWeb APIキーを渡すと数分でジャンル別に分類してくれた（キーはその後すぐ失効させた）。</p>
+<p>財務記録の分析や、エンバーゴ中の新型ノートPCのスペック比較表作成など、クラウドには決して預けたくないデータの処理にも使った。「手元のコンピューターで完結することが、このツールを使うか使わないかの分かれ目だった」。現在はノートPCのベンチマークを自動化するPythonスクリプトの作成に取り組んでいるが、まだ道半ばだ。</p>
+<p>同氏は、強力なローカルモデルでも何でもこなす魔法のアシスタントにはならず、朝のブリーフィングもすでに何度も壊れたと認める。HermesとローカルAIはあくまでツールであり、デジタルの友人は求めていない——「お願い」も「ありがとう」も言わず、OSをマウスで操作するのと同じく淡々と指示を出していると結んでいる。</p>
+<p><a href="https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a3">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>3. Cloudflare、Denoを買収——Workersのプログラミングモデル強化へ</span></div>
-    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-10-10
-      ／ 原文: <a href="https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/" rel="noopener noreferrer">https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/</a></div>
-    <p class="summary">Node.js生みの親ライアン・ダール氏らのDenoがCloudflare入り。買収額は非公開。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>3. Meta・MIT・ワシントン大、自らコンテキストを管理する「Context Language Models」を発表——性能向上と計算コスト削減を両立</span></div>
+    <div class="meta"><span class="tag">AI</span>InfoQ ／ 2026-10-11
+      ／ 原文: <a href="https://www.infoq.com/news/2026/10/context-language-models/" rel="noopener noreferrer">https://www.infoq.com/news/2026/10/context-language-models/</a></div>
+    <p class="summary">LLMがコンテキストをファイルのように自由に書き換え、要約や圧縮を自分で学習。BrowseComp-Plusで精度11.4%向上・FLOPs21.5%削減。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
-<p>Cloudflareは金曜日、同名のプログラミングランタイムを手がけるスタートアップDenoを買収すると発表した。</p>
-<p>Cloudflare Workersのプリンシパルエンジニアであるケントン・ヴァルダ氏によれば、同社はこの買収で、顧客がCloudflareのネットワーク上でソフトウェアを構築・実行できるWorkersのプログラミングモデルとプラットフォームを改善する。</p>
-<p>Bert Belder氏とNode.js作者のライアン・ダール氏が共同創業したDenoは最近、Workersのオープンソース実装「celld」を公開し、Cloudflareチームを「喜ばせた」とヴァルダ氏は書いた。同氏は、Cloudflareが「ロックイン」を生むためにWorkersを他のクラウドと違う仕組みにしたという「よくある説」に反論し、オープンソースで逃げ道を用意することは良いビジネスだと考えていると述べた。</p>
-<p>一方ダール氏は、チームは「Workersのプログラミングモデルをサーバー構築の主流の方法にするためにCloudflareに加わる」と書いた。</p>
-<p>買収の財務条件は公表されていない。DenoはSequoia主導のシリーズAを含め、累計2,600万ドルを調達していた。</p>
-<p><a href="https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（InfoQ／日本語訳） ／ テーマ: AI</em></p>
+<p>Meta、MIT、ワシントン大学の研究者が「Context Language Models（CLM）」を発表した。言語モデルが、要約・圧縮・情報検索のためのあらかじめ定められた仕組みに頼るのではなく、自分自身のコンテキストを管理・編集できるようにする新しい手法で、性能と計算効率の両面で大幅な向上が報告されている。</p>
+<p>研究者らは、LLMがコンテキストを制限なく更新できるファイルとして扱う仕組みを実装した。コンテキストの無制限な肥大化を防ぐ従来手法——コンパクション、オフロード、検索——にはそれぞれ限界がある。要約は重要な詳細を落としたり不正確さを持ち込んだりし、コンパクションは固定ルールに頼りがちで、外部メモリでは何をコンテキストに戻すかをエージェントが判断しなければならない。</p>
+<p>CLMは古いメッセージの書き換え、重要な事実の保持、無関係な情報の削除、進捗メモの維持を行い、独自のコンテキスト管理戦略を学習できる。研究者らは、LLMが人間の設計した手法を超える戦略を学び、「既存の人間の事前知識」を上回る可能性があると強調する。内部メモの作成、有用な中間結果を残しつつ不要なものを削除すること、失敗した実験とさらに探るべきアイデアを並行して追跡することなどが新たに学習された行動の例だ。</p>
+<p>評価は3つの方式で行われた。特別な訓練をしないゼロショット、自然言語で指示し反復的なスキル最適化で戦略を磨くインコンテキスト学習、そしてタスク成功を主目的、計算効率を副次的な基準とする強化学習だ。ゼロショットのCLMはBrowseComp-Plusで精度11.4%向上かつFLOPs21.5%削減、12時間のEdgeBenchでスコア5%向上かつFLOPs59%削減、24時間の複数リポジトリにまたがるエージェント群タスクでは同じ計算量で65%大きな改善を達成した。インコンテキスト学習ではContextBenchの精度が最大35.9ポイント向上し、強化学習ではQwen3.5-9BのBrowseComp-Plusの成績が28.8%から42.5%（相対47.6%向上）に上がり、FLOPsは12%減った。</p>
+<p>一方で課題も残る。CLMが後から取り戻せない重要な情報を捨ててしまう可能性があること、編集可能なコンテキストが「プロンプトインジェクションや自己生成した指示がターンをまたいで持続する別の経路」になり得る安全上のリスク、そしてコンテキストを制御できても良い判断につながるとは限らないことだ。X上では結果が特定タスクに基づくものだとする指摘や、モデルにエンドツーエンドで任せることへの懸念が上がり、Redditではコンテキストの書き換えがモデルのキャッシュを無効化するため、まだ本番運用には向かないとの意見も出ている。</p>
+<p><a href="https://www.infoq.com/news/2026/10/context-language-models/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a4">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>4. Ledgerウォレットに改ざんの疑い——暗号資産盗難の報告相次ぐ</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>The Verge ／ 2026-10-10
-      ／ 原文: <a href="https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts" rel="noopener noreferrer">https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts</a></div>
-    <p class="summary">再販業者経由の端末に不正なハードウェア・インプラント。被害総額は8,600万ドル超とされるサプライチェーン攻撃。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>4. Appleのスマートホームハブは「HomeView」に、App Storeは非搭載か——11月中旬発売とBloomberg報道</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>The Verge ／ 2026-10-11
+      ／ 原文: <a href="https://www.theverge.com/tech/1009389/apples-homeview-reportedly-wont-have-an-app-store" rel="noopener noreferrer">https://www.theverge.com/tech/1009389/apples-homeview-reportedly-wont-have-an-app-store</a></div>
+    <p class="summary">「HomePad」ではなく「HomeView」の名称で、iPadのような体験ではなく機能を絞った製品になるという。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>暗号資産ウォレット「Ledger」の利用者の口座が空にされたという報告が相次いでおり、再販業者CryptoBillisが販売した改ざんハードウェアが関係しているとみられる。Ledgerは調査を行う間、CryptoBillisに同社ウォレットの販売をすべて停止するよう求めた。Ledgerは「被害を受けたユーザーの端末の1台に不正なハードウェア・インプラントが含まれていた」ことを確認している。</p>
-<p>XやThreadsに投稿された写真や動画には、画面の下に挟み込まれた小さな回路基板が写っているようだ。このインプラントは、初期設定時に表示されるシードパスフレーズを含め画面に表示される内容を傍受するとされる。そして内蔵SIMカードを使って情報を攻撃者に送信し、攻撃者は口座から資金を抜き取れる。</p>
-<p>報道によれば、犯人は数百のウォレットから8,600万ドル相当以上の暗号資産を盗んだ。Ledgerのシステムが侵害された形跡や、同社から直接購入したウォレットが影響を受けた兆候はない。主に東南アジアのユーザーとCryptoBillisが関わるサプライチェーン攻撃とみられ、Ledgerはウォレットが改ざんされていないか確認する方法を案内している。</p>
-<p>（2026年10月10日更新：Ledgerの追加声明を反映）</p>
-<p><a href="https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>BloombergのMark Gurman記者による直前の報道によると、Appleのスマートホームハブは「HomePad」ではなく「HomeView」という名称になり、11月中旬に出荷される見通しだ。</p>
+<p>Gurman氏によれば、HomeViewはApp Storeを備えたiPadのような体験にはならず、はるかに限定された機能を提供する製品になるという。</p>
+<p>The Vergeはこの話題を、Appleのイベント関連の噂（Apple Event 2026）やスマートホーム分野のニュースとして伝えている。HomeViewをめぐっては、新型Apple TV 4KやHomePod miniの後継とともに発表されるとの観測も出ている。</p>
+<p><a href="https://www.theverge.com/tech/1009389/apples-homeview-reportedly-wont-have-an-app-store" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a5">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>5. GameStop、中古PS5 Proを希望小売価格より500ドル高で販売</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>Engadget ／ 2026-10-10
-      ／ 原文: <a href="https://www.engadget.com/2283062/gamestop-selling-ps5-pro-500-dollars-over-msrp/" rel="noopener noreferrer">https://www.engadget.com/2283062/gamestop-selling-ps5-pro-500-dollars-over-msrp/</a></div>
-    <p class="summary">AI需要によるメモリ不足でPS5 Proは世界的品薄。中古でも約1,400ドル、不足は2027年まで続く見通し。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>5. Samsung初のクリップ型イヤホン「Galaxy Buds On」——Snapdragon S7 Gen 1搭載、韓国で10月27日発売</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>The Verge ／ 2026-10-11
+      ／ 原文: <a href="https://www.theverge.com/archives/gadgets/2026/10/1" rel="noopener noreferrer">https://www.theverge.com/archives/gadgets/2026/10/1</a></div>
+    <p class="summary">オープンイヤー型でソニーやBoseに続く。1回の充電で9.5時間、価格は29万9000ウォン（約220ドル）、黒のみ。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Engadget／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>『グランド・セフト・オートVI』の発売が近づき、ゲーマーは最先端のゲーム機を求めて奔走している。同作はPS5 Pro Enhanced対応をうたうが、ソニーは人気ゲーム機の不足に直面している。AIブームが世界のシリコンを飲み込む中、ソニーは生産サイクルの維持に苦しみ、2027年まで続きそうな世界的品薄に陥っている。</p>
-<p>2024年発売のPS5 Proは現在、当初より200ドル高い899.99ドルで販売されている。だが年内に新品を手に入れようとすれば、さらに高くつく可能性がある。GameStopは中古のPS5 Proを1,399.99ドルと、希望小売価格を500ドル上回る価格で掲載している。転売市場でも同様の上乗せが見られる。</p>
-<p>ソニーは可能な範囲で値上がりを抑えようとしており、日本ではプレイ時間の条件を伴う抽選販売を導入した。だが不足の終わりが見えない以上、高値は続きそうだ。</p>
-<p>PS5 Proの状況は消費者向けテック市場全体の傾向を示している。データセンターが高帯域幅メモリを大量消費し、その影響でPS5 Proのような製品に必要なDRAMの生産が遅れている。JPモルガンの2026年8月の報告書は、年末までにDRAM価格がPS5 Pro発売の2024年比で世界的に400%上昇すると予測した。</p>
-<p>ドイツのPlayfrontは2026年9月、ソニーと流通パートナー間の内部メモに不足が「早くとも2027年初頭まで」続くとあると報じた。RAM危機は2030年まで続くとの予測もある。</p>
-<p>Best Buyは1,500ドル超、Walmartは開封品を1,200ドルで販売し、eBayでも1,100ドルを超えることが多い。ちなみにGameStopはeBayの約10%を保有し、今年初めに560億ドルでの敵対的買収を試みた。こうした法外な価格は、多くの消費者向けテック製品で常態化しつつある。</p>
-<p><a href="https://www.engadget.com/2283062/gamestop-selling-ps5-pro-500-dollars-over-msrp/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: ガジェット</em></p>
+<p>先月リークで姿を見せていた「Galaxy Buds On」は、Samsungにとって初のオープンイヤー型イヤホンで、ソニーやBoseなどに続く参入となる。耳の側面にクリップのように留め、耳の穴をふさがずに周囲の音を聞ける設計だ。</p>
+<p>QualcommのSnapdragon S7 Gen 1チップを搭載し、1回の充電で9.5時間の再生が可能。まず韓国で10月27日に29万9000ウォン（約220ドル）で発売され、その後ほかの市場にも展開される予定だ。</p>
+<p>珍しいことに、カラーは黒のみでの発売となる。Samsungの発表によれば、低音を強化する「TwinBoost」スピーカーや音漏れ低減、周囲の環境に応じた自動音量調整、通話向けの音声分離機能を備え、Galaxy端末との組み合わせではヘッドジェスチャーによる通話操作、Gemini Live、クイックボイスメモにも対応する。</p>
+<p><a href="https://www.theverge.com/archives/gadgets/2026/10/1" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a6">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>6. Xiaomi、Oppoなど米国外ブランドは折りたたみ「iPhone Duo」にどう挑むか</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>Engadget ／ 2026-10-10
-      ／ 原文: <a href="https://www.engadget.com/2279277/how-xiaomi-oppo-other-non-us-brands-challenging-iphone-duo/" rel="noopener noreferrer">https://www.engadget.com/2279277/how-xiaomi-oppo-other-non-us-brands-challenging-iphone-duo/</a></div>
-    <p class="summary">10月23日発売のiPhone Duoに対し、Xiaomi 18 Fold、Galaxy Z Fold8、Oppo Find N6などが軽さ・カメラ・薄さで対抗。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>6. 米FCC、2029年までに中国の試験機関による米国向けガジェットの認証試験を全面禁止へ——10月29日に採決</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>The Verge ／ 2026-10-10
+      ／ 原文: <a href="https://www.theverge.com/policy/1009258/the-fcc-plans-to-ban-all-chinese-labs-from-testing-us-gadgets-by-2029" rel="noopener noreferrer">https://www.theverge.com/policy/1009258/the-fcc-plans-to-ban-all-chinese-labs-from-testing-us-gadgets-by-2029</a></div>
+    <p class="summary">相互的な経済関係を持つ国の試験所のみを認める方針。中国は世界の試験所の25%だが機器の82%を試験しているという。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Engadget／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>AppleはすでにiPhone 18 Proを販売しているが、世界は初の折りたたみiPhone「iPhone Duo」を待っている。店頭に並ぶのは10月23日で、予約はその1週間前に始まる。</p>
-<p>競合は以前から照準を合わせてきた。Xiaomi、Oppo、Motorola、SamsungなどはiPhone Duoによく似た折りたたみを模索しており、多くが「パスポート」型を採用している。</p>
-<p>Xiaomi 18 FoldはiPhone Duo発表の数日前に登場し、仕様は非常に近い。どちらも7.6インチの内側画面と5.4インチの外側画面を備える。ただしXiaomiは219gとiPhone Duoの254gより軽く、背面に3眼カメラを搭載して光学ズーム域でも上回る。価格も1万999元（約1,640ドル）からと攻めているが、当面は中国限定だ。</p>
-<p>米国での主な競合はSamsungのGalaxy Z Fold8になりそうだ。新しい標準モデルは従来のほぼ正方形のデザインをやめ、7.6インチと5.5インチの画面を持つ横長のパスポート型になった。Engadgetのレビューは8.9点を付け、正方形に近い形状を保つ上位のZ Fold8 Ultraより動画視聴に向くと評価した。価格は1,900ドルからで、iPhone Duoより100ドル安いだけだ。</p>
-<p>OppoのFind N6は従来型の折りたたみデザイン（外側6.62インチ、内側8.12インチ）を維持しつつ、閉じた状態で8.93mmという薄さが際立つ。iPhone 18 Proの8.75mmに近く、iPhone Duoの11.3mmより大幅に薄い。さらに6,000mAhのバッテリーを搭載している。（原文はMotorolaの充電性能などの比較へ続く）</p>
-<p><a href="https://www.engadget.com/2279277/how-xiaomi-oppo-other-non-us-brands-challenging-iphone-duo/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: ガジェット</em></p>
+<p>米連邦通信委員会（FCC）はこれまで、米国への輸入機器の認証を不適切に手助けしていた一部の中国の試験所を取り締まってきたが、今度は2028年12月から中国の試験所を全面的に排除しようとしている。今後は米国と相互的な経済関係を持つ試験所のみを認定する方針だ。</p>
+<p>FCCはこの案を10月29日に採決する予定で、その論拠は公開文書で読むことができる。</p>
+<p>FCCによれば、中国は世界の試験所の25%しか占めていないにもかかわらず、機器の82%を試験しているという。The Vergeの編集部は「それらのガジェットが中国で製造されているからかもしれない」と注記している。</p>
+<p><a href="https://www.theverge.com/policy/1009258/the-fcc-plans-to-ban-all-chinese-labs-from-testing-us-gadgets-by-2029" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a7">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>7. 報道写真のジャンルを確立したロバート・キャパの写真集が復刻</span></div>
-    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-10
-      ／ 原文: <a href="https://petapixel.com/2026/10/10/genre-defining-robert-capa-photo-book-gets-reissue/" rel="noopener noreferrer">https://petapixel.com/2026/10/10/genre-defining-robert-capa-photo-book-gets-reissue/</a></div>
-    <p class="summary">1938年刊『Death in the Making』をICPとDamianiが復刻。未記載だった撮影者・キャプションも調査して収録。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>7. Anbernic、3DS風の2画面携帯機「RG DDS」を公開——5:3と4:3の画面、Snapdragon G2 Gen 2搭載</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>Engadget ／ 2026-10-11
+      ／ 原文: <a href="https://www.engadget.com/2283296/anbernics-next-dual-screen-handheld-has-the-perfect-aspect-ratio-for-3ds-games/" rel="noopener noreferrer">https://www.engadget.com/2283296/anbernics-next-dual-screen-handheld-has-the-perfect-aspect-ratio-for-3ds-games/</a></div>
+    <p class="summary">上画面4.7インチ1200×720、下画面4インチ960×720。Switch・PS2エミュレーションも視野に、収納式スタイラスとAIボタンも。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
-<p>1938年に初版が出たロバート・キャパの『Death in the Making』は、戦闘員にずっと近く、かつ党派的な視点で迫った、報道写真の転換点となる出版物だった。</p>
-<p>国際写真センター（ICP）のロバート・キャパ＆コーネル・キャパ・アーカイブのディレクター、シンシア・ヤング氏はPetaPixelに対し、ICPがDamianiと組んでこの象徴的な本を一般に手の届く形で復刻すると語った。「1938年版は希少で高価で入手困難、カバー付きはなおさらです。1930年代のスペイン共和国派の反ファシズムの闘いは、今日の政治状況にも通じると考えました」</p>
-<p>キャパの有名な『崩れ落ちる兵士』を表紙に掲げた本書は、兵士、市民、難民、破壊、日常生活を行き来する新しい報道写真のあり方を示した。中立的な報道ではなく、フランコのファシスト勢力と戦う共和国派に明確に共感し、国際的な支持を集める意図もあった。</p>
-<p>「本書の写真は、民主的に選ばれた政府へのフランコの攻撃と戦うことを選んだスペインの人々を称えています。銃を持ち司祭と語り収穫を続ける兵士、美術品を目録化し工場で働く女性、無差別爆撃から逃れ未知の未来へ歩む家族。残酷な内戦を生き抜く国の物語です」とヤング氏は語る。</p>
-<p>1938年版にはキャプションも個別の撮影者クレジットもなかったが、実際にはキャパ、ゲルダ・タロー、デヴィッド・シーモアの3人が撮影しており、シーモアの写真は13点含まれる。「すべての画像のチェックリストを作り、撮影者、場所、日付を調べました。その多くは『メキシカン・スーツケース』のネガ研究から得たものです」。新版の巻末には全画像のサムネイルとキャプション情報が掲載される。</p>
-<p>『Death in the Making』はDamianiとICPの共同出版。</p>
-<p><a href="https://petapixel.com/2026/10/10/genre-defining-robert-capa-photo-book-gets-reissue/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Engadget／日本語訳） ／ テーマ: ガジェット</em></p>
+<p>Anbernicがニンテンドーの名作携帯機DSのリメイク機を予告してからわずか1年で、同社はその後継機である3DSを現代風に再解釈した新機種へと進んだ。発表された「RG DDS」は「Dream Dual-Screen」の略で、明らかにニンテンドー3DSへのオマージュだ。</p>
+<p>前モデルRG DSから改良され、チップにはQualcommのSnapdragon G2 Gen 2を採用。Nintendo SwitchやPlayStation 2のタイトルのエミュレーションまで対応できるはずだ。上の4.7インチメイン画面は1200×720（アスペクト比5:3）、下の4インチ画面は960×720（4:3）で、アスペクト比が一致するため多くのゲーマーは3DSの名作を遊び直すことになりそうだ。そのほかの内部仕様は6000mAhのバッテリー以外明らかにされていない。</p>
+<p>操作系はニンテンドーの携帯機とほぼ同じだが、右側にアナログスティックが追加された。収納可能な伸縮式の静電容量式スタイラスも備え、専用の「AIボタン」もあるが、何が起動するのかはまだ説明されていない。</p>
+<p>いつものように価格や発売日は明かされていないが、99ドルだった前モデルより少し高くなると見られる。ただしAnbernicは手頃な価格で知られており、最近発売された149ドルからのRetroid Pocket Duo（およびLite）を下回る可能性もある。</p>
+<p><a href="https://www.engadget.com/2283296/anbernics-next-dual-screen-handheld-has-the-perfect-aspect-ratio-for-3ds-games/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a8">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>8. マーティン・パーの代表作『Common Sense』、27年ぶりに再展示</span></div>
-    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-10
-      ／ 原文: <a href="https://petapixel.com/2026/10/10/martin-parrs-iconic-common-sense-photo-series-is-being-exhibited-again-27-years-on/" rel="noopener noreferrer">https://petapixel.com/2026/10/10/martin-parrs-iconic-common-sense-photo-series-is-being-exhibited-again-27-years-on/</a></div>
-    <p class="summary">ブリストル・フォト・フェスティバルで10月16日〜11月15日に無料公開。1999年には世界41ギャラリーで同時開催された伝説のシリーズ。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>8. 富士フイルム「X half」は構図から逃げられなくする——スマホと本格カメラをつなぐ「移行デバイス」としての評価</span></div>
+    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-11
+      ／ 原文: <a href="https://petapixel.com/2026/10/11/the-fujifilm-x-half-makes-composition-harder-to-avoid/" rel="noopener noreferrer">https://petapixel.com/2026/10/11/the-fujifilm-x-half-makes-composition-harder-to-avoid/</a></div>
+    <p class="summary">縦構図の固定32mm相当レンズ、2枚組の「2in1」、擬似フィルムモードが撮影者の判断を可視化する一方、AFの迷いなど単なる欠点も指摘。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
-<p>故マーティン・パーの最も野心的で影響力のあるプロジェクトの一つ『Common Sense』が、今月のブリストル・フォト・フェスティバルで展示される。</p>
-<p>史上最も影響力のある写真家の一人とされるパーは、長年のがんとの闘病の末、昨年12月に73歳で亡くなった。第1回ブリストル・フォト・フェスティバルのアーティスティック・ディレクターを務め、2025年まで理事に名を連ねた。その貢献を称え、同作は2026年10月16日から11月15日まで展示される。</p>
-<p>1999年に初公開された『Common Sense』は、日常の過剰さ、社会的ステレオタイプ、グローバルな消費文化を率直かつユーモラスに捉えた作品だ。世界各地で撮影された写真を通じ、食べ物やファッション、土産物、動物、消費財など日常の細部に焦点を当てる。</p>
-<p>安っぽい服やアクセサリー、ジャンクフード、キッチュな土産物などを鮮やかな高彩度で写したシリーズで、パーは35mmカメラ、リングフラッシュ、マクロレンズを使い被写体に異例なほど迫り、取るに足らない物を現代生活の印象的な肖像に変えた。それは滑稽で不条理で時にグロテスクでありながら、消費文化の過剰と矛盾を浮かび上がらせる。</p>
-<p>27年前の初公開時、その急進性は写真そのものにとどまらなかった。パーはプリントを貴重な展示物とする伝統を拒み、安価なカラーゼロックスで提示した。展示規模も異例で、1999年4月には5大陸41ギャラリーで同時公開され、3〜5月に計44会場で展示された。史上最大の同時開催写真展とされる。</p>
-<p>会場はブリストル・フォト・フェスティバルのWelcome Building。入場無料で、寄付を歓迎している。</p>
-<p><a href="https://petapixel.com/2026/10/10/martin-parrs-iconic-common-sense-photo-series-is-being-exhibited-again-27-years-on/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>PetaPixelに寄稿したミケーレ・ヴィゴリータ氏（プロではない写真愛好家）は、数カ月使った富士フイルムX halfで最も興味深かったのは画質や1型センサー、往年のハーフサイズカメラ風の外観ではなく、「撮る前に立ち止まらせる回数」だったと書く。X halfは写真を劇的に良くはしなかったが、弱い判断を見過ごしにくくした。写真は単にレンズの前にあるものではなく、距離・時間・空間・除外・関係についての選択の集合になった、という。</p>
+<h3>スマホで見ることを学んだ人のためのカメラ</h3>
+<p>縦構図の写真に革命的な要素はなく、スマホがすでに何百万人もの人に縦で撮ることを教えている。だがその親しみこそが賢い設計だと筆者は見る。違いはその先にある。固定の32mm相当レンズはピンチやタップで焦点距離を変えられない。被写体が小さければ近づき、背景が邪魔なら立ち位置を変える。露出も絞り・シャッター速度・ISOの交換関係として明示的に扱うことになる。筆者はX halfを、スマホの習慣から始まり、その自動化を一部中断し、最後に写真を同じデジタル環境に戻す「移行デバイス」と位置づける。</p>
+<h3>2枚目が1枚目を変える</h3>
+<p>X halfの独自性は、縦写真2枚を横長の1枚に組み合わせる「2in1」機能で際立つ。1枚目を撮りレバーを引いて2枚目を撮るが、1枚目を意識して2枚目を撮ると、単一のコマは構図の最終単位ではなくなる。1本のスプーンとスプーンの列、装飾の蜂とバラのように、組み合わせることでどちらの写真にもない関係が生まれ、2枚の間の境界線はモンタージュに近い働きをする。2025年のITmediaによる富士フイルム商品企画チームへのインタビューでも、開発の原点に「組写真」の考え方があったことが語られている。</p>
+<h3>アプリと擬似フィルム</h3>
+<p>アプリでの書き出し時に正方形の「Fit」「Crop」を選ぶと、余白が消え端の被写体が切られ、関係性が変わる。筆者はやがて、将来のクロップを見越して余白を残すようになった。アプリ依存は矛盾に見えるが、スマホを撮影の瞬間から切り離し、保存・共有の段階で再び役立てる設計として一貫していると評価する。36・54・72枚の仮想ロールで背面確認をなくす「フィルムカメラモード」については、DPReviewのリチャード・バトラー氏が指摘したように、ロールがアイデアより長続きすると儀式が退屈な「官僚主義」になりかねないと述べる。</p>
+<h3>意味のある制約と無用な摩擦</h3>
+<p>一方で筆者は、制約を美化する危険も指摘する。AFは特に難しい条件で迷い、画面は小さく、光学ファインダーの視野率は約90%で、操作系はコンセプトほど速く直感的ではなく、JPEGのみでは補正の余地も限られる。発売価格への批判は米英での値下げで和らいだ。固定焦点距離や2枚組、遅延レビューは意味のある制約だが、遅いAFは単に遅いAFであり、バグは写真哲学ではない、と線を引く。</p>
+<p>結論として、X halfはスマホを打ち負かすのではなく「後回し」にする。エコシステムを保ちながら、撮影という行為にだけ専用の道具と所作と集中の時間を与える。構図を簡単にするのではなく、写真の背後にある判断にもっと気づけるようにするカメラだ、と筆者は締めくくっている。</p>
+<p><a href="https://petapixel.com/2026/10/11/the-fujifilm-x-half-makes-composition-harder-to-avoid/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a9">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>9. バックカメラは実際どう動いているのか</span></div>
-    <div class="meta"><span class="tag">カメラ</span>Engadget ／ 2026-10-11
-      ／ 原文: <a href="https://www.engadget.com/2280368/how-backup-camera-works/" rel="noopener noreferrer">https://www.engadget.com/2280368/how-backup-camera-works/</a></div>
-    <p class="summary">後付けワイヤレス式は40〜400ドル超で自分で取り付け可能。Wi-Fiや専用無線で映像を送り、鏡像反転と広角レンズで視界を確保。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>9. X線写真家ジム・ウェーティエ、貝殻の内部構造を写す——米国立貝類博物館で23点の展示が開幕</span></div>
+    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-11
+      ／ 原文: <a href="https://petapixel.com/2026/10/11/how-x-ray-photographer-jim-wehtje-sees-beneath-the-surface-of-seashells/" rel="noopener noreferrer">https://petapixel.com/2026/10/11/how-x-ray-photographer-jim-wehtje-sees-beneath-the-surface-of-seashells/</a></div>
+    <p class="summary">約30年にわたり植物や貝殻をX線で撮影。いまもPhotoshop CS6を使い続け、新作ではカラー撮影も再開した。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Engadget／日本語訳） ／ テーマ: カメラ</em></p>
-<p>今日のほとんどの車にはバックカメラが標準装備されており、縦列駐車が楽になり、混雑した場所でも安全に後退できる。では古い車でより良い後方視界がほしい場合はどうすればよいのか。</p>
-<p>古い車にバックカメラを付ける方法はいくつかある。車体に配線する方法は取り付けが複雑で工数もかかり、600ドル以上になることもある。より手軽なのは車載型のワイヤレス・バックカメラで、多くは自分で取り付けられ、有線式と同様に車両後方の映像をダッシュボードのモニターにリアルタイムで送る。</p>
-<p>ワイヤレス・バックカメラはオンラインで40ドルから400ドル超で購入でき、専門業者は不要だ。通常は車をリバースに入れると自動で起動し、事故記録用のものは後方に動きがあると自動録画する。映像の伝送方式は年式やモデルで異なり、多くはWi-Fiまたは専用のデジタル無線周波数を使い、古いものはBluetoothを使う。通常はオフラインで動作し、モバイルデータは不要だ。</p>
-<p>ダッシュボードのモニターはUSBポートやシガーソケットから給電する。後部カメラは車のライト回路に接続するか、内蔵のソーラーバッテリーで動く。テールランプに配線すればリバースで自動起動し、電池やソーラーのみの場合は通常スマートフォンのアプリを開いて起動する。</p>
-<p>映像は自動的に左右反転され、ルームミラーで見るのと同じ像になる。また広角や魚眼レンズで、操作に必要な視野をできるだけ広く確保する。</p>
-<p>欠点として、後付けワイヤレスカメラは新車搭載品の高度な機能を欠く。新車は映像に加え距離を測るパーキングセンサーなど複数の後退支援を備えるが、ワイヤレス式は明記されていない限り距離計測や物体検知は期待できない。</p>
-<p><a href="https://www.engadget.com/2280368/how-backup-camera-works/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
+<p>ジム・ウェーティエ氏は、X線を使って植物や花、貝殻など自然物の隠れた内部構造を写し出す米国の写真家・放射線アーティストだ。マサチューセッツ州で育ち自然科学を学んだ後、1994年にロチェスター工科大学（RIT）で生物医学写真を学ぶためニューヨーク州ロチェスターへ移った。マイケル・ペレス教授（現在は退職）の勧めで地元病院の研究用機器に触れたことが、X線による創作のきっかけとなった。</p>
+<p>1996年にX線写真の制作を開始。診断の道具ではなく写真表現としてX線を探求し、非医療用X線撮影の初期の商業的実践者として、Photodisc（後にGetty Imagesの一部）を通じて作品を販売した。1998年にはPhotodisc.com/2カタログの表紙とテーマを飾り、2004年にはヒトデのX線画像がAdobe GoLive CS2のパッケージに採用された。</p>
+<p>いまもPhotoshopを使うが、度重なるアップグレードへの抗議として、永続ライセンスのCS6（2012年）を使い続けており、そのためメインのMacはOS X 10.8.5のままだ。「ハードディスクは一度交換した。もってくれるといいんだけど」と同氏は話す。</p>
+<p>作品の多くは植物標本と貝殻が中心だ。繊細な植物はX線をあまり吸収しないため、低エネルギーX線を出せる特殊な機器を使う。密度差の大きい被写体ではHDRのように複数回露光してデジタル合成し、標本を組み合わせて大きな構図を作ったり、モノクロのX線画像に着色したりもする。葉脈や花の内部構造、貝殻の複雑な部屋や渦巻きなど、普段は人の目に見えない構造を見せるのが狙いだ。</p>
+<p>2026年8月にはナショナルジオグラフィックが、フロリダ州サニベルのベイリー・マシューズ国立貝類博物館での展示に関連して、同氏のホネガイの仲間（Harpago arthriticus）の画像を紹介した。1月には14カ月以上かけた写真集『Earth Shell Forms X-Rayed』を自費出版。X線専門家としてカメラを使うことはもうないと思っていたが、この本のためにカラー撮影を再開し、丸く光沢のあるタカラガイには直接反射を消すクロス偏光照明を用いた。貝殻のX線写真23点の展示は10月10日に同博物館で開幕した。</p>
+<p><a href="https://petapixel.com/2026/10/11/how-x-ray-photographer-jim-wehtje-sees-beneath-the-surface-of-seashells/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  </div>
+</details>
+<details class="item" id="a10">
+  <summary>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>10. 写真集『Giant Panda』、中国のジャイアントパンダ保護の歩みと個々の物語を80点超の写真で描く</span></div>
+    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-11
+      ／ 原文: <a href="https://petapixel.com/2026/10/11/photo-book-reveals-the-stories-behind-chinas-giant-pandas/" rel="noopener noreferrer">https://petapixel.com/2026/10/11/photo-book-reveals-the-stories-behind-chinas-giant-pandas/</a></div>
+    <p class="summary">ACC Art Books刊。三本脚のパンダや野生復帰の挑戦、上野動物園生まれのシャンシャンの写真も収録。</p>
+  </summary>
+  <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
+<p>ACC Art Booksから刊行された写真集『Giant Panda: Portraits, Wild Habitats, and Untold Stories』は、ジャイアントパンダの写真80点以上を収録し、中国における絶滅危惧種保護の取り組みを紹介している。白黒の毛皮で知られるジャイアントパンダは中国の国宝とされ、世界的に自然保護の象徴でもある。</p>
+<p>本書は厳選された写真と、専門家・慈善家・国際的なパートナーへのインタビューに基づく文章を通じて、中国のパンダ保護の歴史と、種の将来を改善してきた科学研究や長期的な努力をたどる視覚的・事実的なガイドとなっている。Li Wei氏、Liu Mei氏、Luo Bo氏らの写真に加え、オーストリアのシェーンブルン動物園や、2017年6月に上野動物園で生まれたシャンシャン（香香）の写真を提供した上野動物園の写真も含まれる。</p>
+<p>個々のパンダに焦点を当てた章もあり、三本脚のパンダ「戴立」、野生で独り立ちを学ぶ「淘淘」、仏坪の村人たちが子パンダを救った話、「喬伊」の救出劇などが紹介される。</p>
+<p>また保護活動に携わる人々の仕事や、パンダを野生に戻す難しさについても記述し、持続的な科学研究と長期的な行動が絶滅危惧種を守る助けになることを示す。生物多様性、絶滅危惧種、その生息地を守るうえで国際的な関心と協力が重要であることも強調している。</p>
+<p><a href="https://petapixel.com/2026/10/11/photo-book-reveals-the-stories-behind-chinas-giant-pandas/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 </main>
 <footer>
-  <p>前回ダイジェストは <a href="./archive/2026-10-11-1955/">archive/2026-10-11-1955/</a> に保管しています。／ <a href="./archive/">アーカイブ一覧</a></p>
+  <p>前回ダイジェストは <a href="./archive/2026-10-12-0759/">archive/2026-10-12-0759/</a> に保管しています。／ <a href="./archive/">アーカイブ一覧</a></p>
   <p>対象: 海外一次ソースのみ。日本語二次まとめサイトは含みません。</p>
 </footer>
 
