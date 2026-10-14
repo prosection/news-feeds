@@ -15,3 +15,18 @@ AI・ガジェット・カメラ関連ニュースの**日本語全文HTMLダイ
 ## 旧RSS
 
 旧RSSはアーカイブに保存しています（ルートの `ai-gadget-camera-news.xml` は削除済み）。
+
+## カテゴリ・検索（静的）
+
+- カテゴリ: `category/ai/` `category/gadget/` `category/camera/`
+- 検索: `search/`（`data/articles.json` をブラウザで読み込むクライアントサイド検索。サーバー不要）
+- これらは `python3 scripts/build_index.py` が `index.html` と `archive/*/index.html` から自動生成します（標準ライブラリのみ・冪等）。
+
+### 定期ルーチンでの必須手順
+
+1. 既存 `index.html` を `archive/YYYY-MM-DD-HHmm/index.html` に退避し、`archive/index.html` に追記（従来通り）
+2. 新しい `index.html` を生成（従来通り）。各記事は `<details class="item" id="aN">`、`<span class="tag">AI|ガジェット|カメラ</span>`、`原文: <a href=...>` を含む従来形式を維持
+3. **コミット前に** `python3 scripts/build_index.py` を実行（`data/articles.json`・カテゴリページ再生成、記事 id 補完、`index.html` / `archive/index.html` のナビ自動挿入）
+4. `git add -A && git commit && git push`
+
+ナビ（最新 / AI / ガジェット / カメラ / 検索 / アーカイブ）はテンプレートに `<nav class="site-nav">` として入れておくのが望ましいが、無くてもスクリプトが既存 `<nav>` を置き換えます。
