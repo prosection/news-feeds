@@ -117,8 +117,7 @@ def nav_html(prefix, active):
     out = []
     for href, lab in links:
         cur = ' aria-current="page"' if lab == active else ""
-        out.append(f'  <a href="{prefix}{href or "./"}"{cur}>{lab}</a>' if href == "" and prefix == "./"
-                   else f'  <a href="{prefix}{href}"{cur}>{lab}</a>')
+        out.append(f'  <a href="{prefix}{href}"{cur}>{lab}</a>')
     return '<nav class="site-nav">\n' + "\n".join(out) + "\n</nav>"
 
 def ensure_nav(path, prefix, active):
