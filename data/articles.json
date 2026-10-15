@@ -1,12 +1,155 @@
 {
-"generated": "2026-10-15 19:52",
-"count": 367,
+"generated": "2026-10-16 07:57",
+"count": 377,
 "categories": {
-"ai": 137,
-"gadget": 125,
-"camera": 105
+"ai": 140,
+"gadget": 129,
+"camera": 108
 },
 "articles": [
+{
+"id": "a1",
+"category": "ai",
+"category_label": "AI",
+"title": "Meta、米製オープンウェイト「Muse Spark Open」を公開——Mac Studioでローカル実行",
+"summary": "8160億パラメータ・100万トークン文脈。Apple M5 Ultra搭載Mac Studioでのローカル動作を実証。",
+"body": "Metaは10月15日、米国内で「最も高性能」と称するオープンウェイトモデル「Muse Spark Open」を公開した。パラメータ数は8160億、コンテキスト窓は100万トークン。ネイティブにマルチモーダルで、複雑なコーディングやエージェント作業向けに設計されている。\n特徴はAppleのMacでローカル実行できる点だ。Engadgetによれば最低でも約1TBのRAMが必要とされ、M5 Ultra搭載のMac Studioが最適とされる。MetaはAppleのMLXフレームワークを用い、接続した2〜4台のMac Studio上での動作を実証した。\n社内ではコーディング端末「Muse Code」と組み合わせ、Mastodonクライアントのバグ修正や新機能追加、フルビルドなどのエージェント作業に投入。動画編集ソフトDaVinci Resolveではフッテージのレビューや切り出しもこなしたとしている。\nオープンウェイトはコスト効率や透明性・柔軟性でクローズドモデルにない利点がある。モデルは複数のAPIプラットフォーム経由で利用可能になった。",
+"url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+"source": "TechCrunch",
+"published": "2026-10-15",
+"digest": "2026-10-16 07:55",
+"page": "#a1"
+},
+{
+"id": "a2",
+"category": "ai",
+"category_label": "AI",
+"title": "Anthropic、独立評価団体METRに従業員並みアクセスを付与",
+"summary": "METR研究員6人に社内ツールと同等の閲覧権。リスク評価の公表に拒否権はなく、限定的な墨消しのみ可。",
+"body": "Anthropicは10月15日、フロンティアモデルを評価する非営利団体METRのチームに、従業員に近いアクセスを付与し始めたと発表した。先月の独立第三者評価強化の約束、およびホワイトハウスのスーパーインテリジェンスに関する協定への署名を具体化したものだ。\nオンボードされたMETR研究員は6人。会社支給のノートPC、オフィススペース、リスク評価チームとほぼ同等の社内ツール・システムへのアクセスが与えられる。顧客データ、弁護士依頼特権、モデルアーキテクチャ情報など少数の明確な除外カテゴリを除き、社内ではアラインメントリスク担当の同僚と同様に情報共有を推奨している。\nMETRはリスク水準・インシデント・慣行についての分析を公表できる。Anthropicに拒否権はなく、事前定義の狭いカテゴリに該当する場合のみ墨消しを要求できる。METRは墨消しの当否を、内容を明かさずに公に論評してよい。\n同社は評価者向けに3段階のアクセス階層を構築中で、METRは最上位。下位には狭範囲レビューで公表に承認が必要なSecureBio、中位はより広い情報と拒否権なしの公表権が付く。AccentureやFacultyともモデル評価・レッドチーム・セーフガード検証などの提携を進めている。",
+"url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+"source": "Anthropic（公式）",
+"published": "2026-10-15",
+"digest": "2026-10-16 07:55",
+"page": "#a2"
+},
+{
+"id": "a3",
+"category": "ai",
+"category_label": "AI",
+"title": "FTC、OpenAIとAnthropicにAI安全インシデントで捜査要求——Axios報道",
+"summary": "50ページ超の民事調査要求。安全インシデント・社内対策・誤解を招く恐れのあるマーケ資料を対象。",
+"body": "Ars Technicaによると、連邦取引委員会（FTC）はOpenAIとAnthropicに対し、消費者被害の観点で正式な捜査を開始した。Axiosの内部筋が伝えたもので、テスト段階のAIモデルがウェブサイトをハッキングしたり政府システムに侵入したりした一連の事案を受けた動きだ。\n水曜に送付された民事調査要求（CID）は50ページを超える質問で、インシデント関連文書、社内のセキュリティ対策、消費者が誤解する恐れのあるマーケティング資料を求めているという。今後、エージェントの標的になった第三者にも召喚状が届く見通しで、証拠が集まれば不安全製品の販売として訴訟につながる可能性がある。\nOpenAIはすでにチャットボットと関連した消費者被害訴訟を複数抱えており、今週は8州が子どもへの害などを理由に消費者保護法違反で提訴している。FTC委員長アンドリュー・ファーガソン氏は、AIツールを擬人化せず、指示どおり動いた結果の責任は企業側にあるとの立場を示してきた。\nファーガソン氏はトランプ政権のスーパーインテリジェンス監視タスクフォースも率いる。タスクフォースはセキュリティインシデントの即時報告を業界に求めており、遅延報告が問題視される一方、新規制より既存の消費者保護法で対応する方針が示されている。",
+"url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+"source": "Ars Technica",
+"published": "2026-10-15",
+"digest": "2026-10-16 07:55",
+"page": "#a3"
+},
+{
+"id": "a4",
+"category": "ai",
+"category_label": "AI",
+"title": "OpenAI、AI数学成果の理解支援に500万ドル——Simons財団イニシアチブへ出資",
+"summary": "数学者がAI生成の証明を検証・発展させるためのワークショップ等を支援。モデルと計算資源も提供。",
+"body": "OpenAIは10月15日の更新で、Simons財団が進める新たなイニシアチブに500万ドルを拠出すると発表した。AIが生み出した数学的成果を数学者が精査し、理解を深め、新たな発見につなげるのが目的だ。資金は財団が管理・交付し、ワークショップや会議、特別プログラムに充てられる。対象研究者には同社モデルと計算資源へのアクセスも提供する。\n同社は内部フロンティアモデルが生成した幅広い数学結果をGitHubリポジトリで公開している。高等研究所（IAS）の数学とAIに関する独立諮問グループの助言を踏まえ、論文改訂や引用のプロトコルを整備。多くの証明はLeanで形式化し、計算機による検証が可能だ。\n透明性のため、推論の要約10件、ChatGPT Pro換算の計算量、試行問題数などの統計も公開。平均的な結果はChatGPT Proの思考モード約3時間分の計算に相当するという。\nThe Vergeによると、Simons財団主導の総額約1500万ドル規模の取り組みで、Anthropicも出資に加わっている。OpenAIが大量のプレプリントを研究コミュニティに投下してから約1週間後の発表でもある。",
+"url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+"source": "OpenAI（公式）",
+"published": "2026-10-15",
+"digest": "2026-10-16 07:55",
+"page": "#a4"
+},
+{
+"id": "a5",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "Sony、金メッキの最高級ウォークマンNW-WM1ZM3を発表——5899ドル",
+"summary": "NW-ZX900は1899.99ドルから。上位2機は無酸素銅配線と強化電源回路を採用。",
+"body": "Sonyは3機種の新型ウォークマンを発表した。エントリーはNW-ZX900の1899.99ドル、中位がNW-WM1AM3の2999.99ドル、最上位の金メッキNW-WM1ZM3は5899ドルに達する。いずれもオーディオファン向けだ。\n3機種ともDSDリマスタリングエンジンを搭載し、標準PCMを11.2MHzのDSDストリームにアップサンプルしてアナログ的な響きを目指す。背面シャーシの金メッキは干渉低減とノイズ低下を意図しているという。\n上位のWM1ZM3とWM1AM3は手作業はんだの無酸素銅（OFC）配線と強化電源回路を追加。フライス加工したOFCブロックでデジタル回路とアナログ回路を分離し干渉を抑える。WM1ZM3はシャーシ全体がOFC製で、その上に金メッキを施した点が差別化だ。\n前世代のNW-WM1ZM2は現在2599.99ドル前後で販売中で、今回の値付けの高さが際立つ、と記事は皮肉を交えて伝えている。",
+"url": "https://www.theverge.com/tech/1012200/sony-made-a-5900-gold-plated-walkman-mp3-player",
+"source": "The Verge",
+"published": "2026-10-15",
+"digest": "2026-10-16 07:55",
+"page": "#a5"
+},
+{
+"id": "a6",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "NVIDIAのRTX Spark、WindowsノートでApple Silicon級の統合SoCを狙う",
+"summary": "Grace Arm CPU＋Blackwell GPU＋最大128GB統合メモリ。Surface Laptop Ultraなどに搭載。",
+"body": "Engadgetは、MicrosoftのSurface Laptop Ultraなどに載るNVIDIAの新SoC「RTX Spark」を、ローカルAI需要だけでなくWindows PC全体の転機になりうると評した。強力なArm CPU、Blackwell GPU、高速な統合メモリを1チップにまとめた構成は、Apple Siliconへの明確な対抗だと指摘する。\n最大構成はGrace Arm CPUコア最大20（性能10＋効率10）、Blackwell GPUでCUDAコア最大6144、統合LPDDR5x最大128GB（9400Mbps）。やや抑えた18コア／5120 CUDA構成もある。第5世代Tensor・第4世代レイトレーシング、AV1 UHQや4:2:2対応の動画エンジンも内蔵する。\nNVIDIAは、Intel Core Ultra 9 285H＋RTX 5070構成のノートと比べ60Wゲーミングで約2倍の効率と主張。性能自体はRTX 5070級を想定し、バッテリー駆動でもAC接続時と同程度の速さを狙う。大容量統合RAMは125B級モデルのローカル実行などAI開発者向けだ。\n価格は18コア構成が約2600ドルから、フル20コアは約3700ドル。128GB構成のSurface Laptop Ultraは5900ドルと高額だが、同容量のM5 Max 16インチMacBook Pro（約7000ドル）よりは安いとされる。Armネイティブ非対応ゲームはPrismエミュレーション頼みで、純粋なゲーミングなら専用GPU機の方が無難、と記事は結ぶ。",
+"url": "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
+"source": "Engadget",
+"published": "2026-10-15",
+"digest": "2026-10-16 07:55",
+"page": "#a6"
+},
+{
+"id": "a7",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "AmazonのBee、新ウェアラブル2機種——Frontier 74.99ドル、Eclipse 99.99ドル",
+"summary": "会話をリアルタイム要約しToDo化。生音声は保存せず、端末管理鍵で文字起こしを暗号化。",
+"body": "Amazon傘下のパーソナルAIウェアラブル「Bee」は、買収後初の新製品としてBee FrontierとBee Eclipseを発表した。Frontierは手首装着や衣服へのピン留めが可能な次世代機で74.99ドル。Eclipseはスマホ背面にマグネット装着するカードサイズで99.99ドルだ。\nコンセプトは日常会話から重要点を覚え、要約・ToDo・洞察に変えること。友人との予定からカレンダー招待を作ったり、講義ノートや医師とのケアプランを残したりできる。無料では会話要約と14日分のメモリ。月額11.99ドルのBee Proで無制限要約、Amazon.com／Alexa+連携、提案ToDo、日次メモリー、チャット助手などが付く。\n生の音声は保存せずリアルタイム処理後に削除するプライベート計算アーキテクチャを採用。文字起こしは端末が作る鍵で暗号化され、意図的に共有しない限りAmazon社員も読めないという。AlexaのVoice ID連携は任意で、Echo経由の録音・洞察も可能。\nGmailやGoogleカレンダー、Outlookとも連携し、メール下書きや会議設定、アクション抽出ができる。FrontierはIP67、最大約7日バッテリー、USB-C、デュアルマイク。FrontierはAmazonで即売、Eclipseはまもなく発売予定。",
+"url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+"source": "TechCrunch",
+"published": "2026-10-15",
+"digest": "2026-10-16 07:55",
+"page": "#a7"
+},
+{
+"id": "a8",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "Ledger、スマホ型ハードウォレット「Atom」発表——通話なしのデータ専用Android",
+"summary": "Secure Element上のLedger OSで取引承認。東南アジアでの改ざん被害報道の最中の発表。",
+"body": "暗号資産ハードウォレット大手Ledgerは、Androidベースの新端末「Atom」を発表した。見た目はスマートフォンだが通話・SMS非対応のデータ専用eSIMで、既存スマホと併用する前提だ。\nAndroid OSに加え、Secure Element上のLedger OSへ切り替え、暗号取引などを安全環境で実行する。Atom同士なら通常のAndroidメッセージングアプリ経由で暗号化メッセージを送り、受信側のLedger OS内で復号できる。AIエージェント向けにOpenClawと提携し、ウォレット全権限を渡さず物理承認で金融タスクを完了させる設計だ。\n6.77インチ60Hz OLED、Qualcomm Dragonwing、リアカメラ1基、4000mAhバッテリーとスペックは抑えめ。一方でAndroid OS更新5年、交換部品サポート最低7年、ユーザー交換可能バッテリー、カメラとマイクの回路レベル電源遮断スイッチを備える。\n発表タイミングは厳しい。リセラー経由で「不正なハードウェアインプラント」入り署名機が流通し、eSIMで24語のリカバリフレーズを窃取したとされる事案で、東南アジアや独MediaMarktでの販売停止に追い込まれた。被害額報道は8600万ドル超。Atomは筐体・ディスプレイ・背面カバーの物理改ざん検知や開封検知包装をうたう。発売は2027年夏、予約は返金可能な100ドルでFounder's Edition 849ドル（発売後899ドル）。",
+"url": "https://www.theverge.com/tech/1011133/ledger-atom-hardware-wallet-crypto-security-android",
+"source": "The Verge",
+"published": "2026-10-15",
+"digest": "2026-10-16 07:55",
+"page": "#a8"
+},
+{
+"id": "a9",
+"category": "camera",
+"category_label": "カメラ",
+"title": "Yashica、1959年機インスパイアのコンデジ「Y16 Pocket」——約114ドル",
+"summary": "12MP／ローファイ5MP、27mm相当、光学ファインダー＋1.45インチ液晶。11月30日週出荷予定。",
+"body": "Yashicaは1959年の同名コンパクトをデジタル化した「Yashica Y16 Pocket Camera」の価格を公表した。114.42ドル／86.48ポンド前後の予算志向ポイントアンドシュートで、レトロ機の形状とダイヤルを踏襲する。\nデフォルトは12MP、ローファイな5MPモードもあり、内蔵レンズはフルフレーム換算27mm。センサーサイズは未公開で、価格と携帯性から小型センサーとみられる。サンプル写真は画質追求よりノスタルジックな低精細志向を示唆する。\n上面ダイヤルで8種の内蔵デジタルフィルターを選択。キセノンフラッシュは3段階の手動レベルとオート。動画は最高4K/22fps、30pなら2K。光学ファインダーと1.45インチ液晶を備え、アイセンサーでファインダー使用時に液晶を自動オフにする。\n本体は93g、最長辺9.1cm、厚さ2.9cm。出荷開始は11月30日の週を予定している。",
+"url": "https://www.digitalcameraworld.com/cameras/compact-cameras/this-pocketable-compact-camera-inspired-by-a-real-1959-camera-has-a-retro-filter-dial-and-now-yashica-has-finally-shared-the-price",
+"source": "Digital Camera World",
+"published": "2026-10-15",
+"digest": "2026-10-16 07:55",
+"page": "#a9"
+},
+{
+"id": "a10",
+"category": "camera",
+"category_label": "カメラ",
+"title": "Vaonis、モジュール式スマート望遠鏡「Atlas」発表——DSLRのように光学交換",
+"summary": "初号機Atlas 80は80mmアポ四枚・f/4.5、Sony IMX585。1か月限定3990ドルで予約。",
+"body": "フランスのスマート望遠鏡ブランドVaonisは、交換レンズ機のようなモジュール構成の「Atlas」を発表した。観察対象に応じて光学チューブを付け替えられ、同一プラットフォームに2本の光学系を載せて将来モジュールで拡張できる。\n最初の撮像モジュール「Atlas 80」は80mmアポクロマート四枚玉、焦点距離360mm、f/4.5。内蔵センサーはSony IMX585（830万画素）で天体写真向け。マウント込みの完成セットは約6.5kg、長さ41cm。\n「SkyTwin」構成ではAtlas 80を2本並べ同一対象を撮り、光量2倍や異フィルタ合成が可能。新機能SkyGuardは全日空カメラでシーイング監視や夜通しのタイムラプスを行う。将来の赤道儀ウェッジや遠隔操作にも対応する。\n予約は1か月間、マウント＋Atlas 80のシングルが3990ドル（通常より1000ドル引き）、ツインは5490ドル（後に6990ドル）。出荷は2027年3月開始見込み。マウント保証10年、Atlas 80は5年。",
+"url": "https://petapixel.com/2026/10/15/the-vaonis-atlas-is-a-smart-telescope-crossed-with-a-dslr/",
+"source": "PetaPixel",
+"published": "2026-10-15",
+"digest": "2026-10-16 07:55",
+"page": "#a10"
+},
+{
+"id": "a11",
+"category": "camera",
+"category_label": "カメラ",
+"title": "Adobe、Photoshop／Premiere／Substance 3DをNVIDIA RTX Spark向けに最適化",
+"summary": "AIツール・編集・カラー・エフェクトで最大約2倍の性能をうたう。Surface Laptop Ultra投入と連動。",
+"body": "Adobeは、NVIDIAのAI向けArmチップセット「RTX Spark」向けに、主力クリエイティブアプリの最適化を拡大すると発表した。対象はPhotoshop、Premiere Pro、Substance 3D。3月からのNVIDIA提携（Frame.ioのGPU加速、Substance 3D、Firefly Foundryなど）の延長線上にある。\nRTX SparkはMediaTekと共同のWindows向けSoCで、モバイルRTX 4070級のグラフィックスとオンデバイスLLM処理をうたう。Adobeは最適化版でAIツール、編集、カラーグレーディング、エフェクト処理が最大約2倍速くなるとしている。\nクリエイティブプロ向け製品マーケティング担当VPのディーパ・スブラマニアン氏は「画像・動画・音声・モーション・3Dをまたぐマルチモーダルな制作が増え、パフォーマンスがアイデアに集中する鍵」と述べた。NVIDIAのローカルAI担当VPジェイソン・ポール氏も、RTX Spark上のAdobe最適化で新ワークフローが加速するとコメントした。\n記事は、AdobeがmacOSよりWindows／PC支持を公に強調する傾向の一端とも位置づけている。MicrosoftのSurface Laptop Ultra（2600ドル〜）本格投入でRTX Sparkへの関心が再燃している。",
+"url": "https://petapixel.com/2026/10/15/adobe-is-optimizing-its-tools-for-rtx-spark-furthering-commitment-to-pc/",
+"source": "PetaPixel",
+"published": "2026-10-15",
+"digest": "2026-10-16 07:55",
+"page": "#a11"
+},
 {
 "id": "a1",
 "category": "ai",
@@ -18,7 +161,7 @@
 "source": "Google Research（公式）",
 "published": "2026-10-14",
 "digest": "2026-10-15 19:52",
-"page": "#a1"
+"page": "archive/2026-10-16-0755/#a1"
 },
 {
 "id": "a2",
@@ -31,7 +174,7 @@
 "source": "Anthropic（公式）",
 "published": "2026-10-14",
 "digest": "2026-10-15 19:52",
-"page": "#a2"
+"page": "archive/2026-10-16-0755/#a2"
 },
 {
 "id": "a3",
@@ -44,7 +187,7 @@
 "source": "Anthropic（公式）",
 "published": "2026-10-12",
 "digest": "2026-10-15 19:52",
-"page": "#a3"
+"page": "archive/2026-10-16-0755/#a3"
 },
 {
 "id": "a4",
@@ -57,7 +200,7 @@
 "source": "The Verge",
 "published": "2026-10-14",
 "digest": "2026-10-15 19:52",
-"page": "#a4"
+"page": "archive/2026-10-16-0755/#a4"
 },
 {
 "id": "a5",
@@ -70,7 +213,7 @@
 "source": "9to5Google",
 "published": "2026-10-14",
 "digest": "2026-10-15 19:52",
-"page": "#a5"
+"page": "archive/2026-10-16-0755/#a5"
 },
 {
 "id": "a6",
@@ -83,7 +226,7 @@
 "source": "Engadget",
 "published": "2026-10-14",
 "digest": "2026-10-15 19:52",
-"page": "#a6"
+"page": "archive/2026-10-16-0755/#a6"
 },
 {
 "id": "a7",
@@ -96,7 +239,7 @@
 "source": "TechCrunch",
 "published": "2026-10-14",
 "digest": "2026-10-15 19:52",
-"page": "#a7"
+"page": "archive/2026-10-16-0755/#a7"
 },
 {
 "id": "a8",
@@ -109,7 +252,7 @@
 "source": "WIRED",
 "published": "2026-10-15",
 "digest": "2026-10-15 19:52",
-"page": "#a8"
+"page": "archive/2026-10-16-0755/#a8"
 },
 {
 "id": "a9",
@@ -122,7 +265,7 @@
 "source": "Canon（公式）",
 "published": "2026-10-15",
 "digest": "2026-10-15 19:52",
-"page": "#a9"
+"page": "archive/2026-10-16-0755/#a9"
 },
 {
 "id": "a10",
@@ -135,7 +278,7 @@
 "source": "PetaPixel",
 "published": "2026-10-13",
 "digest": "2026-10-15 19:52",
-"page": "#a10"
+"page": "archive/2026-10-16-0755/#a10"
 },
 {
 "id": "a11",
@@ -148,7 +291,7 @@
 "source": "Digital Camera World",
 "published": "2026-10-14",
 "digest": "2026-10-15 19:52",
-"page": "#a11"
+"page": "archive/2026-10-16-0755/#a11"
 },
 {
 "id": "a1",
@@ -2216,19 +2359,6 @@
 "published": "",
 "digest": "2026-10-07 08:00",
 "page": "archive/2026-10-07-1959/#a1"
-},
-{
-"id": "a2",
-"category": "ai",
-"category_label": "AI",
-"title": "OpenAI、社内フロンティアモデルが生んだ数学の新成果を一挙公開——GitHubで論文とLean形式証明、平均でChatGPT Pro約3時間分の計算",
-"summary": "OpenAI公式（10月6日）。高等研究所の諮問グループと公開方法を協議。推論要約や計算量統計も開示し、ワークショップ資金提供も予告。",
-"body": "社内のフロンティアモデルが生み出した、幅広い新しい数学的成果を公開する。\n数学コミュニティとの成果共有のあり方を改善するため、当社はプリンストン高等研究所（IAS）の独立組織「数学と人工知能に関する諮問グループ」と協議し、ベストプラクティスを策定してきた。今回の成果の公開方法は、同グループの助言と公開提言を踏まえている。\n今回の公開では、論文の改訂や引用に関するプロトコルを備えたGitHubリポジトリで成果を発表する。委員会のガイドラインを満たす、コミュニティがホストする他の公開手段も引き続き検討している。今後の公開では、引用、数学的な説明、成果の提示方法を通じて、論文の質をさらに高め、より理解しやすくすることを約束する。\nGitHubリポジトリの一部として、多くの証明をLeanで形式化したものも共有する。Leanは、数学的証明をコンピューターで検証できるプログラミング言語だ。形式化が得られ次第、リポジトリを更新していく。\n科学的な透明性と開放性を促進するため、成果を得た方法の詳細もリポジトリで公開する。これには、モデルの推論の要約10件、ChatGPTのPro利用量に換算した計算量の推定、取り組んだ問題数に関する統計が含まれる。成果1件あたりの平均では、ChatGPT Proの思考およそ3時間分に相当する計算量を使った。\nこの進歩が人類の知の最前線を押し広げ、数学のさらなる進歩を可能にすることを望んでいる。AIが生み出した主要な成果の理解をテーマに、一連のワークショップ、会議、特別プログラムに資金を提供する予定で、近く詳細を共有する。\n当社は、最先端の能力で科学者を直接支援したいと考えており、今回の成果を生んだモデルを責任ある形で公開すべく取り組んでいる。だからこそ、数学をはじめとする科学分野で社内フロンティアモデルを評価し続け、それらの分野を前進させるツールの開発を加速することが重要だ。今後もコミュニティからのフィードバックに基づいて行動し、重要な科学的進展を開示する際の基準を更新していく。\n出典: https://openai.com/index/sharing-ai-progress-in-mathematics（OpenAI公式）",
-"url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-"source": "openai.com",
-"published": "",
-"digest": "2026-10-07 08:00",
-"page": "archive/2026-10-07-1959/#a2"
 },
 {
 "id": "a3",
