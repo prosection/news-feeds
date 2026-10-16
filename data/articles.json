@@ -1,12 +1,155 @@
 {
-"generated": "2026-10-16 07:57",
-"count": 377,
+"generated": "2026-10-16 19:58",
+"count": 388,
 "categories": {
-"ai": 140,
-"gadget": 129,
-"camera": 108
+"ai": 144,
+"gadget": 133,
+"camera": 111
 },
 "articles": [
+{
+"id": "a1",
+"category": "ai",
+"category_label": "AI",
+"title": "Anthropic、第3四半期売上168億ドル——キャッシュフロー黒字を投資家に提示",
+"summary": "前四半期比で約50%増。IPO前に「持続可能なフロンティアAI事業」の証拠を示したと報道。",
+"body": "Axiosによると、Anthropicは水曜日、投資家向けに第3四半期の財務を提示し、売上高が168億ドルに達したと伝えた。4〜6月期比で約50%の急増で、同四半期はキャッシュフローも黒字だったという。Financial Timesが先に報じた数字をAxiosが詳細に伝えた形だ。\n背景には、ウォール街が「AIバブル」を警戒する一日があった。S&P500は53営業日ぶりに1%超下落した一方で、Anthropicは利益の出るフロンティアAIという、投資家が待ち望んでいたバランスシートを示した、と記事は位置づける。Alphabetのような巨大企業がAIインフラ投資でフリーキャッシュフローを圧迫する中、若い競合がキャッシュフロー黒字を主張した点が注目された。\n成長ペース自体は第1〜第2四半期の「倍増」からは鈍化した。OpenAIとの激しい競争の中で、以前の伸率が続くと見る投資家は少なかった。それでもClaude Codeの年換算売上は夏後半時点で60〜70億ドル規模とのBloomberg Intelligence試算があり、API事業の粗利率も高いと分析されている。\n一方で訓練コストや株式報酬、今後10年で5,000億ドル超とされるインフラ計画は依然重い。プレミアム価格もオープンウェイトモデルの台頭で圧力を受けうる。記事は、コーディング以外の創薬などへの展開とIPO書類でのTAM提示が今後の焦点だと結んでいる。",
+"url": "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow",
+"source": "Axios",
+"published": "2026-10-15",
+"digest": "2026-10-16 19:56",
+"page": "#a1"
+},
+{
+"id": "a2",
+"category": "ai",
+"category_label": "AI",
+"title": "OpenAI、ChatGPT Voiceに「GPT-Live-1.1」——新ボイスとアクセント改善",
+"summary": "仏・独・ヒンディー・日・韓・メキシコスペイン語など13種の新ボイス。検索中の短いフレーズも多様化。",
+"body": "OpenAIはChatGPTのリリースノートで、Voice向けにGPT-Live-1.1および軽量版のGPT-Live-1.1 Quipの展開を開始したと告知した。各国語のアクセントをより自然にし、検索中に知らせる短いフレーズのバリエーションも広げた。\n新しいLiveボイスにはフランス語、ドイツ語、ヒンディー語、日本語、韓国語、メキシコスペイン語の選択肢に加え、英語のBubbieなどが含まれる。表示されるボイスは地域やアカウントにより異なる。設定のVoiceから選択できる。\nコミュニティ告知によれば、ChatGPT・Codex・dots向けの更新で、委任（delegation）や操縦性も改善。本日より全ユーザーへ段階展開し、API対応は近日予定としている。\n公式ヘルプでは、Liveは同時に聞き話しできる全二重モデルで、Web検索やメモリ、ウィジェット、テキスト／画像も同一チャットで扱える一方、動画や画面共有は非対応と説明されている。",
+"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+"source": "OpenAI（公式）",
+"published": "2026-10-15",
+"digest": "2026-10-16 19:56",
+"page": "#a2"
+},
+{
+"id": "a3",
+"category": "ai",
+"category_label": "AI",
+"title": "OpenAI、ChatGPTのChrome拡張を強化——開いているタブを見て作業を代行",
+"summary": "Chatでは複数タブの比較、Workではフォーム記入やメール下書きまで。Edge／Brave／Operaにも対応。",
+"body": "Engadgetによると、OpenAIはChrome向けChatGPT拡張を更新し、開いているタブの内容を参照して、より個人向けの回答や作業ができるようにした。同社は8月9日に自社ブラウザを終了しており、以降はChrome拡張の強化でブラウザ内のGemini対抗を進めている。\nChatGPT Chatでは、例えばソファ比較のタブが3つあるときに寸法・価格・配送・返品を横断して比較するよう頼める。複雑な多段階作業向けのChatGPT Workでは、メッセージ送信、フォーム記入、タブ整理なども依頼可能。新しい歯科の予約フォームを埋めカレンダーに予定を入れる、複数業者の条件タブを分析して最適候補へのメール下書きを作る、といった例が挙げられている。\nChromeサイドバーのChatGPTは会話履歴全体にもアクセスでき、サイトを離れずに質問や作業ができる。拡張は全プランで利用でき、Microsoft Edge、Brave、OperaなどChromium系ブラウザにも対応する。\nChatGPT公式アカウントは10月15日、「ブラウザ内のタブ上でChatGPTのフル機能が使える」と投稿し、ChatとWorkをサイドバイサイドで使える点を強調した。",
+"url": "https://www.engadget.com/2288580/open-ai-updates-chatgpt-extension-for-chrome/",
+"source": "Engadget",
+"published": "2026-10-16",
+"digest": "2026-10-16 19:56",
+"page": "#a3"
+},
+{
+"id": "a4",
+"category": "ai",
+"category_label": "AI",
+"title": "Google、AI Pro加入者向けAntigravityにもGemini 4 Argonを展開開始",
+"summary": "Ultraに続きProでも利用可能に。既存の3.8 Flash枠とは別に週次のArgon枠を用意。",
+"body": "9to5Googleによると、Googleはエージェント型開発プラットフォーム「Antigravity」向けに、最新旗艦モデルGemini 4 Argonの提供をAI ProおよびAI Ultra加入者へ展開し始めた。Argon自体は9月末発表・今週の広範ロールアウトに続く動きで、今週初めにAntigravity対応が予告されていた。\nGoogleはX上で、Gemini 3.8 Flashの既存枠とは別に「週次のみのArgon枠」があると説明。用途に応じてモデルを使い分けられる。Argonは「最も難しい問題」向けと位置づけられている。\n社内利用例として、YouTubeコメント前端のCPU負荷半減（絵文字描画の冗長が約45%を占めていたと特定）、Wingのドローン物理シミュレータ監査、134件のバグキューから97件を3時間弱で整理、Fortran遺産コードのRust移行（1.8倍性能とメモリ安全性）、アクセス制御変更の監査で他モデルが見逃した重大バグ4件の発見などが紹介された。\nローカライズやデータセンター分析パイプライン、広告見込み客の資格判定、財務突合など、コーディング以外の業務エージェント用途も強調されている。",
+"url": "https://9to5google.com/2026/10/15/gemini-4-argon-is-now-rolling-out-to-googles-antigravity-for-ai-pro-subscribers/",
+"source": "9to5Google",
+"published": "2026-10-15",
+"digest": "2026-10-16 19:56",
+"page": "#a4"
+},
+{
+"id": "a5",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "Apple、折りたたみ「iPhone Duo」の予約開始——2000ドルから、発売は10月23日",
+"summary": "外側5.4インチ／内側7.6インチOLED。Face ID非搭載でTouch ID。供給逼迫の見方が強く予約推奨。",
+"body": "Engadgetによると、Appleは10月16日朝（米東部8時）、初の折りたたみスマートフォン「iPhone Duo」の予約受付を開始した。店頭発売は10月23日。予約開始前には例年どおりApple Storeがメンテナンス表示になった。\n閉じた状態の外側は5.4インチ、開くと7.6インチのマットOLED内画面。ヒンジとナノテクスチャ仕上げで折り目を目立たせにくくしている、と9to5Macも伝えている。価格は256GBモデルから1999ドル（Engadget見出しでは約2000ドル）。色はNight SkyとStar White。\nチップはA20 ProでiPhone 18 Pro系に近い演算性能をうたう一方、薄型化のためカメラはProより劣り、生体認証はFace IDではなくTouch ID。内側画面のFaceTimeカメラはディスプレイ下配置で見た目はすっきりするが画質は妥協点、とレビュー側は指摘する。\n供給は逼迫が見込まれ、2026年残りの出荷は約700〜1000万台規模との情報もある。発売日入手を狙うなら予約が現実的、と両メディアは伝えている。iOS 27.1では縦型コントロールバーなど折りたたみ向けUI最適化が含まれる。",
+"url": "https://www.engadget.com/2288565/apple-iphone-duo-pre-orders-open-today/",
+"source": "Engadget",
+"published": "2026-10-16",
+"digest": "2026-10-16 19:56",
+"page": "#a5"
+},
+{
+"id": "a6",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "Fairphone、修理可能な完全ワイヤレス「Fairbuds 2」発表——米では11月2日119ドル",
+"summary": "バッテリー交換は工具不要で1分未満。ANCオフで計40時間。iFixitも10/10の修理性を確認。",
+"body": "The Vergeによると、倫理・修理性を掲げるFairphoneが第2世代イヤホン「Fairbuds 2」を発表した。英欧では99ポンド／119ユーロで発売済み、米国は11月2日に119ドルで投入する。\nステム型に刷新し、ケースは初代より37%小型・32%軽量。バッテリーはANCオフで合計約40時間（本体単体約8時間、ANCオンで約6時間）。11mmバイオセルロース・ダイナミックドライバー、LDAC、マルチポイント、5バンドEQを備え、Qiワイヤレス充電は非対応。\n最大の売りは修理性だ。各イヤホンのバッテリーは工具なしで1分未満で取り外せ、ケースはT5ネジ1本。交換パーツは7種（イヤーチップやスリーブ含む）。IP54、3年保証。材料の49%を「公正・リサイクル」由来とする。\n10月16日、The VergeはiFixitの分解動画を引用し、27秒地点からバッテリー取り外しが始まり1分以内に完了する様子を紹介。Fairbuds 2の修理性スコアは10/10だった。",
+"url": "https://www.theverge.com/tech/1010906/fairphone-fairbuds-2-price-release-audio-repairability",
+"source": "The Verge",
+"published": "2026-10-14",
+"digest": "2026-10-16 19:56",
+"page": "#a6"
+},
+{
+"id": "a7",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "うるう秒、2027年5月20日で廃止へ——BIPMが前倒し決定",
+"summary": "地球自転の減速で「負のうるう秒」が必要になる恐れ。MetaやGoogleなども廃止を支持。",
+"body": "The Vergeによると、国際度量衡局（BIPM）は木曜日の投票で、うるう秒の廃止を決定した。2022年合意では2035年までにやめる方針だったが、来年5月20日（世界計量記念日）施行へ大幅前倒しされた。\n理由は地球の自転変化だ。天文時と原子時を揃えるために、これまで通り秒を「足す」のではなく「引く」負のうるう秒が近く必要になる可能性があり、前例のない操作が重要インフラの時刻同期を壊す恐れがあるためだ。\n過去にもうるう秒の挿入でFoursquare、Reddit、LinkedIn、Yelpなどが障害を起こした。Meta、Google、Microsoft、Amazonも廃止を支持してきた。\n今後は「うるう時間」方式に移行し、原子時と天文時のずれを積み上げて約3000年後に1時間単位で調整する想定だという。",
+"url": "https://www.theverge.com/tech/1012689/leap-second-discontinue-timekeeping-change",
+"source": "The Verge",
+"published": "2026-10-16",
+"digest": "2026-10-16 19:56",
+"page": "#a7"
+},
+{
+"id": "a8",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "Apple公式サイトが新型iPad miniを示唆か——未発表Smart Folioの型番が浮上",
+"summary": "フランス規制ページにA3632の未発売ケース。今月末のタッチ対応MacBook Proと同時刷新の噂を後押し。",
+"body": "The Verge（Jess Weatherbed氏）によると、Appleのフランス向け規制関連ページに、未発売のiPad mini用Smart Folioが掲載されているという。型番A3632は既知のiPad miniケースと一致しない。\nこれにより、今月末に予想されるタッチ対応MacBook Pro発表と合わせてiPad miniを刷新する、という既存の噂に重みが加わった、とMacRumorsの情報を引用して伝えている。\n記事自体は短い速報だが、公式サイト上のアクセサリ登録が次期ハードの先行指標になるパターンは過去にも見られた。具体的なスペックや発売日は今回の掲載だけでは判明していない。",
+"url": "https://www.theverge.com/tech/1012614/apples-own-website-could-be-teasing-a-new-ipad-mini",
+"source": "The Verge",
+"published": "2026-10-16",
+"digest": "2026-10-16 19:56",
+"page": "#a8"
+},
+{
+"id": "a9",
+"category": "camera",
+"category_label": "カメラ",
+"title": "ニコンZ6 IIIにファーム2.01——Bluetoothリモートでプリレリーズキャプチャ対応",
+"summary": "対応レンズのフォーカスリミッター拡大、メニュー修正、連写時の稀な露出バグなども修正。NX Tether 2.6.1も同時公開。",
+"body": "Digital Camera Worldによると、ニコンはフルフレームミラーレスZ6 III向け「C」ファームウェア2.01と、テザーソフトNX Tether 2.6.1を公開した。公式ダウンロードセンターでも2.00からの変更点が案内されている。\n最大の追加は、対応Bluetoothリモートコントローラーからのプリレリーズキャプチャ利用だ。あわせてNIKKOR Z DX 16-50mmなど複数レンズでフォーカスリミッター設定をサポート。Picture Control関連の名称をImaging Recipeへ変更し、カスタム設定の番号ずれも修正した。\n不具合修正では、マニュアルモード連写で稀に過露光する問題、Fマウント（特にEタイプ）装着時の連写露出不安定や応答停止、FVロック時のAF不作動、非CPUレンズでのピクセルシフト枚数不足、マニュアルレンズ＋被写体検出時のライブビュー拡大で応答停止、などが挙げられる。\n更新時はZマウントNIKKORまたはFTZ／FTZ II以外を装着しないよう公式が警告。NX Tether 2.6.1はZ5IIC対応やImaging Recipe選択、追加機種のライブビューなどを含む。",
+"url": "https://www.digitalcameraworld.com/tech/firmware/nikon-z6-iii-and-nx-tether-get-updates-with-pre-release-capture-coming-to-bluetooth-remote-camera-controllers",
+"source": "Digital Camera World",
+"published": "2026-10-15",
+"digest": "2026-10-16 19:56",
+"page": "#a9"
+},
+{
+"id": "a10",
+"category": "camera",
+"category_label": "カメラ",
+"title": "Hipstamatic、Camera Clubを刷新——Winter 26/27のアナログ風カメラ4本を含む全解放",
+"summary": "TinType／IncrediBooth／SwankoLab／Cinamatic。年30ドルで200超のレンズ・フィルム・フラッシュも無制限。",
+"body": "PetaPixelによると、Hipstamaticはサブスク「Camera Club」を大幅再編し、Winter 26/27コレクションを同梱した。これまで一部パック限定だった壁を取り払い、同社が作るすべてへ加入者アクセスを統一した。\n共同創業者Lucas Buick氏は「反AIではなく反エンドレス」だと述べ、プロンプトで無限に完璧な絵を量産する流れに対し、撮影瞬間の行為が結果を一意にするカメラアプリを出す、と位置づけた。\n新カメラは湿板風のTinType（現像プレートを振る演出や世界55の湿板スタジオ案内）、4コマのIncrediBooth、ジャイロで現像トレイを傾けるSwankoLab、1980年代カムコーダ風のCinamatic。共有撮影のParty!も無制限利用できる。\n会員はHipstamaticのレンズ・フィルム・フラッシュ200超とこれらカメラが使い放題。料金は年30ドル、月8ドル、または6か月20ドル。",
+"url": "https://petapixel.com/2026/10/15/hipstamatic-reboots-camera-club-membership-with-unified-access-and-four-new-analog-apps/",
+"source": "PetaPixel",
+"published": "2026-10-15",
+"digest": "2026-10-16 19:56",
+"page": "#a10"
+},
+{
+"id": "a11",
+"category": "camera",
+"category_label": "カメラ",
+"title": "ソニーFX5、欧米とも出荷がさらにずれ込みか——米小売も月末表記に、欧州は11月中旬",
+"summary": "背面LCDの組み立て不良が疑われる。7月発表時は8月中旬出荷予定だったが繰り返し延期。",
+"body": "PetaPixelは10月7日付で、ソニーFX5の出荷が再びずれ込んでいる可能性を報じた。ドイツやフランスのソニー直販は11月16日出荷を表示し、米Adoramaが示していた10月15日より約1か月遅い。B&Hは発売日表示を外している。\n同サイトのその後のまとめでは、Adoramaの見込みが「月末」へ更新され、欧州ディーラーが11月中旬以降を見込む中、米国内でも10月中到着は厳しそうだとの見方が強まっている。ソニーは遅延理由を公式には説明していない。\n有力視されるのは背面LCDの品質問題だ。正式遅延前に一部市場へ出荷された個体で、LCDがずれ内部が露出する例が複数報告された。7月の地震によるセンサー工場影響は8月21日以降復旧済みとされるが、発表時の「8月中旬出荷」からは大きく遅れている。\n記事は、FX5自体の評価は高いだけにローンチのもたつきが惜しい、と指摘している。",
+"url": "https://petapixel.com/2026/10/07/it-looks-like-the-sony-fx5-is-delayed-again/",
+"source": "PetaPixel",
+"published": "2026-10-07",
+"digest": "2026-10-16 19:56",
+"page": "#a11"
+},
 {
 "id": "a1",
 "category": "ai",
@@ -18,7 +161,7 @@
 "source": "TechCrunch",
 "published": "2026-10-15",
 "digest": "2026-10-16 07:55",
-"page": "#a1"
+"page": "archive/2026-10-16-1956/#a1"
 },
 {
 "id": "a2",
@@ -31,7 +174,7 @@
 "source": "Anthropic（公式）",
 "published": "2026-10-15",
 "digest": "2026-10-16 07:55",
-"page": "#a2"
+"page": "archive/2026-10-16-1956/#a2"
 },
 {
 "id": "a3",
@@ -44,7 +187,7 @@
 "source": "Ars Technica",
 "published": "2026-10-15",
 "digest": "2026-10-16 07:55",
-"page": "#a3"
+"page": "archive/2026-10-16-1956/#a3"
 },
 {
 "id": "a4",
@@ -57,7 +200,7 @@
 "source": "OpenAI（公式）",
 "published": "2026-10-15",
 "digest": "2026-10-16 07:55",
-"page": "#a4"
+"page": "archive/2026-10-16-1956/#a4"
 },
 {
 "id": "a5",
@@ -70,7 +213,7 @@
 "source": "The Verge",
 "published": "2026-10-15",
 "digest": "2026-10-16 07:55",
-"page": "#a5"
+"page": "archive/2026-10-16-1956/#a5"
 },
 {
 "id": "a6",
@@ -83,7 +226,7 @@
 "source": "Engadget",
 "published": "2026-10-15",
 "digest": "2026-10-16 07:55",
-"page": "#a6"
+"page": "archive/2026-10-16-1956/#a6"
 },
 {
 "id": "a7",
@@ -96,7 +239,7 @@
 "source": "TechCrunch",
 "published": "2026-10-15",
 "digest": "2026-10-16 07:55",
-"page": "#a7"
+"page": "archive/2026-10-16-1956/#a7"
 },
 {
 "id": "a8",
@@ -109,7 +252,7 @@
 "source": "The Verge",
 "published": "2026-10-15",
 "digest": "2026-10-16 07:55",
-"page": "#a8"
+"page": "archive/2026-10-16-1956/#a8"
 },
 {
 "id": "a9",
@@ -122,7 +265,7 @@
 "source": "Digital Camera World",
 "published": "2026-10-15",
 "digest": "2026-10-16 07:55",
-"page": "#a9"
+"page": "archive/2026-10-16-1956/#a9"
 },
 {
 "id": "a10",
@@ -135,7 +278,7 @@
 "source": "PetaPixel",
 "published": "2026-10-15",
 "digest": "2026-10-16 07:55",
-"page": "#a10"
+"page": "archive/2026-10-16-1956/#a10"
 },
 {
 "id": "a11",
@@ -148,7 +291,7 @@
 "source": "PetaPixel",
 "published": "2026-10-15",
 "digest": "2026-10-16 07:55",
-"page": "#a11"
+"page": "archive/2026-10-16-1956/#a11"
 },
 {
 "id": "a1",
