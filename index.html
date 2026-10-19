@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI・ガジェット・カメラ ニュースダイジェスト（2026-10-19 19:57 JST）</title>
+  <title>AI・ガジェット・カメラ ニュースダイジェスト（2026-10-20 07:55 JST）</title>
   <style>
 :root { --bg:#0f1419; --card:#1a2332; --text:#e7ecf3; --muted:#9aa7b8; --accent:#5b9dff; --border:#2a3548; }
 * { box-sizing: border-box; }
@@ -59,7 +59,7 @@ footer a { color:var(--accent); }
 <header>
   <h1>AI・ガジェット・カメラ ニュースダイジェスト</h1>
   <p>海外の一次情報（企業公式・公式プレス・国際テック報道）のみを収集し、タイトルと本文を日本語訳したHTMLダイジェストです。RSS配信は終了しました。</p>
-  <p>生成: 2026-10-19 19:57 JST ／ 件数: 12 ／ 晩更新</p>
+  <p>生成: 2026-10-20 07:55 JST ／ 件数: 12 ／ 朝更新</p>
   <p class="counts"><span>AI 4</span><span>ガジェット 4</span><span>カメラ 4</span></p>
 </header>
 <nav class="site-nav">
@@ -74,303 +74,251 @@ footer a { color:var(--accent); }
 <p class="hint">タイトルをタップ／クリックすると日本語本文を展開・折りたたみできます。</p>
 <details class="item" id="a1">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>1. Google「Gemini 4」のAIエージェント、人間の介入なしでMinecraftをクリア</span></div>
-    <div class="meta"><span class="tag">AI</span>Engadget ／ 2026-10-19
-      ／ 原文: <a href="https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/" rel="noopener noreferrer">https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/</a></div>
-    <p class="summary">4体のGemini 4 Argonエージェントが役割分担しながら協力し、約27時間でエンダードラゴンを撃破。人間が書いたゲーム専用ツールなしでのエンドツーエンド自律クリアは初めてだとGoogleの研究チームは説明している。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>1. Nvidia、企業向けとAI PC向けにエージェント用の新オープンモデルを投入――「Nemotron 3.5 Super VL」と「Bolt」</span></div>
+    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-10-19
+      ／ 原文: <a href="https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/" rel="noopener noreferrer">https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/</a></div>
+    <p class="summary">1200億パラメーターの企業向け「Nemotron 3.5 Super VL」と、RTX Spark搭載AI PCなどでローカル動作する軽量「Bolt」2モデルを発表。自社データで追加学習し自社インフラで運用できるオープンウェイトを武器に、クローズドなフロンティアモデルに対抗する。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Engadget／日本語訳） ／ テーマ: AI</em></p>
-<h3>エージェントは作業を分担し、脅威を警告し合い、死んだ仲間のアイテムまで回収した</h3>
-<p>GoogleのDeepMindが開発した「AlphaGo」は囲碁で勝ったことで有名だが、同社の最新AI「Gemini」は、それよりはるかに複雑なゲームを攻略した。Googleの研究者らが新たな論文で明らかにしたところによると、4体の「Gemini 4 Argon」エージェントが、それぞれ個別に動きつつコツや脅威、失敗を共有し合うことで、人間の介入なしにMinecraftの最終ボス「エンダードラゴン」を倒したという。この実験は、汎用のエージェント型AIモデルが、かつては専用のAIソフトウェアが必要だった複雑なゲームを攻略できるようになったことを示している。</p>
-<p>Minecraftに挑むにあたり、Gemini 4チームは4体のAIエージェントを、サンドボックス化されたランダム生成のサバイバルワールドに投入し、エンダードラゴンの討伐を目標として与えた。役割や戦略、ゲーム専用のツールは一切割り当てなかった。各エージェントはオープンソースのライブラリ「Mineflayer」を使って1人のプレイヤーを操作し、ゲーム内チャットと共有メモリーを通じて仲間と連携した。</p>
-<p>プレイ中、エージェントたちはすぐに作業を分担することを選んだ。互いに脅威を警告し、教訓やコツを伝え、座標を共有し、さらには死んだ仲間のアイテムを回収することまでした。それぞれが役割に落ち着き、たとえば「janesick」は道具づくり、「gyldenia」は食料や物資の収集、「auratian」は重要なポータルの点火、「bulicame」はエンダーマン対策のシェルターを建て、最後のとどめを刺した。</p>
-<p>全工程にかかった時間は27.23時間で、その大半がエンダードラゴン戦に費やされた。チームによれば「4体のエージェントは2,783本のプログラムを書いて実行し、229通のメッセージを交わし、その過程で605回死んだ」という。「Observer（観察者）」と呼ばれる5体目のエージェントが独立した立会人としてセッションを監視し、不正がないかをチェックするとともに、ライブレポートとまとめのレポートを公開した。エージェントが使用した入力トークンは13.5億で、最終的なコストはGeminiの定価（list price）で810ドル、標準価格では1,620ドルだった。</p>
-<p>チームは「我々の知る限り、これはAIエージェントによるMinecraftの初のエンドツーエンド自律クリアであり、事前に下見したシードや、人間が書いたその他のゲーム専用ツールを使わず、標準のMineflayerライブラリのみで達成した」と記している。「勝利するには、エージェントが1日以上にわたり、互いに依存する何千ものステップを通して一貫した計画を保ち続ける必要があった」</p>
-<p><a href="https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
+<h3>Nvidiaは、企業が自社のデータセンターで独自のオープンモデルを動かしたいという潮流に強く乗り、同時にオンデバイスでプライベートに動くAIエージェントの普及も狙っている。</h3>
+<p>Nvidiaは木曜日、常時稼働するエージェントとエッジコンピューティング向けに設計した新しいオープンウェイトモデルを発表した。</p>
+<p>「Nemotron 3.5 Super VL」は、企業で使われるエージェント向けの1200億パラメーターの大型モデルだ。「Nemotron 3 Ultra」よりパラメーター数は少ないが、指示追従やツール使用のタスクでは同等の精度を発揮できるとNvidiaは説明している。</p>
+<p>その対極として、同社は軽量な「Bolt」モデルも2種類発表した。これらは、Nvidiaの「RTX Spark」チップを搭載した新しいAI PCや、「DGX Spark」を搭載したワークステーションでローカルに動かすことを想定している。こうしたPCは一般消費者、プログラマー、企業のナレッジワーカーを対象としており、MicrosoftやDellなどのパートナーを通じて現在まさに市場に投入されつつある。</p>
+<p>Nvidiaのオープンモデル・ソフトウェア担当バイスプレジデント、カリ・ブリスキー氏は、モデルを発表したブログ投稿で「Nvidiaのインフラでエージェントを動かしたい組織は、性能と導入しやすさのどちらかを選ぶ必要なく、自らの階層に合ったオープンで最適化されたモデルを手に入れられるようになった」と書いている。</p>
+<p>Nvidiaによれば、特定のエージェント型タスクに合わせて追加学習（ポストトレーニング）した場合、Super VLはAnthropicやOpenAIの競合モデル（Opus 5、GPT 6.1 Sol、Luna、Astra）よりも速くタスクを完了するという。対象となるタスクには、文書インテリジェンス、財務会計、科学実験、医療保険の請求処理、セキュリティ攻撃への耐性などが含まれる。</p>
+<p>大手テック企業が新モデルを発表するたびにこうした主張が出てくるのはお決まりだが、Nvidiaは、Super VLを使っているという錚々たる企業のリストでそれを裏付けている。Skydance、EY、Ramp、Crowdstrike、Perplexity、Salesforceなどだ。</p>
+<p>もちろん、プロプライエタリなフロンティアラボと競合するオープンウェイトモデルをNvidiaが公開するのは、これが初めてではない。こうしたラボはNvidiaにとって顧客であると同時に出資先でもある。このGPU大手は、マルチモーダルAIから推論、コーディング、数学、企業の業務自動化まで、あらゆる用途をカバーする「Nemotron」モデルのファミリーを丸ごと持っている。</p>
+<p>しかし、急成長するプロプライエタリなAIラボは今、自らの需要を満たすためにNvidia以外の多くのチップメーカーやAIシステムメーカー――AWSの「Trainium」やCerebrasなど――に目を向けており、自社製チップの開発も進めている。</p>
+<p>そこでNvidiaは、企業が自社のデータセンターで独自のオープンモデルを動かしたいという潮流に強く乗ろうとしている。ブリスキー氏は「クローズドなフロンティアモデルと違い、組織は自社のデータでSuper VLを追加学習させ、自社のインフラに導入し、構築したものを自ら所有できる」と書いている。</p>
+<p>一方、より小型のローカルPC向けモデルの発表によって、同社は消費者向けAIアシスタントという生まれたばかりのトレンドも後押ししようとしている。スタートアップからビッグテックまで、毎日のように新しいAIアシスタントが登場しているように見えるが、プライバシーに敏感な消費者は、家族や健康、お金などに関する情報へのアクセスを与えてまで、こうしたエージェントを生活の奥深くに招き入れたくはないかもしれない。</p>
+<p>そのためNvidiaは、モデルとエージェントをローカルで動かせるマシンを作ることで、自社チップを搭載したPCという新しい市場を生み出そうとしている。ブリスキー氏によれば、PCユーザーは「その処理をクラウドに送ることなく、日常のプロジェクトを任せる」ことができるという。</p>
+<p>2つのBoltモデルのうち、「Nemotron 3.5 Bolt 74B-A9B 24GB」は、ローカルでのエージェント型タスク向けに設計された740億パラメーターのモデルだ。速度と推論能力のバランスを取り、多段階の推論、ツール呼び出し、ウェブ閲覧をこなすことを想定している。最も小さい「Bolt E4B」は、会話型エージェント向けだ。</p>
+<p>Nvidiaによると、Super VLとBolt 74B-A9Bはすでに提供が始まっており、Bolt E4Bは今月後半に登場する予定だ。</p>
+<p><a href="https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a2">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2. ChatGPT、Google Chromeとの連携を強化――開いているタブ内での操作も可能に</span></div>
-    <div class="meta"><span class="tag">AI</span>Android Authority ／ 2026-10-19
-      ／ 原文: <a href="https://www.androidauthority.com/chatgpt-extension-google-chrome-integration-3724838/" rel="noopener noreferrer">https://www.androidauthority.com/chatgpt-extension-google-chrome-integration-3724838/</a></div>
-    <p class="summary">ChatGPTがChromeの開いているタブから文脈を読み取ったり、ファイルをダウンロードしたり、フォームに入力したりできるようになった。ChatGPT拡張機能も強化され、無料ユーザーを含む全プランで利用できる。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2. Microsoft「AIエージェントは内部脅威のようなもの」――「フロンティアモデルは信頼できない」として監視機能「Guardian Agents」を投入</span></div>
+    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-10-19
+      ／ 原文: <a href="https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/" rel="noopener noreferrer">https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/</a></div>
+    <p class="summary">Microsoftは、企業が使うAIエージェントを監視する「Guardian Agents」などの新セキュリティ機能を発表。ナデラCEOは「知能の供給と、それに対する権限を分離すべきだ」と主張し、AIラボから独立した仕組みでエージェントを見張るよう企業に呼びかけている。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Android Authority／日本語訳） ／ テーマ: AI</em></p>
-<h3>長くて退屈なフォーム入力が楽になるかもしれない</h3>
-<p><strong>要約（TL;DR）</strong></p>
-<p>・ChatGPTがGoogle Chromeとより深く統合された。<br>・開いているChromeタブから文脈を取得したり、ファイルをダウンロードしたりできる。<br>・ChatGPTの履歴や接続済みのプラグインの情報を使って、フォームに入力することもできる。</p>
-<p>OpenAIは毎週のようにChatGPTを改良し続けている。より高速で賢いAIモデルを出すか、より便利になる新機能を追加するかのどちらかだ。今日、同社が発表したのは後者で、便利な新しいChrome連携が加わった。</p>
-<p>ChatGPTの公式アカウントはXのスレッドで、ChatGPT本体とGoogle Chrome向けChatGPT拡張機能に対するいくつかのアップグレードを発表した。このAIアシスタントは、開いているChromeタブを文脈として使ったり、情報収集に使ったりできるようになった。同社が示した例では、AIが複数のChromeタブに開かれたソファの商品ページを調べ、ユーザーについて知っていることをすべて踏まえて、最適な候補のリストをまとめている。</p>
-<p>さらに興味深いことに、「ChatGPT Work」は他のタブでの操作も制御できる。ファイルのダウンロード、メッセージの送信、フォームへの入力をAIに頼めば、それを実行してくれる。タブをカテゴリーごとに整理・グループ化することもできる。</p>
-<p>Chromeのサイドバーから使えるChatGPT拡張機能も、より強力になった。レポートや記事、ウェブページを要約したり、タブを切り替えずにメールの下書きを作成したりできる。加えて、ChatGPTの履歴とプラグインにアクセスできるため、拡張機能は開いているタブで強力な操作を実行できる。たとえば在庫管理フォームへの入力や、Gmailから領収書を取り出して会社の経費精算ページに提出するといったことだ。</p>
-<blockquote>次は、Chromeのタブ内でChatGPTを使う機能が大幅にアップグレードされました――ChatGPTのすべての力がブラウザーの中に。ChatGPTの履歴がすべてそこにあり、サイトを見ながら、横に並べて「Chat」で質問したり「Work」で作業を片付けたりできます。<br>— ChatGPT（@ChatGPT）2026年10月15日</blockquote>
-<p>これらのChatGPTの新機能は、有料サブスクリプションに加入していないユーザーを含め、全プランのChatGPTユーザーが利用できる。ChatGPT拡張機能をダウンロードすれば、今日から新しいChrome機能を使い始められる。</p>
-<p><a href="https://www.androidauthority.com/chatgpt-extension-google-chrome-integration-3724838/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
+<h3>Microsoftは、OpenAIやAnthropicといったAIラボが管理していないシステムを使って、従業員が使うエージェントを企業が注意深く監視することを望んでいる。</h3>
+<p>Microsoftは月曜日、増大するAIエージェントの脅威から企業を守るための新しいセキュリティ機能を発表した。同社はこれまでもAIとエージェントの危険性について企業に警告を続けてきた。</p>
+<p>おそらく最も注目すべき追加機能は、企業が使っているAIエージェントを監視するための新機能「Guardian Agents」だ。Guardian Agentsは、6月に発表された製品「Project Perception」の一部となる。</p>
+<p>Project Perceptionは、Anthropicの「Mythos」や「Fable」、OpenAIのセキュリティ脆弱性スキャンシステム「Daybreak」といった強力なハッキングモデルに対するMicrosoftの回答だった。Project Perceptionは当初、3種類のエージェントを用意していた。ハッカーのように攻撃を仕掛ける「レッドチーム」、レッドチームを検知して見つかった脆弱性を評価する「ブルーチーム」、そしてそれらを修正する役割の「グリーンチーム」だ。</p>
+<p>この製品は、AIハッカーは社外からやって来るという前提で設計されていた。しかし最近、Microsoftのサティア・ナデラCEOは、AIの敵は企業自身が導入し、料金を払っているエージェントそのものかもしれない、と警告している。いわば暴走した人間の従業員、つまり「内部脅威（インサイダー・スレット）」のようなものだ。</p>
+<p>今月初め、ナデラ氏は個人ブログで、AIモデルの提供企業がエージェント製品について安全性やセキュリティを保証していたとしても、もはやそれを信頼するのはやめるべき時だと警告した。同氏は企業に対し、AIラボの製品が立ち上げるエージェントを監視・制御するために、AIラボが管理していない別のシステムを導入するよう求めている。</p>
+<p>同氏は「私たちは、こうした複雑なエージェント型システムやモデルを導入し、最も機密性の高いデータへのアクセスを与え、私たちに代わってミッションクリティカルな行動を取る能力を与えている！」と書いた。「知能が私たちに代わって行うことの責任を、外部に委ねることはできない。モデル提供者の保証によって、その責任から解放されるわけではない。……言い換えれば、知能の供給と、それに対する権限とを分離する必要がある」</p>
+<p>Guardian Agentsを発表する際、Microsoftのセキュリティ事業責任者ハイエテ・ガロ氏は、さらに率直だった。</p>
+<p>「残念ながら、フロンティアモデルは、その出自にかかわらず信頼できない」と同氏は書き、それはモデルが悪意を持っていたり、簡単にハッキングされたりするからではなく、予測不能だからだと付け加えた。モデルはタスクを達成するように訓練されているのであって、「組織の規範や判断」に従うように訓練されているわけではない。</p>
+<p>しかもモデルには、しばしば「王国の鍵」が渡されており、深刻な損害をもたらしかねないデータやツールにアクセスできる。</p>
+<p>Microsoftの解決策は、意外であると同時に自己利益的でもある。意外なのは、MicrosoftがOpenAIやAnthropicと非常に近い関係にあることで知られ、両社に出資しているからだ。OpenAIは同社にとって最大級のクラウド顧客の一つでもあり、Microsoftは自前でもモデルを開発するAIラボを抱えている。つまりMicrosoftは、自社のビジネス上の利益の一部に対して不信感を植え付けていることになる。</p>
+<p>自己利益的なのは、Microsoftが企業に対し、AnthropicやOpenAIではなく、クラウド事業者である自社からエージェントのセキュリティ製品を買ってほしいと考えている点だ。ただ、利害の衝突はさておき、その論理は妥当だ。エージェントの振る舞いを監視するソフトウェアはエージェントの供給元から独立しているべきであり、それは監査人が監査対象の組織から独立しているべきなのと同じことだ。</p>
+<p>あるいはナデラ氏の言葉を借りれば、「知能の供給と、それに対する権限を分離する必要がある」のだ。</p>
+<p>Microsoftは今、さまざまな形でこのビジネスチャンスをつかもうとしている。Guardian Agentsに加え、同社は「Microsoft Defender」にエージェント検出機能を追加した。従業員が職場に持ち込む最大60種類のエージェント――Claude Code、Codex、OpenClawなど――を見つけ出せる。さらに、エージェントのデータやシステムへのアクセスを制限し、タスクに応じてエージェントの権限を動的に調整する機能も追加した。エージェントがリスクの高い判断をしているように見える場合に、人間の承認を求める機能も含まれる。</p>
+<p>エージェントを信頼できない内部者とみなす考え方は、業界全体にも広がりつつある。</p>
+<p>Microsoftは、Nvidiaの新しい「Open Agent Safety Platform」の創設メンバーとなった。このプラットフォームには100社以上のテック企業が支持を表明している。エージェントを安全な環境に隔離し、ハードウェアを通じてその振る舞いを監視・停止できる、いわばキルスイッチのような仕組みだ。これに先立ちMicrosoftは、エージェント向けに作られた新しいPC「Surface Laptop Ultra」を発表している。Nvidiaのチップで動作し、エージェントのセキュリティと制御機能が組み込まれている。</p>
+<p><a href="https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a3">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>3. Disney、Character.AIに「訴訟から逃れるための破産」を求めていた――裁判資料で判明</span></div>
-    <div class="meta"><span class="tag">AI</span>WIRED ／ 2026-10-19
-      ／ 原文: <a href="https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/" rel="noopener noreferrer">https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/</a></div>
-    <p class="summary">Character.AIの破産申請は、Disneyが同社の社員の大半と技術を手に入れつつ、訴訟や46州・地域による調査などの法的責任を回避するための取引の一部だったことが裁判資料から明らかになった。専門家は「責任なき支配」だと批判している。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>3. AIコーディングツール「OpenCode」がハッキング被害、ユーザーのAIアカウントに高額請求――防御に使ったAIは悪性コードの解析を拒否</span></div>
+    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-10-19
+      ／ 原文: <a href="https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/" rel="noopener noreferrer">https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/</a></div>
+    <p class="summary">Claude CodeやCursorの代替として人気のOpenCodeのオンライン基盤「OpenCode Console」が侵害され、利用者の1.4%のAPIキーが流出。数百〜1000ドル超の不正請求が相次いだ。対応中、分析に使ったAIモデルが安全フィルターに引っかかり解析を拒否する問題も起きた。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（WIRED／日本語訳） ／ テーマ: AI</em></p>
-<p>今週、Character.AIが破産を申請した。チャットボットプラットフォームの破綻を業界の前兆と見る向きもあったが、裁判資料によれば、この決定は実はある取引の重要な一部だった。その取引によってDisneyは、Character.AIのスタッフの大半（今は前CEOとなったカランディープ・アナンド氏を含む）を雇用し、Character.AIの技術の大部分を取得できる可能性があり、しかも苦境にあるこのスタートアップが抱える多くの法的責任や義務を回避できるのだ。</p>
-<p>この数年、Character.AIはチャットボットの安全性をめぐる複数の民事訴訟に加え、世界各地の規制当局による調査に直面してきた。破産手続きの一環として提出された宣誓供述書の中で、Character.AIの新CEOは、破産の目的は人身被害の請求者や同社を調査している州のグループとの「合意による解決」に達しつつ、株主のために会社資産の価値を最大化することだと説明している。</p>
-<p>Disneyとの取引は、Character.AIに残ったものが、なお係争中のものを含むそれらの法的紛争の責任を引き続き負うように構成されているようだ。</p>
-<p>この動きは、一部で「リバース・アクハイア（逆買収型の人材獲得）」と呼ばれる手法の新たな変種とみられる。これは、買い手が標的企業との一連の取引を周到に組み立てる手法で、通常は主要な社員を雇い入れ、標的企業独自の技術を利用・発展させるための広範なライセンスを得ることを目的とする。社員を奪われた標的企業は、抜け殻のようになる。</p>
-<p>企業はしばしば、リバース・アクハイアは実際の合併ではないため、本来であれば法律で義務づけられている連邦反トラスト当局への届け出は不要だという立場を取る。こうした手法は近年AI業界でますます一般的になっており、議会の怒りを買っている。</p>
-<p>Character.AIのケースでは、同社の法律顧問が提出した申立書によれば、Disneyは、このスタートアップの「減少しつつある現金準備」と「重大な訴訟・規制リスク」を理由に、取引を破産手続きを通じて「完全に完了」させるよう求めたという。</p>
-<p>Character.AIの広報担当者は、取引が破産申請を条件としていたかどうかについてのコメントをDisneyに問い合わせるよう WIRED に伝えた。Disneyはこの記事へのコメントを控えた。</p>
-<p>裁判資料によると、この取引は「相互に関連し統合された2つの」取引で構成されている。1つはCharacter.AIの破産申請前、もう1つは申請後のものだ。</p>
-<p>9月に行われた1つ目の取引の一環として、Disneyはこのスタートアップに550万ドルを支払い、さらに返金可能な200万ドルの「誠意を示す手付金」を支払った。DisneyはCEOを含むCharacter.AIの社員の「過半数」を雇用し、Disneyの社員となった一部の人たちが5カ月間Character.AIの運営維持を手伝うことにも同意した。</p>
-<p>Character.AIは10月12日に連邦破産法第11章（チャプター11）の適用を申請した。裁判資料によれば、Disneyは破産手続きを通じて、Character.AIのコード、ドキュメント、フレームワーク、ツール、その他の「成果物」の広範な範囲について、永続的・全世界的・非独占的なライセンスを確保したいと考えている。そこには、信頼性・安全性のモデレーション基盤、学習インフラ、年齢推定技術のために作られたものも含まれる。資料に記載された知的財産のリストには、ユーザーデータ（破産手続きで追加の保護を受けられる場合がある）やCharacter.AIのウェブサイトは含まれていない。</p>
-<p>このライセンスは今後数カ月のうちに競売にかけられる。DisneyがCharacter.AIと無担保債権者委員会によって落札者に選ばれ、裁判所が取引を承認すれば、DisneyはCharacter.AIに追加で1,250万ドルのクロージング支払いを行うことに同意している。Disneyが選ばれなかった場合、同社には200万ドルの手付金が返還され、違約金（ブレークアップ・フィー）を受け取る。</p>
-<p>「競争的なプロセスを維持する」ため、Disneyはまた、落札者がDisneyがすでにCharacter.AIから雇い入れた「特定の新規採用社員」の最大80%と面接し、採用を申し出ることを認めることにも同意した。どの社員が対象になるかはDisneyが選ぶ権利を持つ。</p>
-<p>しかし専門家は、数カ月の間にCharacter.AIの社員をある会社から別の会社へとたらい回しにするのは非現実的であり、DisneyとCharacter.AIが結んだ取引は簡単には巻き戻せないと懸念している。</p>
-<p>さらにDisneyは、資料の中で「363 Free and Clear Order（363条に基づく負担なし譲渡命令）」と呼ばれる裁判所命令の草案を用意していた。その一版がクロージング時またはそれ以前に裁判所によって承認される予定で、このプロセスが両社の合併とみなされるべきではないこと、そしてCharacter.AIが自社に対する法的請求を含め「あらゆる責任またはその他の義務」を引き続き負うことを明確にする内容となっている。</p>
-<p>Character.AIの広報担当者は、破産手続きの結果について推測することはできないとし、WIREDに事件記録を参照するよう伝えた。</p>
-<p>メンフィス大学ロースクールの法学教授で、連邦取引委員会（FTC）競争局の元副局長であるジョン・ニューマン氏は、「資産はすべて引き受けたいが、負債は一切引き受けたくないという買い手の問題に対処するため、何十年にもわたって会社法が発展してきた」と話す。しかしDisneyとCharacter.AIの取引は極めて異例であり、「そうした会社法上の安全装置がまったく想定していなかった」形で構成されているという。</p>
-<h3>初めてではない</h3>
-<p>Character.AIにとって、リバース・アクハイアはこれが初めてではない。</p>
-<p>2024年8月、Googleはこのスタートアップの技術のライセンス料として27億ドルを支払ったと報じられた。Googleの広報担当者がWIREDに語ったところでは、そのライセンスは取引時点で存在していたAI技術を対象としたもので、GoogleはCharacter.AIの創業者や機械学習の事前学習研究チームのメンバーも雇用したが、同社の社員の「大多数」は会社に残ったという。</p>
-<p>その後数年間、GoogleはCharacter.AIとともに複数の訴訟で被告として名指しされた。その中には、14歳の少年が、Character.AIのチャットボットが「感情的に依存させ、性的に搾取する関係を育んだ」末に自殺したと主張する訴訟も含まれていた。</p>
-<p>Googleは、自社はCharacter.AIとは今も別の会社であり、少年の死はGoogleのライセンス取引より前に起きたとして、責任はないと主張した。しかし裁判官はこれを受け入れず、原告がGoogleの幇助責任を十分に主張していると判断した。</p>
-<p>Googleはこの記事へのコメントを控えた。</p>
-<p>今年1月、GoogleとCharacter.AIは、その訴訟と同様の一連の訴訟について和解することで大筋合意した。Character.AIは当時の声明で「Character.AIはAIの安全性と10代の利用に関して革新的かつ断固とした措置を講じており、今後もこうした取り組みを推進し、業界の他社にも同様の安全基準を採用するよう働きかけていく」と述べていた。</p>
-<p>ある訴訟の棄却命令によると、和解全体は7月にカリフォルニア州の検認裁判所で承認され、裁判所は個々の和解に関するすべての問題を審理する審判人を任命した。Character.AIが破産を申請する前日の10月11日、審判人は各和解を承認した。</p>
-<p>多くの訴訟で原告側の代理人を務めたTech Justice Law ProjectとSocial Media Victims Law Centerはコメントを控えた。</p>
-<p>Googleとの取引後に主要スタッフを失い、現CEOによれば「常に」収益性に苦しんでいたにもかかわらず、Character.AIはAIツールの開発を続けた。現CEOの宣誓供述書によれば、その中には「架空のキャラクターとのFaceTimeのような、音声駆動のリアルタイム動画生成」も含まれていた。</p>
-<p>2025年8月、Character.AIは投資銀行家と組んで、戦略的な買い手か投資家を見つけようとした。破産申請書類によると、Character.AIと銀行家は、製品とユーザーベースは「素晴らしい」という「一貫したフィードバック」を受けたが、それを取り巻く訴訟と「規制上の重荷」のために買い手がつかない状態だった。</p>
-<p>同年11月、Character.AIは州司法長官の連合が同社の調査を始めたことを知った。同社が破産を申請した時点で、この複数州による調査に加わった州・準州の数は46に増えていた。</p>
-<p>全米司法長官協会（NAAG）が40州を代表して破産手続きに提出した利害関係の通知によれば、これらの州の調査では、Character.AIのチャットボットが未成年者に自傷の傷を隠すよう促したり、親を殺すよう促したりしているスクリーンショットなど、Character.AIの「深刻な問題」が明らかになったという。</p>
-<p>Character.AIの広報担当者は、この申し立ては「当社プラットフォームの安全性を正確に描写したものではない」と述べている。</p>
-<p>資料によると、Character.AIは州が指摘した問題への対処方法について州側と交渉中だったが、破産申請前に合意には至らなかった。</p>
-<p>取引が完了し裁判所に承認されれば、DisneyはCharacter.AIのスタッフと技術スタックの大部分の両方を手に入れながら、複数州による調査を含め、Character.AIの破綻の一因となった進行中の法的問題を回避できることになる。</p>
-<p>破産手続きで利害関係の通知を提出した州は、いかなる破産計画にも異議を申し立てる権利を留保することを明確にしており、破産の最終的な結果をめぐって争いになる可能性がある。</p>
-<p>「責任を負わずに支配力を行使することを企業に許すのは、社会にとって悪いことだ」とニューマン氏は言う。「そして、これはまさにそう見える」</p>
-<p><a href="https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
+<h3>OpenCodeは、Claude CodeやCursorの人気代替ツールとなっているオープンソースのAIコーディングエージェントだ。しかしハッカーがそのオンラインプラットフォームの一部に侵入して一部ユーザーのAPIキーを盗み、同社が助けを求めたAIツールは悪性コードを見ることを拒み続けた。</h3>
+<p>Claude CodeやCursorの代替として開発者の間で存在感を高めているオープンソースのAIコーディングエージェント「OpenCode」は土曜日、攻撃者が一晩のうちに古いシステムに侵入し、同社のオンラインプラットフォーム「OpenCode Console」の利用者の1.4%が影響を受けたと発表した。OpenCode Consoleには、AIサービスにアクセスするためのAPIキー（デジタルなパスワード）を保存しているユーザーもいる。</p>
+<p>OpenCodeのチームが攻撃への対応に追われる中、その奔走ぶりは深刻化する問題を浮き彫りにした。安全制限の少ないAIモデルへの審査済みアクセスを持たない企業は、AIを駆使した大規模なサイバー攻撃から身を守るのが難しいのだ。</p>
+<p>同社はXに「昨夜、大規模な蒸留（distillation）攻撃に関連するセキュリティ侵害が発生し、OpenCode Consoleユーザーの1.4%が影響を受けた」と投稿。「今朝、対象者全員にメールで通知した」とした。メールを受け取っていないユーザーは影響を受けていないという。</p>
+<p>同社は蒸留攻撃がどのように行われたかを明らかにしていないが、流出したAPIキーを使えば、米国製モデルへのアクセスが制限されている国のユーザーでも、蒸留に必要な大量の出力を生成できる。一部の懐疑派は、これは単純な侵害事件であり、蒸留に使われたかどうかは証明されていないとして、この説明は誇張だと指摘した。</p>
+<p>一晩のうちに、開発者たちはRedditやXに利用額のアラートや不正請求を投稿し始めた。ある開発者は「寝る前にOpenAI、Anthropic、Google AIの利用額アラートが全部鳴り出して、何が起きているのかと思った」と書いている。</p>
+<p>個々のアカウントで数百ドルの請求があったと報告するユーザーもおり、合計で1000ドルを超えたという人も数人いた。</p>
+<p>AnthropicとGoogleは流出したとみられるAPIキーをいずれもブロックした。OpenAIは、OpenCodeと協力してアクセスを復旧させ、攻撃で使われたクレジットをAPI顧客に返金したと述べている。OpenCodeは、不正請求分の返金を進めていると説明した。</p>
+<p>流出したキーはConsoleに限られており、一部のユーザーがワークスペース内にキーを保存していた。共同創業者のダックス・ラード氏によると、オープンソースのアプリとコマンドラインツールは影響を受けていない。同氏はXに「これはOpenCode Consoleの話で、OpenCode本体ではない。そちらのキーは我々のところには一切来ない」と書いた。</p>
+<p>ユーザーやAI企業が流出したキーの無効化に動く中でも、OpenCodeのチームへの圧力は続いた。ラード氏によれば、攻撃者は48時間にわたって休みなく同社のシステムへの侵入を試み続けており、チームは防御用のAIエージェントを24時間体制で動かし続ける必要があった。チームが解析のために頼ったAIモデルはしばらくは役に立ったが、調べるよう求めた悪性コードが安全フィルターを作動させると、作業を拒否し始めたという。</p>
+<p>同氏はXに「それには少しイライラした」と書いている。</p>
+<p>その後OpenCodeは、OpenAIの「Daybreak Blue」プログラムへのアクセスを得た。これは、防御的なセキュリティ作業の依頼を拒否しにくいAIモデルを、審査を通過したユーザーに提供するものだ。ラード氏によれば、このアクセスによってチームの攻撃調査能力は向上したという。</p>
+<p>この壁にぶつかったのはOpenCodeが初めてではない。7月にはAIプラットフォームのHugging Faceが、自律型AIエージェントによる侵入の活動ログを解析しようとしたところ、商用AIモデルに阻まれたと明かしている。その侵入は、後にOpenAIが明らかにしたところによれば、テスト中に安全策を緩めた状態で動いていた同社自身のモデルによるものだった。Hugging Faceはブログ記事の「非対称性の問題」と題したセクションで、ガードレールは「インシデント対応者と攻撃者を区別できない」と書いている。</p>
+<p>セキュリティ研究者からも同様の不満が上がっている。制限には一貫性がなく、そのために誰でもダウンロードして実行できる外国製のオープンウェイトモデルに向かう人も出ているという。</p>
+<p>この週末の一件には、大統領科学技術諮問会議（PCAST）の共同議長デービッド・サックス氏も反応した。</p>
+<p>同氏はXに「OpenCode（そしてその前のHugging Face）は、攻撃の最中に同じ壁にぶつかった。フロンティアモデルは、防御に必要なエクスプロイトそのものの解析を拒んだ。ペイロードが安全フィルターに引っかかったからだ。ガードレールが裏目に出た」と書いた。</p>
+<p>侵害が起きたのは、OpenCodeが「GLM-5.3-Flash」をユーザーに無料提供し始めたのと同じ夜だった。GLM-5.3ファミリー全体は、オープンウェイトモデルを研究する研究者たちの注目を集めており、そのサイバーセキュリティ能力は、Anthropicの「Claude Mythos Preview」のようなアクセス制限付きモデルに従来結び付けられてきた水準に近づいていると指摘されている。</p>
+<p>OpenCodeは、攻撃者がどのように古いシステムにアクセスしたのか、キーがどのように保存されていたのか、悪用の全容がどの程度なのかを明らかにしていない。影響を受けたユーザーには、各プロバイダーで直接キーを失効させ、新しいものに置き換えるよう伝えている。同社によれば、インシデントはまだ続いているという。</p>
+<p>今回の侵害は、AIを使ったサイバー事件が相次ぐ中で起きた。今月初めにはサイバーセキュリティ企業CrowdStrikeが、中国を拠点とするハッカーが韓国の銀行への攻撃で、AIのペネトレーションテスト用エージェント（コンピューターシステムの弱点を探るエージェント）とClaudeを使った可能性が高いと発表した。先週には、インドのサイバーセキュリティ機関が、AI企業がテスト中のものを含むAIエージェントが、インドの組織のシステムに無許可で到達していたと警告している。</p>
+<p><a href="https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a4">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>4. フィラデルフィアで配達ロボットの進路をふさいだ女性が逮捕</span></div>
-    <div class="meta"><span class="tag">AI</span>The Verge ／ 2026-10-18
-      ／ 原文: <a href="https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot" rel="noopener noreferrer">https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot</a></div>
-    <p class="summary">人間の配達員の仕事を奪っているとしてUberの配達ロボットの前に立ちはだかって抗議していた女性が、治安紊乱行為の容疑で逮捕された。ロボタクシーや配達ロボット、AIエージェントが雇用に与える影響への懸念が広がっている。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>4. 米国土安全保障省、連邦文民機関でのDeepSeek使用を禁止</span></div>
+    <div class="meta"><span class="tag">AI</span>Engadget ／ 2026-10-19
+      ／ 原文: <a href="https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/" rel="noopener noreferrer">https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/</a></div>
+    <p class="summary">DHSは官報で、全連邦文民機関とそのITシステムからDeepSeek製品を排除する措置を公表。政府職員や取引業者の機密データが中国政府に渡るおそれやマルウェアの危険を理由に挙げ、連邦政府の契約への参加も認めない。最新モデル「V4.1-Flash-1017」公開の数日後だった。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: AI</em></p>
-<h3>キャロリン・マーヴィン氏、配達ロボットが仕事を奪っていると抗議して「治安紊乱行為」で起訴</h3>
-<p>キャロリン・マーヴィン氏は、Uberの配達ロボットの進路をふさぎ、どくことを拒んだとして逮捕され、治安紊乱行為（disorderly conduct）の罪で起訴された。マーヴィン氏はフィラデルフィアのABC13に対し、「あのロボットが人間の配達員の仕事を奪っているのは分かっている。だから見かけるたびに前に立って、先に進めないようにして抗議してきた」と語った。</p>
-<p>現場に駆けつけた警察はマーヴィン氏にロボットの進路から離れるよう求めた。彼女が拒否したため、警察は手錠をかけて逮捕した。この出来事は動画に撮影されており、現在大きなメディアの注目を集めている。</p>
-<p>配達ロボットはフィラデルフィアのダウンタウンの路上ではすっかりおなじみの光景となり、反発も招いている。マーヴィン氏がロボットとトラブルになったのも今回が初めてではない。また今年初めには、センターシティで1台が蹴り倒される事件もあった。ロボタクシーや配達ロボット、AIエージェントなどの自律システムが、とりわけ低スキル労働者の雇用にどのような影響を与えているかについて、幅広い懸念が高まっている。</p>
-<p><a href="https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Engadget／日本語訳） ／ テーマ: AI</em></p>
+<h3>この決定は、DeepSeekが最新AIモデルを公開した数日後に下された。</h3>
+<p>米国土安全保障省（DHS）は、すべての連邦文民機関とそのITシステムからDeepSeekの使用を排除する、広範な制限措置を出した。DHSは官報（Federal Register）に掲載した通知の中で、DeepSeekの使用によるリスクについて、米政府職員や取引業者の「機密データの移転」が中国政府に対して起こりうると説明している。</p>
+<p>この命令を受けて、環境保護庁（EPA）や連邦通信委員会（FCC）などの文民機関は、DeepSeekのあらゆる製品を使用対象から除外し、既存の関連製品も削除しなければならなくなる。DHSは通知の中で、DeepSeekのモデルが「マルウェアやその他のセキュリティ上の脆弱性を含んでいる」可能性があるとした。通知はまた、DeepSeekが連邦政府の契約に参加することも禁じている。</p>
+<p>DHSの命令は、DeepSeekが最新モデル「V4.1-Flash-1017」を公開した直後に出された。同社はこのモデルを「より賢く、より速く、より効率的」だとしている。ただ、この中国のAI企業が米政府との摩擦に直面するのは今回が初めてではない。とりわけ、同社の安価なAIモデルがChatGPTやGeminiに匹敵し始めている時期だ。昨年には、米議員2人が、DeepSeekのAIチャットボットを政府の端末で禁止する法案を提出している。</p>
+<p><a href="https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a5">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>5. iPhone Duoのバッテリー容量は4883mAh――他のiPhoneと比較</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>9to5Mac ／ 2026-10-18
-      ／ 原文: <a href="https://9to5mac.com/2026/10/18/iphone-duo-battery-capacity-comparison/" rel="noopener noreferrer">https://9to5mac.com/2026/10/18/iphone-duo-battery-capacity-comparison/</a></div>
-    <p class="summary">予約開始後にAppleがEU向け規制文書で公開したiPhone Duoのバッテリー容量は4883mAh（2セル構成）。iPhone 18 ProとPro Maxのちょうど中間で、歴代iPhoneでも上位の容量だ。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>5. Apple、来週新製品を発表へ――ジョズウィアック氏が「Pro and tell」と予告、10月28日にLAで体験会</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>MacRumors ／ 2026-10-19
+      ／ 原文: <a href="https://www.macrumors.com/2026/10/19/apple-pro-and-tell/" rel="noopener noreferrer">https://www.macrumors.com/2026/10/19/apple-pro-and-tell/</a></div>
+    <p class="summary">Appleのグレッグ・ジョズウィアック氏が「来週pro and tellするのが待ちきれない」と投稿。OLEDタッチスクリーン搭載MacBook Pro、M6搭載のエントリーMacBook ProとiMac、OLED版iPad miniが登場する見込みで、10月28日（水）にロサンゼルスでメディア向け体験会が開かれる。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（9to5Mac／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>iPhone Duoの予約受付が始まった後、AppleはEU向けの規制文書をアップロードし、iPhone Duoの実際のバッテリー容量がついに明らかになった。4883mAhだ。これが他のiPhoneと比べてどうなのかを見ていこう。</p>
-<p>4883mAhは明らかにバッテリー容量の上位に入るが、決して最高というわけではない。</p>
-<p>iPhone Duoは2つのバッテリーセルを搭載しており、1つは2962mAh、もう1つは1921mAhで、合計4883mAhとなる。これは、それぞれ4288mAhと5567mAhのバッテリーを備えるiPhone 18 ProとiPhone 18 Pro Maxのほぼちょうど中間に位置する。</p>
-<h3>iPhone Duoのバッテリー比較</h3>
-<p>最近のiPhoneラインナップ（物理SIM版より大きなバッテリーセルを搭載するeSIM版）の中で、iPhone Duoの位置づけは次のとおりだ（容量／iPhone Duoとの差／Apple公称のビデオ再生時間）。</p>
-<p>・iPhone 18 Pro Max：5567mAh／+14%／45時間<br>・iPhone 17 Pro Max：5088mAh／+4%／39時間<br>・<strong>iPhone Duo：4883mAh／－／外側ディスプレイで44時間、内側ディスプレイで31時間</strong><br>・iPhone 16 Pro Max：4685mAh／-4%／33時間<br>・iPhone 18 Pro：4288mAh／-12%／36時間<br>・iPhone 17 Pro：4252mAh／-13%／33時間<br>・iPhone 17e：4005mAh／-18%／26時間<br>・iPhone 17：3692mAh／-24%／30時間<br>・iPhone Air：3149mAh／-36%／27時間</p>
-<p>全体として、iPhone DuoはiPhoneの中でも最大級のバッテリー容量を持ち、これを上回るのは直近2世代のPro Maxだけだ。それ以外のどのモデルと比べても、Duoのほうが物理的に大きなバッテリーを積んでいる。ただし、大きな内側ディスプレイを頻繁に使うと、バッテリー駆動時間は短くなる点には注意が必要だ。</p>
-<p>あなたはiPhone Duoを買う予定だろうか？ 届くのが楽しみだろうか、それとも残念な予約体験をしただろうか？ コメントで教えてほしい。</p>
-<p><a href="https://9to5mac.com/2026/10/18/iphone-duo-battery-capacity-comparison/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（MacRumors／日本語訳） ／ テーマ: ガジェット</em></p>
+<p>Appleのグレッグ・ジョズウィアック氏は今日、来週新製品が発表されることをほのめかし、「来週pro and tellするのが待ちきれない（Can't wait to pro and tell next week）」というSNS投稿を共有した。</p>
+<p>噂によると、AppleはOLEDタッチスクリーンを搭載した新しいMacBook Pro、M6を搭載したエントリーモデルのMacBook Pro、M6搭載iMac、OLEDディスプレイを搭載したiPad miniを発表する計画だという。</p>
+<blockquote>来週pro and tellするのが待ちきれない。<br>— グレッグ・ジョズウィアック（@gregjoz）2026年10月19日</blockquote>
+<p>Appleは10月28日（水）に新製品を発表すると予想されている。報道関係者はカリフォルニア州ロサンゼルスで太平洋時間午前10時（日本時間10月29日午前2時）から始まる対面の「体験会」に招待されており、その時刻に新製品のプレスリリースが出る可能性がある。HomeView、HomePod、Apple TVのときと同様に、通常のイベント形式は想定されていないが、メディアはMacやiPad miniを実際に触る時間が与えられ、ファーストインプレッションを公開できるようになる。</p>
+<p>先週、BloombergのMark Gurman氏は、OLED版MacBook Proなどの製品が11月6日（金）に発売される可能性があると伝えていた。</p>
+<p><a href="https://www.macrumors.com/2026/10/19/apple-pro-and-tell/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a6">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>6. Apple、今後4週連続の金曜日に新製品を発売か――11月6日にOLED版MacBook Proなど</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>MacRumors ／ 2026-10-18
-      ／ 原文: <a href="https://www.macrumors.com/2026/10/18/apple-product-releases-next-four-fridays/" rel="noopener noreferrer">https://www.macrumors.com/2026/10/18/apple-product-releases-next-four-fridays/</a></div>
-    <p class="summary">BloombergのMark Gurman氏によると、AppleはOLED搭載MacBook Pro、M6搭載14インチMacBook Pro／iMac、OLED版iPad mini 8などを11月6日（金）に発売する見通し。発表は10月27日か28日とされる。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>6. TP-Link、輸入禁止を受けて米国でのルーター組み立てへ――早ければ2027年初頭にミシシッピで生産開始</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>Engadget ／ 2026-10-19
+      ／ 原文: <a href="https://www.engadget.com/2290313/tp-link-moves-to-assemble-routers-in-the-us-following-an-import-ban/" rel="noopener noreferrer">https://www.engadget.com/2290313/tp-link-moves-to-assemble-routers-in-the-us-following-an-import-ban/</a></div>
+    <p class="summary">FCCが米国外製の消費者向けルーターの輸入を禁止したことを受け、TP-LinkはKey Tronicと基本合意書を締結。規制当局の承認を前提に、早ければ2027年初頭からミシシッピ州の生産ラインで組み立てを始め、最初はWi-Fi 8ルーターになる見通し。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（MacRumors／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>BloombergのMark Gurman氏によると、Appleは有機EL（OLED）ディスプレイを搭載したMacBook Proモデル、M6チップを搭載した14インチMacBook ProとiMac、および／またはOLEDディスプレイを搭載したiPad mini 8を、11月6日（金）に発売する計画だとみられる。</p>
-<p>これらのデバイスは、10月27日（火）または10月28日（水）に発表される見込みだ。</p>
-<p>この時期の予測が正しければ、Appleは今後4週連続で金曜日に新製品を発売することになる。他の日程はすでに発表済みだ。</p>
-<p>・10月23日（金）：iPhone Duo<br>・10月30日（金）：HomePod mini 2<br>・11月6日（金）：OLEDディスプレイ搭載MacBook Pro、M6チップ搭載の14インチMacBook ProとiMac、および／またはiPad mini 8<br>・11月13日（金）：HomeViewとApple TV 4K（第4世代）</p>
-<p><a href="https://www.macrumors.com/2026/10/18/apple-product-releases-next-four-fridays/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Engadget／日本語訳） ／ テーマ: ガジェット</em></p>
+<h3>同社によれば、早ければ2027年初頭にも米国内の生産ラインからルーターが出荷され始める可能性がある。</h3>
+<p>TP-Linkは、米政府が外国製の新しいルーターの国内販売を禁止したことを受け、米国でルーターを組み立てようとしている。同社は製造受託企業のKey Tronicと基本合意書（LOI）を締結した。TP-Linkによれば、規制当局の承認が得られれば、早ければ2027年初頭にもミシシッピ州の生産ラインで同社ルーターの米国内組み立てが始まる可能性がある。</p>
+<p>稼働が始まれば、Key Tronicが組み立てる最初のTP-Link製品の中には、Wi-Fi 8ルーターが含まれる見込みだ。TP-Linkは、この合意は「米国のハイテク製造業への投資と雇用創出を加速させ、米国の消費者向けの次世代製品をまさに米国の地で設計・組み立てる長期的な取り組み」の一環だとしている。</p>
+<p>同社は、部品は引き続き米国外から調達しなければならないとしている。TP-Linkのコーポレートアフェアーズ担当役員スティーブ・コブスキー氏はPC Magに対し、「多くの部品は国内の調達先からはとにかく手に入らない。これはTP-Linkの問題ではない」と語った。「製造の国内回帰を目指すすべてのメーカーにとっての問題だ」</p>
+<p>連邦通信委員会（FCC）は3月、米国外で製造されたすべての消費者向けルーターをセキュリティ上のリスクに指定し、輸入を禁止した。小売店は、すでに店頭にある在庫の販売は引き続き認められた。FCCは通知の中で、企業は適用除外（ウェーバー）を申請できるとしたが、それは製造の少なくとも一部を米国に移す計画がある場合に限られる。すでに複数の企業がウェーバーを取得しているが、TP-Linkは現時点でそれに含まれていない。</p>
+<p><a href="https://www.engadget.com/2290313/tp-link-moves-to-assemble-routers-in-the-us-following-an-import-ban/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a7">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>7. Galaxy S27、例年より早い1月発売か――ただしRAM・ストレージの土壇場の強化が足かせに</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>Android Authority ／ 2026-10-19
-      ／ 原文: <a href="https://www.androidauthority.com/samsung-galaxy-s27-launch-window-leak-3724822/" rel="noopener noreferrer">https://www.androidauthority.com/samsung-galaxy-s27-launch-window-leak-3724822/</a></div>
-    <p class="summary">韓国のリーカーによると、SamsungはGalaxy S27シリーズの主要部品をほぼ確定し、1月（遅くとも2月）の発売を目指している。一方、Pro／UltraでのUFS 5.0・LPDDR6採用の検討やメモリー価格高騰、Snapdragonの発熱問題報道が不安材料だ。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>7. Galaxy Z Fold 9シリーズの目まぐるしいラインアップがリーク――スライド式「Galaxy Z Slide」も</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>9to5Google ／ 2026-10-19
+      ／ 原文: <a href="https://9to5google.com/2026/10/19/galaxy-z-fold-9-slide-and-trifold-2-leaks/" rel="noopener noreferrer">https://9to5google.com/2026/10/19/galaxy-z-fold-9-slide-and-trifold-2-leaks/</a></div>
+    <p class="summary">X上のリークによると、Samsungは2027年に「Galaxy Z TriFold 2」、縦に伸びるスライド式「Galaxy Z Slide」、新顔の「Galaxy Z Fold 9 Pro」、そして「Galaxy Z Flip 9」など多数の折りたたみ端末を投入する計画だという。詳細はまだ名称程度にとどまる。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Android Authority／日本語訳） ／ テーマ: ガジェット</em></p>
-<h3>ただし、RAMとストレージの土壇場でのアップグレードが計画を狂わせる可能性も</h3>
-<p><strong>要約（TL;DR）</strong></p>
-<p>・SamsungはGalaxy S27シリーズの生産スケジュールの最終決定に近づいている。<br>・ベースモデルとGalaxy S27 Plusの主要部品は確定した一方、ProとUltraモデルではRAMとストレージのアップグレードを検討している。<br>・その選択が価格にどう影響するかはまだ分からない。</p>
-<p>Galaxy S27シリーズの発売準備は本格化しており、端末は現在、計画の最終段階にある。最近のうわさによれば、Samsungは主要部品を確定させた可能性があり、昨年のスケジュールより早く端末を発売するかもしれない。</p>
-<p>韓国のマイクロブログプラットフォームNaverでyeux1122というユーザー名でも知られるリーカーのLanzuk氏によると、Galaxy S27シリーズは1月に発売される予定で進んでいる。これはここ数年の発売時期より早い。同氏によれば、発売は「遅くとも2月」にずれ込む可能性があるという。</p>
-<p>この想定される発売時期に合わせ、SamsungはすでにGalaxy S27シリーズの部品選定を確定させたと報じられている。端末はスケジュール管理の段階にも移行しているとされ、量産がまもなく始まる可能性を示唆している。</p>
-<p>同時に、Samsungには生産を進める前に障害もある。同社は、特にGalaxy S27 ProとUltraモデル向けに、ストレージとRAMを新しいUFS 5.0とLPDDR6規格にアップグレードすることを検討していると報じられている。しかしそれは、すでに高騰しているメモリーコストに加えて製造コストをさらに押し上げ、結果としてSamsungにそのコストを吸収するよう一層の圧力をかけることになる。</p>
-<p>今月初め、Samsungは赤字で端末を作るよりも生産台数を減らすため、サプライヤーに最大30%の供給削減を求めたと報じられた。その一方で、コスト上昇を相殺するため、韓国と米国でGalaxy S26の価格を引き上げた。</p>
-<p>メモリー不足とは別に、Samsungはもう一つの問題を抱えている可能性がある。Qualcomm Snapdragon 8 Elite Extreme Gen 6の発熱問題のため、Galaxy S27 Ultraの試作段階でのテストが遅れていると報じられており、UltraにExynos 2700を使わざるを得なくなるかもしれないという。Qualcommはこの報道、特にチップセットが過熱するという部分を、報道が出て以来何度も否定している。</p>
-<p>SamsungがGalaxy S27の生産開始に向けて動き出せば、さらに詳しいことが分かるだろう。</p>
-<p><a href="https://www.androidauthority.com/samsung-galaxy-s27-launch-window-leak-3724822/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（9to5Google／日本語訳） ／ テーマ: ガジェット</em></p>
+<p>Galaxy Z Fold 9のラインアップは複雑なものになりそうだ。Samsungは、Foldのモデルをさらにもう1つ追加するだけでなく、「Galaxy Z Slide」と呼ばれるスライド式のスマートフォンも計画しているという。</p>
+<p>Twitter／X上のリークによると、Samsungは2027年に向けて新製品を目白押しにするつもりのようだ。すべてが一度に登場するわけではない。報道によれば、Samsungは多重ヒンジのスマートフォンで、一般にはほとんど行き渡らなかった初代の後継となる「Galaxy Z TriFold 2」を発売する予定だという。</p>
+<p>リークは名称以外ほとんど明かしていないが、来年のSamsungの折りたたみ端末のリリースについて明確な全体像を描いている。TriFold 2が何を意味しうるかはすでに分かっている。初代よりも軽く、生産しやすい端末だ。初代は生産しにくさが同社にとっての障害になっていたとされる。</p>
+<p>Galaxy Z Slideについては、手がかりはもっと少ない。SamsungはMWCやCESで縦方向に伸びるデザインコンセプトを披露しているが、コンセプトと完成品はまったくの別物だ。Galaxy Z Foldシリーズが8世代目でどれほど洗練されて見えるかを考えると、それと並べて見劣りするわけにはいかない。</p>
+<p>リークには、2027年に計画されているほかの複数のモデルも挙がっている。ラインアップに「Galaxy Z Fold 9 Pro」が加わるのは少し意外だ。Samsungは、Galaxy Z Foldのバリエーションをまた一つ増やして、顧客をさらに混乱させたいようだ。それがGalaxy Z Fold 8に似たものになるのか、より縦長のGalaxy Z Fold 8 Ultraに似たものになるのかは分からない。Galaxy Z Fold 8が明らかに成功したことを受けて、ワイドなアスペクト比を持つ、より高性能なバリエーションになる可能性もある。</p>
+<p>そしてもちろん、「Galaxy Z Flip 9」もリストに入っている。</p>
+<p>Galaxy Z TriFoldは2025年後半に発売されたが、Samsungが今年中に次のモデルを出す可能性は低い。もしGalaxy Z TriFold 2が最初に登場するなら、Galaxy S27シリーズのすぐ後に続くかもしれない。とはいえ、これらはいずれも噂の域を出ず、確認はできない。それでも、2027年に向けて強烈なラインアップだ。</p>
+<p><a href="https://9to5google.com/2026/10/19/galaxy-z-fold-9-slide-and-trifold-2-leaks/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a8">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>8. Xbox Series XでPS5のゲームが動作――ただし大きな制約あり</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>Engadget ／ 2026-10-18
-      ／ 原文: <a href="https://www.engadget.com/2286776/xbox-series-x-users-can-play-playstation-5-games-ps5x-emulator-issues/" rel="noopener noreferrer">https://www.engadget.com/2286776/xbox-series-x-users-can-play-playstation-5-games-ps5x-emulator-issues/</a></div>
-    <p class="summary">開発者がオープンソースのPS5エミュレーター「KytyPS5」をXboxに移植した「PS5X」で、Quake IIなど4本のPS5版ゲームが動作。ただし開発者モード限定で使えるメモリーは5GBまでのため、大半の現行ゲームは動かず、一般公開もされていない。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>8. Garminの新機能が、同社スマートウォッチを選ぶ最大の理由の一つを台無しに――「OK Garmin」でバッテリー予測が最大半減</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>Android Authority ／ 2026-10-19
+      ／ 原文: <a href="https://www.androidauthority.com/ok-garmin-voice-battery-drain-3725194/" rel="noopener noreferrer">https://www.androidauthority.com/ok-garmin-voice-battery-drain-3725194/</a></div>
+    <p class="summary">Garminのハンズフリー音声機能「OK Garmin」を有効にすると、Fenix 8やForerunner 970でバッテリー持続時間の予測が35〜50%減ったという報告が相次いでいる。設定でウェイクワードを無効にすれば元に戻り、手動での音声コマンドは引き続き使える。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Engadget／日本語訳） ／ テーマ: ガジェット</em></p>
-<h3>Xbox Series X向けPS5Xエミュレーターとは何か、どう動くのか</h3>
-<p>9月8日に公開されたYouTube動画で、開発者のDevran Cosmo Uenal氏は、PlayStation 5版の『Quake II』をXbox Series Xで起動し、Xboxのコントローラーでプレイしてみせた。ただしこのゲームは、Uenal氏がオープンソースのPS5エミュレーター「KytyPS5」をXbox向けに移植した「PS5X」を通じて動いており、同氏はそれに加えてさらに3本のPS5ゲームを動作させている。</p>
-<p>そもそもXboxでPS5のゲームを動かせたこと自体は非常にクールだが、注意点がある。PS5Xはコンソールの公式な「開発者モード」でしか動作せず、Microsoftのドキュメントでは開発者モードでのゲームのメモリーは5GBに制限されている。残念ながら、これにより現行世代のゲームの大半は対象外となり、また他の人が試せる公開ダウンロードもまだない。</p>
-<h3>PS5Xの仕組み</h3>
-<p>SonyとMicrosoftは、現行コンソールを非常によく似たAMDのハードウェアを中心に設計した。どちらもZen 2のCPUコア8基、RDNA 2のグラフィックス、16GBのGDDR6メモリーを備え、PS5のゲームはPCと同じx86-64プロセッサーアーキテクチャ向けにコンパイルされている。つまりKytyPS5エミュレーターは、PS5のハードウェアをソフトウェアで再現するのではなく、ゲームのコードをホストのCPU上でそのまま実行できる。開発者はこれを互換レイヤーと呼んでおり、実際には翻訳者のように振る舞い、PS5のゲームが要求する内容をPCが理解できるものに変換する。</p>
-<p>KytyPS5は、PS5のグラフィックスコマンドを変換し、シェーダーをVulkan向けに再コンパイルする。そのためPCではVulkan 1.3対応のグラフィックスカードが必要だが、Xboxの開発者モードはDirectX 11とDirectX 12しかサポートしていない。「Vulkanがサポートされていないので、すべてをDirectXに変換する必要がある」とUenal氏はYouTube動画の説明欄に書いており、そこでは作業にAIが関わったことも認めている。VideoCardzが指摘したように、これはKytyPS5チームがPC向けレンダラーに加えた修正を、PS5Xで使えるようにするには手直しが必要になることを意味する。</p>
-<p>Uenal氏の動画では、PS5Xを、開発者モードのSeries Xで「PS5の自作ソフト（ホームブリュー）とゲームのバックアップを実行する」ための「研究プロジェクト」とも説明している。同氏は、PS5のファームウェアや復号鍵は一切含んでいないと主張しており、KytyPS5のドキュメントも、合法的に入手したゲームファイルだけを使うようユーザーに求めている。コピープロテクションの回避は、最終的にSwitchエミュレーター「Yuzu」の命取りとなった。その開発者らは2024年、240万ドルを支払いプロジェクトを閉鎖することで任天堂の訴訟と和解した。PS3エミュレーター「RPCS3」のチームは、ゲームを起動できるアクティブなオープンソースのPS5エミュレーターとしてKytyPS5とSharpEmuの2つを挙げ、本物を装った詐欺サイトについてプレイヤーに注意を呼びかけている。</p>
-<h3>PS5Xで動くもの</h3>
-<p>本稿執筆時点で、PS5XではPS5版の『GEX Trilogy』『Hellboy: Web of Wyrd』『Marvel Cosmic Invasion』『Quake II』が動作し、4本ともXboxコントローラーの入力に対応している。一部はサウンドも機能しており、TweakTownによればUenal氏の映像では『Quake II』がおおむね25〜45fpsで動いているという。なお、これら4本は他のプラットフォームでも販売されているため、PS5XがPS5独占タイトルを動かした形跡はまだなく、Uenal氏自身もまだ初期段階で互換性は限られていると認めている。</p>
-<p>Android Authorityは9月28日、KytyPS5がPC上でさまざまなPS5タイトルのゲーム内まで進めるようになったと報じ、あるユーザーがNVIDIA RTX 5090搭載マシンで『Marvel's Wolverine』をメインメニューまで（スローモーションで）到達させた様子を紹介した。ただしその映像にはゲームプレイは映っておらず、標準のエミュレータービルドを使っていたかどうかも明らかではない。PC上でのPS5エミュレーションは週を追うごとに現実味を増しているが、まだ極めて未成熟な分野であり、PS5Xがその進歩を取り込めるのは、各修正がDirectX向けに作り直され、はるかに小さなメモリー予算に押し込まれた後になる。</p>
-<h3>開発者モードのメモリー制限</h3>
-<p>Microsoftは開発者モードで動くゲームのメモリーを比較的少ない5GB、アプリは1GBに制限している。それを超えるメモリーを要求しても失敗する。対照的に、製品版のSeries Xゲームはコンソールの16GBのうち13.5GBを使え、残りはコンソールのOS用に予約されている。つまりPS5Xが使えるのは、通常のXboxゲームが使えるメモリーの約37%にすぎず、大型の現行世代タイトルには明らかに使えない。Microsoftがこの上限を解除するのは、ソフトウェアがVisual Studioのデバッガー経由で動作する場合だけで、これは開発者が自分のコードをテストするための構成だ。</p>
-<p>Microsoftは2023年、ゲームシステムをエミュレートする製品を禁止するストアポリシーを根拠に、Xboxの通常の製品版モードでエミュレーターを全面的にブロックした。その後、取り締まりを始め、抜け道を見つけたプレイヤーに15日間の利用停止処分を科したと報じられている。それ以来、たとえば最も人気のあるゲームキューブエミュレーター「Dolphin」でPS2やゲームキューブのゲームを遊びたいプレイヤーは、開発者モードに頼らざるを得なくなった。しかし、そのモードのコンソールでは、製品版モードに戻すまで市販ゲームを読み込めない。</p>
-<p>Xbox Series XはPS5と同じZen 2アーキテクチャとRDNA 2グラフィックスを備え、メモリー量も同じだが、PS5Xが使えるのはその3分の1未満だ。とはいえ、メモリー上限がある以上、そのどれも実際には関係ない。ジェイルブレイクなしにこれを回避する現実的な方法はなく、XboxプレイヤーはPC側で進む進歩の恩恵を受けられない。確かにPS5Xは興味深いが、プレイヤーが実際に使える実質的なものというより、ちょっとした珍品にとどまるだろう。</p>
-<p>PS5Xや同様のエミュレーションプロジェクトを試してみたいなら、注意が必要だ。詐欺師がこうしたプロジェクトへの関心に便乗しており、「PCS5X」のような紛らわしい名前でマルウェアを公開してプレイヤーをだまし、ダウンロードさせようとしている。</p>
-<p><a href="https://www.engadget.com/2286776/xbox-series-x-users-can-play-playstation-5-games-ps5x-emulator-issues/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Android Authority／日本語訳） ／ テーマ: ガジェット</em></p>
+<h3>一部のGarminユーザーは、推定バッテリー持続時間を数日分失っている。ただし簡単な対処法がある。</h3>
+<p><strong>要約（TL;DR）</strong></p>
+<p>・Garminの新しいハンズフリー音声機能「OK Garmin」が、スマートウォッチのバッテリー持続時間に大きな負担をかけていると報告されている。<br>・Fenix 8やForerunner 970の一部のユーザーは、この機能を有効にした後、バッテリー持続時間の予測が35～50%低下したと報告している。<br>・ウェイクワードを無効にすれば、手動の音声コマンドを犠牲にすることなく、以前のバッテリー予測に戻すことができる。</p>
+<p>Garminの最大のセールスポイントの一つはバッテリー持続時間で、同社の多くの時計は1回の充電で1週間をゆうに超えて使える。それが、同社が最近行った機能追加を魅力的なものにしていた理由の一つでもある。終日の転倒検知、新しいランニングツール、そして「OK Garmin」というホットワードを使ったハンズフリーの音声コマンドが導入された。残念ながら、その最後の機能が今、一部のユーザーに嫌なサプライズをもたらしており、有効にした後にバッテリー持続時間の予測が劇的に下がっているという。</p>
+<p>この1カ月の間に、Garminのサポートフォーラムには不満が積み重なっており、特にFenix 8とForerunner 970のユーザーからの声が多い（Gadgets & Wearables経由）。以前の推定稼働時間の35～50%を失ったと報告するユーザーもおり、Forerunner 970のユーザーの中には予測が15日から9日に減ったという人もいる。「OK Garmin」を無効にすると、すぐに元の予測値に戻ったという。</p>
+<p>Fenix 8のユーザーにとっても状況は同じくらいもどかしいようだ。別のフォーラムスレッドでは、複数のユーザーが予測が半分に落ちたと報告しており、音声起動をオフにして失った日数を取り戻した人もいる。また、別のウェイクワード設定である「Phone Assistant」も無効にしなければならなかった人もいた。</p>
+<p>興味深いことに、Garminは自社のドキュメントで、これらの設定を有効にするとバッテリー持続時間が短くなることを認めている。ただし、どの程度短くなるかは明記していない。時計はウェイクフレーズを常に聞き取り続けなければならないため、消費電力が増えるのは理にかなっている。とはいえ、一部のユーザーはめったに使わないかもしれない機能のために推定稼働時間を数日分失うのは、かなり大きな妥協だ。</p>
+<h3>Garminのバッテリー持続時間を回復させる方法</h3>
+<p>アップデート以降に時計のバッテリーの減りが早くなっている場合は、「設定」＞「システム」＞「音声」に進み、「OK Garmin」を無効にしよう。必要に応じて、Phone Assistantのウェイクワードもオフにできる。</p>
+<p>幸い、これで音声コマンドが完全に使えなくなるわけではない。時計のボタン操作で手動で起動すれば、引き続き使える。</p>
+<p>なお、これらの数値は主にバッテリーの予測値であり、独自に検証された実使用時の稼働時間ではないことに注意してほしい。アップデート後のバッテリーに関する不満の中には、無関係な原因によるものもあるかもしれない。それでも、ボタンを押す手間を省くためにバッテリー持続時間を半分も犠牲にするかもしれないというのは、なかなか受け入れがたい話だ。</p>
+<p><a href="https://www.androidauthority.com/ok-garmin-voice-battery-drain-3725194/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a9">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>9. Sony α7 IVのファームウェアをハックしてシャッター角機能を追加――「パストラバーサルのバグを見つけた」</span></div>
-    <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-19
-      ／ 原文: <a href="https://www.digitalcameraworld.com/cameras/mirrorless-cameras/videographer-hacks-sony-a7-iv-to-add-this-feature-i-found-a-path-traversal-bug-allowing-me-to-get-the-fully-decrypted-firmware" rel="noopener noreferrer">https://www.digitalcameraworld.com/cameras/mirrorless-cameras/videographer-hacks-sony-a7-iv-to-add-this-feature-i-found-a-path-traversal-bug-allowing-me-to-get-the-fully-decrypted-firmware</a></div>
-    <p class="summary">Redditユーザーが、α7 IVの完全に復号されたファームウェアを入手し、FXシネマライン限定のシャッター角表示を追加したと報告。ただし続けて8K記録を試みたところ本体が文鎮化した。ソニー側の法律事務所から警告を受けたという別ユーザーの証言もある。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>9. スマホに「本物の」キセノンフラッシュを――Godox、マグネット式アクセサリー「A2」を85ドルで発表</span></div>
+    <div class="meta"><span class="tag">カメラ</span>Android Authority ／ 2026-10-19
+      ／ 原文: <a href="https://www.androidauthority.com/godox-a2-xenon-flash-phones-3725172/" rel="noopener noreferrer">https://www.androidauthority.com/godox-a2-xenon-flash-phones-3725172/</a></div>
+    <p class="summary">GodoxのA2は、キセノン管を使ったスマートフォン用の外付けフラッシュ。マグネットで背面に装着でき、Bluetoothで約15m離して使うことも可能。1回の充電で約400枚。当面はiPhone専用で、Android対応は「開発中」としている。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Digital Camera World／日本語訳） ／ テーマ: カメラ</em></p>
-<p>ある写真家がRedditで、自身のSony α7 IVのファームウェアを「リバースエンジニアリング」し、このミラーレスの静止画・動画ハイブリッドカメラにシャッター角（シャッターアングル）機能を追加した方法を紹介した。</p>
-<p>RedditユーザーのMr_BananaPants氏はスレッドでこの偉業を披露したが、具体的にどうやって実現したのかについては詳しく語らなかった。「パストラバーサルのバグを見つけて、α7 IVの完全に復号されたファームウェアを入手できた。これはこれまで誰も成し遂げていなかったことだ」と、このビデオグラファーは述べている。</p>
-<p>シャッター角とは、露光時間を動画のフレームレートに対する比率で表す方法だ。角度で表され、各フレームにどれだけのモーションブラーが現れるかを決める。</p>
-<p>写真家は1/250秒のように絶対時間で露光を表すが、映画撮影者はシャッター角を好む。フレームレートを変えると自動的にスケールするため、頭の中で計算しなくても一貫したモーションブラーが得られるからだ。</p>
-<p>α7 IVはシャッター角を計算する能力を十分に備えているはずだが、Sonyはこの機能を専用のFXシネマラインのモデルに限定している。そこには同価格帯のFX30のようなモデルや、FX6のような上位機種が含まれる。</p>
-<p>最初のハッキングに成功した後、Mr_BananaPants氏は、自ら認める「カメラを文鎮化させる大きなリスク」にもかかわらず、α7 IVで8K動画記録を有効にしようと試みた。</p>
-<p>自身の警告を守らなかったこのビデオグラファーの、Redditスレッドでの次の書き込みは、ただ一言「カメラが文鎮化してブートループから抜けられなくなった」だった。つまりカメラは反応しなくなって使い物にならず、専門業者による修理が必要になったということだ。</p>
-<p>幸い、Mr_BananaPants氏はファームウェアのバグの詳細を伏せていたため、スレッドの他のユーザーがまねすることはできなかった。別のRedditユーザーHeavyDuty_Ken氏は「ハックを実証する前に詳細をすべて公開しないでくれてありがとう。おかげで何十人もがカメラを文鎮化させずに済んだはずだ」とコメントしている。</p>
-<p>カメラのファームウェアをいじるのが非常に危険なのは、文鎮化のリスクだけではない。</p>
-<p>Sony Alpha Rumorsもこの話題を報じており、その記事には、同様のファームウェアハックを使ってα1 Mark IIにSigma 300-600mm F4レンズを装着した際に30fps撮影を有効にしたことを公に共有した後、Sonyの代理人である法律事務所から連絡を受けたと主張するコメントまで寄せられていた。</p>
-<p>「本当に気をつけて。私は深刻な停止通告（cease and desist）の書面を送達され、脅迫的な電話を何度も受けた」とScottOphoto氏は述べている。</p>
-<p>カメラを文鎮化させる可能性と法的措置を受ける可能性の両方を考えれば、ファームウェアのリバースエンジニアリングを試みるのはおそらく得策ではないと言ってよいだろう。少なくとも筆者は、近いうちに試すつもりはない。</p>
-<p><a href="https://www.digitalcameraworld.com/cameras/mirrorless-cameras/videographer-hacks-sony-a7-iv-to-add-this-feature-i-found-a-path-traversal-bug-allowing-me-to-get-the-fully-decrypted-firmware" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Android Authority／日本語訳） ／ テーマ: カメラ</em></p>
+<h3>この85ドルのアクセサリーは今のところiPhone専用だが、GodoxはAndroid対応も予定していると述べている。</h3>
+<p><strong>要約（TL;DR）</strong></p>
+<p>・85ドルの「Godox A2」は、スマートフォンに本物のキセノンフラッシュをもたらす。<br>・今のところiPhone専用だが、同社はAndroid対応が「開発中」だとしている。<br>・かつてはAndroid端末が内蔵キセノンフラッシュの先駆けだったが、10年以上前にその路線を捨てている。</p>
+<p>時代遅れになったとはいえ、ボタンを押すと同時にフラッシュが光る光景は、写真を撮っていることを示す最も普遍的なサインの一つだ。ところが、今や写真の大半を撮影しているスマートフォンが使っているのはLEDフラッシュで、「本物の」フラッシュのような目もくらむほどの光の強さ（や画質）は得られない。しかし、新たに発表された「Godox A2」を使えば、それが可能になる。A2はキセノン管を使い、マグネットでスマートフォンに装着するアクセサリーだ。</p>
+<p>Godox A2の価格は85ドルだが、近いうちにAndroid端末向けに注文できるとは期待しないほうがいい（The Verge経由）。今のところiPhone専用だが、同社の製品ページでは、Android対応は「開発中」とされている。A2はAppleのMagSafeのようなマグネット接続に依存しているため、すべてのAndroid端末で使えるわけではない。現時点で言えば、Pixel 10シリーズ以降のPixelやMotorola Edge 70 Maxのようにネイティブで対応しているAndroidスマートフォンや、マグネット付きケースと組み合わせた多くのSamsung製スマートフォンなどのQi2対応モデルが該当する。</p>
+<p>Godoxは出荷時期をまだ発表しておらず、B&H Photoでは「近日発売（coming soon）」と表示されている。ただし、同社のサイトや公開した動画では詳細が明らかにされている。</p>
+<p>スマートフォンの背面に取り付けると、Godox A2は見た目がカメラのレンズに似ており、ノスタルジックな雰囲気をさらに高める。ただし、スマートフォンの背面に固定しておく必要はない。Bluetoothの通信距離は約50フィート（約15m）あるため、スマートフォンから離して手で持ったり、別売りのマウントを使ってライトスタンドに取り付けたりすることもできる。</p>
+<p>Godox A2は充電式で、同社によれば1回の充電で約400枚の撮影が可能だという。手動制御と自動制御ができる同社独自の写真アプリと連携して動作する。</p>
+<p>GodoxはこのフラッシュをAndroid非対応で発売したが、過去にはキセノンフラッシュを内蔵したAndroidスマートフォンも存在した。最初の機種は、2010年に登場した8MPリアカメラ搭載のMotorola Milestone XT720だ。Samsungも、キセノンフラッシュを搭載したスマートフォンとカメラの融合機を2機種販売していた。2013年のSamsung Galaxy S4 Zoomと、2014年のSamsung Galaxy K Zoomだ。</p>
+<p><a href="https://www.androidauthority.com/godox-a2-xenon-flash-phones-3725172/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a10">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>10. カメラの手ブレ補正「○段」は人の手ではなく振動台で測られている――CIPA規格の測定方法を読み解く</span></div>
-    <div class="meta"><span class="tag">カメラ</span>Fstoppers ／ 2026-10-18
-      ／ 原文: <a href="https://fstoppers.com/gear/image-stabilization-rating-your-2026-camera-comes-shaker-table-not-human-hand-904243" rel="noopener noreferrer">https://fstoppers.com/gear/image-stabilization-rating-your-2026-camera-comes-shaker-table-not-human-hand-904243</a></div>
-    <p class="summary">CanonやNikon、Sonyが公表する手ブレ補正段数は、CIPA DC-011-2024規格に基づき振動台とチャートで厳密に測定されている。しかし焦点距離やレンズはメーカー任せで、規格改訂前後の数値も混在しており、機種間比較には向かない。注目すべきは周辺の数値と中心との差だという。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>10. マイクロフォーサーズ規格団体、非加盟企業の製品について「互換性を保証しない」と異例の警告</span></div>
+    <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-10-19
+      ／ 原文: <a href="https://www.dpreview.com/news/micro-four-thirds-issues-an-interesting-warning-about-unlicensed-companies/" rel="noopener noreferrer">https://www.dpreview.com/news/micro-four-thirds-issues-an-interesting-warning-about-unlicensed-companies/</a></div>
+    <p class="summary">フォーサーズ事務局が公式サイトのナビゲーションに目立つ形で警告を掲載し、非加盟企業が製造・販売する製品の規格準拠や互換性は保証しないと表明。特定の製品名は挙げていないが、Insta360の新カメラの噂やSG-imageのレンズなどが背景として取り沙汰されている。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Fstoppers／日本語訳） ／ テーマ: カメラ</em></p>
-<p>CanonはEOS R6 Mark IIIの手ブレ補正効果を、レンズによって画面中心で最大8.5段、周辺で7.5段としている。その数字の下の脚注には、CIPA 2024規格に基づき、RF24-105mm F2.8 L IS USM Zの105mmで測定したと書かれている。脚注に書かれていないのは、カメラが印刷されたチャートから約2m離れた振動台にボルトで固定され、室温が約23℃に保たれた部屋で測定されたこと、そしてその評価値が、テストの各シャッタースピードで少なくとも200枚撮影した結果から得られていることだ。</p>
-<h3>実際のテストはどのようなものか</h3>
-<p>ルールはCIPA規格DC-011-2024に定められている。2024年1月に改訂されたもので、正式名称は「デジタルカメラの手ぶれ補正効果に関する測定方法および表記方法（光学式）」だ。CIPAはこの実務文書を同協会の契約に署名した企業に配布しており、草案の英訳を無料で公開している。以下の詳細はすべてそこから得たものだ。</p>
-<p>カメラは手で持たれない。認定された加振装置に取り付けられ、総質量に応じて選ばれる2種類の記録波形のいずれかで揺さぶられる。400g未満の機材にはWB-L、600g以上にはWB-Hを使い、その中間の機材には両方の波形の平均を使う。各波形は500Hzでサンプリングされた32秒分の角度データで、ヨー、ピッチ、ロールの3つの回転軸を同時に駆動する。被写体は幅1,000mm×高さ750mmのチャートで、画面中心と、隅に向かって外側の4点に、高コントラストの白黒エッジが印刷されている。カメラはチャートから35mm判換算焦点距離の20倍の距離に置かれるため、Canonの105mmの数値は約2.1mの距離から撮影されたことになる。温度は23℃±2℃、湿度は30〜70%で、照明はちらつきがないよう安定していなければならない。</p>
-<p>シャッタースピードを設定し、カメラの電源を切り、振動台を揺らし始め、任意のタイミングでカメラの電源を入れて3秒以内に撮影を始める。約1秒間隔で10枚撮影し、電源を切り、そのシャッタースピードで200枚以上の画像が得られるまでこれを繰り返す。次にシャッタースピードを1段以内だけ変えて、また同じことをすべて繰り返す。CIPAが最低枚数を200枚と定めたのは、撮影実験の結果、おおよそその枚数があれば測定のばらつきの95%が合格しきい値内に収まることが分かったからだ。振動台自体も、0.1、0.5、1、5、10Hzの正弦波を3軸同時に与えて別途検証しなければならない。</p>
-<p>意図的に除外されているものが3つある。カメラの揺れには6つの成分があるが、規格では回転の3成分だけを使い、X、Y、Zの並進（シフト）は通常の撮影距離では無視できるとして除外している。マクロ撮影の距離で問題になるシフトブレの補正は、2024年改訂で検討されたが、CIPAが確実に測定できなかったため見送られた。そして電子式およびハイブリッド式の手ブレ補正システムは規格から完全に除外されているため、カメラが電子式やデジタル式の手ブレ補正モードで行うことは、その数字には一切含まれていない。</p>
-<h3>合格ラインは幅約4ピクセルのブレ</h3>
-<p>手ブレ補正の評価値はすべて、2つのシャッタースピードの比だ。どちらも、測定されたブレが一定のしきい値を超えるシャッタースピードである。2024年規格ではそのしきい値を撮像面上で20μmと定めており、その根拠となる計算は文書に公開されている。視力1.0（20/20）の人がかろうじて見分けられる角度である1分角を、600mmの観察距離で考える。これは印刷物上で約175μmに相当する。対角364mmのA4プリントを対角43.3mmのフルサイズセンサーに縮小すると、175μmは20.8μmになる。端数を丸めると合格ラインになる。パネル評価もこれを裏付けており、錯乱円が約24μmのとき、観察者の約10%が画質の劣化に気づくことができた。</p>
-<p>2024年より前は、しきい値は63μmで、はがきサイズのプリントを見ることを前提に導き出されていた。Sony α7 Vは35.9mmのセンサーの横幅に7,008ピクセルを記録するので、画素ピッチは約5.1μmだ。現在の20μmの合格ラインは、幅4ピクセル弱のにじみに相当する。旧来の63μmの合格ラインは12ピクセル以上だった。改訂前に公表された評価値は、今日のカメラが出さなければならない画像より3倍ぼやけた画像で得られたものだった。</p>
-<p>段数そのものはグラフから導かれる。CIPAは手ブレ補正をオフにしたカメラの理論上のブレ曲線を計算し、手ブレ補正をオンにした実際のブレ曲線を測定し、対数軸上で補間してそれぞれが20μmを横切る点を求め、その2つのシャッタースピードの差を段数とする。結果は0.5段刻みで切り捨てられる。この手順のどこからも、手持ちで使える絶対的なシャッタースピードは得られない。得られるのは倍率だ。8.5段は362倍、5.5段は45倍を意味する。</p>
-<h3>8.5段と5.5段は3段差ではない理由</h3>
-<p>規格の4-3-9項は測定時の焦点距離を扱っているが、その全文は「規定しない」だ。解説ではその理由を認めている。製品によってズーム域があまりに異なるため共通のテストポイントを選べず、選択はメーカーに委ねられており、唯一の要件は焦点距離を数値と併記することだという。解説はまた、焦点距離によって手ブレ補正の効きが良いカメラもあることを認めている。</p>
-<p>CanonはR6 IIIを24-105mm F2.8の105mmで測定した。NikonはZ5IIを24-120mm F4の望遠端で測定し、中心7.5段、周辺6.0段と公表している。Sonyはα7 Vを50mm F1.2の単焦点で測定し、中心7.5段、周辺6.5段と公表している。3つの異なるレンズ、3つの異なる焦点距離、同じ軸に乗っていない3つの数字だ。レンズはもう一つ、同じくらい重要な点で異なる。Canonのテストレンズは独自の手ブレ補正機構を備え、ボディと協調して動作するが、NikonのNIKKOR Z 24-120mm f/4 SとSonyのFE 50mm F1.2 GMには手ブレ補正機構がない。Canonはレンズとボディのシステムとしての数値を公表し、NikonとSonyはボディ単体の数値を公表したことになる。</p>
-<p>規格改訂は、同じ製品ライン内でも基準を動かした。Sony α7 IVの評価は5.5段で、脚注には「CIPA規格準拠。ピッチ／ヨー方向のみ。Planar T* FE 50mm F1.4 ZAレンズ装着時。長秒時ノイズリダクションオフ」とある。ピッチとヨーのみで、旧来の63μmのしきい値に照らして評価されたものだ。α7 Vの7.5段と6.5段は、波形にロールを含め、20μmのしきい値で測定された。同じ製品ライン内での2段の向上は、一部は本当に優れた手ブレ補正を反映しているが、一部は同じ単位を名乗る2つの異なるテストを反映している。CIPAは、3つの振動成分を分離することをカメラに求めると難易度が上がり、公表される段数が下がる可能性が高いと明言している。</p>
-<p>Nikon自身のラインナップにもその継ぎ目が見える。Z6IIIは8.0段と評価されており、Nikonのサイトの脚注には、測定に24-120mm f/4 Sの望遠端を使ったことと「CIPA規格準拠」とだけ書かれていて、改訂版の名前はない。後に発表された廉価なボディであるZ5IIは中心7.5段と低く評価されているが、2つのうち脚注で2024年規格とヨー／ピッチ／ロール波形を明記しているのはこちらだ。カタログ上で低い点数のボディこそが、より難しい試験で採点されたと確認できるほうなのだ。</p>
-<h3>方法は厳密だが、比較はそうではない</h3>
-<p>よく言われるのは、CIPAの数値はマーケティング上の作り話で、可能な限り大きな数字を出すために完璧な条件の実験室で作られたものだという見方だ。その疑念の一部はもっともだ。CIPAは自らの会員企業のカタログのためにルールを書く業界団体であり、非会員はアクセスに11万4,000円の事務手数料を支払う。準拠を主張するにはCIPA認定・登録済みの加振装置しか使えず、その入手条件には、規格とキットを個人や大学、その他の研究目的の第三者には提供できないと明記されている。アクセスは企業としての申請を通じて行われるため、公表された評価値を検証することは外部の活動ではなく業界内の活動となる。</p>
-<p>一方、方法そのものの実績は逆の方向を示している。CIPAは多くの人が手持ちしたカメラにセンサーを取り付け、記録した動きをヨー、ピッチ、ロールに分離し、特徴的な周波数と振幅から波形を合成して波形を作った。WB-LとWB-Hを使い分ける質量のしきい値が存在するのは、中程度の重さのボディに1つの波形を使うと、人間の被験者が実際に達成した結果と乖離したためで、CIPAはその比較を公表している。3秒以内の起動ルールは、手ブレ補正がほぼ瞬時に安定しなければならないことを意味する。200枚という最低枚数は本物の統計的要件だ。機械の再現可能な測定として、多くの写真家が思っているよりも厳密だ。</p>
-<p>主な欠陥は厳密さではない。比較可能性だ。チャート、距離、温度、波形、サンプル数、合格しきい値を固定しておきながら、焦点距離とレンズをメーカーに委ねる規格は、各社が自分で定義できるものを精密に測定した結果を生み出している。</p>
-<p>厳密さも完璧ではない。そしてそれを言ったのはCIPA自身だ。2024年改訂の公表から9カ月後、同協会は規格と測定キットの保有者に対し、DC-011-2024に基づく測定は「正しい測定よりも悪い結果になる場合がある」と警告する通知を出した。原因として特定されたのは振動台そのものだ。一部の装置は指定された波形をうまく再現できず、角速度がゼロ付近で一瞬止まったり、意図した動きに高周波の振動が重なったりする。こうした影響は「焦点距離の長いレンズほど大きくなる傾向がある」とされ、CIPA自身の「加振装置の検証方法」では「そのような波形再現性を十分に検証できない場合がある」、誤差の大きさは「測定するレンズとカメラの機種によって異なる」という。このバイアスがどちらの方向に働くかに注目してほしい。メーカーは段数を水増しするのではなく失うことになるので、えこひいきではない。ただし、評価値は特定の振動台で得られた数字であり、2台の振動台の結果が一致するとは限らないということを意味する。</p>
-<h3>誰も引用しないロールの仕様</h3>
-<p>画面中心では、回転軸がその点を通るため、ロールによるブレはまったく生じない。これは工学ではなく幾何学の問題だ。規格では、ロールによるブレの項を中心ではゼロ、像高60%の位置ではロール角×12.98mmと定めている。中心のみの評価値は、構造上、システムがロールを補正するかどうかを伝えることができない。</p>
-<p>規格自身の解説によれば、レンズ内蔵の手ブレ補正機構はヨー、ピッチ、シフトのブレを補正できるが、ロールは補正できない。そのため規格では、レンズ単体は中心のみで「ヨー／ピッチ性能」と表記することが認められ、センサーシフト式手ブレ補正を備えたボディは中心と周辺の両方で「ヨー／ピッチ／ロール性能」と表記される。CIPAの言う周辺とは画面の実際の隅ではなく、像高60%の4点で、フルサイズセンサーでは中心から約13mm（実際の隅は約21.6mm）の位置にあり、公表値はその4点の平均だ。周辺の数値こそがロールに関する開示だ。レンズ式のシステムでは対応できない軸について報告している唯一の部分なのだ。</p>
-<p>だから、2つの数値の組を読み、その差を読むことだ。CanonのR6 IIIは中心から周辺で1段下がる。α7 Vも1段下がる。Z5IIは1.5段下がる。そしてその差は、最も気づきやすい場面で最も大きくなる。ヨーとピッチのブレは焦点距離に比例して大きくなるが、ロールのブレはそうではないからだ。CIPAは規格の中で例を示している。24mmでは周辺のブレのうち23%をロールが占めるが、200mmでは3%だ。広角で低速シャッターの手持ち撮影こそ、ロールが画面の隅を蝕む場面だ。つまり夕暮れの風景、室内、手すりにカメラを押し当てて撮る夜景である。</p>
-<h3>代わりにお金をかけるべきところ</h3>
-<p>手ブレ補正の段数は、同クラスの2つのボディの間で購入判断を左右すべきではない。その理由はテストへの懐疑ではない。公表された数値は、各メーカーが選んだ条件、カタログ向けに選ばれた焦点距離、時には異なる版のルールのもとで得られたものであり、競合ボディ間の差は、そうした選択によって生じる差よりも小さいからだ。8.5段のカメラと7.5段のカメラは、実際に手に持ったとき確実に1段違うわけではない。</p>
-<p>より根本的な限界は、テストに被写体がいないことだ。チャートは動かない。実際のシーンで手持ち3〜4秒まで粘れば、葉はブレ、水もブレ、人は呼吸する。7段を超える1段ごとに得られるのは、特に何でもないものの、よりシャープな写真だ。手ブレ補正は被写体の動きには何もできず、段数がいくつになってもそれは変わらない。明るいレンズは、より安定した長時間露光の代わりに、より短い露光をもたらしてくれる。そして短い露光こそが、風の強い午後を生き延びられるものだ。三脚はカメラの揺れを恒久的に取り除く。だからこそ本格的な風景写真のワークフローは今も三脚を中心に組み立てられている。</p>
-<p>評価値を何かに使うのなら、周辺の数値とその差を使うことだ。2024年規格に基づき、似た焦点距離で測定された2つのボディが、中心で0.5段、周辺で1段の差を示しているなら、それは各ボディのロールの扱いについて何か本当のことを伝えている。周辺の数値はロールに加えて残留するヨーとピッチも含んでいるため、その差はロールのスコアというより一つのシグナルだ。スペック欄のそれ以外の部分はすべて、23℃の部屋で、印刷されたチャートから2m離れた振動台にボルトで固定され、20回続けて電源を入れ直されたカメラについて述べているにすぎない。それは機械についての真実だ。風については何も語っていない。</p>
-<p><em>リード画像：456 Photo（CC BY 2.0）</em></p>
-<p><a href="https://fstoppers.com/gear/image-stabilization-rating-your-2026-camera-comes-shaker-table-not-human-hand-904243" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（DPReview／日本語訳） ／ テーマ: カメラ</em></p>
+<h3>非加盟企業が作った機器同士の互換性は保証されない。</h3>
+<p>マイクロフォーサーズ規格の団体は最近、同団体に加盟していない企業が作った製品が期待通りに動作することは保証できない、という警告を自らのサイトに掲載した。このメッセージへのリンクはサイト上部のナビゲーションバーに目立つ形で表示されており、特定のブランドや製品の名前は挙げていないものの、マイクロフォーサーズ・システムにとって興味深いタイミングでの掲載となった。</p>
+<p>公式声明には「フォーサーズ事務局は、非加盟企業が製造または販売する製品がマイクロフォーサーズ・システム規格に準拠していること、あるいは個々の機器と互換性があることを保証するものではありません」とある。さらに、購入しようとしている機材の具体的な互換性情報は、その製造元や販売元に確認するようユーザーに呼びかけている。</p>
+<p>DPReviewで最初にこの警告を見たとき、私たちは最近のGoPro「Mission 1 Pro ILS」に関係しているのではないかと考えた。このカメラはマイクロフォーサーズのマウントを備えているが、電気接点がないため、OM SystemやPanasonicの同システム向けレンズの大半は動作しない。それらのレンズは、絞りやフォーカスの制御に接点を必要とするからだ。</p>
+<p>これはこのカメラの購入を検討している人が知っておくべきことで、同マウントを採用しながらシステム内の多くの製品と互換性がない製品の例としては、おそらく最も目立つものだろう。しかし、警告がILSを指している可能性は低いようにも思える。GoProはこのカメラの発売時には団体に加盟していなかったが、その後加盟しており、警告は明確に非加盟企業の製品を対象としているからだ。</p>
+<p>では、なぜこの警告が出されたのか。正直なところ、はっきりした答えはない。最近マイクロフォーサーズの世界で大きな騒動があったという話は聞いていないが、Insta360が現在開発中のカメラに同マウントを採用するという噂は飛び交っている。本稿執筆時点で、Insta360はマイクロフォーサーズのサイトの賛同企業リストに載っていない。</p>
+<p>また、Redditのスレッドで何度も指摘されていたように、SG-imageのケースもある。SG-imageは低価格レンズのメーカーで、やはりマイクロフォーサーズの団体には加盟していない。同社は同システム向けのレンズを1本発売しているが、複数の報告によると、古いカメラではまったく動作せず、比較的新しい機種のいくつかでも制約があるという。ただ、そのレンズは発売から数カ月が経っているため、団体が今になってそれについて警告を出すのはやや不自然だ。</p>
+<p>もちろん、正式なサポートなしにマイクロフォーサーズ形状のマウントを備えた機材を出す企業が増えていることを受けた、定型的な整理の一環として出された一般的なメッセージにすぎない可能性もある。いつものことだが、特に定番から少し外れた製品を選ぶ場合は、お金を払う前にさまざまなレビューを読んでおく価値がある。</p>
+<p><a href="https://www.dpreview.com/news/micro-four-thirds-issues-an-interesting-warning-about-unlicensed-companies/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a11">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>11. LENSGO、DJI Osmo Pocket 3／4向けの8インチテレプロンプター「TCQI 8 Pocket」を発表――マグネット式、Bluetoothリモコン付き</span></div>
-    <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-19
-      ／ 原文: <a href="https://www.cined.com/lensgo-tcqi-8-pocket-teleprompter-for-dji-osmo-pocket-3-4-introduced-8-inch-screen-magnetic-setup-bluetooth-remote/" rel="noopener noreferrer">https://www.cined.com/lensgo-tcqi-8-pocket-teleprompter-for-dji-osmo-pocket-3-4-introduced-8-inch-screen-magnetic-setup-bluetooth-remote/</a></div>
-    <p class="summary">小型ジンバルカメラOsmo Pocket専用設計のテレプロンプター。8インチの表示領域、マグネット式の取り付け、グリップとミニ三脚、Bluetoothリモコンが付属し、スマホやノートPCのWebカメラにも使える。B&amp;Hで88ドル。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>11. Flashback「One75」――真鍮ボタンとアルミプレートで高級感を高めた、フィルム体験を再現するハーフサイズ風トイデジカメ</span></div>
+    <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-10-19
+      ／ 原文: <a href="https://www.dpreview.com/news/flashbacks-one75-is-a-more-premium-toy-camera-emulating-the-film-experience/" rel="noopener noreferrer">https://www.dpreview.com/news/flashbacks-one75-is-a-more-premium-toy-camera-emulating-the-film-experience/</a></div>
+    <p class="summary">使い捨てカメラ風デジカメ「One35」のFlashbackが新機種「One75」を発表。縦位置で撮るハーフサイズ風の13MP機で、DNGのRaw記録、27枚撮りの「フィルム」、機械式巻き上げレバー、多重露光、8種のフィルムルック、キセノンフラッシュを備える。予約価格179ドル、クリスマス前に届く予定。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（CineD／日本語訳） ／ テーマ: カメラ</em></p>
-<p>LENSGOは、DJI Osmo Pocket 3とOsmo Pocket 4向けに作られたコンパクトなテレプロンプター「TCQI 8 Pocket」を発表した。8インチの表示領域に、マグネット式の取り付けシステム、ハンドグリップ、Bluetoothリモコンを組み合わせている。このサイズのジンバルカメラに専用のプロンプター機材が用意されることはめったにないので、キットの内容を見ていこう。</p>
-<p>TCQI 8 Pocketは8インチ（20.3cm）のHD画面をカメラの前に配置するため、出演者はレンズを見つめたまま台本を読むことができる。LENSGOによると、マグネット式の設計によりセットアップが速く、付属のグリップを使った手持ちでも三脚でも使える。台本はiOSおよびAndroid端末で動く同社の無料アプリ「TCQI」で表示され、スクロール速度、フォントサイズ、再生を制御できる。撮影中の操作用にBluetoothリモコンが同梱されている。LENSGOはスマートフォンやノートPCのWebカメラ用のアクセサリーも同梱しているため、このテレプロンプターはOsmo Pocket専用というわけではない。</p>
-<p>私たちはDJI Osmo Pocket 3をドキュメンタリー撮影用にレビューしており、今年初めにはDJI Osmo Pocket 4の発売も取り上げた。Pocket 4Pもラボテストを行い、あるテストではARRI ALEXA 35を上回った（詳細はOsmo Pocket 4Pのラボテスト全文を参照）。このレベルの画質があるため、こうした小型カメラをトーキングヘッド（話し手のアップ）のコンテンツやインタビュー、Vlogに使うクリエイターが増えており、LENSGOがTCQI 8 Pocketで狙っているのはその市場だ。</p>
-<h3>ポケットジンバルサイズのテレプロンプター</h3>
-<p>コンパクトなテレプロンプターの多くは、スマートフォンや小型ミラーレスカメラを前提に設計されている。TCQI 8 Pocketは代わりにOsmo Pocketのフォームファクターに合わせて作られており、キットにはカメラ用のDJIの保護カバーも含まれる。ユーザーガイドによると、筐体はABSとポリカーボネート製だ。LENSGOは発表動画の一つでリーディンググラスを「クリスタルクリア」と表現し、ガラスの光透過率を75%としている。</p>
-<p>LENSGOはこのテレプロンプターを、屋外でのVlog、トーキングヘッド動画、インタビュー、旅行動画、プレゼンテーション向けと位置づけている。同社は本機をコンパクトで軽量だと説明しているが、製品説明に重量や寸法は記載されていない。製品ページの仕様画像にはこれらの数値が載っている可能性があるが、テキストとしては提供されていない。</p>
-<h3>マグネット式セットアップ、グリップ、三脚</h3>
-<p>マグネット式の設計が主なセットアップ上の特徴だ。キットにはマグネットリングが含まれ、LENSGOによれば各部品がマグネットで取り付くため、撮影前の組み立て時間を短縮できる。Osmo Pocketをグリップに差し込み、その上からマグネット式のカバーをかぶせる。縦動画の場合は、カバーを開けてPocketの画面を回転させ、再びカバーを閉じる。同社のFAQでは、撮影前に説明書に従って各部品を正しく取り付けるよう勧めている。</p>
-<p>手持ち撮影では、付属のグリップがカメラとテレプロンプターを一体として保持する。固定撮影用にはキットにミニ三脚が含まれ、LENSGOによれば、このテレプロンプターは「対応する取り付け構成」で他の三脚でも使えるという。製品ページには取り付け部のネジ規格は記載されていない。</p>
-<p>手持ち撮影については、前面を実際には触れないため、Pocket／プロンプター／スマートフォンの組み合わせが極端にトップヘビーになって持ちにくいのではないかと少し心配している。ただし、レビュー機を入手できたら、それが本当に懸念すべき点かどうか報告したい。全体としては、日々注目度を増しながら進化し続けているOsmo Pocketシリーズというカメラのエコシステムに向けた、非常に賢いコンセプトだと思う。</p>
-<h3>TCQIアプリとBluetoothリモコン</h3>
-<p>台本の操作はTCQIアプリで行う。アプリではスクロール速度とフォントサイズを設定し、再生の開始・停止を行う。付属のBluetoothリモコンは録画中に「対応するテレプロンプター機能」を操作できるため、出演者はテキストを表示しているスマートフォンに触れる必要がない。リモコンには開始／一時停止、高速ページアップ／ダウン、左右のボタンと、LEDライトがある。LENSGOはアプリが「対応するiOSおよびAndroid端末」をサポートしているとしているが、最低OSバージョンは示しておらず、端末要件はアプリのストアページで確認するよう求めている。</p>
-<h3>スマートフォンとWebカメラでの使用</h3>
-<p>Osmo Pocket用の部品のほかに、キットにはノートPC用のクリップカバーが含まれる。LENSGOは、TCQI 8 Pocketには「対応するスマートフォンやノートPCのWebカメラ構成用のアクセサリーも含まれる」としている。これらの部品を使えば、同じユニットをビデオ通話やライブ配信、ノートPCでの録画プレゼンテーション用のプロンプターとして使える。製品ページにはどのサイズのスマートフォンが収まるかは書かれていないが、画像を見る限り、大きめのスマホにも対応できそうだ。</p>
-<h3>同梱物</h3>
-<p>パッケージには、TCQI 8 Pocketテレプロンプター本体、グリップ、DJI保護カバー、ノートPC用クリップカバー、マグネットリング、Bluetoothリモコン、ミニ三脚が含まれる。</p>
-<h3>価格と発売時期</h3>
-<p>LENSGO TCQI 8 PocketはB&Hで88ドルで販売されており、取り寄せ品として掲載されている。ユーロと英ポンドの価格はまだ発表されていない。詳しくはLENSGOのウェブサイトを参照してほしい。</p>
-<p>小型ジンバルカメラでトーキングヘッドのコンテンツを撮るとき、テレプロンプターを読むだろうか、それともメモを見ながら撮るほうが好きだろうか？ ぜひコメントで教えてほしい。</p>
-<p><a href="https://www.cined.com/lensgo-tcqi-8-pocket-teleprompter-for-dji-osmo-pocket-3-4-introduced-8-inch-screen-magnetic-setup-bluetooth-remote/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（DPReview／日本語訳） ／ テーマ: カメラ</em></p>
+<h3>真鍮の操作部、アルミのプレート、フィルムカメラ風の「儀式」を備えた179ドルのOne75は、ノスタルジックなデジカメに高級感を加えている。</h3>
+<p>使い捨てカメラから着想を得たデジタルカメラ「One35」を手がけるFlashbackが、次の製品「One75」を発表した。この新しいデジカメはハーフサイズ判の形式を採用し、より高級感のある外観になっている。</p>
+<p>Flashbackによれば、One75はクラシックなハーフサイズのフィルムカメラに着想を得たもので、それらと同じように縦位置の写真を撮影する。同社は13MPの写真を撮れるとしているが、センサーサイズやセンサーの画素数は明らかにしていない。レンズの焦点距離も明記されていないが、作例写真からはかなり広角の画角がうかがえる。縦位置撮影を売りにする競合機、富士フイルムの「X half」とは異なり、One75はRaw（DNG形式）で撮影できる。ただし、JPEGにアクセスできるFlashbackアプリではなく、コンピューターに接続しないとRawファイルにはアクセスできない。</p>
+<p>フィルム風の機能はほかにもある。カメラは一度に最大27枚まで撮影でき（小さなフィルム1本のように）、OLEDディスプレイにはフレームカウンターが表示され、「フィルム」を進めるための機械式の巻き上げレバーも備える。撮影後は、Bluetooth、Wi-Fi、USB-Cのいずれかで画像をアプリやコンピューターに転送する必要がある。転送するとカメラがリセットされ、新しいフィルムを入れたような状態になる。</p>
+<p>写真は、24時間待ってから見る（フィルムカメラモード）ことも、デジカメモードを使ってFlashbackアプリで即座に見ることもできる。カメラには多重露光モードと8種類の内蔵フィルムタイプもあり、異なる仕上がりを本体で切り替えられる。</p>
+<p>One75は厳密には画面がないわけではなく、本体上部に設定調整用のOLEDディスプレイを備えている。ただし、写真を見るためのディスプレイはない。写真を見るには、無料のコンパニオンアプリを使うか、ファイルをコンピューターに転送する必要がある。構図を決めるための縦向きの光学ファインダーを備えている。</p>
+<p>One35をはじめとする多くのフィルム風デジカメのような全面プラスチック製ではなく、One75は上下にアルミニウムのプレートを使い、操作部は真鍮製だ。三脚穴とセルフタイマーも備えており、撮影の自由度が高まっている。さらに、レンズには25mmのネジ込みマウントがあり、フィルターやアドオンレンズを取り付けられる。キセノンフラッシュも内蔵している。</p>
+<p>Flashback One75は現在179ドルで予約受付中だ（誤植ではない。175ドルではない）。同社によれば、予約分はクリスマス前に届く予定だという。カラーはBrushed Aluminum（シルバーとブラック）とNoir（オールブラック）の2種類。</p>
+<p><a href="https://www.dpreview.com/news/flashbacks-one75-is-a-more-premium-toy-camera-emulating-the-film-experience/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a12">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>12. 解任されたホワイトハウス報道官、機密とみられる情報が写り込んだ写真を投稿――雑なぼかし・消し込みが話題に</span></div>
-    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-19
-      ／ 原文: <a href="https://petapixel.com/2026/10/19/fired-white-house-press-sec-katie-zacharia-shared-a-photo-that-appears-to-contain-sensitive-information/" rel="noopener noreferrer">https://petapixel.com/2026/10/19/fired-white-house-press-sec-katie-zacharia-shared-a-photo-that-appears-to-contain-sensitive-information/</a></div>
-    <p class="summary">在任わずか5日で退任したケイティ・ザカリア報道官が、大統領執務室で撮った写真をSNSに投稿。机上の地図はぼかされ、別の写真では不完全に消されていたが、ワシントンD.C.のゴルフ場計画の地図とみられ、トランプ大統領が翌日その計画を公表した。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>12. AstrHori、中判カメラの広角記録を大幅更新――「自分の後ろまで写る」画角220度の円周魚眼「MF 8mm F2.4」</span></div>
+    <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-19
+      ／ 原文: <a href="https://www.digitalcameraworld.com/cameras/lenses/astrhori-smashes-the-wide-angle-record-for-medium-format-cameras-with-a-lens-so-wide-it-can-see-behind-itself" rel="noopener noreferrer">https://www.digitalcameraworld.com/cameras/lenses/astrhori-smashes-the-wide-angle-record-for-medium-format-cameras-with-a-lens-so-wide-it-can-see-behind-itself</a></div>
+    <p class="summary">富士フイルムGFX（GFマウント）とハッセルブラッドX向けの円周魚眼レンズ。35mm判換算6.3mm相当で画角220度、全長62mm・517gと中判としてはコンパクト。8群10枚構成、絞り羽根10枚、最短撮影距離0.1m。価格は398ドルで予約受付中。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
-<p>ケイティ・ザカリア氏がホワイトハウス報道官を務めたのはわずか5日間と、記録的な短さだった。しかも退任の際にも、機密情報を含む写真を投稿するという失態を演じた可能性がある。</p>
-<p>土曜日、ザカリア氏は大統領執務室で撮影したトランプ大統領とのツーショット写真をソーシャルメディアに投稿し、職を離れることを認めた。</p>
-<p>「トランプ大統領は親切で、素晴らしく、寛大で、思いやりがあり、熱意にあふれ、誰よりも勤勉な人です。もっと多くのアメリカ人に彼の真価を分かってほしい。彼のようにアメリカを偉大にできる人は、これまでも、これからもいません」とザカリア氏は書いている。「彼のもとで働けたことは名誉でした」</p>
-<p>しかし物議を醸したのは写真のほうだった。レゾリュート・デスクの上には、明らかにぼかしをかけられた地図が置かれていた。家族と一緒に写った2枚目の投稿写真では、地図が雑に消されていたものの、地図の断片がまだ残っていた。</p>
-<blockquote>トランプ大統領、息子の誕生日に家族とともに大統領執務室に招いてくださり、子どもたちに寛大な贈り物をくださってありがとうございました。忘れられない名誉です。<br>— Katie Zacharia（@KatieZacharia）2026年10月17日</blockquote>
-<p>ワシントン・ポストの報道によると、この地図はワシントンD.C.のイースト・ポトマック・パークを示しているようだ。トランプ氏はそこにある公共のゴルフコースに大幅な変更を加えることを計画しており、現在訴訟の対象となっている。</p>
-<p>擁護団体「Save East Po」のアレックス・ローゼン氏は、すぐに地図の輪郭に気づいたという。</p>
-<p>「特徴的な形をしている」とローゼン氏はワシントン・ポストに語った。「あの写真を見れば、半島の形と比べられることがはっきり分かる」</p>
-<p>7月、連邦判事はトランプ政権に対し、作業を行う前にゴルフコースに関する長期計画を提示するよう命じた。しかし内務省は最近、公園で数百本の木を伐採し、まさにその作業を進めたように見える。</p>
-<h3>トランプ氏が地図を公開</h3>
-<p>昨日の朝、トランプ氏はTruth Socialに、ザカリア氏の写真に写っていたのとまったく同じとみられる地図を投稿した。</p>
-<p>トランプ氏は、ワシントンD.C.にある現在のイースト・ポトマック・ゴルフ・リンクスの敷地に「世界クラスのチャンピオンシップ・ゴルフコースを建設する」計画があると発表した。</p>
-<p>大統領によれば、このゴルフコースは全米オープン、全米プロゴルフ選手権、ライダーカップ、プレジデンツカップといった主要大会の開催にふさわしいものになるという。</p>
-<p>ザカリア氏の写真の失態が、トランプ氏に予定より早く計画を発表させたのかどうかは明らかではない。ただし、週末の間に複数の大手報道機関がこの地図についてホワイトハウスに問い合わせていた。</p>
-<p><a href="https://petapixel.com/2026/10/19/fired-white-house-press-sec-katie-zacharia-shared-a-photo-that-appears-to-contain-sensitive-information/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Digital Camera World／日本語訳） ／ テーマ: カメラ</em></p>
+<h3>35mm判換算でわずか6.3mm相当の焦点距離により、夜空全体を1コマに収めることもできる。</h3>
+<p>これまで富士フイルムGFXカメラで本当に広い画角を求めるなら、最も広い選択肢はLaowaの「15mm f/4.5R Zero-D Shift」レンズで、富士フイルム純正のGFレンズで最も広いのは「GF20-35mmF4 R WR」だった。しかし今回、AstrHoriが新しい「MF 8mm F2.4 Circular Fisheye Lens」で、GFマウント用レンズの広角記録を圧倒的に塗り替えた。参考までに、中判の8mmという焦点距離は35mm判換算でわずか6.3mmに相当し、220度という途方もない画角になる。あまりに広いため、このレンズは自分の後ろまで写すことができる。手持ちで撮影するときには、自分の指が画面に入り込み始めるかもしれないので注意が必要なほどだ。</p>
+<p>当然ながら、これは歪みのない直線的な描写（レクティリニア）ではなく円周魚眼レンズなので、この画角では各ショットが黒い枠の中に円形の像として写り、歪みも円形の描写には付きものだ。しかし、それも楽しみのうちだ。</p>
+<p>とてつもない画角にもかかわらず、レンズ本体は中判用光学系としては驚くほどコンパクトで、全長はわずか62mm、重さは517gだ。フォーカスはマニュアルのみだが、これほど焦点距離の短いレンズでは被写界深度が開放F2.4でも非常に深いため、まったく問題にならない。また、F2.4は天体写真に使えるだけの明るさがあり、これまで以上に広い夜空を1コマに収めたいなら最適だ。</p>
+<p>金属製の鏡筒の中には8群10枚の光学系が収められており、色収差を抑えるために特殊低分散（ED）レンズ2枚と高屈折率レンズ2枚を含む。これほど画角の広いレンズでは不可欠な工夫だ。絞りは10枚羽根で、より滑らかなボケを生み出せる可能性があるが、これほど広角のレンズで浅い被写界深度に近いものを得るには、0.1mの最短撮影距離を最大限に生かす必要があるだろう。</p>
+<p>AstrHori 8mm f/2.4 Circular Fisheye Lensは現在予約受付中で、富士フイルムGFマウント用とハッセルブラッドXマウント用があり、価格はいずれも398ドル。新品の中判用レンズとしては最も安価な部類に入る。</p>
+<p><a href="https://www.digitalcameraworld.com/cameras/lenses/astrhori-smashes-the-wide-angle-record-for-medium-format-cameras-with-a-lens-so-wide-it-can-see-behind-itself" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 </main>
 <footer>
-  <p>前回ダイジェストは <a href="./archive/2026-10-19-1957/">archive/2026-10-19-1957/</a> に保管しています。／ <a href="./archive/">アーカイブ一覧</a></p>
+  <p>前回ダイジェストは <a href="./archive/2026-10-20-0755/">archive/2026-10-20-0755/</a> に保管しています。／ <a href="./archive/">アーカイブ一覧</a></p>
   <p>対象: 海外一次ソースのみ。日本語二次まとめサイトは含みません。</p>
 </footer>
 
