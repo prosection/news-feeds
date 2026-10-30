@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI・ガジェット・カメラ ニュースダイジェスト（2026-10-30 07:54 JST）</title>
+  <title>AI・ガジェット・カメラ ニュースダイジェスト（2026-10-30 20:00 JST）</title>
   <style>
 :root { --bg:#0f1419; --card:#1a2332; --text:#e7ecf3; --muted:#9aa7b8; --accent:#5b9dff; --border:#2a3548; }
 * { box-sizing: border-box; }
@@ -59,7 +59,7 @@ footer a { color:var(--accent); }
 <header>
   <h1>AI・ガジェット・カメラ ニュースダイジェスト</h1>
   <p>海外の一次情報（企業公式・公式プレス・国際テック報道）のみを収集し、タイトルと本文を日本語訳したHTMLダイジェストです。RSS配信は終了しました。</p>
-  <p>生成: 2026-10-30 07:54 JST ／ 件数: 12 ／ 朝更新（2026-10-30 朝版）</p>
+  <p>生成: 2026-10-30 20:00 JST ／ 件数: 12 ／ 晩更新（2026-10-30 晩版）</p>
   <p class="counts"><span>AI 4</span><span>ガジェット 4</span><span>カメラ 4</span></p>
 </header>
 <nav class="site-nav">
@@ -74,267 +74,279 @@ footer a { color:var(--accent); }
 <p class="hint">タイトルをタップ／クリックすると日本語本文を展開・折りたたみできます。</p>
 <details class="item" id="a1">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>1. Mistral、1兆パラメータの「Mistral Large 4」のウェイトを公開――サイバー防御向けを前面に</span></div>
-    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-10-29
-      ／ 原文: <a href="https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/" rel="noopener noreferrer">https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/</a></div>
-    <p class="summary">愛称「Le Chonk」。中国のGLM-5.3と同等の性能をタスクあたり47%少ないトークンで実現すると主張。Hugging FaceとAPIで提供し、企業や政府がオンプレミスで運用できる。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>1. Wikipedia運営団体、AI著作権訴訟で「学習はフェアユース、記事の吐き出しは違う」と中間案――極端な判決はオープンウェブを脅かすと警告</span></div>
+    <div class="meta"><span class="tag">AI</span>The Verge ／ 2026-10-30
+      ／ 原文: <a href="https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright" rel="noopener noreferrer">https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright</a></div>
+    <p class="summary">NYT対OpenAI・Microsoftの訴訟にWikimedia財団が意見書を提出。どちらの側にも立たず、LLMの事前学習はフェアユースとしつつ、元記事の代わりになる出力にはライセンスが必要だと主張した。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
-<p>フランスのAI企業Mistralは、1兆パラメータのオープンソースAIモデル「Mistral Large 4（ML4）」のウェイトを公開し、企業や政府が自らダウンロードして運用できるようにした。「Le Chonk（ル・チョンク）」の愛称を持つこのモデルは、今月初めに初めて発表されていた。</p>
-<p>今回の公開は、Mistralのようなオープンウェイト系のAI開発企業と、OpenAIやAnthropicのようなクローズドモデルの提供企業との競争が激しさを増す中で行われた。前者は、企業や政府が高度な能力を手に入れるために外部のAI企業に頼らなくて済むべきだと主張している。この主張は、組織が自らのデータやシステムをより強く管理したいと考えるサイバーセキュリティ分野では、とりわけ説得力を持つかもしれない。</p>
-<p>MistralのCEO、アーサー・メンシュ氏の言葉を借りれば、AIは「支配の道具ではなく、力を与える道具」であるべきだという。Chonkによって、Mistralはこの立場をさらに強め、「クローズドなラボが投じる計算資源と資本のごく一部」で「最先端の性能」を達成できると主張している。</p>
-<p>モデルのウェイト（システムを動かす、訓練によって得られた数値）が公開されたことで、ほかの企業や政府機関は今後、ML4を自らの目的のために運用できるようになる。</p>
-<p>Mistralによれば、このモデルの性能は、これまで世界最高クラスのオープンウェイトモデルの一つと見なされてきた中国の競合モデル「GLM-5.3」に、特にサイバー関連の作業で匹敵するという。しかもMistralのモデルはタスクあたりのトークン消費が47%少なく、GLM-5.3よりも大幅に経済的だとしている。</p>
-<p>同社はまた、AIベンチマークサイトArtificial Analysisの「Coding Agent Index」において、エージェント型のコーディングタスクで他のすべてのオープンモデルを上回っているとも主張している。</p>
-<p>「サイバー脅威が高まる中、ML4は世界中の企業や政府に、最先端の主権的なサイバー防御能力をもたらします」と同社は木曜日に述べた。「企業や公的機関は、フロンティアAIをダウンロードし、運用し、所有して、コードやITインフラ全体にわたる脅威を検知・分析・対応できるようになりました」</p>
-<p>ML4のウェイトはHugging Faceと同社のAPIを通じて提供されている。</p>
-<p>Mistralの科学担当バイスプレジデント、ピエール・ストック氏はTechCrunchに対し、ウェイトの公開によって、組織はAIを使って自らを守る方法をより自由に管理できるようになると語った。</p>
-<p>「具体的には、たとえば企業や政府として、サイバー攻撃から身を守るためのフロンティア級の知能にアクセスできるということです。モデルがオープンウェイトである以上、そのアクセスは定義上、遮断されることがありません」と同氏は述べた。</p>
-<p>ストック氏はさらに、このモデルは「重大なセキュリティインシデントをリアルタイムで特定し、連携し、対応する」ために使え、オープンソース化によって企業は自社の環境内でオンプレミス運用できると付け加えた。</p>
-<p>AIによるサイバーセキュリティの進歩で、セキュリティの専門家はこれまでよりはるかに高い頻度でバグを見つけられるようになっているが、「一部の悪意ある者が自前の技術を攻撃に利用しようとする可能性がある」ことを考えると、企業は「この同じ能力を、できるだけ早くすべての人に提供し、エコシステムを立ち上げて強化する」ことが重要だと同氏は考えている。</p>
-<p>これとは別に、ストック氏は最近相次いでいる、AIエージェントが暴走する事例への懸念にも触れ、リスクを認めつつも過剰反応を戒めた。</p>
-<p>「人々をいたずらに怖がらせたくはありません。これは解決可能な問題だと考えています。優れたセキュリティを実現するのは難しい問題なのです」と同氏は語った。</p>
-<p><a href="https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: AI</em></p>
+<p>Wikimedia財団は、画期的なAI著作権訴訟群において中間的な立場を打ち出した。大規模言語モデル（LLM）が著作物で学習することは法的に保護されるべきだが、チャットボットがその著作物をそのままユーザーに吐き出すことは保護されるべきではない、というものだ。白黒をはっきりさせすぎた判決は、Wikipediaの編集者から有用なAIツールを奪うか、オープンウェブそのものを危険にさらしかねない、と同財団は述べている。</p>
+<p>Wikipediaを運営するこの非営利団体は金曜日に提出したアミカスブリーフ（法廷助言書）で、ニューヨーク・タイムズをはじめとする出版社がOpenAIとMicrosoftを相手取った一連の訴訟について意見を表明したが、どちらの側にもついていない。「Wikimediaは、本件の当事者双方の立場が、AIをめぐるフェアユース法理の過度に広範で単純化された適用を求めていることを懸念している」と同団体は書面で述べている。出版社側がニュアンスを欠いた勝利を収めれば、著作権者が自らの作品の革新的で変容的な利用までも「門番として締め出す」ことを許しかねないと懸念する。一方、AI企業側が勝てば、それは「ライセンス条件を無視し、人間の著者と読者の間の知識の流れを分断するためのゴーサイン」になりうるという。</p>
+<p>この判決はWikipediaにとって存亡に関わるものになりうる。Wikimediaのサイトは「あらゆる人工知能と機械学習の訓練にとって最も重要なデータ源の一つになっている」と同財団は書面で述べる。だが同じシステムが訪問者を吸い取り、これらのサイトを支えるコミュニティを弱らせている。Wikimediaは、それらが著作権侵害にもあたると主張する。ChatGPTのようなサービスはクリエイティブ・コモンズの下で自由にライセンスされたテキストを再現しているが、そのライセンスの条件を守っていない、というのだ。</p>
+<p>同時に、こうしたシステムを動かす大規模言語モデルはWikipediaにとって有用でもあるという。荒らしへの対処、著作権侵害や個人情報の暴露（ドキシング）の検出、改善が必要な記事の発見などに役立つ。</p>
+<p>「フェアユースの原則を慎重に適用しない判決は、自由な知識の持続可能性を脅かし、オープンソース技術の発展を阻害しかねず、いずれの場合も最終的にはすべての人の情報へのアクセスに影響を及ぼします」と、Wikimedia財団の法務責任者スティーブン・ラポート氏は声明で述べた。「裁判所は、Wikipediaが共同作業のプロセスによって作られており、その繁栄にはオープンでアクセス可能な人間の知識という強固な土台が必要だということを理解する必要があります」</p>
+<p>タイムズ側は、LLMに適用されるフェアユースの定義について、より広い解釈（侵害を広く認める解釈）を主張している。たとえば、OpenAIが訓練用データセットを構築するために同紙のウェブサイトをスクレイピングしたことが著作権侵害にあたると訴えている。OpenAIとMicrosoftはいずれも、LLMの利用はフェアユースにあたると主張している。OpenAIは、作品の吐き出しは「まれなバグ」だと述べている。Microsoftは9月の書面で、専門家の分析によればCopilotがモデルの根拠付けに使ったニュースコンテンツから文章をまるごと再現することはほとんどなく、それは「LLM訓練の変容的な目的をほとんど損なわない」と述べた。</p>
+<p>Wikimediaは妥協案を提案している。ブログ記事によれば、ウェブサイトのスクレイピングは著作権侵害とみなされるべきではなく、ライセンスなしに著作物を使ってLLMを事前学習することも、それが「元の情報源とは異なる新しい何か」を提供する場合はフェアユースとされるべきだという。しかし、モデルがユーザーの質問に応じて素材のコピーを引き出し、「元の作品への読者の関与に取って代わる形で」ユーザーに届けるのであれば、それにはライセンスが必要だとする。重要な違いは、後者の場合、AIの出力が単に元の作品の代用品になっているだけで、フェアユースと認められるほど変容させていない点にある。</p>
+<p>そうしたケースでは、AI企業はその情報を使うためのライセンス要件を尊重すべきだとWikimediaは述べる。Wikipediaの場合、それはクリエイティブ・コモンズ・ライセンスに基づいて元の情報源をクレジットすることを意味し、同ライセンスは「あらゆるリミックスや翻案」も同じライセンスのままであることを求めている。</p>
+<p>「私たちは、Wikipediaが依拠する自由でオープンな人間の知識を守るために、本件で立場を表明しています」と、WikimediaのCEOバーナデット・ミーハン氏は声明で述べた。「AIを通じて知識へのアクセスを広げることは力強い目標ですが、それは信頼できる知識を可能にしている人々、貢献者、コミュニティを尊重するものでなければなりません。このバランスを見つけることは、情報エコシステム全体にとって相互の利益であり、共有された責任でもあります」</p>
+<p><a href="https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a2">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2. Gemini、チャット内でドキュメント・PDF・スライド・スプレッドシートを生成・プレビュー・編集可能に</span></div>
-    <div class="meta"><span class="tag">AI</span>Google公式ブログ ／ 2026-10-29
-      ／ 原文: <a href="https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/" rel="noopener noreferrer">https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/</a></div>
-    <p class="summary">全画面表示で直接書き換えたり、文字を選択して質問・修正依頼したりできる。PDFはWebとモバイル、Googleドキュメント／スプレッドシート／スライド／Markdown／TXT／コードはWebのみ。全言語で提供。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2. AmazonのジャシーCEO「AWSは年商1兆ドル事業になる」――ただしその前に巨額投資、2027年の設備投資はさらに拡大</span></div>
+    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-10-29
+      ／ 原文: <a href="https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/" rel="noopener noreferrer">https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/</a></div>
+    <p class="summary">AWSの売上は前年同期比39%増、年換算1,840億ドル規模。2026年の設備投資は約2,200億ドルで、2027年は「大幅に」増やす方針。AIは「一生に一度の好機」と説明したが、株価は時間外で約6%下落。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Google公式ブログ／日本語訳） ／ テーマ: AI</em></p>
-<p>Geminiアプリで、ドキュメント、PDF、プレゼンテーション、スプレッドシート、コードなどを作成し、仕上げていくための新しい方法を導入します。</p>
-<p>チャットの中で、ファイルを生成し、プレビューし、編集できるようになりました。全画面表示に切り替えて直接文字を打ち込んで編集したり、テキストをハイライトして質問したり、Geminiにファイルを手直ししてもらったりできます。PDFのプレビューと編集はWebとモバイルの両方で利用できますが、それ以外のすべての形式（Googleドキュメント、Googleスプレッドシート、スライド、Markdownファイル、TXTファイル、コード）はWebのみの対応です。</p>
-<p>下の動画で紹介しているように、アップロードした手書きの講義ノートからPDFの学習ガイドを作るようGeminiに頼み、それを手作業で簡単に編集したり、特定の箇所をハイライトしてGeminiに文章やビジュアルを修正させたり、さらに質問を重ねたりすることもできます。</p>
-<p>これらの機能は、Geminiアプリが提供されているすべての言語で、すべてのユーザーが利用できるようになりました。</p>
-<p><a href="https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
+<p>アンディ・ジャシー氏は、AWSが年間売上1兆ドルの事業になりうると考えていることを公言してきた。木曜日に行われたAmazonの四半期決算説明会でも、彼はこの野望を繰り返した。</p>
+<p>「Amazonで私たちが築いているものは、これまで誰も見たことのないものです。年間売上が1兆ドルに達した事業は、これまで一度も存在しませんでした」と同氏は語った。</p>
+<p>しかし、クラウド事業がそこに到達する前に、Amazonは急成長するこの事業を支えるために必要なインフラを構築すべく、設備投資を拡大しなければならない。</p>
+<p>「2026年の現金ベースの設備投資は引き続き約2,200億ドル（その大部分がAWS向け）を見込んでおり、2027年にはそれを大幅に上回る額を投じる予定です。その財務的リターンについては明確な見通しがあります」とジャシー氏は木曜日に明らかにした。</p>
+<p>AmazonのAIインフラ構築への巨額支出は、今年を通じて投資家の懸念材料であり続けてきた。実際、木曜日の説明会でもウォール街のアナリストたちはジャシー氏に対し、その支出の説明、成長が本当に訪れることを示す兆候、そして見込まれる利益率について繰り返し質問した。</p>
+<p>ジャシー氏は、それはすべて有意義な支出だと答えた。このEコマース大手は、AIが牽引する世界的なクラウド需要という歴史的な瞬間をものにするつもりだからだという。AWSの売上は前年同期比で39%増加し、6四半期連続で着実な成長を続けている。</p>
+<p>さらにCEOは、来年だけでなく2028年にも40%の成長を見込んでいると予測した。</p>
+<p>「AWSは年換算売上1,840億ドルの事業ですが、それでもなお機会は並外れて大きいのです」とジャシー氏は熱弁した。「継続的なイノベーションのペース、新たなコア機能とAI機能、コアワークロードとAIワークロードをAWSで動かしたいと考える企業、そして毎年追加している容量の大きさを考えれば、AWSは2027年と2028年のそれぞれで40%を超える成長を遂げ、今後5年から10年で売上1兆ドルの事業になりうると私たちは考えています」</p>
+<p>ジャシー氏は、企業によるAI導入は「まだごく初期の段階」にあり、これまでのところ「戦略はうまくいっている」と付け加えた。</p>
+<p>その後、AWSの成長に必要な投資がなぜそれほど大きいのかと問われたジャシー氏は、AIブームを「一生に一度の好機」と表現し、いまそれほど大きな財務的コミットメントが必要であり、またその価値があると述べた。</p>
+<p>「私たちはリーダーであり続けるために投資します」と同氏は述べた。「この計画の資金は賄えますし、これはAmazonの規模を永遠に変えるでしょう。私たちの売上を永遠に変えるのです」</p>
+<p>しかし投資家の懸念は消えなかった。木曜日の時間外取引で、株価は約6%下落した。</p>
+<p>AIブームはクラウド業界にとって手放しでは喜べない恩恵だ。ブームを支えるAIサービスはクラウドインフラの上に成り立っているからだ。Amazonと同様に、他のクラウド事業者も巨額を投じる一方で、大きく稼いでもいる。たとえばMicrosoftは、主にクラウド事業に牽引されて、またしても記録的な売上成長を発表したばかりだ。同社もまた、多額の資金を投じている。</p>
+<p><a href="https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a3">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>3. Google、「AI検索は稼ぎが少ない」と認める――決算後に株価は約12%急落、対策は広告の増量</span></div>
-    <div class="meta"><span class="tag">AI</span>Ars Technica ／ 2026-10-29
-      ／ 原文: <a href="https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/" rel="noopener noreferrer">https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/</a></div>
-    <p class="summary">7〜9月期の売上は約1,280億ドル（前年比25%増）だが純利益は約90億ドル減。検索の伸びは12%に鈍化し、AIモードのクエリ単価は通常検索より低いと経営陣が説明。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>3. RedditのCEO「GoogleのAIモードはトラフィックを生まない」――10月の検索流入は週平均100万件超減少</span></div>
+    <div class="meta"><span class="tag">AI</span>The Verge ／ 2026-10-29
+      ／ 原文: <a href="https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic" rel="noopener noreferrer">https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic</a></div>
+    <p class="summary">Q3決算でハフマンCEOが、AIモードとAIによる概要がサイトへの送客を減らしていると指摘。一方でRedditは依然Googleの「上位検索語」で、Googleのクロールも従来どおりだという。対策としてログイン必須化と「For You」フィードを打ち出す。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Ars Technica／日本語訳） ／ テーマ: AI</em></p>
-<p>Googleの親会社Alphabetは水曜日の午後に第3四半期（7〜9月）の決算を発表し、売上は堅調に伸びた。しかし同社の株価は大きく売り込まれ、決算発表後の下落としては同社史上最大級となった。その原因は、新たな決算に含まれていたいくつかの懸念材料にある。たとえば、AI検索は通常の検索ほど稼げていないと同社が認めたこと、そしてそれにもかかわらず、来年はAIへの支出をさらに増やす見通しであることだ。</p>
-<p>同社の2026年第3四半期の売上は約1,280億ドル、純利益は260億ドルを超えた。良い数字に聞こえるかもしれないが、金融市場は感心していない。売上は前年比25%増だったものの、純利益は約90億ドル減っている。この記事の公開時点で株価は12%近く下落しており、日中には一時約13%下げていた。</p>
-<p>売上は前年比25%増だったが、アナリストはそれ以上を期待していた。Googleの1株当たり利益は2.12ドルで、水曜日以前のコンセンサス予想は3.02ドルだった。クラウド製品は実際には予想を上回り、売上は300億ドルを突破した。これはアナリストの予想より約10億ドル多い。</p>
-<p>Googleは今なお莫大な利益を上げているが、いくつかの気がかりな傾向が見え始めている。ここ数年の同社はAI一色で、生成AI技術がGmailからAndroidまであらゆる製品に入り込んできた。最も注目すべきは、GoogleがGeminiモデルを基盤とするAI検索プラットフォームへと移行しつつあることだ。</p>
-<p>決算説明会で、最高ビジネス責任者のフィリップ・シンドラー氏は同社の検索ボリュームについて説明した。これは同社が自らの業績を測る重要な指標の一つだ。前四半期、Googleの検索は前年比12%伸びた。会社にとっては良いことでは？ と思うかもしれないが、これは過去の四半期よりずっと遅い伸び率だ。第2四半期の伸びは17%、第1四半期は2025年比で19%だった。また、第3四半期の検索売上は横ばいだった。</p>
-<p>これが一つ目の問題で、おそらくAIチャットボットを使って答えを探す消費者が増えていることが原因だ。もう一つの問題は、GoogleのAI検索がまだ通常のWeb検索ほど売上を生んでいないことである。シンドラー氏によれば、AIモードのクエリ1件あたりの売上は、同様のWeb検索に比べて少ないという。表示される広告が少なく、しかも広告の単価も低いためだ。</p>
-<p><em>訳注: 原文の後半部分は取得できなかったため、取得できた範囲までの訳です（抄訳）。後半では、見出しにあるとおりAIモードへの広告拡大などが論じられています。</em></p>
-<p><a href="https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: AI</em></p>
+<p>RedditのCEO、スティーブ・ハフマン氏は本日の決算説明会で、GoogleのAIを活用した検索モードはRedditへのトラフィック増に貢献していないと述べ、他のウェブサイトや出版社が直面している問題と同じ認識を示した。Redditは2026年第3四半期決算の一環として、10月の検索トラフィックが「週平均で100万件以上の参照（リファラル）減少」となったことを明らかにし、ハフマン氏は同社がGoogleからのトラフィックで苦戦している理由の一部を、AIモードとAIによる概要（AI Overviews）が検索体験を変えたことにあるとした。</p>
+<p>「現実として、AIモードはトラフィックを生みません」とハフマン氏は述べた。「私たちにとっても、私の知る限り誰にとってもです。それはGoogleの仕組みにおける根本的な変化にすぎません。かつてはトラフィックの供給源でしたが、今はそうではないのです」</p>
+<p>同氏によれば、AIによる概要とAIモードは「大きく進化」しており、今では「少なくとも」あらゆるものを検索ページの下へと押し下げているという。またハフマン氏は、他言語に機械翻訳されたRedditのコンテンツが検索結果で低く評価されているとRedditは考えており、それは主に米国外での同社に影響していると述べた。</p>
+<p>それでも、Redditは依然として「Googleの上位検索語」だとハフマン氏は言う。「これはインターネット利用者のRedditへの需要について何かを示しているわけではありません。人々は今でもRedditを求めています。GoogleがかつてのようにユーザーをRedditに送らなくなった、ということを示しているのです」。さらに同氏は、Googleは「これまでと変わらず激しく私たちをクロールしているので、Google側から見ても需要は変わっていない」とも述べた。</p>
+<p>（GoogleのビジネスもAIモードの影響を受けている。同社は昨日、AIモードの広告で「収益化の低下」が見られると述べたが、それでもAI広告をより多くの国に広げようとしている。）</p>
+<p>検索からの流入減に対抗するため、Redditはプラットフォームを「直接訪れ、定着し、毎日訪れる場所」にしようとしている。昨日には興味に関連したおすすめを表示する「For You」フィードを導入し、8月にはAIを使って投稿を短い動画に変える実験のテストを始めた。</p>
+<p>Redditはまた本日、すべてのユーザーにログインを義務付ける方針を発表した。ハフマン氏はこれについて、「ユーザー体験にとってより良く、広告事業にとってより良く、安全規制により沿ったものであり、Redditのデータをより保護するものだ」と主張している。</p>
+<p><a href="https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a4">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>4. Meta、AIファッションアプリ「Style Sketch」をひっそり公開――Instagramの投稿から“手持ちのクローゼット”を作成</span></div>
-    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-10-29
-      ／ 原文: <a href="https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/" rel="noopener noreferrer">https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/</a></div>
-    <p class="summary">手持ちの服から着こなしを提案し、体型や肌の色に合わせたモデルで試着表示。旅行先の天気や予定に合わせた日別コーデも。インドネシア・シンガポール・タイでiOS／Android向けに提供。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>4. Strava、Google Geminiと連携――運動履歴に基づくパーソナライズされた分析を会話で</span></div>
+    <div class="meta"><span class="tag">AI</span>9to5Mac ／ 2026-10-29
+      ／ 原文: <a href="https://9to5mac.com/2026/10/29/strava-adds-google-gemini-integration-with-personalized-workout-insights/" rel="noopener noreferrer">https://9to5mac.com/2026/10/29/strava-adds-google-gemini-integration-with-personalized-workout-insights/</a></div>
+    <p class="summary">Claude連携に続きMCP経由でGeminiに対応。「同じ心拍数で速くなっている？」「土曜のロング走は暑さでどれだけ遅くなった？」などを質問できる。読み取り専用・任意で、まず米国のStravaサブスクライバー向け（Geminiのプランは問わない）。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
-<p>Metaは、手持ちの服を使ってコーディネートのアイデアを組み立てられるAIファッションアプリ「Style Sketch」をひっそりと公開した。このアプリはInstagramと連携し、ユーザーが投稿した写真からバーチャルなクローゼットを作成する。あるいは、写真を撮る、短い動画を撮影する、カメラロールから画像をアップロードするといった方法で、アイテムを手動で追加することもできる。</p>
-<p>Style Sketchは、ワードローブの中から自分のスタイルに合ったコーディネートの組み合わせを提案する。ユーザーはその着こなしを「体型と肌の色に合わせたリアルなモデル」に着せて試すことができる、とアプリの説明には書かれている。</p>
-<p>ソーシャルメディアコンサルタントのマット・ナヴァラ氏が最初に見つけたこのアプリは、インドネシア、シンガポール、タイでiOSとAndroid向けに提供されている。</p>
-<p>MetaはTechCrunchのコメント要請に応じなかった。MetaがStyle Sketchをより広く展開する予定があるかどうかはわかっていない。</p>
-<p>AIを使ってワードローブをデジタル化し、新しい着こなしを可視化するアプリはすでにいくつも存在し、Altaのようなスタートアップもその一つだ。Googleフォトでさえ、服の写真をデジタルクローゼットに変えて新しいコーディネートのアイデアを作れるツールを提供している。</p>
-<p>すでに市場にあるものと競争するために、Metaはアイデアの目新しさよりも、ユーザーが個人のスタイルの視覚的な記録をすでに残しているInstagramとの連携に頼ることになりそうだ。</p>
-<p>アプリの説明によれば、ランダムな提案に頼るだけでなく、ワードローブから特定のアイテムを選び、それを軸にした新しいコーディネート案を得ることもできる。</p>
-<p>旅行の服装計画にも役立つ。行き先、旅行の日数、予定しているアクティビティを入力すると、天気予報と旅程を考慮した日ごとのコーディネート計画が得られる。</p>
-<p>Style Sketchは、ここ数か月でMetaが出した数多くのAIアプリの一つだ。直近では、AIを搭載したたまごっちのクローンのようなアプリ「Waddle World」を公開している。ほかにも、ゲームをバイブコーディングで作れるツール「Pocket」や、AI生成動画を手早く作れる「Vibes」も公開している。</p>
-<p>こうした新アプリの波は、より多くのアプリをリリースしようとするMeta全体の取り組みの一環だ。Wall Street Journalは今年初め、マーク・ザッカーバーグCEOが従業員に対し、AIによる効率化で新しいアプリを出すのが速く簡単になったことから、同社はこれまでよりはるかに多くのアプリをリリースする計画だと伝えたと報じている。</p>
-<p><a href="https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（9to5Mac／日本語訳） ／ テーマ: AI</em></p>
+<p>フィットネス記録プラットフォームのStravaは今週、Google GeminiとのAI連携を拡大し、サブスクライバーが自分のワークアウト履歴に基づいたパーソナライズされた分析を得られるようにした。詳細は以下のとおり。</p>
+<h3>StravaがAI連携をGeminiに拡大</h3>
+<p>数カ月前、Stravaはモデル・コンテキスト・プロトコル（MCP）を使ったClaudeとの連携を開始し、ユーザーがAnthropicのAIアシスタントとの自然言語での会話を通じて、ワークアウト履歴やトレーニングのパフォーマンスを分析できるようにした。</p>
+<p>MCPは（Anthropicが作成し、その後Linux FoundationのAgentic AI Foundationに寄贈された）オープン標準で、AIアシスタントが外部のアプリやサービスに接続して情報にアクセスしたり、ユーザーに代わってタスクを実行したりできるようにするものだ。</p>
+<p>今週、StravaはAI連携の拡大を発表し、同様の機能をGoogle Geminiにもたらした。</p>
+<p>同社の説明によれば、「StravaをGeminiに直接接続した」サブスクライバーは「自分のアクティビティ履歴に基づいた、より文脈に沿ったパーソナライズされた回答を得られる」。同社はまた、この連携は完全に任意で、読み取り専用だとしている。</p>
+<p>発表によれば、接続すると、ユーザーはGeminiに次のような質問ができる。</p>
+<ul><li>「同じ心拍数で速くなっている？」――何カ月分ものアクティビティをスクロールしなくても、運動量、継続性、スポーツの組み合わせで何が変わったかを確認できる。</li><li>「前回のレースでのパフォーマンスを詳しく分析して」――1マイルごとに、自分の力の出し方がどうだったかを理解できる。</li><li>「筋力トレーニングはランニングにどう影響している？」――Stravaで行っているあらゆるスポーツにまたがる傾向をまとめられる。</li></ul>
+<p>さらに最新のアップデートで、次のような質問もできるようになった。</p>
+<ul><li>「今年の10kmの最速タイムと、これまでの最速タイムは？」――それぞれの日付とアクティビティとともにベスト記録を並べて比較し、どれだけ進歩したか、まだ何が手の届く範囲にあるかを確認できる。</li><li>「土曜のロング走は、暑さでどれだけ遅くなった？」――原因が脚なのか天候なのかを見極められる。アクティビティ時の気温、湿度、風、状況も分析の対象になった。</li><li>「Stravaでの最長ランニング連続記録はどれくらい？」――スポーツ別に現在の連続記録と最長記録、そして現在の記録がいつ始まったかを確認でき、その日が終わる前に自分の状況を把握できる。「ランの連続記録はどれくらい？」と聞くこともできる。</li></ul>
+<p>提供はまず米国に限定され、Geminiのプランにかかわらず、Stravaのサブスクライバーなら利用できる。Stravaは他の国への拡大時期については発表していない。</p>
+<p>発表の全文はリンク先で読める。</p>
+<p><a href="https://9to5mac.com/2026/10/29/strava-adds-google-gemini-integration-with-personalized-workout-insights/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a5">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>5. Reddit、ログイン前提のサイトへ移行を発表――AI検索で検索流入が激減、米国の日次ユーザーも減少</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>TechCrunch ／ 2026-10-29
-      ／ 原文: <a href="https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/" rel="noopener noreferrer">https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/</a></div>
-    <p class="summary">10月は検索からの流入が週平均100万件以上減少。第4四半期に米国外の一部市場でテストを開始し、全面展開の時期は未定。売上は前年比53%増の8億9,500万ドル。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>5. Waymo、トヨタbZ4Xをロボタクシーに採用――来年から日本で試験走行、英国など右ハンドル国へも展開へ</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>TechCrunch ／ 2026-10-30
+      ／ 原文: <a href="https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/" rel="noopener noreferrer">https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/</a></div>
+    <p class="summary">トヨタが高岡工場で2027年型bZ4Xを製造し、Waymoの自動運転システムを統合。まず日本でテストし、将来は日本でのロボタクシー運行を目指す。個人所有のトヨタ車への技術導入も引き続き検討する。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>Redditは長年、Googleを通じて何百万人ものユーザーをサイトに呼び込んできた。より良い答えを求めて検索語に「Reddit」と付け足す人も多いほどだ。しかし、AIを使った検索への移行で検索からの流入が枯渇しつつある中、Redditはオープンなインターネットとの関係を見直そうとしている。木曜日に行われた第3四半期の決算説明会で、同社は主に「ログインした状態での体験」へと移行すると発表した。</p>
-<p>この動きは、自社のデータをAIによるスクレイピングから守り、代わりにモデル提供企業と有利なライセンス契約を結べるようにすることを狙ったものだ。しかしそれと同じくらい重要なのは、最大の市場である米国で日次アクティブユーザーが減少している中でも、この転換によってRedditが売上を伸ばせる可能性があることだ。</p>
-<p>全体として、Redditの第3四半期の世界の日次アクティブユーザーは前四半期比で横ばいの1億3,030万人だった。一方、米国の日次アクティブユーザーは第2四半期の5,320万人から第3四半期は5,070万人に減り、前年比でも2%減少した。</p>
-<p>こうした減少に見舞われているのは同社だけではない。AI中心のWebへの移行は、今やほとんどのWebサイトやパブリッシャーに影響を与えており、AIの要約がサイトを訪れなくても答えを示し、Googleの従来の「10本の青いリンク」の重要性が下がったことで、クリックスルーが減っている（この変化は、今やGoogle自身の収益にも影響していることが同社の決算で明らかになった）。</p>
-<p>しかしRedditの規模になると、こうした減少に伴う数字は膨大になる。同社によれば、10月の検索からの流入は週平均で100万件以上減少した。この傾向が続けば、次の四半期には日次アクティブユーザーが10%台前半の割合で減少する可能性があると同社は警告している（試算すると、仮に10〜12%減少すれば、第3四半期の1億3,030万人から約1億1,500万〜1億1,700万人に落ち込むことになる。大幅な減少だ）。</p>
-<p>同時にRedditは、成長が鈍る中でも、ユーザーを収益化する力を大きく高めている。売上は前年比53%増の8億9,500万ドルで、ウォール街の予想の約8億7,500万ドルを上回った。純利益は74%増の2億8,300万ドル。広告売上は54%増の8億4,700万ドル、AIデータのライセンス事業を含む広告以外の売上は前年比35%増の4,800万ドルだった。</p>
-<p>また、米国の日次ユーザーが前年比2%減ったにもかかわらず、米国の日次アクティブユーザー1人あたりの平均売上は53%増の13.82ドルとなった。世界全体では、日次アクティブユーザー1人あたりの平均売上は前年比36%増の6.87ドルだった。</p>
-<p>ログインした状態での体験に移行すれば、これらの数字はさらに上がる可能性がある。ログインしたユーザーは一般に、広告主にとってより価値が高いからだ。</p>
-<p>検索経由でサイトにたどり着くことが多いログアウト状態のユーザーと違い、ログインしたユーザーは自分の興味や行動についてより多くのシグナルを提供するため、広告をより的確にターゲティングし、パーソナライズしやすくなる。</p>
-<p>同じシグナルは、Redditがユーザーによりパーソナライズされた体験を提供するのにも役立つ。パーソナライズされたフィード、参加すべき新しいコミュニティのおすすめ、投票やコメント、参加を促す働きかけなどだ（これには、昨日発表された新しいアルゴリズム型の「For You」フィードへのおすすめの表示も含まれる。このフィードは、ユーザーが所属するコミュニティの投稿と、興味に基づくほかのおすすめを組み合わせたものになる）。</p>
-<p>それでも、これほど大きな変化は、オープンなWebにとって「炭鉱のカナリア」になるかもしれない。</p>
-<p>「皆さんはどうかわかりませんが、オープンなインターネットによって人生が形作られてきた私にとって、これは大きな変化です」と、Redditの共同創業者兼CEOのスティーブ・ハフマン氏はRedditに投稿した文章で書いた。「しかし、これが私たちのプラットフォームにとって正しい決断であり、私たちのビジネスにとって正しい決断だという結論に至りました」</p>
-<p>同社によれば、ログインした状態での体験への移行は一夜にして行われるものではなく、まず第4四半期に米国外の一部市場でテストを行う。世界中のすべてのユーザーに展開する時期はまだ決まっていない。また同社は、ログアウトした状態でもフロントページにアクセスできることが重要だと認めている。</p>
-<p>さらにRedditは、ログインしても匿名性を手放す必要はないと指摘しており、現在作り直している「シークレットモード」で匿名のまま閲覧できる選択肢もなくさないとしている。</p>
-<p>「ログインした状態とログアウトした状態の体験の境界をどこに引くべきかなど、まだ答えの出ていない疑問はたくさんあります」とハフマン氏は書いている。「これはRedditにとって大きな進化であり、軽々しく踏み出すものではありません。しかし、プラットフォームにとっても私たちの未来にとっても、これが正しい次の一歩だと信じています」</p>
-<p><a href="https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>Waymoは来年、日本で自動運転仕様のトヨタbZ4Xの試験走行を開始する。これは英国を含む国際市場でのロボタクシー運行向けに電気自動車を供給してもらう、同自動車メーカーとのより広範な提携の一環だ。</p>
+<p>金曜日に発表された提携のもとで、トヨタは2027年型bZ4Xを製造し、日本の高岡工場でWaymoの自動運転システムを統合する。（この電気自動車は現在、北米市場では「BZ」の名で知られている）</p>
+<p>自動運転仕様のbZ4Xはまず日本でテストされる。Waymoは日本で最終的にロボタクシーサービスを運営する意向だ。ただし、これらの車両は英国など他の右ハンドルの国々にも配備される予定だ。Waymoはすでに数カ月前からロンドンで自動運転のジャガーI-Paceのテストを行っており、必要な許可を得しだい同地でロボタクシーサービスを開始する計画だ。</p>
+<p>今回の発表は、トヨタとWaymoが自動運転車プラットフォームの開発と配備を検討する予備的な合意に署名してから18カ月後のことだ。当時の合意は「様子を見よう」という類いのもので、解釈の余地が大いに残るほど曖昧な文言だった。</p>
+<p>現時点では、この提携は、Waymoが特定地域のニーズを満たしつつロボタクシーのラインナップに新たな車種を加えるための、従来型の車両供給契約に近いものに見える。</p>
+<p>しかし、この提携はロボタクシーにとどまらない可能性がある。両社は、Waymoの自動運転技術を個人所有のトヨタ車に導入することについても引き続き検討するとしている。</p>
+<p>トヨタとWaymoはまた、「Waymoの実際の運行から得られた知見」を活用して他の道路利用者の安全性を高める、将来の別の「取り組み」を検討する計画も発表した。それが何を意味するのかは不明だが、トヨタの執行役員副社長で取締役の中嶋裕樹氏がいくつかの手がかりを示した。</p>
+<p>「この協業は、その技術を拡大し、Waymoの配車サービスを通じて日本やその先のお客様に届ける助けになります。並行して、トヨタは車両と交通インフラを統合することで道路をさらに安全にできる方法を引き続き探っていきます」と同氏は声明で述べた。</p>
+<p><a href="https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a6">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>6. Apple幹部が新iPad miniを語る――ProMotionなしのOLED、画面そのものを鳴らす「Acoustic Display」でiPad初のIP67</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>9to5Mac ／ 2026-10-29
-      ／ 原文: <a href="https://9to5mac.com/2026/10/29/apple-vp-talks-new-ipad-mini-oled-without-promotion-acoustic-display-more/" rel="noopener noreferrer">https://9to5mac.com/2026/10/29/apple-vp-talks-new-ipad-mini-oled-without-promotion-acoustic-display-more/</a></div>
-    <p class="summary">ハードウェアエンジニアリング担当VPのデイブ・パクラ氏が2本のインタビューで解説。60HzでもOLEDの高速な画素応答で滑らかだと説明。予約受付中で11月6日に到着開始。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>6. Intel、廉価ノートPC向け「Wildcat Lake」チップが完売――CFOは「来年のメモリ事情は楽観していない」</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>The Verge ／ 2026-10-29
+      ／ 原文: <a href="https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage" rel="noopener noreferrer">https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage</a></div>
+    <p class="summary">RAM不足でPC価格が上がるなか、Dell XPS 13やHP OmniBook 5 14など低価格Windowsノートに採用が拡大。CFOはメモリ不足が2027年に改善するとは見ておらず、PCは「それでも復興期を迎える」と強調した。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（9to5Mac／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>Appleは今週、iPad miniの「史上最大のアップデート」を発表し、より薄く軽いデザインとOLEDディスプレイを導入した。</p>
-<p>2本のインタビューの中で、Appleのハードウェアエンジニアリング担当バイスプレジデント、デイブ・パクラ氏が、新しいiPad miniのデザインやディスプレイなどについて語った。</p>
-<p>新しいiPad miniはOLEDディスプレイを搭載しているが、ProMotionには対応しておらず、リフレッシュレートは60Hzに制限されている。この判断について、パクラ氏はクリス・ローリー氏とのインタビューで次のように語った。</p>
-<blockquote>ディスプレイの体験は、一つの仕様だけで決まるものではありません。OLEDの本当に優れた点の一つは、画素の応答速度が非常に速いことです。LCDディスプレイの画素応答速度に比べて、一桁以上速いのです。<br>そのおかげで、あらゆる表示がとても滑らかになります。モーションブラーはLCDに比べて大幅に減ります。それをコントラスト、輝度、色といったほかの要素と組み合わせれば、まさに圧倒的なディスプレイになります。</blockquote>
-<p>新しいiPad miniは軽く薄くなったうえに、iPadとして初めてIP67等級の防水・防塵性能を備えている。それを可能にした重要な要素の一つが、新しい「Acoustic Display」だ。パクラ氏はこの技術の仕組みを次のように説明する。</p>
-<blockquote>実験を始めてみて気づいた面白いことの一つが、このディスプレイ特有のサイズと形状が、可聴域に共振周波数を持っているということでした。<br>さらに重要なのは、それがスピーカーの従来のウーファーとほぼ同じ帯域だということです。そこで私たちは、ディスプレイを振動させて筐体から直接音を出すカスタムドライバーを作りました。ただし、これが本当に機能するのは中音域と低音域だけです。<br>高音域については、小さなカスタムツイーターを設計しました。本体の両端に一つずつあり、ガラスとアルミニウムの間にある隠しポートから音を出しています。その結果、防水・防塵でありながら、このサイズのフォームファクターとは思えないほど驚くような音が出る製品になったと思います。</blockquote>
-<p>パクラ氏はカタリーナ・モガス氏のインタビューにも応じ、iPhone Duoも存在する中でiPad miniがどのような位置づけになるのかについて語った。</p>
-<blockquote>iPad miniの好きなところは、手のひらの上でiPadのすべての体験が得られることです。App Storeの100万本以上のアプリにアクセスできます。Apple Pencil Proのような非常に強力なクリエイティブ向けアクセサリも使えます。そしてiPadOS 27の高度なマルチタスク機能もあります。<br>本当に、驚くほど万能なのです。正直に言って、今回のアップデートで、そうした体験のすべてがずっと良くなりました。</blockquote>
-<p>両方のインタビューは下で視聴できる。新しいiPad miniは現在予約受付中で、最初の注文は11月6日に届き始める。</p>
-<p><a href="https://9to5mac.com/2026/10/29/apple-vp-talks-new-ipad-mini-oled-without-promotion-acoustic-display-more/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: ガジェット</em></p>
+<p>Intelの最新の決算説明会で、CEOのリップブー・タン氏は、同社の低価格向け「Wildcat Lake」チップの需要が「供給を上回っている」と述べた。CFOのデビッド・ジンズナー氏によれば、このチップは現在完売しているという。ジンズナー氏は、Intelは「Wildcat Lakeで大きな成長を見ています。コストが最適化されたチップなので、まさに絶好のタイミングで登場しましたし、その点に大きな注目が集まっています」と語った。</p>
+<p>RAMやその他の部品の不足がここ数カ月PC価格を押し上げるなか、IntelのWildcat Lakeチップは、新しいDell XPS 13やHP OmniBook 5 14など、MacBook Neoに匹敵する新しい低価格Windowsノートに搭載されるようになっている。こうしたWildcat Lake搭載ノートは手頃な開始価格を実現しているが、RAMが8GBしかないことも多く、Windowsノートではそれでやりくりするのに苦労しかねない。</p>
+<p>Intelは、メモリ不足がすぐに改善するとは見ていない。ジンズナー氏はメモリ供給に関する質問に答え、「はっきり言っておきますが、メモリに関して来年については楽観していません」と述べた。さらに「2028年に改善するかどうかは様子を見る必要がありますが、2027年には改善しないというのが私たちの見通しです」と付け加えた。これでも、RAM不足は2030年まで続くとするSK hynixの予測よりは楽観的だ。</p>
+<p>タン氏はPC需要の減速も認め、「業界は史上最も深刻な供給不足の一つを乗り切り続けています。その原因は、スーパーインテリジェンスに対する前例のない需要です」と、AIに言及しながら述べた。ジンズナー氏は決算説明会での質問に答え、「それでもPCは復興期を迎えると考えています」と語った。</p>
+<p><a href="https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a7">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>7. Google Home／Nestスピーカーに7項目の更新――ステレオペアの音質調整、Bluetoothの不具合修正、Wi-Fi 7接続の改善</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>9to5Google ／ 2026-10-29
-      ／ 原文: <a href="https://9to5google.com/2026/10/29/google-home-nest-speaker-updates/" rel="noopener noreferrer">https://9to5google.com/2026/10/29/google-home-nest-speaker-updates/</a></div>
-    <p class="summary">Nest Audio、Google Home、Home Miniでストリーミング再生が滑らかに。WPA3のWi-Fi 7アクセスポイントに接続できない問題や、音声でGoogle Meet通話を終了できない不具合も修正。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>7. Samsung、中国向け高級折りたたみ「W27」を発表――中身はGalaxy Z Fold 8 Ultra、価格はiPhone Duo超え</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>Android Authority ／ 2026-10-30
+      ／ 原文: <a href="https://www.androidauthority.com/samsung-w27-3729821/" rel="noopener noreferrer">https://www.androidauthority.com/samsung-w27-3729821/</a></div>
+    <p class="summary">金色のフレームとカメラ部、テクスチャ仕上げ、ダークレッド／ダークブルーの背面を採用。16GB/512GBが18,999元（約2,852ドル）、16GB/1TBが21,999元（約3,303ドル）。ケブラー製マグネットケースや45W充電器が同梱。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（9to5Google／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>Chromecast with Google TVとNest Wifi Proのアップデートに加えて、GoogleはNestとHomeの各スピーカー向けの新しいファームウェアの内容を詳しく説明した。</p>
-<p>Google Home、Google Home Mini、Nest Audioは「ストリーミング性能の向上」の恩恵を受け、「より滑らかなオーディオ再生」が期待できる。</p>
-<p>また、Google Home Speaker、Nest Audio、Nest Miniでは、Google Homeアプリ内での「ローカルデバイスの検出がより速く、より確実に」なる。</p>
-<p>オーディオ面では、次の点に注目したい。</p>
-<ul><li>スピーカーペアの音量チューニング: こもった低音を抑え、最小音量でもはっきり聞こえるようにすることで、音質を改善。</li><li>再開時のBluetoothオーディオストリーミング: 接続したノートPCなどからのBluetoothオーディオ再生が、音声で「再開」と指示した後に自動的に一時停止してしまう不具合を修正。</li><li>スピーカーグループとステレオペアの表示: ステレオペアやスピーカーグループが、Google Homeアプリで突然消えたり検出できなくなったりする問題を修正。</li></ul>
-<p>Googleは、スマートスピーカーが「WPA3セキュリティを使うWi-Fi 7アクセスポイントに接続」できなかった問題も解決した。</p>
-<p>最後の更新は、「ユーザーが音声コマンドでGoogle Meetの通話を終了できなかった」問題に対処するものだ。</p>
-<p>Googleはこれらの更新のファームウェアバージョンを明らかにしておらず、リリースノートのページもまだ完全には更新されていない（例: Google Home Speaker）。</p>
-<p>変更履歴の全文は以下のとおり。</p>
-<ul><li>オーディオ再生: Nest Audio、Google Home、Google Home Miniでストリーミング性能を向上し、オーディオ再生をより滑らかに。</li><li>スピーカーペアの音量チューニング: こもった低音を抑え、最小音量でもはっきり聞こえるようにして音質を改善。</li><li>ローカルネットワーク検出: Google Home Speaker、Google Nest Audio、Google Nest Miniについて、Google Homeアプリ内でのローカルデバイス検出をより速く確実に。</li><li>再開時のBluetoothオーディオストリーミング: 接続したノートPCなどからのBluetoothオーディオ再生が、音声で「再開」と指示した後に自動的に一時停止する不具合を修正。</li><li>Wi-Fi 7ルーターとの互換性: WPA3セキュリティを使うWi-Fi 7アクセスポイントにスマートスピーカーが接続できない、セットアップや接続の失敗を解決。</li><li>スピーカーグループとステレオペアの表示: ステレオペアやスピーカーグループがGoogle Homeアプリで突然消えたり検出できなくなったりする問題を修正。</li><li>Google Meetの音声通話操作: 音声コマンドでGoogle Meetの通話を終了できなかった問題を修正。</li></ul>
-<p><a href="https://9to5google.com/2026/10/29/google-home-nest-speaker-updates/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Android Authority／日本語訳） ／ テーマ: ガジェット</em></p>
+<ul><li>Samsungが中国で折りたたみスマートフォン「W27」を発売した。</li><li>実質的には高級デザインをまとったGalaxy Z Fold 8 Ultraだ。</li><li>Samsung W27の価格は16GB/512GBモデルで約2,852ドルから。</li></ul>
+<p>Samsungは毎年、Galaxy Z Foldシリーズの中国限定版を、豪華なデザインとともに投入するのが通例だ。同社は数日前にSamsung W27の登場を予告していたが、このたび正式に発表した。</p>
+<p>Samsung W27は、やはりGalaxy Z Fold 8 Ultraをより高級なデザインにしたものだ。金色のフレームとカメラアイランドを備え、フレーム自体にはテクスチャ仕上げが施されている。背面カバーはダークレッドかダークブルーから選べる。背面は同じGorilla Glass Ceramic 3で保護され、防水防塵等級は相変わらず物足りないIP48だ。折りたたみ時の厚さ8.9mm、重さ215gも同じだ。</p>
+<p>それ以外の主要スペックもGalaxy Z Fold 8 Ultraと同じだ。つまり、8インチの折りたたみ有機ELディスプレイ、6.5インチの外側有機EL画面、Snapdragon 8 Elite Gen 5 for Galaxyチップセット、5,000mAhのバッテリーを搭載する。</p>
+<p>カメラも見覚えのある構成で、2億画素のメインカメラ、5,000万画素の超広角カメラ、1,000万画素の3倍望遠、そして各画面に1,000万画素のカメラを備える。スペック上の大きな違いの一つは、W27が16GB/512GBと16GB/1TBのモデルしかないことだ。一方、Z Fold 8 Ultraには12GB/256GBと12GB/512GBのモデルもある。</p>
+<p>価格は16GB/512GBのSamsung W27が18,999元（約2,852ドル）、16GB/1TBモデルの希望小売価格が21,999元（約3,303ドル）だ。参考までに、16GB/1TBのZ Fold 8 Ultraの米国での希望小売価格は2,700ドル。W27は、中国での256GBと512GBのiPhone Duo（それぞれ約2,401ドルと約2,702ドル）よりも高い。</p>
+<p>良い点としては、少なくとも同梱のアクセサリーがかなり充実していることだ。ケブラー製のマグネットケース、45W充電器、USB-Cケーブルが箱に入っている。</p>
+<p><a href="https://www.androidauthority.com/samsung-w27-3729821/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a8">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>8. Rokid、Meta Ray-Ban Display対抗のフルカラー表示グラス「Rokid Color」と「Rokid Glasses 2」を中国で発表――CES 2027で世界展開へ</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>Android Authority ／ 2026-10-29
-      ／ 原文: <a href="https://www.androidauthority.com/rokid-unveils-two-new-smart-glasses-3729627/" rel="noopener noreferrer">https://www.androidauthority.com/rokid-unveils-two-new-smart-glasses-3729627/</a></div>
-    <p class="summary">Rokid Colorは0.16ccのフルカラーmicroLEDで重さ55g、約750ドルから。Glasses 2は緑の単色導波路ディスプレイ、Snapdragon AR1 Plus、12MPカメラで約555ドルから。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>8. Androidの「SMS of Death」脆弱性、細工したSMSで通話機能をクラッシュ――緊急通報も切断、修正は11月の公開予定</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>Android Authority ／ 2026-10-30
+      ／ 原文: <a href="https://www.androidauthority.com/android-sms-of-death-google-fix-3729929/" rel="noopener noreferrer">https://www.androidauthority.com/android-sms-of-death-google-fix-3729929/</a></div>
+    <p class="summary">受信箱に表示されないSMSで電話サービスが落ち、約20通で起動ループに陥る恐れ。PixelとGalaxyで再現。研究者の報告をGoogleは「セキュリティ問題ではない」と退けていたが、6月に修正を作成済み。CVE-2026-58882（深刻度Critical）。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（Android Authority／日本語訳） ／ テーマ: ガジェット</em></p>
-<ul><li>「Rokid Color」と「Rokid Glasses 2」が発表された。</li><li>Colorは0.16ccのフルカラーmicroLEDディスプレイを、Glasses 2はmicroLEDの単一導波路ディスプレイを搭載する。</li><li>同社は両モデルをCES 2027で世界向けに披露する予定だ。</li></ul>
-<p>Metaがスマートグラス市場を主導するようになって以来、多くのブランドがその座を奪おうとしてきた。その中でも、Rokidは最も有力な代替候補の一つかもしれない。同社は今年初め、Ray-Ban Metaの対抗となる「Rokid AI Glasses Style」を発売した。そして今回、Rokid Glassesの第2世代モデルと、Meta Ray-Ban Displayの対抗製品を投入する。</p>
-<h3>Rokid Color</h3>
-<p>まずMeta Ray-Ban Displayの対抗製品から見ていくと、Rokidは「Rokid Color」を発表した。Notebookcheckによれば、このスマートグラスは0.16ccのフルカラーmicroLEDディスプレイを搭載している。色域はsRGB比167%、sRGBカバー率は100%だという。重さはわずか55gで、標準サイズのMeta Ray-Ban Displayより14g、大きいサイズより15g軽い。</p>
-<p>操作は、テンプル（つる）部分にあるタッチパッド、スマートウォッチ／スマートバンド、または音声で行える。Rokidはさらに、ジェスチャーやタッチでグラスを操作できるスマートリング（別売）も販売する。視線追跡にも対応するという。</p>
-<p>Rokid Ringによって、さらに別の使い方も可能になる。報道によれば、スマートリングをゲームコントローラーとして使い、Rokid Colorでミニゲームを遊べるという。これは一般的なスマートリングでもあるため、心拍数、体温、SpO2（血中酸素飽和度）、消費カロリー、睡眠の記録といった健康データも得られる。価格は1,699元、米ドル換算で約255ドルとされる。</p>
-<h3>Rokid Glasses 2</h3>
-<p>Rokid Glasses 2は初代から改良されており、テンプルが従来より22%広く開くようになったという。Notebookcheckによれば、鼻パッドもより快適で肌に優しくなった。さらに、付属レンズの反射は70%少なくなっている。</p>
-<p>このスマートグラスは引き続きIPX4等級を備える。マグネットで取り付ける度付きクリップオンレンズにも、これまでどおり対応する。RAMとストレージ（2GB／32GB）も初代から変わらない。</p>
-<p>仕様面では、microLEDの単一導波路ディスプレイ（緑色表示）を搭載する。解像度は480×380、視野角は25度、輝度は1,500nitだ。内部にはBES2800BPとSnapdragon AR1 Plusの2つのプロセッサーがあり、後者は従来のSnapdragon AR1からのアップグレードとなる。スピーカーも改良されてDolby Audioに対応し、さらに無指向性マイク4基と骨伝導マイクを備える。</p>
-<p>12MPのカメラは、4K/30fps、2K/60fps、1080p/60fpsで録画できる。このカメラで注目すべきは「スーパーナイトビデオ」アルゴリズムで、Rokidは業界初だとしている。ほかにも、Bluetooth 5.3、Wi-Fi 7、263mAhのバッテリーを備え、CodexやOpenClawといったAIエージェントにも対応する。</p>
-<h3>発売情報</h3>
-<p>これらのスマートグラスは中国で発売されたが、Rokidは報道によればCES 2027で世界向けの発表を行う予定だ。Rokid Colorのカラーはブラックとべっ甲柄の2色で、2GB／64GBモデルと4GB／64GBモデルの2構成がある。安いモデルは4,999元（約750ドル）、高いモデルは5,499元（約825ドル）。</p>
-<p>Rokid Glasses 2もブラックとべっ甲柄の2色展開だ。構成は1種類のみだが、べっ甲柄モデルは少し高い。ブラックは3,699元（約555ドル）、べっ甲柄は3,849元（約577ドル）となる。</p>
-<p><a href="https://www.androidauthority.com/rokid-unveils-two-new-smart-glasses-3729627/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<ul><li>新たに公表されたAndroidの脆弱性により、悪意あるテキストメッセージでスマートフォンの通話サービスを密かにクラッシュさせ、緊急通報を妨げる可能性がある。</li><li>メッセージを繰り返し送られると、クラッシュが続いたり起動ループに陥ったりし、技術的な助けなしでは端末の復旧が難しくなる。</li><li>Googleは公表の数カ月前に修正を開発していたが、ユーザーにいつパッチが届くのかという疑問が残っている。</li></ul>
+<p>911（緊急通報）に電話をかけたら、突然通話が切れてしまったと想像してほしい。何も押していないし、電波が途切れたわけでもなく、はっきりした理由もない。しかし裏では、受け取ったことすら気づかないテキストメッセージが、スマートフォンの通話サービスを機能停止に追い込んでいたのだ。</p>
+<p>それが、新たに公表されたAndroidの脆弱性「SMS of Death」の背後にある恐ろしいシナリオだ。この脆弱性を使えば、攻撃者は被害者が指一本動かさなくても、遠隔からスマートフォンの動作を妨害できる。</p>
+<p>この欠陥を発見したのはセキュリティ研究者のマーク・ブラシュチク氏で、Androidがうまく処理できない特別に細工されたテキストメッセージが関わっている。通常のSMSと違い、このメッセージは受信箱に表示されないため、不審な通知や見知らぬ送信者に気づいて警戒することもできない。代わりにメッセージは電話の通話を処理するシステムをクラッシュさせ、緊急サービスへの通話も含め、進行中の通話を即座に切断してしまう。だが、通話が切れることは最も小さな心配にすぎないかもしれない。</p>
+<p>Androidは同じ悪意あるメッセージを繰り返し処理しようとすることがあるため、クラッシュが何度も起こりうる。ブラシュチク氏によれば、約20通のそうしたメッセージで、スマートフォンは事実上使用不能になり、起動ループに陥る可能性があるという。</p>
+<p>キャリアが問題のメッセージを再送すれば、工場出荷時の状態へのリセットでさえ長続きする解決策にならないかもしれない。端末を初期化せずに復旧するには、コンピューターに接続してメッセージを手動で削除する必要があるかもしれず、平均的なAndroidユーザーにとって現実的な解決策とは言いがたい。</p>
+<p>研究者はGoogle PixelとSamsung Galaxyの端末で攻撃の再現に成功した。脆弱なコードはAndroid 12にさかのぼるが、リスクは端末が修正を受け取っているかどうかによる。セキュリティアップデートがもう提供されていない古いAndroidバージョンは、無防備なままの可能性がある。</p>
+<h3>Googleはセキュリティ問題ではないと言った。だが自社の修正はそうではないことを示している</h3>
+<p>ブラシュチク氏は5月5日に初めてGoogleに報告したが、Googleは彼の報告をセキュリティ問題ではないとして繰り返し退けたという。その対応に不満を募らせた同氏は、10月29日に脆弱性を公表し、動作するデモを公開した。ところが、Googleはすでに解決策に取り組んでいた。</p>
+<p>Androidのコード記録によれば、同社は6月15日に修正を開発していた。更新されたソフトウェアは、悪意あるメッセージで端末が繰り返しクラッシュするのを放置するのではなく、エラーを処理し、問題のメッセージがさらなる被害を引き起こす前に削除する。GrapheneOSは後にXで、Googleが研究者の公表の数カ月前、7月のセキュリティプレビューを通じて修正を配布していたことを明らかにした。</p>
+<p>この脆弱性はCVE-2026-58882として追跡されており、深刻度はCriticalと評価され、11月のAndroidセキュリティ情報に含まれる予定とみられる。</p>
+<p>では、なぜGoogleは自社のエンジニアがすでに修正していた問題を退けていたのか。社内の連絡ミスが原因かもしれず、重複報告が関係している可能性もあるが、Googleはこの食い違いを公式には説明していない。</p>
+<p>ブラシュチク氏によれば、Googleはバージョン14から17向けの10月のAndroidセキュリティアップデートに修正を含めたという。一方GrapheneOSは、この脆弱性は11月のセキュリティ情報に掲載される予定で、その基となる修正はすでに7月のGoogleのセキュリティプレビューで提供されていたとしている。</p>
+<p>これらのタイムラインは必ずしも矛盾しない。メーカーは公開のセキュリティ情報に掲載される前に修正を受け取ることができるが、個々の端末への配信状況は不透明なままだ。Androidユーザーにとって最も安全なのは、利用可能な最新のセキュリティアップデートをインストールすることだ。</p>
+<p>私たちはパッチのタイムラインについてGoogleに確認を求めており、回答があればこの記事を更新する。</p>
+<p><a href="https://www.androidauthority.com/android-sms-of-death-google-fix-3729929/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a9">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>9. ソニー「RIALTO 65」正式発表――VENICE 2に接続する65mmセンサーのカメラヘッド、9.6KオープンゲートとX-OCN 16bit、2027年前半発売</span></div>
-    <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-29
-      ／ 原文: <a href="https://www.cined.com/sony-rialto-65-announced-65mm-camera-extension-for-venice-2-9-6k-open-gate-16-bit-x-ocn/" rel="noopener noreferrer">https://www.cined.com/sony-rialto-65-announced-65mm-camera-extension-for-venice-2-9-6k-open-gate-16-bit-x-ocn/</a></div>
-    <p class="summary">53.75×35.83mm、アスペクト比1.5:1でフルサイズの約2.2倍の面積。ヘッドは約1.5kgでケーブル分離も可能。デュアルベースISO 2500／10000、15ストップ超。レンズマウントはサードパーティのアダプター式。価格は未発表。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>9. キヤノン、メモリ価格が高止まりすれば2027年にカメラを値上げする可能性――影響は他メーカーにも</span></div>
+    <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-10-29
+      ／ 原文: <a href="https://www.dpreview.com/news/canon-says-camera-prices-could-rise-in-2027/" rel="noopener noreferrer">https://www.dpreview.com/news/canon-says-camera-prices-could-rise-in-2027/</a></div>
+    <p class="summary">第3四半期決算で、2027年にメモリ価格が下がるとの見通しを撤回。2026年分のメモリは確保済みだが、来年は部品コスト増を価格に転嫁する方針。Blackmagic Designもメモリコストを理由に一部製品を値上げ済み。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（CineD／日本語訳） ／ テーマ: カメラ</em></p>
-<p>ソニーの「RIALTO 65」が正式に発表された。65mmフォーマットのセンサーを小型のヘッドに収め、既存のVENICE 2本体にケーブル経由または直接取り付けて接続する。9.6Kのオープンゲートで読み出し、16bitのX-OCNで内部収録でき、2027年前半に登場する。私（筆者）は今日、ソニーがこのシステムを披露しているパインウッド・スタジオでのイベントに来ている。</p>
-<p>ソニーが6月にRIALTO 65を開発中のプロジェクトとして発表したとき、私たちは解像度、収録、レンズマウントについて多くの疑問点を挙げて報じた。今日、ソニーはその大半に答えを出した。RIALTO 65（型番CBK-6510XS）は、アスペクト比1.5:1の53.75×35.83mmセンサーを採用しており、面積はフルサイズの約2.2倍に相当する。ソニーによれば、市販のシネマカメラの中でも最大級のセンサーだという。ヘッドの重さは約1.5kg（3.3ポンド）で、デュアルベースISO 2500と10000を備え、ISO 2500で15ストップ以上のラチチュードを持つ。</p>
-<p>この記事はソニーのプレス資料に基づいている。今日パインウッドで実機を見て、数日中にイベントでのインタビュー動画を公開する予定なので、私自身の印象についてはそちらをお待ちいただきたい。</p>
-<p>私にとって最も興味深いのは、大きさではなく形だ。ARRIのALEXA 65と、より新しいALEXA 265は、何年もの間デジタル65mm市場をほぼ独占してきた。そのセンサーは幅は同程度だが、アスペクト比はおよそ2.1:1とずっと横長だ。ソニーはより縦に高い1.5:1を選んでおり、これはスチル写真のフレームと同じ比率である。</p>
-<p>この縦方向の余裕は、アナモフィック撮影や、さまざまな納品形態に合わせたフレーミング、ポストプロダクションでのリフレーミングに役立つ。発売時点の読み出しモードは2つで、センサー全体を使う9.6K 1.5:1オープンゲートと、対角約59mmで多くのレンズに合う9.6K 2.20:1だ。ソニーは今後のVENICE 2のソフトウェアアップデートで読み出しモードを追加するとしている。私の考えでは、多くの作品がまず使うのは2.20:1モードだろう。今年発表された大判レンズの多く、たとえばZEISS Panoptes 65の単焦点やAngénieux EZ 65のズームは、約60mmのイメージサークルをカバーする。これは2.20:1モードには合うが、フルのオープンゲートには本当の65mmをカバーするよう作られたレンズが必要になる。</p>
-<p>RIALTOという名前が、この仕組みを物語っている。Rialto Extension System 2やVENICE 2 Extension System Miniと同様に、ヘッドを本体から離せるのだ。「Extension Mode」ではケーブルで両者をつなぐ。ケーブルは両端で着脱でき、ソニーは4.5m（14.8フィート）のケーブルを同梱し、12m（39.4フィート）のケーブルもオプションで用意する。「Studio Mode」では、ヘッドを本体に直接取り付けて1台のカメラとして使う。</p>
-<p>ここにソニーの強い主張があると私は思う。これまで、デジタル65mmといえば大きなカメラを意味していた。1.5kgのヘッドをケーブルでつなげば、ジンバルに載せたり、車の室内に入れたり、手持ちのリグに組んだりでき、本体やメディア、電源は別の場所に置いておける。ヘッドはチルトとロールもポストプロダクション用のメタデータとして記録する。</p>
-<p>収録はVENICE 2本体が担う。そのためRIALTO 65は、VENICEユーザーにおなじみの同じAXSカードに、同じ16bit X-OCNで、S-Log3とS-Gamut3、CineAltaの色再現で記録する。VENICE 2のパッケージを持つレンタル会社にとっては、メディア、アクセサリー、ポストのワークフローがそのまま使えることが本当のセールスポイントになる。私の感触では、これがソニーの主な戦略だ。新しいカメラ本体を売る必要はなく、すでに出回っている本体のための新しいフロントエンドを売ればよい。もちろん、これは私の推測である。</p>
-<p>まだわからないのは、センサーの性能だ。フルサイズ8.6K版については、私たちのVENICE 2ラボテストが参考になる。このサイズの9.6Kセンサーで、私がラボで最初に確かめたいのはローリングシャッターだ（ソニーさん、もしこれを読んでいたら、こちらはいつでも準備万端です）。</p>
-<p>RIALTO 65は独自のレンズマウントを持たない。ソニーはサードパーティのレンズマウントアダプターを使う前提で設計しており、各作品が65mmレンズを含め、使うレンズに合わせてマウントを選べる。カメラと通信できるレンズとアダプターを使えば、焦点距離、フォーカス位置、絞りをメタデータとして記録し、編集、VFX、バーチャルプロダクションに活用できる。</p>
-<p>これは、EマウントとARRI PLアダプターが付属するExtension System Miniからの変更点だ。自由度は増すが、撮影チームにとってはコストと判断事項が一つずつ増えることにもなる。ソニーはまだアダプターのメーカー名を明らかにしておらず、パインウッドで詳しく聞きたいと思っている（ただし、提供されたプレス写真の一部にはGecko Camのアダプターが写っている）。</p>
-<p>アナモフィック撮影向けには、複数の比率でのデスクイーズ表示と、フレーミングを確認するための「Zoom to Fit」機能を備える。ヘッドは電子接点付きのドロップイン式NDフィルター11枚にも対応し、VENICE 2が各フィルターの濃度を自動で読み取る。予備のCBK-NDK6510 NDフィルターキットも用意されるが、フィルター単体での購入はできないとソニーは説明している。</p>
-<p>RIALTO 65（CBK-6510XS）、CBK-NDK6510 NDフィルターキット、CBK-12C6510 12mケーブルは、いずれも2027年前半に発売される。ソニーは価格を発表しておらず、B&HやCVPにもまだ掲載されていない。</p>
-<p>参考までに、フルサイズのVENICE 2 Extension System MiniはB&Hで2万5,000ドルで発売された。RIALTO 65の価格がそれとどのような関係になるのかは、ソニーは明らかにしていない。詳しくはソニーのWebサイトを参照してほしい。</p>
-<p>ソニーはVENICE 2システムに接続でき、ケーブル経由でも使える65mmの選択肢を手に入れた。今日実物を見るのが楽しみだ。1.5:1のセンサーはあなたのフレーミングを変えるだろうか。それとも主に2.20:1モードを使うだろうか。ぜひコメント欄で意見を聞かせてほしい。</p>
-<p><a href="https://www.cined.com/sony-rialto-65-announced-65mm-camera-extension-for-venice-2-9-6k-open-gate-16-bit-x-ocn/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（DPReview／日本語訳） ／ テーマ: カメラ</em></p>
+<p>新しいキヤノンのカメラを買うのを先延ばしにしているなら、同社の最新の決算説明会は考えるきっかけになるかもしれない。2026年第3四半期決算を発表した後の投資家向け説明で、キヤノンはもはや2027年にメモリ価格が下がるとは見込んでおらず、コストが高止まりすればカメラの値上げで相殺することを検討すると述べた。そして、メモリコストの上昇に直面しているカメラメーカーはキヤノンだけではない。</p>
+<h3>キヤノンが述べたこと</h3>
+<p>メモリコストは今年のキヤノンの決算説明会で毎回話題に上っており、テーマ自体は新しくない。新しいのは見通しだ。今年初め、キヤノンはメモリ価格が2027年下半期に落ち着き始めると予想していた。それが、キヤノンの第3四半期の質疑応答要旨によれば、今では来年まったく下がらないと見ている。同社は2026年に必要なメモリはすでに確保しているが、2027年には部品により多くを支払うことになると予想しており、そうしたコスト増は値上げで相殺するのが方針だとしている。</p>
+<p>これがまったくの仮定の話ではないことは注目に値する。キヤノンは7月、メモリを含むコスト上昇を受けてすでに一部の価格を引き上げたと投資家に説明していた。ただし、どの製品や市場が対象かは明らかにしていない。同社は、さらなる値上げについては販売への影響と比較しながら引き続き検討するとしている。</p>
+<h3>カメラの購入者にとってなぜ重要か</h3>
+<p>メモリは現代のデジタルカメラの仕組みの中核にある。高速連写、プリキャプチャーモード、被写体追尾アルゴリズムなどは、いずれも高速で大容量のメモリに頼っている。AI関連の需要が業界全体でメモリ価格を押し上げるなか、カメラメーカーはデータセンター事業者と同じ生産能力を奪い合う立場に置かれている。データセンター事業者は事実上、この市場における800ポンドのゴリラ（圧倒的な巨人）だ。</p>
+<p>戦略として、メモリの供給を早めに確保したことでキヤノンは時間を稼げた。しかし、根本的なコストが続くなら、それは長期的な解決策にはならない。</p>
+<h3>より広い構図</h3>
+<p>1社がコストについて警告するのと、複数のカメラメーカーが同時に同じ問題に対処するのとでは話が違う。他のメーカーも今年、メモリコストの上昇を投資家に指摘しており、すでに値上げを始めたところもある。米国も例外ではなく、Blackmagic Designはメモリコストを理由に一部のシネマカメラとストレージ製品の価格を引き上げた。また米国の購入者は昨年以来、関税による値上げをすでに何度も受け入れてきた。</p>
+<p>複数のカメラメーカーが同じコスト圧力に直面している場合、そのうちのどこか1社がそれを購入者と分かち合わずにすべて吸収する可能性は大きく下がる。結局のところ、これはキヤノン固有の話ではなく、たまたまキヤノンの投資家向け開示を通じてはっきり語られた、業界全体の価格の話なのだ。</p>
+<h3>注目点</h3>
+<p>キヤノンは来年初めに2026年通期決算を発表する予定で、その説明会は有用な確認ポイントになるだろう。その頃には、同社は2027年にメモリにいくら支払うことになるのか、そしてそのうちどれだけを購入者に転嫁する計画なのかについて、より明確な見通しを持っているはずだ。そしてキヤノンはレンズ交換式カメラをどのメーカーよりも多く販売しているため、その価格決定は業界の他社から注視されることになりそうだ。</p>
+<p>今後のカメラやレンズの購入計画に、値上げの可能性を織り込んでいるだろうか。コメント欄で教えてほしい。</p>
+<p><a href="https://www.dpreview.com/news/canon-says-camera-prices-could-rise-in-2027/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a10">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>10. Sirui、新シリーズ「Swift」のフルサイズ対応AF単焦点20mm F2.4と40mm F2.2を発表――各149ドル</span></div>
-    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-29
-      ／ 原文: <a href="https://petapixel.com/2026/10/29/siruis-first-swift-series-full-frame-lenses-are-just-149/" rel="noopener noreferrer">https://petapixel.com/2026/10/29/siruis-first-swift-series-full-frame-lenses-are-just-149/</a></div>
-    <p class="summary">ソニーE・Lマウント（フルサイズ）とフジフイルムX（APS-C）向け。約210g、58mmフィルター、9枚絞り、絞りリングとMF対応。11月6日発売、Siruiで予約受付中。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>10. ニコン「NIKKOR Z 120-300mm f/2.8 TC VR S」正式発表――1.4倍テレコン内蔵で420mm f/4、6.5段VR、F版より515g軽量</span></div>
+    <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-29
+      ／ 原文: <a href="https://www.cined.com/nikon-nikkor-z-120-300mm-f-2-8-tc-vr-s-finalized-420mm-f-4-reach-6-5-stop-vr-and-a-lighter-body/" rel="noopener noreferrer">https://www.cined.com/nikon-nikkor-z-120-300mm-f-2-8-tc-vr-s-finalized-420mm-f-4-reach-6-5-stop-vr-and-a-lighter-body/</a></div>
+    <p class="summary">開放f/2.8通しのズームで1.4倍テレコン内蔵は世界初（ニコン調べ）。インナーズーム・インナーフォーカス、SSVCM駆動、24群30枚構成。重さ2,735g、米国価格13,999.95ドルで11月中旬発売。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
-<p>Siruiは、コンパクトなフルサイズ対応オートフォーカスレンズの新シリーズ「Swift」を発表した。シリーズの第1弾は、「Sirui Swift 20mm f/2.4」と「Swift 40mm f/2.2」の2本の単焦点レンズだ。</p>
-<p>フルサイズのソニーEマウントとLマウントのカメラ、さらにAPS-CのフジフイルムXシリーズのボディに対応し、Siruiはこの2本を「補完し合う」焦点距離のレンズだと説明している。大きく重いレンズを持ち歩きたくない写真家やコンテンツクリエイター向けに設計されており、予算を重視する写真家もターゲットにしている。価格はそれぞれ149ドルだ。</p>
-<p>「多くの写真家にとって、普段使いのレンズを選ぶことは、画質、携帯性、予算のバランスを取ることを意味します。大きなレンズはカメラバッグの重さをかなり増やしますし、手頃な選択肢では開放絞りや光学設計で妥協が必要になる場合があります」とSiruiは述べている。「Swiftシリーズは、こうした実際のニーズを念頭に設計されており、日常での汎用性と手の届きやすい価格を両立した2本のコンパクトなオートフォーカスレンズを提供します」</p>
-<p>どちらのレンズも、レンズとマウントによって異なるものの重さは約210g（7.4オンス）で、範囲は207〜215g（7.3〜7.6オンス）だ。実質的には同じ重さといってよい。大きさも同じで、全長はマウントによって約60〜62.3mm（2.36〜2.45インチ）となる。Sirui Swiftの単焦点はいずれも58mmの前面フィルターに対応する。</p>
-<p>どちらのレンズも全群ガラスの光学設計を採用している。20mm f/2.4は9群11枚、40mm f/2.2は同じ11枚を8群で構成する。どちらにもEDレンズが2枚使われており、非球面レンズは20mmに2枚、40mmに1枚入っている。20mm f/2.4にはさらにHRI（高屈折率）レンズが2枚含まれるが、40mm f/2.2にはない。どちらも9枚羽根の絞りを備える。</p>
-<p>最近登場したほかの小型で手頃な単焦点レンズの一部とは違い、Sirui SwiftはAFに加えてマニュアルフォーカスにも対応しているのがうれしい点だ。フォーカスリングは360度回転する。最大撮影倍率も実質的に同じで、どちらも1:7.3だ。マクロレンズとはほど遠い。また、自動の「A」ポジションを備えた絞りリングも搭載している。</p>
-<h3>価格と発売時期</h3>
-<p>Sirui Swift 20mm f/2.4と40mm f/2.2は、現在Siruiの直販で各149ドルで予約を受け付けている。執筆時点ではほかの販売店ではまだ取り扱われていないが、11月6日の発売日までに、あるいは発売日には並ぶはずだ。</p>
-<p><a href="https://petapixel.com/2026/10/29/siruis-first-swift-series-full-frame-lenses-are-just-149/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（CineD／日本語訳） ／ テーマ: カメラ</em></p>
+<p>ニコンが「NIKKOR Z 120-300mm f/2.8 TC VR S」の開発を初めて発表してから5カ月、完成したレンズが登場し、5月の時点で未公表だった詳細が明らかになった。このフルサイズ対応S-Lineズームは、開放f/2.8通しの絞りに、168-420mm f/4レンズに変身させる1.4倍テレコンバーターを内蔵。インナーズームとインナーフォーカス、最大6.5段のシンクロVRを備え、新設計の鏡筒は2,735g（6.0ポンド）だ。</p>
+<p>5月の開発発表時に私たちが報じた段階では、ニコンが示したのは焦点距離、絞り値、テレコンバーターのみだった。当時は重量、光学構成、AF駆動モーター、最短撮影距離、手ブレ補正性能、価格はまだ不明だった。完成したレンズで、これらの詳細が明らかになった。このレンズは、2020年のFマウントレンズ「AF-S NIKKOR 120-300mm f/2.8E FL ED SR VR」の後継となるニコンの大口径望遠ズームだ。ニコンによれば、新しいZ版はFマウント版より約515g（18.16オンス）軽い。ただし旧レンズにはテレコンバーターは内蔵されていない。</p>
+<p>NIKKOR Z 120-300mm f/2.8 TC VR SはFX（フルサイズ）カメラ用のZマウントレンズで、DXにも対応する。光学設計は24群30枚で、ED、スーパーED、蛍石、SR（短波長屈折）、非球面レンズを採用。フォーカス駆動にはニコンの「シルキースウィフトVCM（SSVCM）」モーターを使い、インナーズーム・インナーフォーカスで、絞りはf/2.8からf/32までの電磁絞りだ。大きさは約128×353.5mm（5.1×14インチ）、重さは約2,735g（96.5オンス）。ニコンはこのレンズを主にスポーツ写真家向けと位置づけており、速い動き、変化する被写体距離、さまざまな照明条件がすべて関わってくる場面の例として、フィギュアスケート、バスケットボール、テニス、サッカーを挙げている。</p>
+<p>1.4倍テレコンバーターの内蔵は、Zシリーズでは2022年の「NIKKOR Z 400mm f/2.8 TC VR S」で初めて登場した。120-300mmは、同じ考え方を採用したニコン初のズームレンズだ。ニコンはこれを、開放f/2.8通しで1.4倍テレコンバーターを内蔵した世界初のレンズ交換式ズームレンズだとしている（2026年10月29日時点の同社調べ）。テレコンバーターを使うと焦点距離は168-420mmになり、開放絞りは1段暗いf/4になる。FXカメラでの画角は、テレコンバーターなしで20°20′から8°10′、使用時は14°40′から5°15′。DXクロップモードでは、テレコンバーター使用時に望遠端で3°50′に達する。</p>
+<p>ニコンによれば、切り替えは「ワンアクション」で行えるため、レンズを取り外したり、外付けテレコンバーターのためにマウントを開けたりする必要はない。ファームウェアC:5.30以降のZ9では、このレンズは「内蔵テレコンで撮像範囲を切り替え」機能にも対応する。</p>
+<p>ニコンは、すべての焦点距離で「画面全域にわたって単焦点レンズに匹敵する」描写をうたう。ゴーストとフレアを抑えるため、ニコンが史上最高の反射防止コーティングと説明する「メソアモルファスコート」を、アルネオコートやナノクリスタルコートとともに採用。前玉のフッ素コートは水、ほこり、油汚れをはじく。</p>
+<p>最短撮影距離は焦点距離によって変わり、120mmで0.98m（3.22フィート）、200mmで1.38m（4.53フィート）、300mmで2m（6.57フィート）だ。最大撮影倍率は公表されていない。A/MモードはAF優先のオートフォーカス／マニュアルで、ニコンは誤ってマニュアルフォーカスに切り替わるのを減らすため、その感度を変更した。対応する最新ファームウェアのカメラでは、フォーカスポジションのメモリーリコール機能も使える。</p>
+<p>ニコンはこのレンズをスポーツの静止画用ツールとして打ち出しているが、Zボディでスポーツ、野生動物、イベントを撮影する映像制作者にとっても意味のある機能がある。インナーズームとインナーフォーカスによりレンズの全長が一定に保たれるため、サポート機材の上でのバランスがズーム全域で変わらない。ニコンはまた、レンズの重心がカメラボディに近く、ズーム中も一定に保たれるため、サポート機材を使ったパンニングがしやすくなるとしている。SSVCMの駆動音は「ほぼ無音のレベルまで」抑えられており、ニコンはこれを動画撮影での利点に挙げている。フォーカスブリージングについてのデータは示されていない。</p>
+<p>VRシステムは、シンクロVRに対応したカメラ（ニコンが測定に使ったZ6IIIなど）で最大6.5段の補正効果を発揮する（CIPA 2024準拠、テレコンバーターなしの300mm時）。ニコンによれば、この性能は画面中心だけでなく周辺部でも得られるという。</p>
+<p>鏡筒にはマグネシウム合金を使い、防塵・防滴に配慮したシーリングを施している。フィルターは前面に112mmのねじ込み式、後部に付属ホルダーで46mmの差し込み式を使える。HB-120バヨネットフードが付属する。</p>
+<p>三脚座にはラバークッション、一体型のフィンガーグリップ、アルカスイス互換クランプに直接取り付けられる脚部を備える。レバー式クランプではレンズをしっかり保持できない可能性があるため、ニコンはねじ式クランプのみを推奨している。ニコンの最近の他の超望遠レンズと同様、製品ページには、レンズ内の磁石がペースメーカーなどの医療機器に影響を及ぼす可能性があるとの注意書きがある。</p>
+<p>NIKKOR Z 120-300mm f/2.8 TC VR Sの米国での希望小売価格は13,999.95ドルで、B&Hで予約受付中だ。出荷は2026年11月中旬の予定。詳しくはニコンのウェブサイトを参照のこと。</p>
+<p>スポーツや野生動物の撮影で、内蔵テレコンバーターはこの価格に見合うだろうか。それとも、より軽いズームと外付けテレコンバーターを持ち歩くほうがいいだろうか。コメント欄で教えてほしい。</p>
+<p><a href="https://www.cined.com/nikon-nikkor-z-120-300mm-f-2-8-tc-vr-s-finalized-420mm-f-4-reach-6-5-stop-vr-and-a-lighter-body/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a11">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>11. Viltrox「AF 35mm f/1.4 Pro」発表――ソニーE／ニコンZ向け、F1.4 Proシリーズ3本がそろう、829ドル</span></div>
-    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-29
-      ／ 原文: <a href="https://petapixel.com/2026/10/29/viltrox-completes-f-1-4-pro-lineup-with-af-35mm-f-1-4-pro-for-e-and-z/" rel="noopener noreferrer">https://petapixel.com/2026/10/29/viltrox-completes-f-1-4-pro-lineup-with-af-35mm-f-1-4-pro-for-e-and-z/</a></div>
-    <p class="summary">11群16枚、11枚絞り、防塵防滴、HyperVCM AFでブリージングを抑制。最大撮影倍率0.18倍。重さは760〜780gと純正35mm F1.4より大幅に重い。直販の発売記念価格は663ドル。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>11. 米上院議員、Metaのカメラ付きスマートグラスを調査へ――同意なき撮影とAI学習データ収集を問題視</span></div>
+    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-30
+      ／ 原文: <a href="https://petapixel.com/2026/10/30/senators-launch-investigation-into-metas-smart-glasses-over-nonconsensual-filming/" rel="noopener noreferrer">https://petapixel.com/2026/10/30/senators-launch-investigation-into-metas-smart-glasses-over-nonconsensual-filming/</a></div>
+    <p class="summary">ワイデン議員とマーキー議員がザッカーバーグCEOに書簡を送り、感謝祭前までに安全性テストや人権影響評価、プライバシー対策の説明を要求。欧州ではフランス・ドイツ・オランダが禁止を検討、70人超が提訴している。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
-<p>Viltroxは、フルサイズのソニーEマウントとニコンZマウントのミラーレスカメラ向けに、新しいレンズ「AF 35mm f/1.4 Pro」を発表した。プロ仕様の作り、ハイエンドな画質、信頼性の高い性能をうたっている。</p>
-<p>Viltrox AF 35mm f/1.4 Proは、同社のフルサイズ「Pro」レンズであるAF 50mm f/1.4 ProとAF 85mm f/1.4 Proの2本に加わる。PetaPixelは1年ほど前に50mm f/1.4 Proをレビューし、優れた作りの良さ、きれいなボケ、滑らかなオートフォーカス性能を高く評価した。</p>
-<p>焦点距離が比較的広いため、ほかの条件が同じなら、新しいAF 35mm f/1.4 Proは、より長い兄弟レンズよりも風景、旅行、ストリート撮影などに向いているはずだ。</p>
-<p>レンズは11群16枚のガラスで構成され、周辺まで均一なシャープさとクリアな画質をうたう。Viltroxによれば、「玉ねぎボケ」を抑えるための超精密非球面（UA）レンズ2枚、軸上色収差を補正して色にじみを減らすEDレンズ3枚、大きく重いガラスを使わずに良好な光学性能を確保するためのHR（高屈折率）レンズ4枚を採用している。絞りは11枚羽根だ。</p>
-<p>オートフォーカスはViltroxの「HyperVCM Fast Focus」システムが担い、同社によればフォーカスブリージングを最小限に抑えているため、動画用途にも適しているという。最短撮影距離は0.3m（0.98フィート）、最大撮影倍率は0.18倍で、この種のレンズとしては立派な数字だ。これはニコンのNIKKOR Z 35mm f/1.4やソニーのFE 35mm F1.4 GMと同じ撮影倍率である。</p>
-<p>AF 35mm f/1.4 Proは防塵防滴構造を採用し、傷や摩耗に強いマットブラック仕上げとなっている。ゴム製のシールが、ほこり、水しぶき、湿気から守る。</p>
-<p>重さはEマウント版が760g（26.8オンス）、Zマウント版が780g（27.5オンス）。全長はEマウント版が111mm（4.37インチ）、Zマウント版が112.5mm（4.43インチ）で、どちらも77mmの前面フィルターに対応する。</p>
-<p>新しいAF 35mm f/1.4 Proは、NIKKOR Z 35mm f/1.4よりずっと重い。ニコン純正のこのレンズはわずか415g（14.7オンス）で、フィルター径は62mmだ。ソニーのFE 35mm F1.4 GMは524g（18.5オンス）、全長96mm（3.8インチ）で、フィルター径は67mmとなっている。つまり、Viltroxの新レンズはこの中で明らかに最も大きく重い。</p>
-<p>Viltroxは、新しいAF 35mm f/1.4 Proを、F1.4のProシリーズ3本の最後のピースと位置づけている。同社によれば、3本は統一されたシステムを構成し、3本そろえても2,000ドル未満だという。</p>
-<h3>価格と発売時期</h3>
-<p>Viltrox AF 35mm f/1.4 Proは現在、829ドル（1,159カナダドル）で発売中だ。ただしViltroxの直販では発売記念の割引があり、663ドルで購入できる。</p>
-<p>比較すると、ニコンの35mm f/1.4は現在100ドルの値引きでわずか576ドルとなっている。ソニーのG Masterの35mmはViltroxの新レンズよりずっと高く、1,498ドルだ。</p>
-<p><a href="https://petapixel.com/2026/10/29/viltrox-completes-f-1-4-pro-lineup-with-af-35mm-f-1-4-pro-for-e-and-z/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>民主党の上院議員2人が、同意のない人物の撮影に使われているとの懸念が強まるなか、俗に「変態メガネ」とも呼ばれるMetaのスマートグラスについて調査を始める。</p>
+<p>オレゴン州選出のロン・ワイデン上院議員とマサチューセッツ州選出のエドワード・マーキー上院議員は、同意のない撮影や、AIシステムの訓練に使われるデータの収集など、Metaのスマートグラスがもたらす潜在的なプライバシーと安全上のリスクを調べている。</p>
+<p>Gizmodoの報道によれば、両議員はMetaに対し、製品発売前に行った安全性テストと人権影響評価について、感謝祭までにより詳しい情報を提出するよう求めた。また、同社がプライバシーリスクをどのように評価したのか、現在どのような安全策を講じているのかも知りたいとしている。</p>
+<p>「Metaのスマートグラスは、ユーザーや周囲の人々のプライバシーを侵害する憂慮すべき事例にますます関わるようになっています」と、両議員は木曜日にMetaのマーク・ザッカーバーグCEOに送った書簡で書いている。「Metaは2021年にグラスを発売する前に、周囲の人々のプライバシーや弱い立場にある人々へのリスクを認識していたにもかかわらず、ユーザーと周囲の人々のプライバシーを侵害するために誂えたような製品を発売したのです」</p>
+<p>書簡の中でワイデン氏とマーキー氏は、「センシティブで私的な画像の、同意のない撮影、開示、処理」を防ぐためにMetaがどのような安全策を講じているのかを尋ねている。両議員はまた、Metaがグラスが「のぞき行為、同意のない性的画像の撮影、または同様のプライバシー侵害を助長する」ために使われるリスクを評価したかどうか、AIの訓練にどのような画像を使っているのか、グラスが収集した生体情報やその他のデータの削除をユーザーが要求できるのかも問いただしている。</p>
+<p>カメラを内蔵したMetaのスマートグラスは、世界中の議員、規制当局、プライバシー擁護団体からますます厳しい目を向けられている。フランス、ドイツ、オランダなど複数の欧州諸国は、規制当局がこの端末がプライバシー法に適合しているかを調べるなか、Metaのスマートグラスの禁止を検討している。当局者は、この技術が欧州連合（EU）のプライバシー規則の要件、たとえばカメラに映った人々が個人データの収集・利用に異議を唱える実質的な手段を持っているかどうか、などを満たしているかを議論している。</p>
+<p>さらに、Metaのスマートグラスを購入した、使った、あるいはそれで撮影された70人以上が同社を提訴している。原告らは、Metaのシステムが視覚情報をよりよく解釈できるよう写真や動画を確認・ラベル付けするために報酬を受け取っている海外の作業者に、自分たちの私的でセンシティブな画像がさらされたと主張している。</p>
+<p>既存のカメラ付きモデルへの監視が強まるなか、Metaはカメラを取り除いた新しいスマートグラスを準備していると報じられている。</p>
+<p><a href="https://petapixel.com/2026/10/30/senators-launch-investigation-into-metas-smart-glasses-over-nonconsensual-filming/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a12">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>12. デジタルカメラの出荷、コンパクト機ブームでも失速――CIPA統計で2026年は8月までに前年割れ、3年連続増は厳しく</span></div>
-    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-29
-      ／ 原文: <a href="https://petapixel.com/2026/10/29/digital-camera-sales-are-slumping-despite-the-compact-camera-boom/" rel="noopener noreferrer">https://petapixel.com/2026/10/29/digital-camera-sales-are-slumping-despite-the-compact-camera-boom/</a></div>
-    <p class="summary">1〜8月の出荷は570万4,012台で前年同期（588万9,031台）を下回る。一眼レフは約35%減、ミラーレスも5%超減。一方レンズ一体型は好調で、8月は24万4,822台と前年の18万4,163台を大きく上回った。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>12. 2枚の尾びれ写真が明かしたザトウクジラの大移動――AI照合が支える写真識別と「記録に残る尾びれ」の撮り方</span></div>
+    <div class="meta"><span class="tag">カメラ</span>Fstoppers ／ 2026-10-29
+      ／ 原文: <a href="https://fstoppers.com/animal/how-two-fluke-photos-revealed-humpback-had-crossed-world-904392" rel="noopener noreferrer">https://fstoppers.com/animal/how-two-fluke-photos-revealed-humpback-had-crossed-world-904392</a></div>
+    <p class="summary">コロンビア沖とザンジバル沖で撮られた尾びれが同一個体と判明、撮影地点の距離は13,046km。Happywhaleの照合アルゴリズムは解像度やピントの甘さには強いが、尾の端が切れた写真に弱い。撮影のコツと、距離記録の解釈の注意点も解説。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
-<p>2025年、世界のデジタルカメラ出荷台数は、20年近くぶりに2年連続で増加した。年間の3分の2の時点にあたるCIPA（カメラ映像機器工業会）の8月のデータが出そろったが、2026年はこの上昇傾向が続きそうにない。</p>
-<p>2026年のデジタルカメラの総出荷台数は、8月末までで570万4,012台となっている。これには日本のカメラメーカーすべてが含まれるが、LeicaやHasselbladのような企業は含まれない。それでも、入手できる中では圧倒的に最良のデータだ。</p>
-<p>昨年の同じ時点では、デジタルカメラの総出荷台数は588万9,031台だった。2024年は526万9,672台だった。つまり2026年は今のところ昨年を上回るペースではないものの、少なくとも2024年よりは多い。とはいえ、2024年は年末にかけてかなり好調で、年間を通じて上向きの傾向だったのに対し、2026年はこれまでのところ4月にピークを迎え、その後は減少が続いている。この先数か月がどうなるかは予測しにくい。</p>
-<p>2026年にこれまで出荷されたデジタルカメラの種類を詳しく見ると、データは興味深い。Nikon Rumorsの分析によれば、一眼レフの出荷は2025年と比べて年初来で約35%減少しており、またしても急落している。</p>
-<p>もはや一眼レフを作っている企業自体がほとんどない。ニコンは事実上この形式から撤退しているが、ほんの2か月前に一部の一眼レフ向けにファームウェアアップデートを出してはいる。リコーのPENTAXは、現行の一眼レフを正式に終了した。新しい一眼レフ製品の開発にまったく力を入れていないキヤノンが、実質的に残された最後の大手一眼レフメーカーだが、その数字も縮み続けている。</p>
-<p>これまでの年は、CIPAの数字の上ではミラーレスカメラが一眼レフの減少を補って余りあったが、今年はこれまでのところそうなっていない。ミラーレスカメラの出荷は今年5%以上減少している。大きな減少ではないが、それまでの増加傾向を覆すものだ。</p>
-<p>2026年にカメラメーカーが今のところ本当に好調なのは、CIPAがレンズ一体型デジタルカメラとして分類するコンパクトカメラだ。厳密にはこれには、とてもコンパクトとは言えないオールインワンの高倍率ズーム機も含まれるが、主にキヤノンのPowerShot G7 X Mark III、フジフイルムのX100VI、リコーのGR IVといった機種が中心だ。これらは非常に人気の高いデジタルカメラである。</p>
-<p>レンズ一体型カメラの出荷だけを見ると、2026年はほとんどの月で2025年を上回っている。5月は数千台減り、6月と7月も前年に届かなかったが、8月はデジタルコンパクトカメラにとって大きな月となった。メーカー各社は今年8月に24万4,822台を出荷し、2025年の18万4,163台、2024年の14万7,342台を上回った。</p>
-<p>2025年にデジタルコンパクトカメラの出荷が非常に多かった10月がどうなるかは、とても興味深い。メーカー各社は2025年10月に28万8,183台を出荷しており、これを上回るのは難しい数字だ。</p>
-<p>全体として、デジタル写真業界にとって有望な年として始まった2026年は、少し雲行きが怪しくなってきた。まだ巻き返す時間は十分にあるが、デジタルカメラ出荷の3年連続増加は難しそうだ。</p>
-<p><a href="https://petapixel.com/2026/10/29/digital-camera-sales-are-slumping-despite-the-compact-camera-boom/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Fstoppers／日本語訳） ／ テーマ: カメラ</em></p>
+<p>2013年7月10日、ナタリア・ボテロ＝アコスタ氏は、コロンビアの太平洋岸にあるトリブガ湾で、潜っていくザトウクジラの尾を撮影した。2022年8月22日、エカテリーナ・カラシニコワ氏は、地球の反対側にあるザンジバル海峡のフンバ沖でクジラの尾びれを撮影した。この2枚の写真は同じ個体のもので、2つの目撃地点は13,046km離れている。</p>
+<h3>記録を生んだ3枚の写真</h3>
+<p>その間にはもう1枚の写真がある。2017年8月13日、同じクジラが、4年前に撮影された場所からコロンビア沿岸を約78km北上したバイア・ソラノで浮上し、Madre Agua ColombiaのE・D・メサ氏がその尾びれを撮影した。3枚の画像はすべて、カリフォルニア州サンタクルーズを拠点とするオープンな写真識別プラットフォーム「Happywhale」に登録され、照合の結果、コロンビアの繁殖海域とタンザニアの繁殖海域が結びついた。</p>
+<p>この結果は、2024年12月11日、カラシニコワ氏と8人の共著者によって『Royal Society Open Science』に発表された。論文の言葉を借りれば、このクジラは東南太平洋の繁殖群Gと、南西インド洋の繁殖群Cを、経度120度にわたって結びつけた。これには2つの主張が伴っており、いずれも著者ら自身によるものだ。写真識別されたザトウクジラの成体オスとして、2つの繁殖海域の間でこれ以上大きな大圏距離が記録された例はないこと、そして太平洋とインド洋の繁殖海域を行き来した個体がこれまで記録されたことはないこと、である。距離の記録は成り立つ。2つ目の主張は見た目ほど厳密ではない。2011年にIWC（国際捕鯨委員会）科学委員会に提出された論文で、1987年に太平洋側の東オーストラリア繁殖海域で撮影されたクジラが、1995年にインド洋側の西オーストラリア繁殖海域で撮影された個体と、すでに照合されていたからだ。それまでに記録された2回のザトウクジラ目撃の間隔として最長クラスだったのは、マリアナ諸島とメキシコの間の11,261kmで、間隔は1年だった。</p>
+<p>この個体はBGT-0047として登録されており、オスだ。2013年の遭遇では生殖器周辺の写真が撮られ、メスにはあってオスにはない半球状の膨らみがないことが確認された。また3回の目撃のいずれでも、彼は「競争グループ」、つまり繁殖海域で1頭のメスの周りに形成される、押し合うオスの群れの中にいた。ザトウクジラが最短6歳で性成熟すると仮定すると、著者らはザンジバル沖に現れた時点で彼は15歳以上だったと見積もっている。</p>
+<p>この照合があり得ないほど幸運だったのは、2つの「干し草の山」の大きさのためだ。2024年3月時点で、Happywhaleには33万5,000件以上の遭遇記録にわたって9万1,000頭以上のザトウクジラが個体識別されて登録されていたが、その世界規模の山の中で、タンザニアのカタログは103頭、コロンビアのカタログは1,168頭だった。誰もコロンビアとザンジバルのつながりを探していたわけではない。アルゴリズムがすべてをすべてと比較し、そこからこの結果が出てきたのだ。</p>
+<h3>照合システムが実際に見ているもの</h3>
+<p>ザトウクジラは写真によって個体識別された最初の大型クジラだった。尾びれの裏側の色素模様が個体ごとに特徴的で、生涯を通じてほぼ安定しているうえ、尾の後縁には切れ込み、欠け、傷跡による個体固有の輪郭が刻まれていくからだ。研究者たちは50年近く、それらを目で照合してきた。海盆規模になっても目視照合が不可能になるわけではない。ただ、費用的に割に合わなくなるのだ。ザトウクジラに関する2つの画期的な調査、北大西洋の「Year of the North Atlantic Humpback」と北太平洋の「SPLASH」は、それぞれ4,207件と18,469件の識別済み遭遇記録を手作業で照合したが、そのコストはアルゴリズムの開発者らによれば数千時間にのぼった。彼らは、誰も二度とその方法をとりたくない理由を説明する計算も示している。SPLASHのデータセットだけでも完全に突き合わせるには、1億7,000万回を超えるペア比較が必要だったという。</p>
+<p>Happywhaleが運用しているシステムは、2,129チームが参加したKaggleのコンペティションから生まれた。上位5チームのスコアは0.9678から0.9731の間だった。Happywhaleが実装したのは、パク・ジンモ氏が作成した3位のエントリーだ。これは1つの高密度結合型の畳み込みニューラルネットワークで画像内の尾びれを見つけてキーポイントを抽出し、2つ目のネットワークでそのキーポイント内部の特徴を読み取るよう訓練されており、得られた特徴ベクトルをすべての参照用クジラと比較する。ランドマーク付けでは、尾びれの両端と中央のV字の切れ込みを使って画像の向きを合わせる。類似度スコアが0.385を超えると、提示された照合は本物である可能性が高いとみなされる。</p>
+<p>要はスピードだ。5万9,295枚の画像にわたる2万8,902頭のクジラの参照用特徴を構築するのに、1台のNVIDIA Tesla K80でおよそ25時間、1枚あたり約1.5秒かかった。その後は、新しい投稿1件あたり約5秒で照合できる。それでも、提案された照合が記録になる前に、訓練を受けたデータ管理者が必ず一件ずつ承認または却下している。</p>
+<h3>平凡な1枚が美しい1枚に勝つ理由</h3>
+<p>チームが公表した精度テストは、システムが何を許容するかについて異例なほど具体的で、その結果は写真家が「使える画像」について考えることの大半を覆す。グレイシャーベイ国立公園・自然保護区で撮影された、既知のクジラの新しい尾びれ写真で試したところ、アルゴリズムは画質「優秀」の画像の99.2%で、そして「非常に悪い」と評価された画像でも84.6%で、最初の提案として正しい個体を返した。「悪い」以上の段階では、正しい照合が上位5件の提案のどこかに含まれる割合が95%を超えた。</p>
+<p>解像度はほとんど影響しない。チームは50頭の個体の高画質画像を、幅1,600、800、400、200、100、50、25ピクセルへと順に縮小した。最初の提案での照合率は、幅100ピクセル（現在のカメラの画像幅の2%未満）まで100%を維持した。50ピクセルでも、正しいクジラは86%の確率で上位5件に入った。この段階になると、人間が見て照合を確かめることはもはやできない。</p>
+<p>ピントの甘さ、低いコントラスト、濁った光、南極の尾びれに付着した大量の珪藻による汚れも、すべて処理を通過する。写真家が撮りたがらない尾びれ、つまりほぼ真っ黒な北太平洋の尾や、目立った模様のないほぼ真っ白なオセアニアの尾も同様だ。著者らは、それらに対する偏りを見いださなかった。</p>
+<p>投稿を台無しにするのは幾何学的な条件だ。訓練用データセットからは一部しか写っていない尾びれがほぼ除外されており、著者らはその結果について率直に述べている。後縁の一部が切れていると、特に中央のV字の切れ込みが写っていない場合、アルゴリズムは「尾びれのどの部分が写っているのかという文脈を正しく理解できないことが多い」という。これはパターンの読み取りではなく、物体検出とランドマーク付けの失敗であり、規則ではなく傾向だ。人間の照合者はその文脈を直感的に補うが、ネットワークはしばしば補えない。極端な回転角度も精度を下げるが、予想よりはるかに影響は小さい。抜群にシャープで美しい光の尾びれ写真でも、軸から60度ずれて片方の端がフレームから外れていれば、ピントが甘く、遠く、露出もひどいがたまたまレンズに正対していて両端と切れ込みが枠内に収まっている写真よりも、データベースにとっての価値は低い。</p>
+<p>北大西洋ザトウクジラカタログを担当する経験豊富な写真識別技術者との直接比較テストでは、人間は利用可能な照合の6.66%を見逃し、アルゴリズムの見逃しは0.83%だった。このテストセットの手作業による照合には、熟練者の労働で318時間を要した。ソフトウェアは、人がその答えを検証する時間を含めても、4時間ちょっとで済んだ。</p>
+<h3>記録に残る尾びれの撮り方</h3>
+<p>クジラの後方、進行方向から少しずれた位置から撮影し、尾びれの腹側の面がこちらを向いて上がってくるようにする。センサー面を尾びれとおおよそ平行に保つこと、つまり腹側の面を横切るのではなく正面から撮ることを目指そう。この1つの選択が、レンズやボディや光よりも重要だ。</p>
+<p>両端と中央の切れ込みを余裕を持ってフレームに収め、現場できつくトリミングしたくなる衝動を抑えよう。解像度テストの結果からすれば、余裕を持たせても問題はないが、端を切ってしまうことは許されない。背中の弓なりに注目しよう。ザトウクジラは尾を持ち上げる前の数秒間、背中を丸める。1コマのタイミングを狙うのではなく、持ち上がる動作全体を連写で撮ろう。</p>
+<p>揺れる船の上では、シャッタースピードはクジラよりも、むしろ自分が乗っている足場から写真を守るためのものだ。尾を上げている間、クジラはほとんど動いていない。焦点距離の逆数よりかなり速いシャッタースピードを保ち、ISO感度が上がるのは受け入れ、手前の水面にピントが固定されないよう、コンティニュアスAFで尾の上昇を追わせよう。クジラが逆側に浮上し、斜めの角度しかとれない場合でも、とにかく撮ろう。軸からずれた尾びれでも照合できることは多く、下手に撮ったクジラは撮らなかったクジラよりも価値がある。</p>
+<p>白に合わせて露出しよう。ザトウクジラの尾びれは、強い熱帯の光の下、暗い水面を背景にした高コントラストの被写体であり、白い部分が白飛びすれば、その中の模様は失われ、どのスライダーでも回復できない。最大1段ほどアンダーにしてハイライト側を守り、暗い部分は後から持ち上げよう。これはまさに、Lightroomの基礎がしっかりしていれば日常的にこなせる種類の階調補正だ。カメラ内JPEGではなくRAWファイルを残そう。真っ黒な尾でもディテールを保っているのはRAWだからだ。</p>
+<p>そしてメタデータを処理しよう。写真家が飛ばしがちな残り半分の作業だ。旅行前にカメラの時計を現地時間に合わせ、そのまま触らないこと。位置情報を記録しよう。カメラ内蔵のGPS、後で同期するスマートフォンのロガー、あるいは船がどこにいたかの手書きのメモでもよい。日付も座標もない尾びれはただの写真だ。両方そろった尾びれはデータポイントになる。アップロードは無料で、アカウントが必要だ。Happywhaleの投稿手順に方法が説明されており、アルゴリズムがあなたのクジラを見つければ、そのクジラが他にどこで、誰によって目撃されたかをプラットフォームが教えてくれる。</p>
+<h3>写真が実際に証明していること</h3>
+<p>この話は2024年12月、南米からアフリカまで1万3,000km以上を泳いだクジラという見出しとともに、記録的な回遊として報じられた。根底にある発見は注目に値するものだった。2つの異なる海盆の繁殖群の間をオスが行き来するのは本当に驚くべきことであり、この2つの海域の間でそれを記録した者は誰もいなかったからだ。しかし、距離を強調した伝え方は、2枚の写真で証明できることを知らず知らずのうちに誇張している。</p>
+<p>13,046kmという数字は大圏距離、つまりたまたまカメラがこのクジラに向けられていた2つの座標の間の、球面上の最短経路だ。測定された経路ではなく、誰かが観察した旅でもない。Happywhale自身のこの個体の項目はこの点に注意深く、最小距離が少なくとも13,046kmだと記している。コロンビアでの1枚とザンジバルでの1枚の間には9年と6週間の隔たりがあり、ザトウクジラは毎年、索餌海域と繁殖海域の間を回遊するので、このオスがその期間に実際に泳いだ距離ははるかに大きく、その倍率は不明で、誰も記録していない経路を、いつかはわからないが横断したことになる。</p>
+<p>後続の研究は、この限界をはっきり述べている。写真識別は個体の移動の端点しか捉えないため、こうした距離は移動した距離ではなく、目撃地点間の隔たりを反映したものだという。2枚の写真が証明するのは、1頭のクジラが2つの日付に2つの場所にいたということだ。その間のことはすべて推論であり、論文は、データの網羅性が十分でなかった部分についても、その点に正直だ。</p>
+<h3>記録が保たれたのは17カ月</h3>
+<p>2026年5月20日、『Royal Society Open Science』は、海盆間の移動に関する新たな記録的研究を掲載した。今回はクリスティーナ・カストロ・アヤラ氏が率い、テッド・チーズマン氏が再び著者に名を連ねている。これは2例目の照合ではなかった。長距離の海盆間交流はすでに記録されており、双方向のものも含まれていた。たとえば20年にわたって、ブラジルと南アフリカの間を両方向に移動したクジラがいる。新しかったのはもっと限定的な点で、正確に述べる価値がある。東オーストラリアとブラジルの繁殖個体群の間での双方向の交流が初めて記録されたのだ。1984年から2025年の間に収集された1万9,283枚の精査済み写真識別画像を調べた結果、チームは東オーストラリアとブラジルの両方で撮影されたザトウクジラを2頭見つけ、それぞれ逆方向に移動していた。目撃地点の隔たりは14,200kmと15,100kmで、再目撃までの間隔は6年と22年だった。</p>
+<p>著者らの集計では、こうした交流は識別されたクジラの0.01%で見つかった。この比率こそが、この手法に手間をかける価値がある理由だ。40年と2つの海盆にまたがって散らばる1万分の1の出来事を捉えられるほど多くの個体に発信機を付けられる標識調査プログラムは、今後も存在しないだろう。そして、40年間すべての繁殖海域に船を出し続けられる研究予算もない。それでも、十分な数の人々が尾にカメラを向け、撮れたものをアップロードし続けさえすれば、写真ライブラリはそこにたどり着くのだ。</p>
+<p>BGT-0047の記録を破ったクジラは、2003年にブラジル沖のアブロリョス・バンクで初めて撮影され、報告によれば2度目の目撃は2025年9月、クイーンズランド州のハービー湾だった。最終的に記録を破ることになる1枚は、その片割れが存在するまで22年間カタログの中に眠っていた。次の1枚は、すでに誰かのメモリーカードの中に、ラベルもなく、相方を待って収まっている。</p>
+<p><em>訳注: 原文末尾のリード画像クレジット（Giles Laurent, CC BY-SA 4.0）とコミュニティ案内は省略。</em></p>
+<p><a href="https://fstoppers.com/animal/how-two-fluke-photos-revealed-humpback-had-crossed-world-904392" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 </main>
 <footer>
-  <p>前回ダイジェストは <a href="./archive/2026-10-30-0754/">archive/2026-10-30-0754/</a> に保管しています。／ <a href="./archive/">アーカイブ一覧</a></p>
+  <p>前回ダイジェストは <a href="./archive/2026-10-30-2000/">archive/2026-10-30-2000/</a> に保管しています。／ <a href="./archive/">アーカイブ一覧</a></p>
   <p>対象: 海外一次ソースのみ。日本語二次まとめサイトは含みません。</p>
 </footer>
 
