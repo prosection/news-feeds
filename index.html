@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI・ガジェット・カメラ ニュースダイジェスト（2026-10-31 07:54 JST）</title>
+  <title>AI・ガジェット・カメラ ニュースダイジェスト（2026-10-31 19:55 JST）</title>
   <style>
 :root { --bg:#0f1419; --card:#1a2332; --text:#e7ecf3; --muted:#9aa7b8; --accent:#5b9dff; --border:#2a3548; }
 * { box-sizing: border-box; }
@@ -59,8 +59,8 @@ footer a { color:var(--accent); }
 <header>
   <h1>AI・ガジェット・カメラ ニュースダイジェスト</h1>
   <p>海外の一次情報（企業公式・公式プレス・国際テック報道）のみを収集し、タイトルと本文を日本語訳したHTMLダイジェストです。RSS配信は終了しました。</p>
-  <p>生成: 2026-10-31 07:54 JST ／ 件数: 12 ／ 朝更新（2026-10-31 朝版）</p>
-  <p class="counts"><span>AI 5</span><span>ガジェット 3</span><span>カメラ 4</span></p>
+  <p>生成: 2026-10-31 19:55 JST ／ 件数: 12 ／ 晩更新（2026-10-31 晩版）</p>
+  <p class="counts"><span>AI 5</span><span>ガジェット 4</span><span>カメラ 3</span></p>
 </header>
 <nav class="site-nav">
   <a href="./" aria-current="page">最新</a>
@@ -74,262 +74,249 @@ footer a { color:var(--accent); }
 <p class="hint">タイトルをタップ／クリックすると日本語本文を展開・折りたたみできます。</p>
 <details class="item" id="a1">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>1. Google「Project Suncatcher」試作衛星から初の応答――軌道上のデータセンター級TPUでGemma 4が宇宙の俳句を生成</span></div>
-    <div class="meta"><span class="tag">AI</span>Google公式ブログ ／ 2026-10-30
-      ／ 原文: <a href="https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/" rel="noopener noreferrer">https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/</a></div>
-    <p class="summary">宇宙でAI計算を動かす研究ムーンショットの試作衛星が「Hello World」に到達。地上からGemma 4にプロンプトを送り、スバールバル上空で俳句がダウンリンクされた。次は熱・放射線下でのTPU試験、2027年に相互接続された双子衛星を目指す。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>1. Google・OpenAI・Anthropic・Microsoft、AI学習用スクレイピングを拒否できる共通robots.txt指示への対応を約束</span></div>
+    <div class="meta"><span class="tag">AI</span>Engadget ／ 2026-10-31
+      ／ 原文: <a href="https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/" rel="noopener noreferrer">https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/</a></div>
+    <p class="summary">AnthropicのKevin Kelley氏がIETFに提案した「__usage_ai-training」ユーザーエージェントを4社が尊重へ。1つの記述でAI学習目的のクロールだけを拒否でき、検索表示には影響しない。Anthropicは対応済み、Microsoftは2027年2月1日、Googleは2027年初頭、OpenAIは数カ月以内に実装予定。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Google公式ブログ／日本語訳） ／ テーマ: AI</em></p>
-<p>10月1日、私たちはProject Suncatcherの試作衛星を打ち上げました。この打ち上げは、宇宙でAI計算を動かす可能性を探る、私たちの長期的な研究ムーンショットの第一歩となるものです。それ以来の数週間は、コミッショニング（運用開始前の点検）のチェックリストを完了させることに費やしてきました。その中には、ホストとTPUトレイへの電源投入や、初期の機械学習テストを成功裏に実行することが含まれていました。そして今週、私たちは「Hello World」のマイルストーンに到達しました。軌道上にあるデータセンタークラスのTPUによる、史上初のAI応答です。</p>
-<p>地上局との交信の際、私たちは衛星に搭載したGemma 4オープンモデルに最初のプロンプトをアップリンクし、宇宙にいることについての俳句を作るよう依頼しました。衛星がノルウェーのスバールバル諸島上空を通過した際にダウンリンクされた詩が、成功を裏付けました。</p>
-<p>Blue marble below<br>Data streams in silent grace<br>Starlight feeds my core. ✨</p>
-<p>（訳：眼下に青きビー玉／データは静かな優雅さで流れ／星の光が我が核を満たす ✨）</p>
-<p>この最初の出力に続き、宇宙をテーマにしたリメリック（五行の戯れ詩）や、ペイロード（搭載機器）システムの技術的な状態を報告させるテレメトリー用のプロンプトも試しました。次は、軌道上での熱ストレスや放射線被曝のもとでTPUがどのように動作するかを評価する一連のテストを続けます。TPUが宇宙で確実にワークロードを実行できることを検証すれば、2027年に予定している、相互に接続された双子衛星という次のマイルストーンへの道が開けます。</p>
-<p>私たちのチップは、正式に「宇宙の翼」を手にしました。この宇宙規模のムーンショットの長い道のりにおける、重要な成果です。</p>
-<p><a href="https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Engadget／日本語訳） ／ テーマ: AI</em></p>
+<p><strong>新しいrobots.txt指示により、各社は生成AIの学習用にコンテンツをスクレイピングすることを控えるようになる。</strong></p>
+<p>Google、Anthropic、OpenAI、Microsoftは、新しいrobots.txt指示を尊重することを約束した。これにより、パブリッシャーは自分たちのコンテンツが生成AIの学習のためにスクレイピングされることについて、自らの意向を指定できるようになる。各社は、インターネットのオープン標準化団体であるIETFで検討中の提案を採用することを決めた。この提案は、Anthropicで標準化担当テクニカルリードを務めるケビン・ケリー氏が執筆したものだ。</p>
+<p>OpenAIとGoogleがそれぞれの発表で説明しているように、現状ではウェブサイトの所有者は個々のクローラーを特定し、提供元ごとに別々のルールを追加しなければならない。ケリー氏の提案は、複数のAI企業に単一の共通シグナルを認識・尊重させることで、この状況を変える。パブリッシャーはrobots.txtファイルに、AI学習専用の新しいユーザーエージェントを設定する必要がある。記述は次のようになる。</p>
+<pre><code>User-Agent: __usage_ai-training
+Disallow: /
+Allow: /press-kit/</code></pre>
+<p>これにより、AI学習用のデータ収集を目的としたクローラーが特にブロックされる。「Allow」の部分では、例えばプレスキットがある場合など、ページの特定の部分についてはAI学習用のスクレイピングを許可するという選択肢をウェブサイト運営者に与える。ただし、この新しいユーザーエージェントのセクションはクロールそのものを全面的に防ぐものではなく、Google検索にコンテンツが表示されることを妨げるものでもない。例えばGoogleは、これをGeminiモデルの学習に使う素材を収集するためにウェブサイトをクロールする「Google-Extended」ユーザーエージェントに限った停止サインとして解釈する。</p>
+<p>もう1つ注意すべき点は、この指示によって各社がすでに行った過去のスクレイピングを取り消すことはできないということだ。以前にページをクロールしていれば、各社はすでにそのコンテンツを保有している。この指示は、今後ウェブサイトや特定のページがスクレイピングされるのを防ぐだけである。Anthropicはすでにこの新しい指示への対応を開始しており、Microsoftは2027年2月1日から対応を始めるとしている。Googleも同じく2027年初頭に対応するとし、OpenAIは今後数カ月以内にこの新しいシグナルを実装すると約束した。</p>
+<p><a href="https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a2">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2. CursorのマーケットプレイスでAnthropic公式VS Code拡張にバックドア、約12時間にわたり配布――最大5,000人に影響の恐れ</span></div>
-    <div class="meta"><span class="tag">AI</span>Ars Technica ／ 2026-10-30
-      ／ 原文: <a href="https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/" rel="noopener noreferrer">https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/</a></div>
-    <p class="summary">Anthropic公式アカウントから悪意あるバージョン2.1.313が配布され、SSHバックドアの設置やクラウド認証情報の棚卸しを試みた。アカウント乗っ取りの経緯は不明で、Anthropicは顧客への公式な警告をまだ出していない。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2. サム・アルトマン氏「RAMは手元のPCよりデータセンターにあるべき」――メモリ不足の中、ローカル推論に否定的見解</span></div>
+    <div class="meta"><span class="tag">AI</span>The Verge ／ 2026-10-30
+      ／ 原文: <a href="https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers" rel="noopener noreferrer">https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers</a></div>
+    <p class="summary">OpenAIのCEOがポッドキャスト「Cheeky Pint」で、世界的に限られたDRAMが各自のPCで5%しか使われないのは「ひどい」配分だと発言。SamsungやSK Hynixの生産の多くはクラウド事業者やStargateに長期契約で押さえられ、PCやスマホの値上がりにつながっている。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Ars Technica／日本語訳） ／ テーマ: AI</em></p>
-<p>AnthropicのClaudeモデル向けの公式拡張機能にバックドアが仕込まれ、最大5,000人の開発者のマシンが脅威にさらされたと、複数の情報源が金曜日に報じた。Anthropicは今のところ、この件について顧客に警告していない。</p>
-<p>侵害されたパッケージは、AI支援開発ツールを手がけるCursorのマーケットプレイスで提供されていたVS Code拡張機能だと、同社が金曜日に明らかにした。悪意あるバージョン2.1.313は「最大で5,000人のユーザー」に影響を与えた。おそらく、ユーザーがダウンロードしたか、システムが自動的に取得してインストールした時点で影響を受けたとみられる。独立系研究者のケヴィン・ボーモント氏によれば、Anthropicは前のバージョンがCursorで公開されてから数時間後にバージョン2.1.314を配信した。ボーモント氏とセキュリティ企業Phorianの最高技術責任者（CTO）兼共同創業者はいずれも、バージョン2.1.313はCursor上のAnthropic公式アカウントを通じて配布されたと述べている。攻撃者がどのようにしてそのアカウントを掌握したのかについて、CursorもAnthropicもまだ説明していない。</p>
-<h3>クラウド認証情報を探して</h3>
-<p>「これは、攻撃者が公式の配布チャネルへのアクセスを得たサプライチェーン侵害でした」と、PhorianのCTO兼共同創業者ルーク・ロバーツ氏はArsに語った。「悪意あるバージョン2.1.313はAnthropicの公式アカウントに投稿され、事実上2.1.312を置き換えました。Cursorでは拡張機能がデフォルトで自動更新されますが、ユーザーは設定でこれを変更できます」。Phorianはさらなる詳細を公開している。</p>
-<p>Anthropicは、この件について顧客への公的な通知をまだ出していない。</p>
-<p>Cursorによれば、この悪意ある拡張機能は、攻撃者が管理するSSH鍵を追加し、ローカルのSSHサービスを有効にし、リバースSSHトンネルを開くことで、永続的なSSHバックドアの設置を試みる。コードはWindows、macOS、Linuxで動作するように書かれていた。Cursorの拡張機能はこのツールの統合開発環境（IDE）の権限で動作するため、バックドア入りのバージョンはインストールされると、ローカルのファイル、ソースコード、開発者ツールにアクセスできた可能性が高い。</p>
-<p>Cursorによれば、バックドアの機能には以下が含まれる。</p>
-<ul>
-<li>ホストとユーザーの情報の収集：ホスト名、ユーザー名、OS、アーキテクチャ、ホームディレクトリのパス、環境変数の名前、作業ディレクトリ、設定されたGitのメールアドレス、パブリックIP。</li>
-<li>攻撃者が管理するSSH鍵をauthorized_keysに追加し、ローカルのSSHサービスを有効にし、リバースSSHトンネルを開こうとする。Cursorが管理者権限で起動されているという極めて異例な状況を除けば、悪意あるコードの誤りのため、この手順は失敗したはずだという。</li>
-<li>LaunchAgent（macOS）、またはSYSTEMとして実行を試みるスケジュールタスクとスタートアップスクリプトによるフォールバック（Windows）によって、リバースSSHトンネルを永続化しようとする。バックグラウンドのスクリプトがおよそ60秒ごとにトンネル接続を再試行する。</li>
-<li>ホストの詳細とバックドアの状態を、ポート8099の/beaconへのHTTP POSTで報告する。</li>
-</ul>
-<p>Phorionによれば、変数名を盗むことで、攻撃者は侵害した端末に保存されたクラウドの認証情報やAPIトークンを素早く棚卸しでき、おそらく後続の攻撃でどのマシンを優先して狙うかを決められるようにしていたという。</p>
-<p>悪意あるコードのWindows版とmacOS版のバグにより、バックドアが機能しないケースもあった。Phorionは、コーディング上の欠陥があるにもかかわらず、「このマルウェアは永続化を仕込み、ホストの偵察情報を攻撃者に送信するため、依然として重大な脅威です」と述べた。</p>
-<p>Cursorによれば、同社のスタッフはリバースシェルの接続先サーバーをホストしているクラウド事業者と協力し、感染した端末がそのサーバーに到達できないようにした。スタッフはまた、バックドア入りのバージョンをマーケットプレイスから削除し、それ以上の配布を阻止した。同社はさらに、鍵のローテーション、アクセス制御の監査、他の拡張機能が侵害されていないことの確認のため、VSCodeマーケットプレイスを一時停止した。マーケットプレイスは現在は再開している。</p>
-<p>なぜAnthropicが顧客に脅威を公に警告していないのか、またなぜ同社とCursorがサプライチェーン侵害の経緯を説明していないのかは、依然として不明だ。両社とも、この点についての質問には答えなかった。</p>
-<p>木曜日の米東部時間午前5時27分から午後4時35分の間に、CursorからAnthropicのVS Code拡張機能をインストールまたは更新した人は、影響を受けたとみなすべきだ。ただし、最近インストールや更新を行った人も、感染している可能性があると考えておくのが賢明かもしれない。CursorとPhorionはいずれも、IPアドレスや暗号ハッシュなど、さまざまな侵害の痕跡（IoC）を公開している。</p>
-<p><em>訳注: 原文ではセキュリティ企業名が「Phorian」「Phorion」の両表記で混在しており、本訳でもそのまま残しています。米東部時間の午前5時27分〜午後4時35分は、日本時間で10月29日18時27分〜10月30日5時35分にあたります。</em></p>
-<p><a href="https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: AI</em></p>
+<p><strong>OpenAIの買い占めが世界のRAM供給を圧迫する中、同社CEOはなぜそれほど多くを必要とするのかを説明した。</strong></p>
+<p>現在も続くRAM不足のようなサプライチェーンの逼迫について問われたOpenAIのCEO、サム・アルトマン氏はインタビューで、RAMがデータセンターではなく個人のPCにあるのは「ひどい」ことだと述べた。ポッドキャスト「Cheeky Pint」に出演した際（同番組ではAIが数学に与える影響についてもコメントしている）、アルトマン氏は次のように語った。</p>
+<blockquote><p>「多くの人がローカル推論を望んでいます。そしてなぜか、オープンソースのモデルが登場し、それを自分のコンピューターで動かせるようになるのだから、データセンターにあるような設備はもう必要なくなり、問題は解決したと思い込んでいるのです。</p>
+<p>しかし、世界全体の配分という観点から見ると、世界の限られたDRAM供給の多くを皆がそれぞれ自分のコンピューターに抱え込み、それが5%の時間しか使われていないというのは、実はかなりひどいことなのです。</p>
+<p>この極めて供給が制約された環境に対処しようとするなら、クラウドで利用率を最大化したいはずです。それなのに、なぜか皆の――多くの人の直感はその逆なのです」</p></blockquote>
+<p>アルトマン氏が念頭に置いていたのがあなたのゲーミングPCであれ、Surface RTX Spark Dev Boxや新しいタッチスクリーン搭載MacBook Proのようなもので作業する開発者であれ、結果は同じだ。現在、メモリ企業のSamsungとSK Hynixは、クラウドサービス事業者やOpenAIのStargateのようなプロジェクトと長期契約を結んでおり、今後数年間の世界のRAM生産量の多くが確保されている。そして、彼らがチップに数十億ドルを投じる意思があることこそが、あなたが使うノートPCやスマートフォン、その他のテック製品が今値上がりしている理由なのだ。</p>
+<p><a href="https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a3">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>3. Apple、中国でのApple Intelligenceのテストを11月4日開始と発表――iOS 27.3で12月に正式提供、AlibabaのQwenと連携</span></div>
-    <div class="meta"><span class="tag">AI</span>9to5Mac ／ 2026-10-30
-      ／ 原文: <a href="https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china/" rel="noopener noreferrer">https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china/</a></div>
-    <p class="summary">Appleの中国向けニュースルームが、次の開発者ベータで中国版Apple Intelligenceのテストを始めると告知。Siri AIは対象外だが、Type to SiriやQwen連携の作文ツール・ビジュアルインテリジェンス、ライブ翻訳などを提供する。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>3. Anthropic、IPO後に格付け会社から「ジャンク級上位」評価の見通し――Blackstoneが投資家に説明とFT報道</span></div>
+    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-10-30
+      ／ 原文: <a href="https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/" rel="noopener noreferrer">https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/</a></div>
+    <p class="summary">Anthropicのチップ調達向け630億ドルの融資案件でアンカー投資家を務めるBlackstoneが、従来の「2027年までに投資適格」という見通しを撤回し、IPO後はダブルB格（投機的等級の最上位）になるとの予想を伝えたという。資金調達コストの上昇につながる可能性がある。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（9to5Mac／日本語訳） ／ テーマ: AI</em></p>
-<p>Appleは本日、中国でのApple Intelligenceの提供開始に関する発表の一環として、次のiOS開発者ベータの公開時期を確認するという異例の措置をとった。詳細は以下のとおりだ。</p>
-<h3>これまでの経緯</h3>
-<p>7月中旬、Reutersは、中国の規制当局との長いやり取りと度重なる延期を経て、Apple Intelligenceが同国での待望のサービス開始に向けて、ついに大きな規制上のハードルを越えたと報じた。</p>
-<p>その後、数週間前にBloombergが、AppleはiOS 27.3の一部として12月に中国でApple Intelligenceを提供開始する計画だが、Siri AIやその他の新しい機能は含まれないと報じた。</p>
-<p>その翌日、中国の国営系メディア「澎湃新聞（The Paper）」は、ティム・クック氏がこのプラットフォームの規制承認を確認し、10月末までにテスト版が出る見込みだと報じた。</p>
-<p>そしてつい先週の月曜日、AppleはiOS 27.2とその関連OSを公開し、Siri AIの対応言語をフランス語、日本語、韓国語、ポルトガル語、スペイン語に広げた。同日、同社は繁体字中国語を含むさらに4言語に年内に対応すると発表した。</p>
-<p>ただ、その発表はSiri AIの追加言語対応を確認したものの、中国でのApple Intelligenceの展開についての新情報はなかった。中国では、Siri AIそのものは当面利用できないままとなる。</p>
-<p>Appleは通常、前のバージョンが公開された直後に次のソフトウェアアップデートの最初のベータを公開するが、iOS 27.3はまだ姿を見せていない。</p>
-<p>そうした中、MacRumorsが見つけたところによれば、Appleの中国向けニュースルームのサイトに掲載されたプレスリリースが、中国でのApple Intelligenceのテストが次のiOS開発者ベータの一部として11月4日に始まることを確認した。</p>
-<p>重要なのは、Appleが確認したのは中国でのApple Intelligenceのテスト開始日としての11月4日であり、iOS 27.3ベータ1そのものの公開日とは限らない点だ。</p>
-<h3>中国にやってくるApple Intelligence</h3>
-<p>プレスリリースでAppleは、中国のユーザーはType to Siri（Siriへのテキスト入力）や、特定のリクエストでAlibabaの「Qwen（通義千問）」にアクセスできる機能など、改善されたSiri体験を得られるが、Siri AIそのものは含まれないことを確認している。</p>
-<p>Qwenとの連携は作文ツール（Writing Tools）とビジュアルインテリジェンスにも広がる。Appleによれば、ユーザーはPDFやプレゼンテーションを含む写真や書類について質問したり、作文ツールでゼロからオリジナルのコンテンツを生成したりできる。Qwenには、自分のアカウントにサインインするか、「Appleでサインイン」を使ってアクセスできる。</p>
-<p>最初の展開に含まれるその他の機能には、メッセージ・FaceTime・電話でのライブ翻訳、作文ツール、ジェン文字（Genmoji）、写真アプリの「クリーンアップ」、自然言語による写真検索、優先通知、通知の要約、スマートリプライなどがある。</p>
-<p>Appleはまた、最初の展開はiPhone限定で、他のプラットフォームへの対応は必要な規制承認を得てからになると述べている。</p>
-<p>これらの機能はiPhone 15 Pro／Pro Max、iPhone 16以降、iPhone Air、iPhone Duoで利用でき、Siriと端末の言語をいずれも英語または簡体字中国語に設定する必要がある。</p>
-<p>同社はまた、これらの機能がiOS 27.3の正式リリースとともに12月に一般提供されることも確認した。</p>
-<p>Appleのプレスリリースは、原文記事のリンクから確認できる。</p>
-<p><a href="https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
+<p>Financial Timesの報道によると、Anthropicは新規株式公開（IPO）後に信用格付け機関から「ジャンク」級の中でも高い格付けを受ける見通しだという。</p>
+<p>FTによれば、Anthropicのチップ調達資金を賄う最近の630億ドル規模の案件でアンカー投資家を務めた投資大手Blackstoneは、この案件の投資家に対し、このAIラボがIPO後に「高めの」ジャンク格付けを受けると予想していると伝えた。FTが指摘するところでは、Blackstoneは以前はその逆、つまりClaudeの開発元は2027年を迎える前に投資適格の格付け（貸し手にとって低リスクであることを示す）を受けるだろうと述べていた。</p>
+<p>報道によれば、Blackstoneは現在、投機的な「ジャンク」等級の最上位にあたるダブルBの範囲の格付けを予想している。</p>
+<p>TechCrunchはAnthropicとBlackstoneにコメントを求めたが、両社ともコメントを控えた。</p>
+<p>Blackstoneの予測はあくまで予測にすぎないが、当然ながら高めのジャンク格付けとなれば、Anthropicが事業を支えてきた巨額の支出を続けるための資金を調達することは、より難しく、よりコストのかかるものになる。同ラボは過去12カ月にわたり大規模なコンピューティング能力の契約を次々と結ぶ支出攻勢を続けており、投資家を不安にさせてきた。</p>
+<p>Anthropicは今週初めに正式に上場を申請し、この巨大IPOがAI業界全体にどのような影響を与えるかをめぐる憶測が広がるきっかけとなった。</p>
+<p><a href="https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a4">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>4. OpenAI、反発を受けChatGPTの利用上限削減を撤回――Pro各プランとBusiness Premiumの上限を2倍に</span></div>
-    <div class="meta"><span class="tag">AI</span>Android Authority ／ 2026-10-30
-      ／ 原文: <a href="https://www.androidauthority.com/openai-doubles-chatgpt-usage-limits-3730213/" rel="noopener noreferrer">https://www.androidauthority.com/openai-doubles-chatgpt-usage-limits-3730213/</a></div>
-    <p class="summary">Pro 200の利用上限を価格据え置きで減らす計画に批判が集まり、OpenAIは方針転換。Pro 100/200/500とBusiness Premiumの上限を即日2倍にし、バックグラウンドで動く個人AIエージェント「dots」の拡張上限も当面継続する。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>4. Nvidia、NscaleのAnthropic向けウェストバージニアAIデータセンターで数十億ドルの債務保証を検討</span></div>
+    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-10-30
+      ／ 原文: <a href="https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/" rel="noopener noreferrer">https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/</a></div>
+    <p class="summary">The Informationによると、Nvidiaは顧客であるNscaleの建設費・電力費の融資に「残存価値保証」を付ける協議中。Anthropicは最初の460MW棟だけで446億ドルの契約を結んでおり、ネオクラウド各社の株価下落でAIインフラ投資への不安が強まる中の動き。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Android Authority／日本語訳） ／ テーマ: AI</em></p>
-<ul>
-<li>OpenAIは、ChatGPT Proの100ドル、200ドル、500ドルの各プランとBusiness Premiumの利用上限を2倍にすると発表した。</li>
-<li>この発表は、Pro 200の加入者向けに利用上限を引き下げるという以前の計画に対して、同社が反発を受けた後に行われた。</li>
-<li>同社はまた、dots向けの拡張上限の提供も継続するとしている。</li>
-</ul>
-<p>あなたの声には意味がある。誰にも「そんなことはない」と言いくるめられてはいけない。その好例が、利用上限をめぐるOpenAIとユーザーの間の最近の対立だ。反発を受けて、同社は方針を転換しつつある。また、dotsの上限についての情報も明らかにした。</p>
-<p>OpenAIのソフトウェアエンジニアでプロダクト担当幹部のティボー・ソティオー氏はXで、OpenAIがChatGPT Proの100ドル、200ドル、500ドルの全プランとBusiness Premiumの利用上限を2倍にすると発表した。これは主に、対象サブスクリプションで利用上限を共有しているChatGPT WorkとCodexに影響する。ソティオー氏によれば、この変更は即日発効する。</p>
-<p>同氏の投稿（2026年10月29日）は次のとおりだ。「25日目／本日より、Pro 100/200/500の全ティアとBusiness Premiumのすべての利用上限を2倍にします。皆さんの親切なフィードバックを受け止め、Pro 200の利用上限は引き下げないことにしました。WorkとCodexの利用量はこれまでどおりです。また、dots向けの拡張上限も当面は提供を続け、dotの利用は引き続きデフォルトの利用量とは別枠になります。そしてもちろん、より優れたモデルやその他の効率改善を出し続け、時間とともに実質的な利用量を増やしていきます」</p>
-<p>OpenAIは以前、価格を下げないままPro 200ティアの利用上限を引き下げる計画だった。この削減は10月29日に始まる予定だった。だが、相当量のフィードバックが同社の考えを変えさせたようだ。「皆さんの親切なフィードバックを受け止め、Pro 200の利用上限は引き下げないことにしました。WorkとCodexの利用量はこれまでどおりです」。OpenAIは、各ティアの正確な数値上の利用枠は明らかにしていない。</p>
-<p>この発表に付け加える形で、ソティオー氏はバックグラウンドで動作する個人向けAIエージェント「dots」についての最新情報も示した。OpenAIは、少なくとも当面はdots向けの拡張上限の提供を続ける予定だ。ソティオー氏は「dotの利用は引き続きデフォルトの利用量とは別枠になります」と付け加えている。</p>
-<p><em>訳注: 原文冒頭のアフィリエイト表記は省略。</em></p>
-<p><a href="https://www.androidauthority.com/openai-doubles-chatgpt-usage-limits-3730213/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
+<p>The Informationが木曜日に報じたところによると、Nvidiaは、AIクラウドプロバイダーのNscaleがウェストバージニア州で計画しているAnthropic向けデータセンターについて、数十億ドル規模の債務融資を保証する協議を進めている。Bloombergも後にこの報道を裏付けた。NscaleのIPO申請書類によると、Anthropicはこのプロジェクトの最初の1棟だけで446億ドルの契約を結んでいる。要するにこのチップメーカーは顧客のローンの連帯保証人になるということであり、投資家が関係する金額の大きさに神経をとがらせる中で、AI業界が設備拡張計画を維持するためにいかに懸命になっているかを示す兆候だ。</p>
+<p>提案されている取り決めは、Nscaleがウェストバージニアのキャンパスの電力費と建設費の資金を確保するのを助けるものだ。The Informationによると、「残存価値保証」として知られる仕組みのもと、Nscaleが建設費の支払いを滞らせた場合にはNvidiaが介入し、一時的に施設を引き継いで、買い手と新しいテナントを見つける手助けをするという。</p>
+<p>これまでのNvidiaによるクラウドプロバイダー支援は、主にリース契約とチップ購入を対象としたもので、建設は対象外だった。</p>
+<p>Nscaleにとっては大きな賭けとなる。同社は、野心的なデータセンタープロジェクトを実現する能力に対する懸念が高まっているにもかかわらず、最大350億ドルの評価額での株式上場を目指している。</p>
+<p>AnthropicとNscaleの契約は、Nscaleのウェストバージニア・キャンパスにある最初の460メガワットの建物を対象としており、そこではNvidiaの次世代チップ「Vera Rubin」が使われる見込みだ。両社は、別の建物を対象とする約450億ドル規模の2件目の契約についても協議している。</p>
+<p>Nscaleはプロジェクトを軌道に乗せるのに苦労してきた。同社が8月時点で稼働させていた先端AIチップは約2万5000基で、配備を計画している約50万基のほんの一部にすぎない。ウェストバージニアのキャンパス自体も問題を抱えている。建設現場からの流出水が近隣の住宅を一度ならず浸水させたのだ。数カ月にわたる交渉の末、プロジェクトは9月に州の認証を取得した。</p>
+<p>今月には、Microsoftが、イングランドで計画されていたNscaleの拠点から撤退した。その拠点向けの送電網の電力供給が2030年代にずれ込んだためだ。</p>
+<p>The Informationによると、Nvidiaはこの分野の主要な資金提供者であり、ネオクラウドや大口顧客に対して約1700億ドルの投資や信用支援を行ってきた。これには、9月にNscaleに対して約束した10億ドルの転換社債型ファイナンスも含まれる。</p>
+<p>ネオクラウド（中核となる潤沢な現金を生む事業を持たずにAIコンピューティング能力を貸し出す企業）は、投資家からの圧力にさらされている。CNBCの報道によると、先週の時点でCoreWeave、Nebius、IRENの株価はいずれも10月に30%以上下落していた。</p>
+<p>提案されている保証は、Nvidiaのチップの大口顧客を確保する助けになると同時に、NvidiaとNscaleの金銭的な結びつきをさらに深めることになる。AIコンピューティング能力の最大の買い手の1社であるAnthropicは、インフラ支出を複数のチップメーカーに分散させている。ある投資家はThe Informationに対し、Anthropicが関与していることが、Nscaleのプロジェクトを軌道に乗せ続けることへのNvidiaの関心の理由である可能性が高いと語った。</p>
+<p>この協議は、Anthropic自身が急速な拡大の資金をどう調達するのかという疑問に直面している中で行われている。同社は今週上場を申請したが、BlackstoneはAnthropicがIPO後に投資適格未満の信用格付けを受ける可能性があると投資家に警告している。ジャンク格付けとなればAnthropicの借入コストは上昇し、同社は自らの債務を裏付けるために、より強力なパートナーに頼り続けざるを得なくなる可能性がある。</p>
+<p><a href="https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a5">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>5. DoorDash、外部AIエージェント経由の注文は「数百件」にとどまると明かす――1日300万件の配達と比べわずか</span></div>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>5. プライバシー重視のAIアシスタント「Ollie」が11月6日にサービス終了――競争激化で資金調達が困難に</span></div>
     <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-10-30
-      ／ 原文: <a href="https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/" rel="noopener noreferrer">https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/</a></div>
-    <p class="summary">第3四半期決算説明会でトニー・シューCEOが、Muse、Instinct、Foなど第三者エージェントからの注文は合計数百件程度と説明。自社アプリが依然主流だが、エージェント内広告の可能性も視野に入れる。</p>
+      ／ 原文: <a href="https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/" rel="noopener noreferrer">https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/</a></div>
+    <p class="summary">Khosla Ventures主導で750万ドルのシードを調達し、SOC 2も取得していた家族向けAIアシスタントが撤退。CEOのBill Lennon氏は「Muse、Instinctなどの参入で目立つこと、成長、資金調達が難しくなった」と説明。データのエクスポート方法と返金案内は近日中に届く。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
-<p>AIエージェントが商取引や注文を席巻するという大騒ぎが起きているが、まだそうはなっていないのかもしれない。配達サービスのDoorDashは第3四半期の決算説明会で、Muse、Instinct、Foなどの第三者エージェントからの注文は「数百件」しか見ていないと明かした。比較のために言えば、同社は2025年の報告書で、1日平均300万件の配達を完了していると述べている。</p>
-<p>「これ（エージェントを使った注文）は、依然として非常に流動的な分野だと言えます。そして、あらゆるテクノロジーに対する私の考えは、重力に逆らってはいけない、ということです。しかし同時に、妄想を抱いてもいけません」と、DoorDashのトニー・シューCEOは、この話題についてのアナリストの質問に答えて述べた。「つまり、現在のAIエージェントの状況を見ると、こうした第三者エージェントからの注文は全部でおそらく数百件というところです」と同氏は語った。</p>
-<p>シュー氏は、ユーザーは依然として主にDoorDashのアプリから注文していると述べた。ただし同社は、エージェントの利用ケースについてもっと学び、第三者のエージェント開発企業と健全な関係を築きたいと考えている。同氏は、将来的にはそうしたエージェントの中で広告を出す機会があるかもしれないとも付け加えた。</p>
-<p>DoorDashは独自のエージェントも持っている。9月に開始したテキストで注文できるエージェント、7月に導入したCLI（コマンドライン）エージェント、そして6月に開始した、プロンプトや写真で注文できるチャットボット「Ask DoorDash」などだ。同社はまた、法人向けの注文で他のチャットボットから注文できるようにするMCPもリリースしている。</p>
-<p>エージェントによる注文の分野は発展途上にあり、ウェブサイト側はエージェントに自社コンテンツへのアクセスを許可するかどうかをまだ決めかねている。Amazonはこうした個人向けエージェントをブロックしているが、Walmartは競合からビジネスを奪うため、エージェントを歓迎する姿勢を示している。</p>
-<p><a href="https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>ユーザーのプライバシーを尊重するAIアシスタントの提供を使命としてきたスタートアップのOllieが、1週間後にサービスを終了すると発表した。同社の共同創業者兼CEOであるビル・レノン氏が金曜日にXでこのニュースを伝え、アプリは11月6日に正式に終了すると記した。</p>
+<p>「私たちが成し遂げたことをとても誇りに思っています」とレノン氏は述べた。「小さなチームで素晴らしいパーソナルアシスタントを作り上げ、多くのことを学びました。素晴らしいチーム、ユーザーの皆さん、投資家の皆さん、そしてこの旅を支えてくれたすべての人に感謝しています」</p>
+<p>テキストベースのAIアシスタント市場は、この1年で爆発的に拡大した。こうしたアプリを支えるモデルがますます強力になり、日々の作業に大幅に役立つようになったためだ。</p>
+<p>Ollieは、9月にKhosla Venturesが主導した750万ドルのシードラウンドについてTechCrunchに語っていた企業で、サブスクリプション型のモデルを提供していた。このアシスタントは、家族のつながりを保ち、生活を整理する手助けをすることに重点を置いていた。アプリはユーザーのメールやカレンダーと連携するとともに、予約、献立計画、請求書の支払いを手助けする統合機能も提供していた。同社は将来的に家計管理の分野にも進出することを計画していた。</p>
+<p>重要なのは、Ollieが、独立した監査を通じて取得できるプライバシーのコンプライアンス基準「SOC 2」を達成した最初の主流アプリの1つだったことだ。残念ながら、ユーザーのプライバシーがテック業界で大きな利益を生む要素だったことはない。むしろ、Instinctのような企業が示してきたように、新しいデジタルアシスタントの多くはユーザーに特有のプライバシー上の課題をもたらしている。</p>
+<p>最終的に、急成長するAI業界の圧力が同社に打撃を与えたとレノン氏は述べた。「あと少しのところまで行きましたが、結局ついていけませんでした」と同氏は付け加えた。「Muse、Instinct、その他の企業がこの分野に参入してきたことで、目立つこと、成長すること、そして成功に必要な資金を調達することが難しくなりました」</p>
+<p>レノン氏によると、Ollieの顧客には、今後数日のうちにデータのエクスポート方法と返金の受け取り方についての案内が届くという。</p>
+<p><a href="https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a6">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>6. 富士フイルム、磁気テープの生産能力を5倍に――生成AIでアーカイブ需要が急増、約100億円を投資</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>Ars Technica ／ 2026-10-30
-      ／ 原文: <a href="https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/" rel="noopener noreferrer">https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/</a></div>
-    <p class="summary">小田原の神奈川工場に2026〜2028年度で約100億円を投じ、最新のLTO Ultrium10を中心に増産。クラウド大手が低コスト大容量とエアギャップによるランサムウェア対策を理由にテープ利用を拡大している。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>6. Intel株が約28%暴落、米政府保有株の価値が120億ドル減少――メモリ高騰でPC需要が鈍化</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>TechCrunch ／ 2026-10-30
+      ／ 原文: <a href="https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/" rel="noopener noreferrer">https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/</a></div>
+    <p class="summary">第4四半期の売上見通しを150億〜160億ドル（市場予想約170億ドル）とし、粗利益率も43%から37%へ低下すると警告。リップブー・タンCEOは「メモリ価格と供給を理由に顧客がPC減速を示唆」と説明。データセンター事業は前年同期比78%増。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Ars Technica／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>木曜日に発表した声明で、富士フイルムは、AI時代の意外な恩恵を受けている磁気テープの生産能力を5倍に増やすため、約100億円（約6,300万ドル）を投資すると述べた。</p>
-<p>富士フイルムは、アーカイブ需要の急増は生成AIの普及によるものだとしており、生成AIが世界中のデータ需要に「指数関数的な成長」をもたらしていると指摘した。5倍という生産能力の増加は、2025年度の生産水準と比べたものだ。</p>
-<p>神奈川工場小田原サイトへのこの投資は、「LTOテープ専用設備として富士フイルムがこれまでに行った中で最大の投資」になるという。このプロジェクトは2026年度から2028年度まで続き、主に最新世代の「FUJIFILM LTO Ultrium10」テープを生産するための製造拡大と追加人員に資金を充てる。</p>
-<p>一般消費者は何十年も前にテープを手放したかもしれないが、企業の世界は決して手放さなかった。クラウド大手は膨大なデータのバックアップにテープを頼っている。富士フイルムによるデータストレージ媒体としての磁気テープの取り組みは1950年代にさかのぼり、2000年には同社初のLTO Ultriumストレージテープを発売した。2011年には、バリウムフェライト磁性体を用いたテープを世界で初めて商業生産し、2025年には、バリウムフェライトとストロンチウムフェライトの技術を組み合わせた、同社が「ファインハイブリッド磁性体」と呼ぶものを初めて採用したストレージ製品LTO Ultrium10を発表した。テープの各世代（現在は第10世代）では、圧縮時・非圧縮時の記録容量がいずれも大きく増えてきた。</p>
-<p>富士フイルムによれば、「大手クラウドサービス事業者やデータセンター事業者」は、大量のデータを比較的低コストで保存できることから、磁気テープの利用を拡大している。テープのバックアップは簡単に切り離して、引き出しや金庫、別の施設に保管できる。富士フイルムは、テープカートリッジをエアギャップ（ネットワークから物理的に隔離）できることを、ユーザーデータを守る最後の防衛線として強調している。「サイバー攻撃が高度化する中、磁気テープはランサムウェアなどの脅威からデータを守る手段として、ますます注目を集めています」</p>
-<p><a href="https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: ガジェット</em></p>
+<p>Intelの株価は金曜日、史上最悪級の1日となった。このチップ大手が第4四半期について予想を下回る見通しを発表したことを受け、約28%暴落したのだ。</p>
+<p>CNBCの報道によると、この急落により、政府が保有するIntel株の価値は120億ドル減少した。トランプ政権は1年あまり前、政府にIntel株の10%を取得させていた。2025年にIntelの大量の株式を取得したNvidiaも、金曜日に株価がやや下落した。テック業界の多く、とりわけチップメーカーがこの売りに巻き込まれた。</p>
+<p>夏に記録した非常に高い株価からは大きく下落したものの、Intel株は年初来で70%以上上昇しており、今のところ政府にとって（そしてNvidiaにとっても）依然として利益の出ている投資だ。</p>
+<p>この動揺を引き起こしたのは、アナリストが約170億ドルを見込んでいたところ、Intelが第4四半期の売上高を150億〜160億ドルと予想するよう警告したことだった。また、売上総利益率が43%から37%に低下すること、さらに投資が非常に大きいためプラスのキャッシュフローは見込めないことも警告した。</p>
+<p>Intelにとっての主な問題は、AI業界がメモリやその他の部品を大量に消費してPCの価格上昇を招いており、そのせいでPCの販売が打撃を受けていることだ。</p>
+<p>「顧客は、メモリの価格と入手性を理由にPCの減速を示唆し始めました。年初来でシステム製品の価格は大幅に上昇しており、すでに限られているIT予算にさらなる圧力をかけています」と、IntelのCEOリップブー・タン氏は決算説明会で警告した。</p>
+<p>明るい材料は、Intelのデータセンター事業の売上高が前年同期比で78%増加したことだ。しかし、工場の生産能力を増強し、外部顧客をより多く獲得するまでは、この分野でも足かせをはめられた状態にある。この点で同社は強豪の台湾積体電路製造（TSMC）と競合している。アリゾナ州にあるIntelの新工場の1つは稼働しているが、次の工場が稼働するのは2028年の見込みだ。</p>
+<p><a href="https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a7">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>7. Android 17のシェアは公開4カ月でわずか1%、Android 16は25%超で最大に――Googleが最新の配布状況を更新</span></div>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>7. Samsung、iPhone Duoの「クラックゲート」を広告で痛烈に皮肉る――「折りたたみは私たちにとって目新しくない」</span></div>
     <div class="meta"><span class="tag">ガジェット</span>9to5Google ／ 2026-10-30
-      ／ 原文: <a href="https://9to5google.com/2026/10/30/android-17-is-on-1-of-devices-after-four-months-android-16-on-over-25/" rel="noopener noreferrer">https://9to5google.com/2026/10/30/android-17-is-on-1-of-devices-after-four-months-android-16-on-over-25/</a></div>
-    <p class="summary">10月19日時点のデータで、6月にPixel向けに公開されたAndroid 17は稼働端末の1%。Samsungなどの本格展開はここ数週間のため、ほとんど含まれていないとみられる。Android 5は統計から外れ、Android 11はなお10%超。</p>
+      ／ 原文: <a href="https://9to5google.com/2026/10/30/samsung-mocks-iphone-duo-crackgate-galaxy-z-fold-8/" rel="noopener noreferrer">https://9to5google.com/2026/10/30/samsung-mocks-iphone-duo-crackgate-galaxy-z-fold-8/</a></div>
+    <p class="summary">Apple初の折りたたみ機で、画面中央が同じ形で「割れる」不具合が早期購入者から相次いで報告。Samsungはカナダ、マレーシア、オーストラリア、サウジアラビアの各アカウントでGalaxy Z Fold 8への乗り換えを促す広告を展開した。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（9to5Google／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>GoogleがAndroidのバージョン別配布状況を更新した。最新のデータでは、Android 17は端末のわずか1%にとどまる一方、Android 16が今や最大のシェアを占めている。</p>
-<p>10月19日時点で更新されたGoogleの最新の配布データは、Android 17の展開速度を垣間見せている。Pixelスマートフォン向けに6月に公開されたこのアップデートは、提供開始からおよそ4カ月が経っている。</p>
-<p>しかし現時点で、Android 17が占めるのはアクティブなAndroid端末のわずか1%だと、Googleのデータは示している。</p>
-<p>これに対し、昨年公開されたAndroid 16は25%を超えている。Android 16は、Googleがアップデートを公開してから数カ月後に出た前回の更新（2025年12月／2026年1月）では、端末の7.5%だった。ただし、このタイミングには補足が必要だ。Samsungのような大手がAndroid 17アップデートを広く展開し始めたのはここ数週間のことで、この1%に含まれている可能性は非常に低い。</p>
-<p>Android 16の伸びもかなり目覚ましい。この時期には古いバージョンのほうがまだ広く使われている傾向があるが、Android 16はかなりのシェアを固めることができた。</p>
-<p>Googleは今回の更新でAndroid 5（Lollipop）をデータから外した。Android 5.1はアクティブ端末のわずか0.2%だった。理由は不明だが、Android 11はいまだに10%を超えており、Android 12は9.6%に下がった。Android 11は、ここ数回の更新でより高いシェアを示している。</p>
-<p><em>訳注: 原文末尾の読者への問いかけ、関連記事・セール情報・著者SNSへのリンクは省略。</em></p>
-<p><a href="https://9to5google.com/2026/10/30/android-17-is-on-1-of-devices-after-four-months-android-16-on-over-25/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>Samsungは、iPhone Duoのつまずいたスタートに関して容赦するつもりはない。新しい広告で同社はiPhone Duoの「クラックゲート」を嘲笑し、代わりにGalaxy Z Fold 8を買うよう顧客に促しているが、そこには微塵の遠慮もない。</p>
+<p>Apple初の折りたたみ端末が登場した後、早期購入者の間で不幸な傾向が浮かび上がった。多くのユーザーが、ディスプレイが「割れ」、ディスプレイパネルが中央部で、しかも全く同じ形で故障していることに気づいたのだ。これはAppleのヒンジ設計に欠陥があることを示唆している。</p>
+<p>Appleは影響を受けた端末を交換しているが、これが同社にとってこの種のハードウェアへの最初の挑戦であることを、いささか痛々しく思い出させるものとなっている。</p>
+<p>そしてSamsungは喜んでそれを指摘している。</p>
+<p>InstagramでのGalaxy Z Fold 8の広告で、Samsungは「折りたたみは私たちにとって目新しいものではありません」「私たちは1つや2つ……いや8つのことを知っています」と述べている。そして単刀直入に「Galaxy Z Fold8に乗り換えよう」と続ける。添えられた画像には、よく知られたiPhone Duoの画面の「ひび」が描かれている。</p>
+<p>この広告はSamsungカナダのアカウントに投稿されたものだが、Samsungマレーシアの別の広告はさらに一段踏み込んでいる。</p>
+<blockquote><p>耐久性の話題ばかりで、ちょっと取り残された気分？……おっと、私たちは普通に折りたたんで、いつもどおりの1日を過ごしていただけでした</p></blockquote>
+<p>Samsungオーストラリアも同様に、「スマホを開いたときに画面が割れない生活とはこんな音」という投稿でAppleの耐久性問題をからかった。</p>
+<p>Samsungサウジアラビアによる別の投稿では、iPhone DuoのひびをGalaxy Z Fold 8の上に表示したうえで、それが単なる壁紙であることを明かしている。</p>
+<p><em>訳注: 原文末尾の関連記事リンク、セール情報（アフィリエイト）、筆者SNS案内は省略。</em></p>
+<p><a href="https://9to5google.com/2026/10/30/samsung-mocks-iphone-duo-crackgate-galaxy-z-fold-8/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a8">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>8. カメラとAIで必要なビットを判別する電動ドライバー「Arrowspace S1」、Kickstarterに登場――スマートケースのLEDで該当ビットを指示</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>The Verge ／ 2026-10-30
-      ／ 原文: <a href="https://www.theverge.com/tech/1023057/arrowmax-arrowspace-s1-electric-screwdriver-ai-camera-kickstarter" rel="noopener noreferrer">https://www.theverge.com/tech/1023057/arrowmax-arrowspace-s1-electric-screwdriver-ai-camera-kickstarter</a></div>
-    <p class="summary">先端のカメラでネジ頭を撮影し、AIが種類とサイズを判定してアプリに表示、安全なトルクも自動設定。単体約79ドル、52本のビット入りスマートケース付き約129ドルで、出荷は早くても2027年4月。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>8. WhatsApp、グループチャットを管理しやすくする4つの新機能を発表――「メンションと返信」フィルターや無期限ピン留めなど</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>9to5Mac ／ 2026-10-30
+      ／ 原文: <a href="https://9to5mac.com/2026/10/30/whatsapp-announces-four-new-features-to-make-group-chats-easier-to-manage/" rel="noopener noreferrer">https://9to5mac.com/2026/10/30/whatsapp-announces-four-new-features-to-make-group-chats-easier-to-manage/</a></div>
+    <p class="summary">自分へのメンションや返信がある未読グループだけを表示するフィルター、メッセージの無期限ピン留め、参加後のメンバーにも過去メッセージを送れる機能、グループ限定のステータス共有の4つ。順次展開される。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>HotoやFanttikのような企業は電動ドライバーのような工具のデザインと機能を高めてきたが、Arrowmaxはカメラと、それと連携するAIを加えることで工具をより賢くし、必要なビットの正確な種類とサイズを見つけるための試行錯誤をなくそうとしている。これは便利なだけでなく、役にも立つ。サイズを間違えると、ネジ山をなめてしまい、修理がずっと難しくなるおそれがあるからだ。</p>
-<p>Arrowspace S1はビットを識別し、オプションのスマートケースのどこにそのビットがあるかを示してくれる。</p>
-<p>ArrowmaxはArrowspace S1をKickstarterのクラウドファンディングキャンペーンを通じて提供しているが、同社はすでに他の製品でクラウドファンディングに成功している。ドライバー単体は約79ドルで予約注文できるが、S1スマートビットケースとセットにすると機能と有用性が広がり、予約価格は約129ドルになる。通常の小売価格はこれより高くなる予定で、S1の出荷は早くても2027年4月の見込みだ。</p>
-<p>S1の底部には、ネジ頭の画像を撮影するためのLEDライト付きの小型カメラがある。ドライバーのAIモデルができる限り良い画像を扱えるよう、カメラの隣には「精密接触プローブ」があり、これが伸びてネジの表面に当たることで、カメラが常に最適なピント距離に保たれる。</p>
-<p>AIが写真を処理すると、必要なビットの種類とサイズが、接続されたモバイルアプリに表示される。識別したネジに基づいて、ドライバーは留め具を傷めるリスクを減らすため、安全なトルク設定を自動的に選ぶ。必要なビットを探す手間を省けるよう、オプションのS1スマートケースには52本のスチール製ビットが収められ、それぞれの横にLEDがあり、必要なビットが光って見つけやすくなっている。</p>
-<p>Arrowspace S1は600mAhの充電式バッテリーを搭載しており、同社によれば最大90分の動作、または900本以上のネジの締め付け・緩めに十分な電力を供給するという。自動トルク調整をオフにして自分でトルクを上げた場合、この性能は変わる。バッテリー残量はドライバーの有機ELディスプレイに表示され、そこには現在のトルク設定や回転方向も表示される。</p>
-<p><a href="https://www.theverge.com/tech/1023057/arrowmax-arrowspace-s1-electric-screwdriver-ai-camera-kickstarter" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（9to5Mac／日本語訳） ／ テーマ: ガジェット</em></p>
+<p>WhatsAppは今週のブログ投稿で、グループチャットの管理や、それぞれのチャットで何が起きているかの把握をしやすくするために設計された4つの新機能を展開していることを認めた。詳細は以下のとおりだ。</p>
+<h3>WhatsAppのグループチャットに登場する4つの新機能</h3>
+<p>WhatsAppは今週、会話リストを下にスワイプすると表示されるフィルタードロワーに、「グループ」「お気に入り」「未読」やカスタムフィルターといった他のフィルターの選択肢と並んで、「メンションと返信」ボタンが加わると発表した。</p>
+<p>これをタップすると、チャットリストには「自分がメンションされたか、直接返信を受け取った未読のグループ会話（@allメッセージを含む）」だけが表示されるとWhatsAppは説明している。</p>
+<p>さらにWhatsAppでは今後、グループチャットでメッセージを、24時間・7日間・30日間のいずれかを選ぶのではなく、無期限にピン留めできるようになる。</p>
+<p>グループ向けに登場するもう1つのチャット内機能は、「チャット内でその人の名前をタップするだけで、グループに参加した後の人にも、さかのぼって最近のメッセージを送る」機能だ。以前は、これができるのはメンバーをグループに追加するときだけで、参加した後にはできなかった。</p>
+<p>最後に、WhatsAppは「グループステータス共有」を展開している。特定のグループのメンバーだけが見られる近況を投稿できる機能だ。他のメンバーはそれを閲覧したり、リアクションしたり、自分のステータスを追加したりでき、ステータスは24時間後に消える。</p>
+<p>WhatsAppのアップデートではよくあることだが、4つの機能すべてが全員に提供されるまでには時間がかかる場合がある。発表の全文は、こちらのリンクから確認できる。</p>
+<p><a href="https://9to5mac.com/2026/10/30/whatsapp-announces-four-new-features-to-make-group-chats-easier-to-manage/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a9">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>9. ハックされたHasselblad X2D II 100C、動画撮影・ChatGPT・Linuxまで動作――オープンソースの改造ファームが次々登場</span></div>
-    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-30
-      ／ 原文: <a href="https://petapixel.com/2026/10/30/hacked-hasselblad-x2d-ii-100c-shoots-video-has-chatgpt-and-runs-linux/" rel="noopener noreferrer">https://petapixel.com/2026/10/30/hacked-hasselblad-x2d-ii-100c-shoots-video-has-chatgpt-and-runs-linux/</a></div>
-    <p class="summary">DoomをX2D II 100Cで動かしたRadium Wang氏のGitHub成果を基に、本来は非対応の動画記録を加える実験的ファームや、CarPlay・ChatGPT・Linuxカーネルの動作例が出現。保証や法的リスクへの注意も。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>9. Android Autoでサイドロードアプリを無料で動かせる新ツール「UnknownAuto」が登場――オープンソースでAA Enablerの代替に</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>Android Authority ／ 2026-10-30
+      ／ 原文: <a href="https://www.androidauthority.com/android-auto-unknownauto-tool-3730284/" rel="noopener noreferrer">https://www.androidauthority.com/android-auto-unknownauto-tool-3730284/</a></div>
+    <p class="summary">Android AutoはGoogle Play以外から入れたアプリを受け付けないが、UnknownAutoはAPKを「Google Playからインストール」扱いでインストールして制限を回避。無料・オフライン動作・インストール数無制限で、Claudeの助けを借りてバイブコーディングされたという。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
-<p>数週間前、PetaPixelは、誰かがHasselblad X2D II 100CでDoomを動かしたという「スナップ」記事を掲載した。その際、制作者のRadium Wang氏は、X2D II 100C向けのオープンソースプロジェクトにさらに取り組んでいると語っていた。それは確かに本当だったようだ。</p>
-<p>Mirrorless Rumorsが書いているように、人々はRadium Wang氏のGitHubでの成果を使って、Hasselbladの最新の中判ミラーレスカメラで、動画を記録させることを含め、あらゆる種類の興味深いことを実現している。</p>
-<p>（原文ではここに、Xiaohongshu（小紅書）のユーザー「奶酪」によるX2D IIでの動画記録デモを紹介するReddit r/hasselbladの投稿が埋め込まれている。）</p>
-<p>中国のクリエイター「奶酪」氏は、X2D II 100C向けに、動画記録機能を加える実験的なファームウェアを作った。X2D II 100Cは標準では動画を撮れず、Hasselbladもこの機能を追加する意向は示していない。</p>
-<p>これはカスタムファームウェアを使ってX2D II 100Cに施されたことの中でおそらく最も興味深いものだが、Radium Wang氏は、どういうわけかApple CarPlayをカメラ上で動かし、ChatGPTもインストールした。RedditユーザーのUnable_Ad_1804氏は、カメラ上でLinuxカーネルを読み込むことにまで成功した。</p>
-<p>ほかにも多くの可能性があり、実際に写真家の役に立つ幅広い実用的な用途も含まれる。Radium Wang氏は、LiDAR、オートフォーカス、ボディ内手ブレ補正（IBIS）、AF-Cなど、カメラの個々の機能に関連するリポジトリをGitHubに多数作成している。誰かがカメラの特定の側面を強化したり、ニッチな撮影用途のためのカスタムソフトウェアを作ったりすることは十分に可能だ。</p>
-<p>自然な比較対象は、Canonのカメラ向けのMagic Lanternだ。これまでにも人々は、オープンソースのファームウェアアップデートを通じて、新しい動画機能の追加、性能の向上、見事なタイムラプス機能の解放など、かなり驚くべきことを成し遂げてきた。Magic Lanternは、Canon自身がカメラにHDR動画記録を加えるずっと前から、一部のCanonカメラでそれを可能にしていた。</p>
-<p>言うまでもないかもしれないが、カメラをハックする人は、潜在的なリスクを理解した上で行う必要がある。カメラのソースレベルのコードをいじることには、法的な問題が伴う可能性もある。PetaPixelがこの情報を共有するのは興味深いからであり、ここに記した行為を推奨するものではない。カメラにオープンソースのソフトウェアを読み込むと、問題を引き起こしたり、利用規約に違反したりするおそれがあり、何か不具合が起きてカメラが文鎮化した際に保証を受けるのが難しくなる可能性もある。</p>
-<p><em>訳注: 原文末尾の画像クレジットとアフィリエイト表記は省略。</em></p>
-<p><a href="https://petapixel.com/2026/10/30/hacked-hasselblad-x2d-ii-100c-shoots-video-has-chatgpt-and-runs-linux/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Android Authority／日本語訳） ／ テーマ: ガジェット</em></p>
+<ul>
+<li>自作アプリやサイドロードしたアプリをAndroid Autoで動かせるようにする「UnknownAuto」というツールを作った人物がいる。</li>
+<li>このツールはアプリを「Google Playからインストールされた」ものとしてマークするため、Android Autoがそれを受け入れる。</li>
+<li>UnknownAutoは、AA Enablerに代わる無料のオープンソースツールとうたわれている。</li>
+</ul>
+<p>Android Autoは多種多様なアプリを実行できるが、すべてのアプリではない。このプラットフォームは、サイドロードされたアプリの実行を拒否する。Android Autoで動いてほしいのに動かないアプリがあったなら、解決策があるかもしれない。</p>
+<p>Redditでu/mannumasterと名乗るあるユーザーは、自分でアプリを作ってAndroid Autoで使いたかったと語る。障害にぶつかった彼らは、UnknownAutoという新しいツールを作った。このツールは無料かつオープンソースで、オフラインでも動作する。作者はこれを、プロプライエタリな（ソースが非公開の）AA Enablerの代替だと説明している。</p>
+<p>前述のとおり、Android AutoはアプリがGoogle Playから来たものだと判断しない限り、そのアプリを実行しない。サイドロードされたアプリはPlayストア由来ではないと記録されるため、プラットフォームはそのアプリを無視する。UnknownAutoは、Android Autoが求める方法でAPKをインストールし、アプリに「Google Playからインストール」のフラグを付けることで、この問題を解決する。</p>
+<p>AA Enablerも同様の仕組みを使っているが、作者はAA Enablerがクローズドソースであることを指摘している。また、AA Enablerでは無料でアプリをインストールできるのは30日に1回だけだ。一方、UnknownAutoでは無料で無制限にサイドロードアプリをインストールできる。</p>
+<p>このツールを試してみたい場合、UnknownAutoは現在GitHubで公開されている。なお、このツールはClaudeの助けを借りてバイブコーディングされたものであることに留意すべきだ。</p>
+<p><em>訳注: 原文冒頭のアフィリエイト表記は省略。</em></p>
+<p><a href="https://www.androidauthority.com/android-auto-unknownauto-tool-3730284/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a10">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>10. リサイクル店Goodwillのオークションに未知のライカ試作レンズ――約5万ドルで売れた「Leica / Hughes Leitz 17mm f/2」の2本目か</span></div>
-    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-30
-      ／ 原文: <a href="https://petapixel.com/2026/10/30/goodwill-seemingly-has-no-clue-its-selling-a-previously-unknown-leica-prototype-lens/" rel="noopener noreferrer">https://petapixel.com/2026/10/30/goodwill-seemingly-has-no-clue-its-selling-a-previously-unknown-leica-prototype-lens/</a></div>
-    <p class="summary">サウスダコタ州のGoodwillが「現状渡し」で出品。型番C530-0004で、2021年に4万7,200ドルで販売されたC530-0007と外観は同一。執筆時点で7入札・3,008ドル、入札は10月30日夜に締め切り。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>10. ニコン、2027年3月期の通期予想を上方修正し純利益160億円の黒字へ――ただし映像事業は下期販売計画を見直し売上予想を引き下げ</span></div>
+    <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-10-30
+      ／ 原文: <a href="https://www.newsshooter.com/2026/10/30/nikon-consolidated-financial-forecast-for-the-fiscal-year-ending-march-31-2027/" rel="noopener noreferrer">https://www.newsshooter.com/2026/10/30/nikon-consolidated-financial-forecast-for-the-fiscal-year-ending-march-31-2027/</a></div>
+    <p class="summary">前期の860億円の赤字から一転、純利益は従来予想比60億円増の160億円を見込む。精機事業のサービス収入、米国の関税還付、経費抑制が寄与。一方で売上高予想は映像事業の下期計画見直しにより100億円減の7220億円で、カメラ販売が想定を下回る見通し。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
-<p>極めて珍しいライカの試作レンズが、今まさにオークションにかけられている。といっても、Leitz PhotographicaやWetzlar Camera Auctionsではない。Goodwill（米国の慈善リサイクルショップ）でだ。</p>
-<p>Lenstagの創業者トレバー・セーラー氏によれば、このレンズは、直近で5万ドル近くで売れた非常に珍しい試作レンズの、これまで知られていなかった2本目の個体のようだ。</p>
-<p>2021年、PetaPixelは、当時は唯一無二と考えられていた試作品「Leica / Hughes Leitz 17mm f/2」について報じた。Leica Store Lisseは、この重さ26ポンド（約11.8kg）の巨大なレンズを4万7,200ドルで販売していた。Leica Rumorsが2018年1月に書いたところでは、この同じレンズはその4年前にeBayで2万4,000ドルで出品されていた。</p>
-<p>5年前に見られたC530-0007ではなくC530-0004という型番である点を除けば、2021年に売られたものと全く同じに見えるLeica / Hughes Leitz 17mm f/2の試作レンズが、どういうわけか今、サウスダコタ州スーフォールズのGoodwill of the Great Plainsにある。</p>
-<p>「現状渡し」の状態で販売されている。Goodwillは、手元にあるものの価値を十分に理解していないようで、宝物ではなく普通のレンズのように出品している。</p>
-<p>「私たちは品物をできる限り完全かつ正確に説明するよう努めていますが、専門家ではありません」とGoodwillは注意を促し、入札を検討する人は、実質的に商品説明の役割を果たしている掲載写真をよく見るべきだと付け加えている。</p>
-<p>現在Goodwillで出品されているLeica / Hughes Leitz 17mm f/2が良好な状態でなかったとしても（見た目は良さそうだが）、写真史の極めて収集価値の高い一品であることに変わりはない。</p>
-<p>これまでにも、人々は思いがけない場所で驚くようなライカの機材に出会ってきた。昨年、オンタリオ州の写真家ブランドン・シンプソン氏は、リサイクルショップで2,000ドルのライカを10ドルで見つけた。2021年には、10代の若者が教会のバザーでライカMのセット一式を15ドルで見つけた。その数年前には、大学生がリサイクルショップでライカM5をわずか5ドルで手に入れた。</p>
-<p>執筆時点で、GoodwillのLeica / Hughes Leitz 17mm f/2試作レンズは7件の入札を経て3,008ドルとなっている。上記のリサイクルショップでの掘り出し物よりはずっと高価だが、それでも破格の値段で売れることになるかもしれない。入札は本日10月30日の米東部時間午後9時50分（太平洋時間午後6時50分）に締め切られる。幸運を祈る。</p>
-<p><em>訳注: 締め切りは日本時間で10月31日午前10時50分。原文末尾の画像クレジットとアフィリエイト表記は省略。</em></p>
-<p><a href="https://petapixel.com/2026/10/30/goodwill-seemingly-has-no-clue-its-selling-a-previously-unknown-leica-prototype-lens/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Newsshooter／日本語訳） ／ テーマ: カメラ</em></p>
+<p>ニコンは、2027年3月期の連結業績予想を発表した。同社は2027年3月期の連結純利益について、前期の860億円（約5億4584万米ドル）の赤字から、160億円（約1億155万米ドル）の黒字になると予想している。これは従来予想を60億円（約3808万米ドル）上回る。</p>
+<p>ニコンによれば、上期の連結業績予想では、売上高はおおむね従来予想どおりとなる見込みだ。営業利益は従来予想を上回る見込みで、その要因は、好調な半導体市況のもとで精機事業のサービス収入が想定を上回ったこと、米国での関税の還付、そしてコスト抑制や一部支出の先送りによる販売費及び一般管理費の減少である。</p>
+<p>通期の連結業績予想については、主に映像事業における下期の販売計画の見直しにより、売上高は従来予想を下回る見込みだ。グループ全体の営業利益は従来予想を上回る見込みである。これは、上期の実績を踏まえて精機事業、ヘルスケア事業、コンポーネント事業の利益見通しを上方修正したことを反映している。</p>
+<p>上に掲載しているのは、日本での株価の推移だ。</p>
+<p>売上収益（売上高に相当）は、前年比7%増の7220億円（約45億8000万米ドル）と予想されている。これは従来予想を100億円下回る。興味深いのは、ニコンがカメラの販売が見込みに届かないと予想している点だ。</p>
+<p>ニコンはまた、2026年4〜9月期の連結純利益が105億円（約6660万米ドル）の黒字になったと発表した。前年同期は53億円の黒字だった。従来予想は25億円の赤字だった。</p>
+<p>売上収益は前年同期比7%増の3345億円で、予想を15億円下回った。</p>
+<p><em>訳注: 原文の「Industry Business」はニコンの事業区分に合わせ「コンポーネント事業」と訳しています。原文に掲載された株価チャートは省略。</em></p>
+<p><a href="https://www.newsshooter.com/2026/10/30/nikon-consolidated-financial-forecast-for-the-fiscal-year-ending-march-31-2027/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a11">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>11. 『ナイブズ・アウト』のライアン・ジョンソン監督、映画と同じ画作りのiPhoneカメラアプリ「Chromagraph Camera」を公開</span></div>
-    <div class="meta"><span class="tag">カメラ</span>9to5Mac ／ 2026-10-30
-      ／ 原文: <a href="https://9to5mac.com/2026/10/30/knives-out-director-launches-iphone-camera-app-that-shoots-like-his-movies/" rel="noopener noreferrer">https://9to5mac.com/2026/10/30/knives-out-director-launches-iphone-camera-app-that-shoots-like-his-movies/</a></div>
-    <p class="summary">撮影監督スティーブ・イェドリン氏に依頼して開発した、RAWデータから独自処理で画を作る12.99ドルの買い切りアプリ。フィルムカメラのように撮影後にルックを確認する仕組みで、iPhone Duoにも対応。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>11. リコー、GRシリーズ専用拠点「GR Space」をニューヨークに開設へ――米国初、2027年冬オープン予定</span></div>
+    <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-30
+      ／ 原文: <a href="https://www.digitalcameraworld.com/cameras/compact-cameras/ricoh-is-building-a-dedicated-space-in-nyc-just-for-its-viral-compact-camera" rel="noopener noreferrer">https://www.digitalcameraworld.com/cameras/compact-cameras/ricoh-is-building-a-dedicated-space-in-nyc-just-for-its-viral-compact-camera</a></div>
+    <p class="summary">東京、上海、北京、広州、ブリスベン、ソウルに続く拠点で、販売だけでなく教育プログラム、コミュニティイベント、ギャラリーを備える。所在地・開業日・最初の展示・講座内容は今後数カ月で発表。GRシリーズは2026年に30周年。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（9to5Mac／日本語訳） ／ テーマ: カメラ</em></p>
-<p>ハリウッドの映画監督ライアン・ジョンソン氏（『スター・ウォーズ／最後のジェダイ』）が、自身の『ナイブズ・アウト』シリーズと同じ画像処理技術を使う新しいiPhoneカメラアプリを発表した。詳細は以下のとおりだ。</p>
-<h3>ライアン・ジョンソン氏、Chromagraph Cameraを公開</h3>
-<p>ここ数年、iPhoneの画像処理、とりわけその後処理がしばしば強すぎるやり方をめぐる議論には事欠かなかった。</p>
-<p>最近は状況が良くなってきたようにも見えるが、Appleのコンピュテーショナルフォトグラフィーへのアプローチは、写真の処理方法をより細かく制御できるサードパーティ製カメラアプリの開発を後押ししてきた。その代表格が、Halideの「Mark III – Pro Camera」アプリと、その「Process Zero」機能だ。</p>
-<p>今週、ハリウッド監督のライアン・ジョンソン氏は、撮影監督のスティーブ・イェドリン氏に依頼して作ったiPhoneアプリ「Chromagraph Camera」を発表した。このアプリは、『ナイブズ・アウト』シリーズで使われたのと同じ画像処理をiPhoneにもたらすとうたっている。</p>
-<p>Chromagraph Cameraは12.99ドルで、アプリ内課金はない。すでにiPhone Duoにも対応しているが、少なくとも1件のレビューは、その調整されたインターフェースにはまだ微調整の余地がありそうだと指摘している。</p>
-<p>App StoreでのChromagraph Cameraの説明は次のとおりだ。</p>
-<p>「Chromagraphは、RAW画像データから出発し、独自の方法で画像を組み立てます。通常のルック処理の上にかぶせるフィルターではなく、最初から異なるプロセスです。」</p>
-<p>「まず撮って、ルックは後で確認：フィルムカメラと同じように、ファインダーで構図を決め、画像が処理された後で初めて仕上がったルックを目にします。写真を撮ったら、ギャラリーを開いてChromagraphのルックが適用された写真を確認しましょう。」</p>
-<p>「ルックを失わずに調整：直感的でありながら強力な色・トーン・質感のツールで、本当の意味でのコントロールを手にしながら、すべての画像をこのアプリの核であるルックに忠実に保てます。」</p>
-<p>「オリジナルを保持するギャラリー：フル画質のRAWファイルを保存し、ルックと加えた調整をライブで適用した状態でアプリ内で閲覧できます。友人と共有したり写真ライブラリに保存したりするための小さなファイルを書き出すことも、環境設定で自動書き出しをオンにして、ルックを適用したJPEGまたはHEICとしてすべての写真をすぐにライブラリへ送ることもできます。」</p>
-<p>「フィルターではありません：フィルターは、スマートフォンがすでに施した処理の上にかぶせるものです。Chromagraphはその処理を飛ばし、ライアン・ジョンソン監督と撮影監督スティーブ・イェドリンが好む厳選されたルックのために、独自の手法を使います。」</p>
-<p>Xでジョンソン氏は、もともとはイェドリン氏とカラーサイエンス開発者のエリック・キャメロン氏に自分専用としてアプリの開発を依頼したが、その後、全員が使えるように公開することにしたと説明した。</p>
-<p>同氏はさらに、数多くのサードパーティ製カメラアプリを試してきたものの、独自の画像処理と、色・露出・粒子・ハレーションの編集ツールを組み合わせた、より簡潔なソリューションが欲しかったと付け加えた。</p>
-<p>Chromagraph Cameraは現在、App Storeの「写真/ビデオ」カテゴリーの有料アプリで首位となっている。入手先は原文記事のリンクから確認できる。</p>
-<p><a href="https://9to5mac.com/2026/10/30/knives-out-director-launches-iphone-camera-app-that-shoots-like-his-movies/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Digital Camera World／日本語訳） ／ テーマ: カメラ</em></p>
+<p><strong>リコーは2027年冬、講座やギャラリーなどを備えた新しい「GR Space」をニューヨーク市にオープンする。</strong></p>
+<p>リコーのGRシリーズのコンパクトカメラはあまりに人気が高く、しばしば「カルト的な人気」を誇るカメラと呼ばれるほどだ。そして今、このカメラシリーズがニューヨーク市に専用の拠点を持つことになる。</p>
+<p>10月29日、リコーはニューヨーク州ニューヨーク市に「GR Space」を建設中であり、2027年冬にオープンする予定だと発表した。</p>
+<p>GR Spaceは、リコーのコンパクトカメラを購入するための単なる店舗ではない。この拠点は教育プログラムやコミュニティイベントのためにも作られ、アートギャラリーも併設される。</p>
+<p>リコーはすでに東京、上海、北京、広州、ブリスベン、ソウルにGR Spaceを展開している。ニューヨークの拠点は米国で初のGR Spaceとなる。</p>
+<p>リコーのGRシリーズは、コンパクトなサイズと目立たないデザインからストリートフォトグラファーに深く愛されており、単一のカメラシリーズに特化した店舗をニューヨークに置くのはふさわしく感じられる。</p>
+<p>「ニューヨーク市とGRには自然なつながりがあります」と、リコーイメージング・アメリカズ・コーポレーションのプレジデントであるケン・カリー氏は発表の中で述べている。「どちらも観察と自発性、そして日常の中に非凡な瞬間を見つけることに突き動かされています。GR Space New York Cityは、スナップシューターからプロの写真家までが私たちの製品を体験できる場所、そしてそれ以上に、学び、アイデアを交換し、互いに刺激を受けられる場所をつくる機会を与えてくれます」</p>
+<p>リコーは、ニューヨークの新拠点の正確な場所をまだ明らかにしていない。同社によれば、開業日、最初のギャラリー展示、講座のラインナップなどの詳細は「今後数カ月のうちに」発表されるという。</p>
+<p>2026年はリコーGRシリーズの30周年にあたる。このシリーズの人気は、ポケットに収まるデザインでありながら、大型のAPS-Cセンサーを内蔵している点に由来する。</p>
+<p>リコーGRは現在、第4世代のRICOH GR IVとなっており、HDF版とモノクローム専用版も用意されている。より長い焦点距離のレンズを備えたRICOH GR IVxも開発中だ。</p>
+<p><em>訳注: 原文末尾の関連記事・ニュースレター案内・筆者紹介は省略。</em></p>
+<p><a href="https://www.digitalcameraworld.com/cameras/compact-cameras/ricoh-is-building-a-dedicated-space-in-nyc-just-for-its-viral-compact-camera" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a12">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>12. ニューヨーク州初の黒人弁護士ジョージ・B・ヴァションの唯一のダゲレオタイプ発見――「眼鏡の紳士」として882ドルで落札された1枚が23万ドル超に</span></div>
-    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-30
-      ／ 原文: <a href="https://petapixel.com/2026/10/30/how-the-only-known-daguerreotype-of-new-yorks-first-black-attorney-was-discovered/" rel="noopener noreferrer">https://petapixel.com/2026/10/30/how-the-only-known-daguerreotype-of-new-yorks-first-black-attorney-was-discovered/</a></div>
-    <p class="summary">2025年にChristie'sで無名の肖像として882ドルで売れた1859年のダゲレオタイプが、Sotheby'sの専門家の調査で奴隷制廃止論者ヴァションの肖像と判明し、23万400ドルで落札。撮影者はフィリップ・ハースと特定された。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>12. 伝説のドローン「DJI Phantom」が正式に終幕――最後のPhantom 4 Pro V2が10月31日で修理・技術サポート終了</span></div>
+    <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-30
+      ／ 原文: <a href="https://www.digitalcameraworld.com/drones/legendary-dji-phantom-is-formerly-over-the-drone-that-started-the-revolution-is-no-longer-supported-but-you-can-keep-flying" rel="noopener noreferrer">https://www.digitalcameraworld.com/drones/legendary-dji-phantom-is-formerly-over-the-drone-that-started-the-revolution-is-no-longer-supported-but-you-can-keep-flying</a></div>
+    <p class="summary">空撮ドローンの代名詞だったPhantomシリーズ最後のモデルが、最終出荷から4年2カ月でDJIのスペアパーツ・修理対象外に。飛行は引き続き可能。初代Osmo Actionや農業用ドローンAgras T16/T20、MG-1Pシリーズも近くサービス期間が終わる。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
-<p>ニューヨーク州初のアフリカ系アメリカ人弁護士ジョージ・ボイヤー・ヴァションの、唯一知られるダゲレオタイプ（銀板写真）が最近発見された。</p>
-<p>6月、学者であり奴隷制廃止論者で、ニューヨーク州で弁護士として活動した最初の黒人であるジョージ・ボイヤー・ヴァションを写した極めて珍しい1859年のダゲレオタイプが、Sotheby'sで23万400ドルで落札された。しかしそのちょうど1年前の2025年6月、この肖像はChristie'sでわずか882ドルで売られていた。</p>
-<p>Christie'sで「Maillet Daguerreotype Collection（マイエ・ダゲレオタイプ・コレクション）」の一部として売られた際、この写真は単に「眼鏡をかけた身なりの良い男性」の写真として出品され、被写体も撮影者も特定されていなかった。1,000〜1,500ドルと見積もられていたこの写真は、882ドルで落札された。</p>
-<p>今年、専門家が被写体と撮影者を突き止めたことで、Sotheby'sは同じ肖像を25万ドル近くで売却した。Sotheby'sのスペシャリスト、エミリー・ビアマン氏は、「眼鏡をかけた身なりの良い男性」が実はアメリカの法と公民権の歴史における重要人物、ヴァションであることに気づいた。</p>
-<h3>「私の敬愛する教授はこの写真を愛していた」</h3>
-<p>ビアマン氏は、この肖像に「P. Haas, NY」と署名されていることを見つけ、それがフィリップ・ハースであると特定した。ハースは優れたリトグラフ（石版画）作家で、ワシントンD.C.に最も早く居を構えたダゲレオタイプ写真家の一人だった。ハースはジョン・クインシー・アダムズ大統領のような著名な政治家を撮影したことで知られ、そのダゲレオタイプはアメリカ大統領を写した最古の写真として知られている。</p>
-<p>一方ビアマン氏は、ダゲレオタイプのケースの内側に、心温まる書き込みも見つけた。それは、この肖像が1856年にヴァションの教え子の一人のために作られたことを示唆している。</p>
-<p>書き込みにはこうある。「私の敬愛する教授はこの写真を愛していた。私がいつまでも大切にしている写真――56年の夏の初めに、私のために撮られたもの」</p>
-<p>これによりビアマン氏は、この見事な肖像がヴァションを写したもので、アメリカ史の重要な資料として見過ごされてきたことに気づいた。Sotheby'sによれば、ヴァションの他のダゲレオタイプは確認されておらず、この写真は極めて珍しいものだという。現存するヴァションの画像は主に後年の写真からの複製で、オリジナルはミズーリ州セントルイスのジョージ・B・ヴァション博物館が所蔵している。新たに特定されたこのダゲレオタイプは、この種のものとしては唯一知られる画像だと考えられている。</p>
-<p>1824年生まれのヴァションは、オバリン大学を卒業した最初の黒人であり、ニューヨーク州で最初に資格を得たアフリカ系アメリカ人弁護士だった。彼の卒業は個人的な偉業であるだけでなく、奴隷制反対運動にとっても重要な節目だった。</p>
-<p>人種を理由にペンシルベニア州の弁護士会への登録を拒まれた後、ヴァションは1848年にニューヨーク州の弁護士会に登録された。1867年には連邦最高裁判所での弁論資格も認められた。その後、ハワード大学初の黒人教授となった。償いの象徴的な行為として、ヴァションは2010年、死後にペンシルベニア州の弁護士会への登録が認められた。</p>
-<p><em>訳注: 原文では撮影年が冒頭で「1859年」、ケースの書き込みでは「56年の夏」（1856年）と記されており、本訳ではいずれも原文どおりとしています。原文末尾のアフィリエイト表記は省略。</em></p>
-<p><a href="https://petapixel.com/2026/10/30/how-the-only-known-daguerreotype-of-new-yorks-first-black-attorney-was-discovered/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Digital Camera World／日本語訳） ／ テーマ: カメラ</em></p>
+<p><strong>DJIがDJI Phantomのサポートを正式に終了するが、このドローンの功績は忘れられることはない。</strong></p>
+<p>Phantomシリーズのドローンの最後のモデルであるDJI Phantom 4 Pro V2は、2026年10月31日をもって修理および技術サポートサービスの対象外となり、ドローン技術を象徴する存在だったこのモデルの寿命は事実上終わりを迎える。</p>
+<p>これは、手持ちのドローンがすぐに動かなくなるという意味ではない。このモデルの場合、最後の1台が工場を出てからわずか4年2カ月で、DJIがスペアパーツや修理を提供しなくなるというだけのことだ。</p>
+<p>また、DJI Phantom 4 Pro V2の飛行をやめなければならないという意味でもない。DJIが今後その整備に関与しなくなるというだけだ。</p>
+<p>運用を続けたいのであれば、これほど定着した製品であれば、オンラインでメーカー以外のサポートが見つかるだろうと私は思う。しかし10月31日が、DJIが関与する最後の日となる。</p>
+<p>他のいくつかのDJI製品も今後数日のうちにサービス期間の終了を迎える。初代Osmo Actionカメラや、農業用ドローンのAgras T16、Agras T20、MG-1Pシリーズだ。しかし、そのどれもPhantomドローンほど象徴的ではなかった。Phantomの形は多くの人にとって「ドローンとはこういう姿」として際立っていたし、おそらく今もそうだろう。</p>
+<p>DJI Phantom以前、私は必要な仕様のドローンを作るために部品を注文して組み立てなければならず、せいぜいGoProを空中に持ち上げるのが精一杯だった。現代のドローンと比べると、ときには大量の機材が必要になった。特に初めてジンバル付きのドローンを作ったときはそうだった。</p>
+<p>初期のPhantomを特別なものにしたのは、写真の品質に本気で取り組んだ初めての市販ドローンだったことだ。</p>
+<p>当初は初代Phantomも、私の自作機と同じくGoProを持ち上げるために作られていたが、DJIはすぐにカメラ部分を自社で作ることの合理性に気づいた。</p>
+<p>これにより重量が抑えられ、送信機に映像信号を送るための電子回路を設計に組み込むのも容易になった。</p>
+<p>これらのPhantomドローンには「Vision」という名前が付け加えられ、やがて誰もがそれを欲しがるようになった。</p>
+<p>その象徴的なデザインは今日のコンパクトな折りたたみ式ドローンとはかけ離れているが、変わらないフォームファクターは信頼性をもたらした。初期のソフトウェアや技術はエラー補正の能力が低かったため、これは特に役立った。</p>
+<p>アームはわずかでもずれることがなく、カメラは着陸脚も兼ねる頑丈な物理フレームで守られていた。</p>
+<p>Visionの各モデルの離陸重量は1350g前後で、今日の高性能なカメラドローンで一般的な249gの上限をはるかに上回っていたが、Phantom 4 Pro V2はその信頼性から、最後まで3Dマッピングの専門家に人気があった。</p>
+<p>Phantomは、専門的なニッチ分野でも、より広い世界でも惜しまれるだろう。ドラマ『ビッグバン★セオリー』でさえ、Phantomを象徴的な存在にするのに一役買った（シーズン8第22話「The Graduation Transmission」）。</p>
+<p>とはいえ発売以来、携帯性、バッテリー駆動時間、安全性は向上しており、現在の最良の代替機は私のベストカメラドローンガイドで見つけることができる。</p>
+<p><em>訳注: 原文末尾のニュースレター案内・筆者紹介は省略。</em></p>
+<p><a href="https://www.digitalcameraworld.com/drones/legendary-dji-phantom-is-formerly-over-the-drone-that-started-the-revolution-is-no-longer-supported-but-you-can-keep-flying" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 </main>
 <footer>
-  <p>前回ダイジェストは <a href="./archive/2026-10-31-0754/">archive/2026-10-31-0754/</a> に保管しています。／ <a href="./archive/">アーカイブ一覧</a></p>
+  <p>前回ダイジェストは <a href="./archive/2026-10-31-1955/">archive/2026-10-31-1955/</a> に保管しています。／ <a href="./archive/">アーカイブ一覧</a></p>
   <p>対象: 海外一次ソースのみ。日本語二次まとめサイトは含みません。</p>
 </footer>
 
