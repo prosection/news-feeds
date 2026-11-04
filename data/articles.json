@@ -1,12 +1,155 @@
 {
-"generated": "2026-11-04 19:52",
-"count": 837,
+"generated": "2026-11-05 08:00",
+"count": 848,
 "categories": {
-"ai": 293,
-"gadget": 289,
-"camera": 255
+"ai": 297,
+"gadget": 293,
+"camera": 258
 },
 "articles": [
+{
+"id": "a1",
+"category": "ai",
+"category_label": "AI",
+"title": "ChatGPTがアニメGIFを生成可能に——Images 2.6で速度調整・フレーム編集も",
+"summary": "プロンプトや写真からGIFを一発生成。再生速度や個別フレームの編集、共有にも対応。週あたり画像生成は40億枚超へ。",
+"body": "OpenAIは、ChatGPTでプロンプトまたはアップロード写真からアニメGIFを作成できる機能を、新画像モデルImages 2.6と合わせて展開したとThe Vergeが報じた。これまでネイティブに単一手順でGIFを作れなかったが、例として「踊る猫のGIFを作って」と頼むと生成し、再生速度の変更やフレーム単位の確認・編集、共有ができる。\nImages 2.6は画像生成の高速化も謳う。同社によるとChatGPTとAPIを合わせた画像生成は週あたり40億枚超で、9月時点の30億枚から増加した。Images 2.6はWeb／デスクトップ／モバイルのChatGPTおよびCodex全ユーザー向けに配信中。APIでは高速・高品質向けのGPT-Image-2.6 FlareとSunburstも投入する。",
+"url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+"source": "The Verge",
+"published": "2026-11-04",
+"digest": "2026-11-05 07:58",
+"page": "#a1"
+},
+{
+"id": "a2",
+"category": "ai",
+"category_label": "AI",
+"title": "OpenAI、開発者ツール企業Pierreを買収へ——Codexのコードレビュー／Git体験を強化",
+"summary": "Code StorageやTrees／DiffsなどOSSの開発元。既にCodexアプリのファイル閲覧・差分表示に採用。クローズ後もOSSは継続。",
+"body": "OpenAIは2026年11月4日、Code Storageとオープンソースの開発者向けツール群を手がけるPierre Computer Company, Inc.（Pierre）を買収すると発表した。Codexアプリでファイルを眺めたり変更差分を確認したりする際に使われているTreesおよびDiffsライブラリは既にPierre製で、買収により「企業が出荷するコードと、人が下す判断をつなぐ」場所としてのCodexを強化するとしている。\nPierreのDiffsには差分上で直接行を直せるEditモードがあり、近刊のHighlightsはエージェントがコードを流し込む場面でも高速に構文強調する。Code StorageはGitで履歴を追えるコード保管APIだ。OpenAIは並行作業が増えるエージェント時代に合わせ、社内のPandoなどソース管理まわりの刷新も進めていると説明。\nオープンソースは買収後もオープンのまま貢献を続ける。Code Storageの顧客はクローズ後も利用でき、機能はCodexへ取り込む方針。取引は規制当局の承認など通常のクロージング条件付きで、完了まで両社は独立を維持する。",
+"url": "https://openai.com/index/openai-to-acquire-pierre/",
+"source": "OpenAI",
+"published": "2026-11-04",
+"digest": "2026-11-05 07:58",
+"page": "#a2"
+},
+{
+"id": "a3",
+"category": "ai",
+"category_label": "AI",
+"title": "Meta、AIコーディングスタートアップConductorを買収——並列エージェントで開発を分担",
+"summary": "Axios続報。CEOは来年初頭に新UIを予告。クラウドサービスは11/20終了しデータ削除へ。エージェント自体はAnthropic／OpenAI製。",
+"body": "Metaは、複数エージェントを並列ワークスペースに展開してソフト開発を進めるAIコーディングスタートアップConductorを買収した。Axiosが報じ、創業者CEOのCharlie Holtz氏もブログで「ConductorはMetaに合流する」と発表。「次のインターフェースに向けた大胆な計画がある」とし、来年初頭に顧客向けの新機能を予告した。\nHoltz氏はXで、MetaのAI責任者Alexandr Wang氏やSuperintelligence Labsのプロダクト責任者Nat Friedman氏との協業に期待を示した。MetaはTechCrunchに買収を認めたが詳細はコメントしていない。Conductorは2024年創業で、中核製品は昨年夏に投入。クラウド／ローカル／スマホからエージェントチームを起動し、プロジェクトの区画ごとに並行作業できる。エージェント本体は自社開発ではなくAnthropicやOpenAIのモデルを使う。\nHoltz氏によると、来年初頭までは既存の中核機能は従来どおり動くが、クラウドサービスは11月20日に停止し、その後ユーザーのクラウドデータを削除する。Metaは8月に自前のMuse Codeを投入し、Museエージェントは米App Store1位・利用者1000万人超を報告するなど、AIキャッチアップのための買収を続けている。",
+"url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+"source": "TechCrunch",
+"published": "2026-11-04",
+"digest": "2026-11-05 07:58",
+"page": "#a3"
+},
+{
+"id": "a4",
+"category": "ai",
+"category_label": "AI",
+"title": "Uber、AIエージェント経由の配車はほぼゼロ——ハロウィン週で配車4件、Eatsは500件",
+"summary": "Q3決算で開示。同時期の総トリップ／注文は約3.2億件。CEOは「極めて初期」としつつエージェント需要には前向き。",
+"body": "Uberは第3四半期の決算説明で、個人向けAIエージェント経由の配車がほとんど使われていないと明らかにした。CFOのBalaji Krishnamurthy氏によると、10月の最繁忙であるハロウィン週にUberとUber Eatsで扱ったトリップ／注文は約3.2億件だったが、AIエージェント経由の配車はわずか4件。Uber Eatsのエージェント注文も500件にとどまった。\nCEOのDara Khosrowshahi氏は「非常に初期で、トラクションは極めて限定的」としつつ、今後の伸びには期待を示した。エージェントブームの中で、DoorDashも先週の決算でエージェント注文は数百件規模と説明しており、公開企業の数字はまだ「エージェント型Web」が遠いことを示す。\nKhosrowshahi氏は、アプリでの配車平均が約50秒、お気に入り食事の再注文が約90秒と短く、エージェントが必ずしも時間短縮にならない点も指摘。それでも主要AIアシスタント約8社がUberと会話中で、将来は10社超になるとみなし「需要の純増機会」と位置づけた。",
+"url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+"source": "TechCrunch",
+"published": "2026-11-04",
+"digest": "2026-11-05 07:58",
+"page": "#a4"
+},
+{
+"id": "a5",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "Bluetooth LEの最大ビットレートが約4倍に——Core 7.0でHDT（最大7.5Mbps）を正式採用",
+"summary": "Bluetooth SIGがHigh Data Throughputをオプション機能として採択。高音質無線や空間オーディオ、スマートウォッチ同期の短時間化を狙う。対応機器は2027年以降。",
+"body": "Bluetoothの標準を統括するBluetooth SIGは、Bluetooth Core 7.0のオプション機能としてBluetooth High Data Throughput（HDT）を正式採用した。LEの最大対応ビットレートを2Mbpsから7.5Mbpsへ引き上げ、高解像度オーディオのストリーミングや電池寿命・信頼性の改善を狙う。\n主用途は当面ワイヤレスオーディオで、対応機器の登場は2027年頃の見込み。高音質に加え、独自無線フォーマットなしでの空間オーディオやマルチチャンネルサラウンドも想定する。スマートウォッチはトレーニングや健康データをより短時間で同期でき、無線を長く点けずに済むため電池に有利。空間コンピューティングや個人向けAIデバイスがスマホへデータを渡す場面でも軽量化につながるという。\nファーム更新が体感的に速くなる可能性にも触れる。SIGのNeville Meijers CEOは「消費者・産業向けにBluetoothの役割を広げ、次世代無線の基盤になる」と述べた。",
+"url": "https://www.theverge.com/tech/1026308/bluetooth-le-sig-high-data-throughput-hdt",
+"source": "The Verge",
+"published": "2026-11-04",
+"digest": "2026-11-05 07:58",
+"page": "#a5"
+},
+{
+"id": "a6",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "Nothing、12月に画面なしの「AIネイティブ」製品を予告——「アプリにはできなかった」",
+"summary": "CEO Carl Pei氏がXで告知。新画面はなく、会話の文脈を逃さないツールを示唆。具体仕様は未公開。",
+"body": "NothingのCEO Carl Pei氏はXで、12月に初の「AIネイティブ」製品を出荷すると予告した。「Nothingらしい個性と丁寧さで作ったツール」「新しい画面はなく、アプリにはできなかったもの」と説明しているが、詳細な製品像は明かしていない。\n9to5Googleは、「アプリにはできなかった」という言い回しが録音デバイスなど専用AIガジェットでよく使われる点や、画面なし設計が選択肢を狭める点から、環境録音・コンテキスト取得系の可能性を指摘。Pei氏の投稿は、コーヒー中のひらめきや一言をメモしようとするとスマホ操作でタイミングを逃す「コンテキストのギャップ」にも触れており、常時そばにある記録ツールを匂わせる。\n出荷開始は12月予定。具体的な名称・価格・対応地域は本稿時点で未発表。",
+"url": "https://9to5google.com/2026/11/04/nothing-teaser-new-ai-screen-less-product-launch/",
+"source": "9to5Google",
+"published": "2026-11-04",
+"digest": "2026-11-05 07:58",
+"page": "#a6"
+},
+{
+"id": "a7",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "iOS 27.3でiCloudの「リンクを知っている人」共有を有害コンテンツ検査——アカウント制裁も",
+"summary": "Appleサポート文書。iPadOS／macOS／visionOS 27.3も対象。「リンクを知っている人」共有が検査対象で、削除やアカウント停止の余地を明記。",
+"body": "AppleはiOS 27.3ベータ公開に合わせ、サポート文書でiCloudの公開リンク共有の扱いを更新した。写真やDriveファイルなどを「リンクを共有」する際、「選択した人」か「リンクを知っている人」かを選べるが、後者はこれまでもリンク保持者（Apple含む）がアクセス可能だった。27.3以降のiOS／iPadOS／macOS／visionOSでは、この「Anyone with the Link」共有についてAppleが有害コンテンツの検査を行う。\n有害と判断した場合、Appleはコンテンツの移動・拒否・変更・削除などの権利を留保する。有害コンテンツのアップロードを試みた場合は、Apple Accountのブロックや無効化、関連メール／電話での新規作成制限、必要なら法執行機関への関与もあり得るとしている。\n今回の変更は、もともと公開リンクだったものを「検査する」と明文化した点がポイント。特定の相手だけに共有する「People you choose」は今回の検査対象説明の中心ではない。",
+"url": "https://9to5mac.com/2026/11/04/with-ios-27-3-apple-will-start-checking-icloud-public-links-for-harmful-content/",
+"source": "9to5Mac",
+"published": "2026-11-04",
+"digest": "2026-11-05 07:58",
+"page": "#a7"
+},
+{
+"id": "a8",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "Pixel Watchの異常な電池消耗、Googleがアプリ更新で修正配信を確認",
+"summary": "複数世代で待機中心でも約12時間に落ちる報告。Playストアで「アプリを管理＞すべて更新」。数日でロールアウト完了見込み。",
+"body": "GoogleはAndroid Authorityに対し、Pixel Watchの深刻な電池消耗問題向け修正の配信を始めたと明らかにした。過去1週間ほど、複数世代のPixel Watchでほぼ待機状態でも稼働が約12時間程度まで落ちる報告が相次ぎ、ハード不良よりバックグラウンドの不具合やWear OSアプリ側が疑われていた。\n広報は「少数のPixel Watchユーザーに影響する電池消耗の修正配信を開始し、今後数日で完了する。クラウンを押してPlayストアを開き、『アプリを管理』＞『すべて更新』で実装してほしい」と説明。原因アプリ名は明かしていないが、修正がアプリ更新経由であることからソフト起因との見方が強まる。\n段階配信のため、手元で手動更新チェックすれば先行して修正を取り込める可能性がある。更新後に電池持ちが戻ったかはユーザー側での確認が必要だ。",
+"url": "https://www.androidauthority.com/google-pixel-watch-battery-drain-fix-rolling-out-3730991/",
+"source": "Android Authority",
+"published": "2026-11-03",
+"digest": "2026-11-05 07:58",
+"page": "#a8"
+},
+{
+"id": "a9",
+"category": "camera",
+"category_label": "カメラ",
+"title": "Canon、天体・長時間撮影向けタイマーリモコンTC-N3／TC-E3と多機能シュー用マイクDM-E10D",
+"summary": "TC-80N3系の後継。大型LCD・橙バックライト・時計機能。TC-N3は189.99ドル、TC-E3は209.99ドルで1月出荷。マイクは12月末・209.99ドル。",
+"body": "CanonはCinema EOS向け発表と同日、ミラーレスEOS Rシステム向けにタイマーリモコンTC-N3／TC-E3と、マルチファンクションシュー用デジタルマイクDM-E10Dを発表した。タイマーリモコンは銀塩／デジタル一眼時代のTC-80N3の系譜で、バルブの長時間露光や星景・タイムラプスなど間隔撮影の自動化向け。\n従来比でLCDは約20%大型化し、夜間視認用の橙色バックライト、撮影セッションを予約できる時計機能、三脚対応を追加。電源は単4形。TC-N3はR1／R3／R5／R5 Mark II／R5 CなどN3端子機、TC-E3はC50やR6系／R8系／R7／R10／R50 V／R100などE3端子機向け。出荷は1月初旬、価格はTC-N3が189.99ドル、TC-E3が209.99ドル。\nDM-E10Dはスーパーカーディオイドのモノラルデジタルマイクで、前方を優先しつつ後方の会話も拾う。ケーブルレスでカメラから給電し、ショックマウントとウィンドカバー内蔵。DMシリーズ最小最軽量とし、12月末出荷・209.99ドル。併せてR6 Mark III向けクロップガイド・ファーム（学校写真などの量産向け）も発表し、ガイド入りボディは12月初旬に2919ドル、既存機は120ドルのサービスで対応する。",
+"url": "https://petapixel.com/2026/11/04/canon-announces-timer-remotes-for-astrophotographers-and-a-compact-hotshoe-mic/",
+"source": "PetaPixel",
+"published": "2026-11-04",
+"digest": "2026-11-05 07:58",
+"page": "#a9"
+},
+{
+"id": "a10",
+"category": "camera",
+"category_label": "カメラ",
+"title": "Anker eufy、窓の内側から屋外を監視するWindow Camera E10——2.5K・79.99ドル",
+"summary": "貼り付け設置で1分未満を主張。人／動物／車両のAI検知、カラーナイトビジョン、最大256GBのmicroSD。USB-C給電でバッテリーなし。",
+"body": "Ankerは、庭や駐車場、玄関先を窓越しに監視する屋内設置のセキュリティカメラ「eufy Window Camera E10」を発表した。屋外機のような防水は不要で、付属の貼り付けマウントでガラス内側に密着させ反射を抑える。Wyze Window Camに近い発想だが、E10は2.5K（2688×1520／15fps）で、Wyzeの1080pより高解像。価格は79.99ドルとWyze（約35ドル）より高い。\n画角は水平105度・垂直57度。背面のダイヤルで上下25度調整でき、2階窓など設置位置がずれやすい場面向け。カラーナイトビジョン、人／動物／車両を区別するAIモーション検知、大きめの音向けマイクを備え、最大256GBのmicroSDへローカル録画、任意でクラウド課金にも対応。\n設置は1分未満とうたうが、バッテリー非搭載のためUSB-C電源ケーブルの取り回しが必要。Anker公式およびAmazonで販売中。",
+"url": "https://www.theverge.com/tech/1026360/anker-eufy-window-camera-e10-indoors-security-ai-color-night-vision",
+"source": "The Verge",
+"published": "2026-11-04",
+"digest": "2026-11-05 07:58",
+"page": "#a10"
+},
+{
+"id": "a11",
+"category": "camera",
+"category_label": "カメラ",
+"title": "Lomography、金メッキの限定MC-A 35mmコンパクトを発表——Noir版も、12月出荷",
+"summary": "発売1周年記念。32mm f/2.8、多重露出対応。Gold Platedは649ドル、Noirは599ドル。装填や設定保持など使い勝手も改善。",
+"body": "Lomographyは、フルフレーム35mmコンパクト「Lomo MC-A」の発売1周年を記念し、実金メッキのGold Platedと、グロッシーな黒レザーのNoirという2つの限定デザインを発表した。光学系は従来どおり内蔵32mm f/2.8（5群5枚、絞りはf/16まで）で、AFまたは0.4mからのゾーンフォーカス、オート／絞り優先／マニュアル、内蔵キセノンフラッシュ、三脚穴、CR2電池、多重露出に対応する。\nコミュニティのフィードバックを反映し、フィルム装填の容易化、電源オフ後の設定保持、オート時にf/3.5を選びやすくする調整、半押しでLCD表示を少し長く保つ変更などを盛り込んだ。外装はGoldが茶レザー＋無料ガラスフィルターセット、Noirがスネークスキン調の黒レザーで、対応のレザーハーフケースもある。\nいずれも12月出荷予定で予約受付中。Noirは599ドル、Gold Platedは649ドル。通常の黒／銀MC-Aは549ドル。",
+"url": "https://petapixel.com/2026/11/04/lomography-launches-gold-plated-point-and-shoot-film-camera/",
+"source": "PetaPixel",
+"published": "2026-11-04",
+"digest": "2026-11-05 07:58",
+"page": "#a11"
+},
 {
 "id": "a1",
 "category": "ai",
@@ -18,7 +161,7 @@
 "source": "OpenAI",
 "published": "2026-11-02",
 "digest": "2026-11-04 19:52",
-"page": "#a1"
+"page": "archive/2026-11-05-0758/#a1"
 },
 {
 "id": "a2",
@@ -31,7 +174,7 @@
 "source": "The Verge",
 "published": "2026-11-04",
 "digest": "2026-11-04 19:52",
-"page": "#a2"
+"page": "archive/2026-11-05-0758/#a2"
 },
 {
 "id": "a3",
@@ -44,7 +187,7 @@
 "source": "Engadget",
 "published": "2026-11-04",
 "digest": "2026-11-04 19:52",
-"page": "#a3"
+"page": "archive/2026-11-05-0758/#a3"
 },
 {
 "id": "a4",
@@ -57,7 +200,7 @@
 "source": "The Verge",
 "published": "2026-11-04",
 "digest": "2026-11-04 19:52",
-"page": "#a4"
+"page": "archive/2026-11-05-0758/#a4"
 },
 {
 "id": "a5",
@@ -70,7 +213,7 @@
 "source": "The Verge",
 "published": "2026-11-03",
 "digest": "2026-11-04 19:52",
-"page": "#a5"
+"page": "archive/2026-11-05-0758/#a5"
 },
 {
 "id": "a6",
@@ -83,7 +226,7 @@
 "source": "The Verge",
 "published": "2026-11-03",
 "digest": "2026-11-04 19:52",
-"page": "#a6"
+"page": "archive/2026-11-05-0758/#a6"
 },
 {
 "id": "a7",
@@ -96,7 +239,7 @@
 "source": "The Verge",
 "published": "2026-11-02",
 "digest": "2026-11-04 19:52",
-"page": "#a7"
+"page": "archive/2026-11-05-0758/#a7"
 },
 {
 "id": "a8",
@@ -109,7 +252,7 @@
 "source": "The Verge",
 "published": "2026-11-03",
 "digest": "2026-11-04 19:52",
-"page": "#a8"
+"page": "archive/2026-11-05-0758/#a8"
 },
 {
 "id": "a9",
@@ -122,7 +265,7 @@
 "source": "CineD",
 "published": "2026-11-04",
 "digest": "2026-11-04 19:52",
-"page": "#a9"
+"page": "archive/2026-11-05-0758/#a9"
 },
 {
 "id": "a10",
@@ -135,7 +278,7 @@
 "source": "RedShark News",
 "published": "2026-11-04",
 "digest": "2026-11-04 19:52",
-"page": "#a10"
+"page": "archive/2026-11-05-0758/#a10"
 },
 {
 "id": "a11",
@@ -148,7 +291,7 @@
 "source": "CineD",
 "published": "2026-11-04",
 "digest": "2026-11-04 19:52",
-"page": "#a11"
+"page": "archive/2026-11-05-0758/#a11"
 },
 {
 "id": "a1",
