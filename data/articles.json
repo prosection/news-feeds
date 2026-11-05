@@ -1,12 +1,155 @@
 {
-"generated": "2026-11-05 20:00",
-"count": 858,
+"generated": "2026-11-06 07:56",
+"count": 869,
 "categories": {
-"ai": 301,
-"gadget": 297,
-"camera": 260
+"ai": 305,
+"gadget": 301,
+"camera": 263
 },
 "articles": [
+{
+"id": "a1",
+"category": "ai",
+"category_label": "AI",
+"title": "OpenAI、GPT‑6 Cyberを発表——境界内での脆弱性発見・検証を強化しCritical分類へ",
+"summary": "ExploitGymで48.5%。Linuxで948件のLPE、Firefoxで新規高深刻度81件。Daybreak Red向けに段階展開。",
+"body": "OpenAIは2026年11月5日、サイバーセキュリティ向けモデル「GPT‑6 Cyber」を発表した。研究者が設定した範囲内で、悪用可能な脆弱性の発見と検証に特化したという。ExploitGymではGPT‑5.6 Cyberの32.1%から48.5%へ相対約51%改善し、範囲逸脱を抑える整列でも大幅に向上。LinuxやFirefoxなど重要なコードベースで数千規模のエクスプロイト検証に寄与したとする。\nPreparedness Framework上のサイバー分類はHighからCriticalへ引き上げられた。ExploitGym Honeypotでは、デプロイ用セーフティプロンプトなしで範囲外サービスへの攻撃回避が99.93%（5.6 Cyberは94.49%）、プロンプトありでは100%だった。Firefoxでは新規高深刻度脆弱性81件を証拠付きで特定し、既知30件が想定より深刻であることも示した。Mozillaは修正の適用を開始。Linuxでは前回共有したパイプライン結果と同様、再現1,724件・LPE 948件に関与し、メンテナーへ候補パッチ付きで重大案件を報告中だ。\nDaybreak Red向けにAPI／Codexでまず選抜顧客へ提供し、まもなく全Daybreak Red顧客へ拡大予定。Daybreak BlueでのGPT‑6 Astraも研究組織・個人研究者向けに拡大する。悪用検知・高リスク行動の遮断、重要インフラ向けの追加セーフガード、Frontline Defenders向け補助金なども併せて強化した。Cisco、Calif、CodeRabbit、Palo Alto Networks、SentinelOne、Perplexityなどが活用事例を寄せている。",
+"url": "https://openai.com/index/introducing-gpt-6-cyber/",
+"source": "OpenAI",
+"published": "2026-11-05",
+"digest": "2026-11-06 07:56",
+"page": "#a1"
+},
+{
+"id": "a2",
+"category": "ai",
+"category_label": "AI",
+"title": "Anthropic、ClaudeにPersonal Finance——Plaid経由で銀行口座を読み取り専用接続",
+"summary": "米Pro／Max／Ultra向けにベータ開始。送金・投資は不可。ハブ内の会話は学習に使わないと説明。",
+"body": "AnthropicはClaude向け新機能「Personal Finance」を発表した。Plaidを通じて銀行・カード口座を安全に接続し、自然言語で残高や支出を尋ねられる。アクセスは読み取り専用で、送金・運用・投資はできず、投資助言を目的としないと明記。広告や自社ローン・カードの推奨もない。\n例として「今月どこにお金が行った？」と尋ねると、接続口座の支出をカテゴリ別に集計し、家賃・光熱費や飲食費などを示す。前月比較、給料日前に残る支払い、二重請求や手数料の見落とし、「APRとは何か」といった用語説明にも対応する。週次グラフや支払カレンダー、任意指標のダッシュボードも作成できる。\n銀行パスワードはClaude側では扱わず、ユーザーがPlaid経由で自ら承認する。見える情報は銀行名、口座名・種別・下4桁、残高・与信枠、最大2年分の取引。Personal Financeハブ内の会話はモデル学習に使わないとし、口座はいつでも解除可能。米国内のPro／Max／Ultra向けに今週ベータ展開を開始。将来は認可された専門家・金融機関との連携も検討すると述べている。",
+"url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+"source": "Anthropic",
+"published": "2026-11-05",
+"digest": "2026-11-06 07:56",
+"page": "#a2"
+},
+{
+"id": "a3",
+"category": "ai",
+"category_label": "AI",
+"title": "Google、Gemini Omni 1.2 Flashを一般提供——最大15秒動画・会話編集・価格30%下げ",
+"summary": "720pは秒0.07ドル。参照忠実度や連続カメラワーク、自然な台詞も強化。APIとCloudでGA。",
+"body": "Google DeepMindはGemini Omni 1.2 Flashを発表し、Gemini APIおよびGemini for businessで一般提供を開始した。ネイティブで最大15秒（1.1の10秒から拡張）の動画生成、マルチターンの会話編集、参照への追従強化が主な更新。価格は1.1から30%下げ、720p動画は秒あたり0.07ドルとした。\nワークフロー上は360p／720pで下書きし、細部は再生成せず追従編集、必要なら1080pや4Kへアップスケールできる。キャラ・製品・スタイル画像、最大3秒のモーションクリップ、音声手がかりを組み合わせても、顔・衣類・パッケージ文字・ブランド色がカメラアングルを跨いで一貫しやすいとする。キャラ／物体／シーンのドリフト低減、流体的な台詞とリップシンク、連続FPVやズームアウトなどのカメラ制御も改善した。\nGemini Omniは初めて一般提供となり、Google Cloudの企業向けインフラとセキュリティ、Provisioned Throughput、不可視のSynthID透かしに対応。開発者はAI Studio／API、企業はCloudコンソール、一般向けにはFlow、Google Vids、Geminiアプリ（Ultra向け順次）、Google Adsでも展開する。高速スポーツや複雑物理などは継続改善中だとしている。",
+"url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+"source": "Google",
+"published": "2026-11-05",
+"digest": "2026-11-06 07:56",
+"page": "#a3"
+},
+{
+"id": "a4",
+"category": "ai",
+"category_label": "AI",
+"title": "Meta、Museに音声と表情アバターを米で展開——リアルタイム通話・まもなくAIグラスへ",
+"summary": "モバイル／Web／Macで電話アイコンから開始。数百種の声、割り込み可。Charmにも順次対応。",
+"body": "MetaはConnect 2026で予告していたMuseとのリアルタイム会話を、Museアプリのモバイル・Web・Mac向けに展開開始した。右上の電話アイコンから話し始められ、音声のみ／会話横のアバター／フルスクリーン対面を選べる。ブレインストーミングや旅行計画、面接・発表のリハーサルなど、声に出しながら進める用途を想定する。\nアバターは聞き取り・発話に合わせて表情やジェスチャーを変え、数百種類の声から雰囲気に合うものを選べる。Muse Realtime Avatar／Realtime Voiceにより、応答は即時で、途中割り込みも可能だとする。TechCrunch報道では、米国内の全ユーザー向けにMuse Voice（通話・ビデオチャット）が利用可能になったと伝え、年末前のウェアラブル「Muse Charm」向けにもアバター表示が予定されている。\n音声会話は今後、AI GlassesおよびMuse Charmにも順次対応予定。アバターはユーザーを「見る」のではなく、会話内容に反応する仕組みだと説明されている。",
+"url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/",
+"source": "Meta",
+"published": "2026-11-05",
+"digest": "2026-11-06 07:56",
+"page": "#a4"
+},
+{
+"id": "a5",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "Warby Parker、GoogleのAndroid XRスマートグラス予約開始日を示唆——11月12日",
+"summary": "第3四半期決算でIntelligent Eyewearの予約受付を告知。価格未公表。店頭デモ枠は受付中。",
+"body": "Engadgetによると、Warby Parkerが第3四半期の決算説明で、Googleと連携するスマートグラス「Intelligent Eyewear」コレクションの予約受付を11月12日に開始し、ホリデーシーズン中の配送を目指すと述べた。共同創業者兼共同CEOのDave Gilboa氏の発言として報じられている。\n価格は未公表だが、店頭でのデモ時間枠はすでに予約可能。もう一つのパートナーであるGentle Monsterも販売するが、秋頃という曖昧な時期以外の日程は示していない。EngadgetはGoogleに、同日のGentle Monster展開の有無などを照会中だ。\nGoogleは2025年にSamsung・Warby Parker・Gentle Monsterとの協業を発表し、今年のI/Oで発売時モデルを披露した。いずれも音声中心のAndroid XR、カメラ、Geminiへのアクセスを備え、本格AR版グラスは別途デモされているが発売時期は不明。Ray-Ban Metaグラスをめぐるカメラ装着への不信感の中での展開になる、と記事は位置づけている。",
+"url": "https://www.engadget.com/2308376/warby-parker-seemingly-spilled-the-beans-on-googles-android-xr-smart-glasses-launch/",
+"source": "Engadget",
+"published": "2026-11-05",
+"digest": "2026-11-06 07:56",
+"page": "#a5"
+},
+{
+"id": "a6",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "Camp Snap、子ども向け小型レトロカム「CS-8 Mini」——2.7K・画面なしで149.99ドル",
+"summary": "本体は半分以下のサイズ。Wi‑Fi／Bluetooth／アプリなし。4色展開でTargetでも販売。",
+"body": "Camp Snapは、画面なしのレトロ風ビデオカメラCS-8の小型版「CS-8 Mini」を発表した。元モデルの半分未満のサイズで、小さな手でも握りやすいグリップを備える。センサーは1/2.7型で解像度は元の4Kから2.7Kへ下がる。デザインはCanon／KodakのSuper 8系フィルムカメラへのオマージュを踏襲する。\n青・緑・ピンク・オレンジの4色で、公式オンラインストアとTargetにて149.99ドルで販売開始。画面・Wi‑Fi・Bluetooth・アプリはなく、付属4GB microSDへトリガー式ボタンで都度クリップを記録し、カードリーダーまたはUSB‑Cで取り出す。\nアスペクト比は16:9／9:16／1:1／4:3、最大8倍デジタルズーム、5種のフィルム風フィルター（標準・ビンテージ2種・粒とフリッカー強めのアナログ・白黒）を搭載し、子ども向けでも録画オプションは一通り揃う。",
+"url": "https://www.theverge.com/tech/1027575/camp-snap-cs-8-mini-retro-film-camera-kid-friendly",
+"source": "The Verge",
+"published": "2026-11-05",
+"digest": "2026-11-06 07:56",
+"page": "#a6"
+},
+{
+"id": "a7",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "9to5Macレビュー：PROLED XDR搭載MacBook Pro——軽量化とOLEDが本命、タッチは副次入力",
+"summary": "14インチ3.0ポンド／16インチ4.0ポンド。11月6日発売。タッチは任意で従来操作を損なわないと評価。",
+"body": "訳注: 長文ハンズオンのため、デザイン・ディスプレイ・タッチ・性能・結論を中心に全文相当を訳出。Dynamic Island／スピーカー詳細／電池の個人体感など周辺節は要約的に圧縮（抄訳）。\nAppleが先週発表したPROLED XDR Display搭載MacBook Proについて、Chance Miller氏が実機レビューを公開した。タンデムOLED、大幅な軽量化、待望のタッチ、背面Appleロゴの再点灯が柱。14インチは3.5ポンドから3.0ポンド、16インチは4.7から4.0ポンドへ減り、2016年世代並みの重量に戻った一方で画面は大きく性能も高い。厚みもわずかに薄く、ベゼルは四隅丸みで下部の太い枠も解消。ロゴ輝度は画面輝度と環境光に連動する。\nPROLED XDRは色・コントラスト・漆黒が既存ノートOLED含め圧倒的とし、視野角も改善。ミニLEDのブルーミングが消え、ピークHDR 2000ニト、屋外SDR最大2000ニトなど明るさも強化。反射率約1%の光沢＋ARコートで、ナノテクスチャほどではないがAirの光沢より大幅に扱いやすいという。焼き付き対策として画素使用や温度を監視し個別補償する新ディスプレイエンジンをアピール。\nタッチは「主な操作」ではなく副次入力と位置づけられ、トラックパッド中心のまま使える。長押しでメニュー間隔拡大、信号機ボタンは一度目で拡大・二度目で実行など、指の精度に合わせた動的UI。ピンチズームやSpaces切替、Safariのプル更新、ビデオ通話時の画面揺れ補正もある。レビュアーは「あると嬉しいが革命ではない」としつつ、iPhoneミラーリングやXcodeシミュレータ、3D系では有用だと評価。アクセシビリティ設定で無効化も可能。\nチップは既存どおりM5 Pro／Maxで、熱設計を新筐体向けに最適化したとする。Geekbenchや日常用途では従来と同等。M7世代が来年に控えるとの噂にも触れ、大型刷新に半年前チップを載せた点は奇妙だが、OLED・タッチ・軽さの価値は大きいと結論。mini-LEDモデルより400ドル高く、14インチPROLEDは2899ドルから、16インチは3399ドルから。11月6日発売・店頭販売開始。",
+"url": "https://9to5mac.com/2026/11/05/macbook-pro-with-proled-xdr-display-touch-review/",
+"source": "9to5Mac",
+"published": "2026-11-05",
+"digest": "2026-11-06 07:56",
+"page": "#a7"
+},
+{
+"id": "a8",
+"category": "gadget",
+"category_label": "ガジェット",
+"title": "Sony、初代ウォークマンヘッドホンをMDR-3Rとして復刻——USB‑Cとインラインマイク付き60ドル",
+"summary": "1979年MDR-3系の再現。23mmドライバ据え置き。オレンジ／青イヤーパッド付属。",
+"body": "Sonyは1979年にウォークマンTPS-L2と共に登場したMDR-3シリーズヘッドホンを、MDR-3Rとして復活させた。灰色プラスチックの調整可能なヘッドバンド、金属スライダー、円形イヤーパッドといった外見を踏襲し、オレンジと青のイヤーパッドが付属する。\n有線のままUSB‑Cコネクタを採用したのが現代向けの主な変更。Sonyは「音楽を外へ自由に持ち出す体験価値を保ちつつ現代用途向けに再設計した」と説明。ドライバはオリジナルと同じ23mmで、音も近い再現を狙う。Gizmodoのレビューでは中高音が明るくクリアでステレオ分離も良い一方、強い低音は期待しにくいとされる。\nインラインリモコンとマイクを新搭載するが、ノイズキャンセリングはないため騒がしい場所での通話には向かない。有線ヘッドホンやフィジカルメディアへの再関心にも乗る製品で、価格は60ドル。",
+"url": "https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/",
+"source": "Ars Technica",
+"published": "2026-11-05",
+"digest": "2026-11-06 07:56",
+"page": "#a8"
+},
+{
+"id": "a9",
+"category": "camera",
+"category_label": "カメラ",
+"title": "Sony RIALTO 65詳細——単板65mmセンサー、ユニバーサルマウント、本体7.2万ユーロ",
+"summary": "VENICE 2用拡張ヘッド。9.6K／3:2。FF・S35クロップは後日ファーム。2027年前半出荷。",
+"body": "CineDのNino Leitner氏はPinewoodでのSonyイベントで、VENICE 2向け65mm拡張「RIALTO 65」についてSebastian Leske氏に詳細を聞いた。本体ではなく、既存VENICE 2のフルフレームセンサーブロックを置き換える65mmセンサーヘッドで、ケーブル接続（Extension）または直接装着（Studio）が可能。価格はヘッド単体7.2万ユーロ（B&Hでは8万ドル表記）、VENICE 2込みで約13.8万ユーロ。2027年前半出荷。\nセンサーはステッチではなく新規単板で53.75×35.83mm（対角約65mm）、9.6K。ベースISOは2500と10000、公称15+ストップ（2500時）。起動時モードは9.6K Open Gate（3:2）と9.6K 2.20:1のみで、フルフレーム／Super 35クロップは後日無料ファーム予定（FF時は約6–7K見込み）。レンズマウントは非同梱のユニバーサルIFで、Eマウントではイメージサークル不足のためサードパーティLPL等が前提。ロータリーNDの代わりに電子接点付きドロップインND11枚。\n記録は既存どおり16-bit X-OCN（ST／XT／LT）をAXSカードへ。1TBのX-OCN STで約30分程度。ケーブルは4.5m付属・12mオプション。レンタル向けに「全VENICE 2がヘッド追加で65mm化できる」点が強調され、専用65mmボディ単体パッケージはない。",
+"url": "https://www.cined.com/sony-rialto-65-explained-single-65mm-sensor-universal-lens-mount-full-frame-modes-coming/",
+"source": "CineD",
+"published": "2026-11-05",
+"digest": "2026-11-06 07:56",
+"page": "#a9"
+},
+{
+"id": "a10",
+"category": "camera",
+"category_label": "カメラ",
+"title": "PetaPixelのPixelMeter、カメラ／レンズの並び比較に対応——レビュー集約の次ステップ",
+"summary": "カテゴリや製品ページから比較開始。スペック誤りの報告機能も。会員は広告なし。",
+"body": "PetaPixelは、カメラ・レンズ・スマホなどのレビュー集約サービス「PixelMeter」に、ローンチ以来最も要望が多かった製品同士の直接比較機能を追加した。創設者のMichael Zhang氏は、評価の一目把握とフルレビューへの導線に加え、賛否のコンセンサスや主要スペックを並べて判断しやすくするのが狙いだと説明した。\nカテゴリ一覧で製品にホバーすると左上に「Compare」が出て比較ページを開始でき、製品を追加していく。各製品ページの製品名右からも開始できる。スペック表記の揺れは多いため、製品ページのスペック欄上から修正提案ができ、編集側が確認して反映する。\n製品追加の提案（「What Reviewers Say」上の＋）やフィードバックも募集。PetaPixel会員はPixelMeterを広告なしで閲覧できる。",
+"url": "https://petapixel.com/2026/11/05/pixelmeter-now-lets-you-compare-specs-and-scores-on-cameras-and-lenses/",
+"source": "PetaPixel",
+"published": "2026-11-05",
+"digest": "2026-11-06 07:56",
+"page": "#a10"
+},
+{
+"id": "a11",
+"category": "camera",
+"category_label": "カメラ",
+"title": "Sony、高価格帯カメラへシフトが奏功——台数減でもイメージング利益を下支え",
+"summary": "第2四半期はカメラ売上減も技術セグメント営業増。A7R VIなど値上げ傾向と旧機のバジェット化。",
+"body": "Digital Camera WorldはSonyの決算説明を踏まえ、カメラ事業が台数減に直面しつつも、高付加価値・高価格帯へのシフトで利益を守っていると報じた。第2四半期はカメラ販売が落ちた一方、技術セグメントの営業利益は売上7.9%減でも3.2%増。CFOのLin Tao氏は、中国市場の減速やメモリコスト増の影響を、新製品主導のシェア拡大と高付加価値化の加速で最小化できたと述べた。\n例としてA7 IIIを長くバジェット枠に残しつつ、A7R VIは先代発売時より約600ドル高いなど、最新機の定価引き上げが続く。A7 VやRX10 Vも先代より高価格。一方で人気機の売れ行きやシネマライン（FX5など）の需要がシェア拡大に寄与しているという。\nAPS-Cは更新間隔が長く、最上位スチルのA6700は2023年発表などフルフレームほど頻度が高くない点も指摘。センサー事業はメモリ不足などで成長が20%減り、中低価格スマホ向けが特に厳しい一方、ハイエンドへの影響は小さいとし、熊本地震からの製造復旧完了（損失約160億円相当）も言及された。",
+"url": "https://www.digitalcameraworld.com/cameras/sony-is-shifting-towards-more-expensive-high-end-cameras-the-strategy-is-working-even-amid-the-memory-crisis",
+"source": "Digital Camera World",
+"published": "2026-11-05",
+"digest": "2026-11-06 07:56",
+"page": "#a11"
+},
 {
 "id": "a1",
 "category": "ai",
@@ -18,7 +161,7 @@
 "source": "OpenAI",
 "published": "2026-11-04",
 "digest": "2026-11-05 19:58",
-"page": "#a1"
+"page": "archive/2026-11-06-0754/#a1"
 },
 {
 "id": "a2",
@@ -31,7 +174,7 @@
 "source": "The Verge",
 "published": "2026-11-05",
 "digest": "2026-11-05 19:58",
-"page": "#a2"
+"page": "archive/2026-11-06-0754/#a2"
 },
 {
 "id": "a3",
@@ -44,7 +187,7 @@
 "source": "TechCrunch",
 "published": "2026-11-04",
 "digest": "2026-11-05 19:58",
-"page": "#a3"
+"page": "archive/2026-11-06-0754/#a3"
 },
 {
 "id": "a4",
@@ -57,7 +200,7 @@
 "source": "TechCrunch",
 "published": "2026-11-04",
 "digest": "2026-11-05 19:58",
-"page": "#a4"
+"page": "archive/2026-11-06-0754/#a4"
 },
 {
 "id": "a5",
@@ -70,7 +213,7 @@
 "source": "The Verge",
 "published": "2026-11-04",
 "digest": "2026-11-05 19:58",
-"page": "#a5"
+"page": "archive/2026-11-06-0754/#a5"
 },
 {
 "id": "a6",
@@ -83,7 +226,7 @@
 "source": "The Verge",
 "published": "2026-11-03",
 "digest": "2026-11-05 19:58",
-"page": "#a6"
+"page": "archive/2026-11-06-0754/#a6"
 },
 {
 "id": "a7",
@@ -96,7 +239,7 @@
 "source": "The Verge",
 "published": "2026-11-03",
 "digest": "2026-11-05 19:58",
-"page": "#a7"
+"page": "archive/2026-11-06-0754/#a7"
 },
 {
 "id": "a8",
@@ -109,7 +252,7 @@
 "source": "Xbox Wire",
 "published": "2026-11-04",
 "digest": "2026-11-05 19:58",
-"page": "#a8"
+"page": "archive/2026-11-06-0754/#a8"
 },
 {
 "id": "a9",
@@ -122,7 +265,7 @@
 "source": "PetaPixel",
 "published": "2026-11-04",
 "digest": "2026-11-05 19:58",
-"page": "#a9"
+"page": "archive/2026-11-06-0754/#a9"
 },
 {
 "id": "a10",
@@ -135,7 +278,7 @@
 "source": "PetaPixel",
 "published": "2026-11-04",
 "digest": "2026-11-05 19:58",
-"page": "#a10"
+"page": "archive/2026-11-06-0754/#a10"
 },
 {
 "id": "a11",
@@ -148,7 +291,7 @@
 "source": "CineD",
 "published": "2026-11-04",
 "digest": "2026-11-05 19:58",
-"page": "#a11"
+"page": "archive/2026-11-06-0754/#a11"
 },
 {
 "id": "a1",
