@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI・ガジェット・カメラ ニュースダイジェスト（2026-11-05 07:58 JST）</title>
+  <title>AI・ガジェット・カメラ ニュースダイジェスト（2026-11-05 19:58 JST）</title>
   <style>
 :root { --bg:#0f1419; --card:#1a2332; --text:#e7ecf3; --muted:#9aa7b8; --accent:#5b9dff; --border:#2a3548; }
 * { box-sizing: border-box; }
@@ -59,7 +59,7 @@ footer a { color:var(--accent); }
 <header>
   <h1>AI・ガジェット・カメラ ニュースダイジェスト</h1>
   <p>海外の一次情報（企業公式・公式プレス・国際テック報道）のみを収集し、タイトルと本文を日本語訳したHTMLダイジェストです。RSS配信は終了しました。</p>
-  <p>生成: 2026-11-05 07:58 JST ／ 件数: 11 ／ 朝更新（2026-11-05 朝版）</p>
+  <p>生成: 2026-11-05 19:58 JST ／ 件数: 11 ／ 晩更新（2026-11-05 晩版）</p>
   <p class="counts"><span>AI 4</span><span>ガジェット 4</span><span>カメラ 3</span></p>
 </header>
 <nav class="site-nav">
@@ -74,160 +74,158 @@ footer a { color:var(--accent); }
 <p class="hint">タイトルをタップ／クリックすると日本語本文を展開・折りたたみできます。</p>
 <details class="item" id="a1">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>1. ChatGPTがアニメGIFを生成可能に——Images 2.6で速度調整・フレーム編集も</span></div>
-    <div class="meta"><span class="tag">AI</span>The Verge ／ 2026-11-04
-      ／ 原文: <a href="https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6" rel="noopener noreferrer">https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6</a></div>
-    <p class="summary">プロンプトや写真からGIFを一発生成。再生速度や個別フレームの編集、共有にも対応。週あたり画像生成は40億枚超へ。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>1. OpenAIの自律型セキュリティパイプライン、Linuxで948件の権限昇格を検証・パッチ草案まで生成</span></div>
+    <div class="meta"><span class="tag">AI</span>OpenAI ／ 2026-11-04
+      ／ 原文: <a href="https://openai.com/index/a-thousand-fewer-paths-to-root/" rel="noopener noreferrer">https://openai.com/index/a-thousand-fewer-paths-to-root/</a></div>
+    <p class="summary">サイバーモデルを使ったパイプラインが候補2308件からLPE 948件を実証。API費用は約121万ドル。パッチ案も生成しメンテナーへ報告中。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: AI</em></p>
-<p>OpenAIは、ChatGPTでプロンプトまたはアップロード写真からアニメGIFを作成できる機能を、新画像モデルImages 2.6と合わせて展開したとThe Vergeが報じた。これまでネイティブに単一手順でGIFを作れなかったが、例として「踊る猫のGIFを作って」と頼むと生成し、再生速度の変更やフレーム単位の確認・編集、共有ができる。</p>
-<p>Images 2.6は画像生成の高速化も謳う。同社によるとChatGPTとAPIを合わせた画像生成は週あたり40億枚超で、9月時点の30億枚から増加した。Images 2.6はWeb／デスクトップ／モバイルのChatGPTおよびCodex全ユーザー向けに配信中。APIでは高速・高品質向けのGPT-Image-2.6 FlareとSunburstも投入する。</p>
-<p><a href="https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（OpenAI／日本語訳） ／ テーマ: AI</em></p>
+<p>OpenAIは2026年11月4日、自律的な脆弱性発見・検証・パッチ生成パイプラインを公開した。これから投入するサイバーモデルを中核に、Linuxカーネルを対象とした実験では候補所見2,308件を洗い出し、1,724件を動的に再現、さらに一般的なLinuxディストリビューション相当の保護機能が有効な環境で948件のローカル権限昇格（LPE）エクスプロイトを作成したという。実行コストはAPIクレジットで約121万3,430ドル、LPE1件あたり約1,279ドルだった。</p>
+<p>パイプラインはScout／Analystによる発見、KASAN付きVMでの動的検証、情報漏えい・LPEの悪用可能性評価、パッチ生成、人間のレビューという5段階。人間研究者は成果を確認したうえで、Linuxコミュニティの方針に沿い重大なものから報告を開始し、Patch the Planetのパートナーとも連携している。kernelCTF相当の硬化環境でも情報漏えいPoC 25件とLPE 21件を得たとしている。</p>
+<p>OpenAIは、フロンティアモデルによる発見ペースを踏まえ自動パッチ生成が不可欠だと強調。一方でメンテナー側もスキャン中の10日間に多数のLPEを修正・議論しており、最新コードへの再検証が重要だと述べている。防衛側にはサンドボックスや隔離による多層防御、定期的な再スキャンを勧める。</p>
+<p><a href="https://openai.com/index/a-thousand-fewer-paths-to-root/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a2">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2. OpenAI、開発者ツール企業Pierreを買収へ——Codexのコードレビュー／Git体験を強化</span></div>
-    <div class="meta"><span class="tag">AI</span>OpenAI ／ 2026-11-04
-      ／ 原文: <a href="https://openai.com/index/openai-to-acquire-pierre/" rel="noopener noreferrer">https://openai.com/index/openai-to-acquire-pierre/</a></div>
-    <p class="summary">Code StorageやTrees／DiffsなどOSSの開発元。既にCodexアプリのファイル閲覧・差分表示に採用。クローズ後もOSSは継続。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2. Anthropic、Associated Pressと初の有料ライセンス契約か——選挙関連の速報をClaudeに</span></div>
+    <div class="meta"><span class="tag">AI</span>The Verge ／ 2026-11-05
+      ／ 原文: <a href="https://www.theverge.com/ai-artificial-intelligence/1027173/anthropic-reportedly-made-a-licensing-deal-with-the-associated-press" rel="noopener noreferrer">https://www.theverge.com/ai-artificial-intelligence/1027173/anthropic-reportedly-made-a-licensing-deal-with-the-associated-press</a></div>
+    <p class="summary">Adweek報道。中間選挙前に成立し、選挙夜のClaudeでAP出典の最新情報が見られたとされる。出版社との初契約。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（OpenAI／日本語訳） ／ テーマ: AI</em></p>
-<p>OpenAIは2026年11月4日、Code Storageとオープンソースの開発者向けツール群を手がけるPierre Computer Company, Inc.（Pierre）を買収すると発表した。Codexアプリでファイルを眺めたり変更差分を確認したりする際に使われているTreesおよびDiffsライブラリは既にPierre製で、買収により「企業が出荷するコードと、人が下す判断をつなぐ」場所としてのCodexを強化するとしている。</p>
-<p>PierreのDiffsには差分上で直接行を直せるEditモードがあり、近刊のHighlightsはエージェントがコードを流し込む場面でも高速に構文強調する。Code StorageはGitで履歴を追えるコード保管APIだ。OpenAIは並行作業が増えるエージェント時代に合わせ、社内のPandoなどソース管理まわりの刷新も進めていると説明。</p>
-<p>オープンソースは買収後もオープンのまま貢献を続ける。Code Storageの顧客はクローズ後も利用でき、機能はCodexへ取り込む方針。取引は規制当局の承認など通常のクロージング条件付きで、完了まで両社は独立を維持する。</p>
-<p><a href="https://openai.com/index/openai-to-acquire-pierre/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: AI</em></p>
+<p>The Vergeによると、AnthropicはAssociated Press（AP）と有料のコンテンツライセンス契約を結んだとAdweekが報じた。同社にとって報道機関との初の有料契約で、米中間選挙を前に成立したという。</p>
+<p>Adweekの記述では、選挙夜にClaudeを開いて最新の世論調査を尋ねると、APが提供・帰属表示された最新情報が表示された、としている。OpenAIなどが進めてきた出版社ライセンスに対し、Anthropicはこれまで距離を置いてきた経緯がある。詳細な契約条件は本稿時点では明らかにされていない。</p>
+<p><a href="https://www.theverge.com/ai-artificial-intelligence/1027173/anthropic-reportedly-made-a-licensing-deal-with-the-associated-press" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a3">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>3. Meta、AIコーディングスタートアップConductorを買収——並列エージェントで開発を分担</span></div>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>3. Apple、社内AI利用の1日あたり予算を削減か——エンジニアは300ドルから200ドルへ</span></div>
     <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-11-04
-      ／ 原文: <a href="https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/" rel="noopener noreferrer">https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/</a></div>
-    <p class="summary">Axios続報。CEOは来年初頭に新UIを予告。クラウドサービスは11/20終了しデータ削除へ。エージェント自体はAnthropic／OpenAI製。</p>
+      ／ 原文: <a href="https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/" rel="noopener noreferrer">https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/</a></div>
+    <p class="summary">Bloomberg報道をTechCrunchが伝えた。さらなる100ドルへの引き下げや、非エンジニアは25ドル案も。例外申請は可能。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
-<p>Metaは、複数エージェントを並列ワークスペースに展開してソフト開発を進めるAIコーディングスタートアップConductorを買収した。Axiosが報じ、創業者CEOのCharlie Holtz氏もブログで「ConductorはMetaに合流する」と発表。「次のインターフェースに向けた大胆な計画がある」とし、来年初頭に顧客向けの新機能を予告した。</p>
-<p>Holtz氏はXで、MetaのAI責任者Alexandr Wang氏やSuperintelligence Labsのプロダクト責任者Nat Friedman氏との協業に期待を示した。MetaはTechCrunchに買収を認めたが詳細はコメントしていない。Conductorは2024年創業で、中核製品は昨年夏に投入。クラウド／ローカル／スマホからエージェントチームを起動し、プロジェクトの区画ごとに並行作業できる。エージェント本体は自社開発ではなくAnthropicやOpenAIのモデルを使う。</p>
-<p>Holtz氏によると、来年初頭までは既存の中核機能は従来どおり動くが、クラウドサービスは11月20日に停止し、その後ユーザーのクラウドデータを削除する。Metaは8月に自前のMuse Codeを投入し、Museエージェントは米App Store1位・利用者1000万人超を報告するなど、AIキャッチアップのための買収を続けている。</p>
-<p><a href="https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>TechCrunchはBloombergの報道を引用し、Appleがエンジニアリングチーム向けの社内AI利用に対する1日あたりの支出上限を引き下げたと伝えた。10月に上限を300ドルから200ドルへ減らし、一部ではさらに1日100ドルまで下がる見通しだという。エンジニア以外では1日25ドルまでの制限も検討されているとされる。</p>
+<p>従業員は幹部への申請で上限引き上げを求められる可能性がある。記事は、企業が一斉にAI利用を推進した「トークン最大化」の反動として、コストが見えにくかった生産性向上に対しトークンの配給制が広がっていると位置づけている。TechCrunchはAppleにコメントを求めている。</p>
+<p><a href="https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a4">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>4. Uber、AIエージェント経由の配車はほぼゼロ——ハロウィン週で配車4件、Eatsは500件</span></div>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>4. Googleの教育向け方針に反発——AIを制限するとSearchも使えなくなると説明され波紋</span></div>
     <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-11-04
-      ／ 原文: <a href="https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/" rel="noopener noreferrer">https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/</a></div>
-    <p class="summary">Q3決算で開示。同時期の総トリップ／注文は約3.2億件。CEOは「極めて初期」としつつエージェント需要には前向き。</p>
+      ／ 原文: <a href="https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/" rel="noopener noreferrer">https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/</a></div>
+    <p class="summary">K-12向けでSearchとAIが深く統合と説明。上院議員らが批判。Googleは既定オフで個別有効化できると反論。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
-<p>Uberは第3四半期の決算説明で、個人向けAIエージェント経由の配車がほとんど使われていないと明らかにした。CFOのBalaji Krishnamurthy氏によると、10月の最繁忙であるハロウィン週にUberとUber Eatsで扱ったトリップ／注文は約3.2億件だったが、AIエージェント経由の配車はわずか4件。Uber Eatsのエージェント注文も500件にとどまった。</p>
-<p>CEOのDara Khosrowshahi氏は「非常に初期で、トラクションは極めて限定的」としつつ、今後の伸びには期待を示した。エージェントブームの中で、DoorDashも先週の決算でエージェント注文は数百件規模と説明しており、公開企業の数字はまだ「エージェント型Web」が遠いことを示す。</p>
-<p>Khosrowshahi氏は、アプリでの配車平均が約50秒、お気に入り食事の再注文が約90秒と短く、エージェントが必ずしも時間短縮にならない点も指摘。それでも主要AIアシスタント約8社がUberと会話中で、将来は10社超になるとみなし「需要の純増機会」と位置づけた。</p>
-<p><a href="https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>GoogleはK-12向けサービスについて、学校がGeminiなどのAIツールをオプトインしない場合、生徒はSearchも使えず学校からのメッセージが表示されると説明し、強い反発を招いた。教育担当VPのChris Phillips氏は「SearchとAIは深く統合されている」とニューヨーク・タイムズに語ったとされる。</p>
+<p>バーニー・サンダース上院議員は「ゆすり」だと批判し、リチャード・ブルメンソール上院議員や元FTC委員長のLina Khan氏、ニューヨーク市長なども懸念を表明した。ChromebookやGoogle教育ツールが必須の現場では代替検索への切り替えが難しい、というのが教育現場の不安だ。</p>
+<p>反発を受けGoogleはX上で、Gemini・Gemini Notebook・Searchは既定でオフにし、学校が個別に有効化できると澄清。宿題のショートカットを心配する学校の声に応えた制御強化だと説明し、解答を渡さず学びを導く「Guided Learning」も開発中だとしている。</p>
+<p><a href="https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a5">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>5. Bluetooth LEの最大ビットレートが約4倍に——Core 7.0でHDT（最大7.5Mbps）を正式採用</span></div>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>5. AT&T Connected LifeがGemini for Homeに対応——会話検索やHome Brief、常時録画も</span></div>
     <div class="meta"><span class="tag">ガジェット</span>The Verge ／ 2026-11-04
-      ／ 原文: <a href="https://www.theverge.com/tech/1026308/bluetooth-le-sig-high-data-throughput-hdt" rel="noopener noreferrer">https://www.theverge.com/tech/1026308/bluetooth-le-sig-high-data-throughput-hdt</a></div>
-    <p class="summary">Bluetooth SIGがHigh Data Throughputをオプション機能として採択。高音質無線や空間オーディオ、スマートウォッチ同期の短時間化を狙う。対応機器は2027年以降。</p>
+      ／ 原文: <a href="https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system" rel="noopener noreferrer">https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system</a></div>
+    <p class="summary">Google Home Premium連携の初のホームセキュリティと主張。月29.99ドルのプロ監視プラン向け。近接で自動アームも。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>Bluetoothの標準を統括するBluetooth SIGは、Bluetooth Core 7.0のオプション機能としてBluetooth High Data Throughput（HDT）を正式採用した。LEの最大対応ビットレートを2Mbpsから7.5Mbpsへ引き上げ、高解像度オーディオのストリーミングや電池寿命・信頼性の改善を狙う。</p>
-<p>主用途は当面ワイヤレスオーディオで、対応機器の登場は2027年頃の見込み。高音質に加え、独自無線フォーマットなしでの空間オーディオやマルチチャンネルサラウンドも想定する。スマートウォッチはトレーニングや健康データをより短時間で同期でき、無線を長く点けずに済むため電池に有利。空間コンピューティングや個人向けAIデバイスがスマホへデータを渡す場面でも軽量化につながるという。</p>
-<p>ファーム更新が体感的に速くなる可能性にも触れる。SIGのNeville Meijers CEOは「消費者・産業向けにBluetoothの役割を広げ、次世代無線の基盤になる」と述べた。</p>
-<p><a href="https://www.theverge.com/tech/1026308/bluetooth-le-sig-high-data-throughput-hdt" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>AT&Tのスマートホームセキュリティ「Connected Life」がGemini for Homeと連携した。同社はGoogle Home Premiumと統合した初のホームセキュリティ製品だと主張し、カメラ映像の詳細な自然言語説明、会話形式での録画検索、1日の活動をまとめるHome Briefなどを提供する。</p>
+<p>「昨夜庭を掘ったのは何か」「犬を外に出したのは誰」といった質問で履歴を探せるほか、荷物の配達者や個数の要約も可能になる。これらのAI機能は月額29.99ドルのProfessional監視プランが必要。あわせて24時間連続録画や、自宅への近接に応じた自動アーム／ディスアームも追加された。</p>
+<p>Connected Lifeは昨年12月にGoogleおよびAbodeと提携して開始。GoogleのGemini対応Home APIを活用する動きで、ADTなども同様の機能導入に言及している。</p>
+<p><a href="https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a6">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>6. Nothing、12月に画面なしの「AIネイティブ」製品を予告——「アプリにはできなかった」</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>9to5Google ／ 2026-11-04
-      ／ 原文: <a href="https://9to5google.com/2026/11/04/nothing-teaser-new-ai-screen-less-product-launch/" rel="noopener noreferrer">https://9to5google.com/2026/11/04/nothing-teaser-new-ai-screen-less-product-launch/</a></div>
-    <p class="summary">CEO Carl Pei氏がXで告知。新画面はなく、会話の文脈を逃さないツールを示唆。具体仕様は未公開。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>6. Apple WatchのAudio IntelligenceがwatchOS 27.3ベータに——会話要約と15秒巻き戻し</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>The Verge ／ 2026-11-03
+      ／ 原文: <a href="https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta" rel="noopener noreferrer">https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta</a></div>
+    <p class="summary">Siri RecapとLive Rewindを開発者ベータで提供。生音声は専用ハード内処理で保存しないと説明。Healthアプリ刷新も。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（9to5Google／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>NothingのCEO Carl Pei氏はXで、12月に初の「AIネイティブ」製品を出荷すると予告した。「Nothingらしい個性と丁寧さで作ったツール」「新しい画面はなく、アプリにはできなかったもの」と説明しているが、詳細な製品像は明かしていない。</p>
-<p>9to5Googleは、「アプリにはできなかった」という言い回しが録音デバイスなど専用AIガジェットでよく使われる点や、画面なし設計が選択肢を狭める点から、環境録音・コンテキスト取得系の可能性を指摘。Pei氏の投稿は、コーヒー中のひらめきや一言をメモしようとするとスマホ操作でタイミングを逃す「コンテキストのギャップ」にも触れており、常時そばにある記録ツールを匂わせる。</p>
-<p>出荷開始は12月予定。具体的な名称・価格・対応地域は本稿時点で未発表。</p>
-<p><a href="https://9to5google.com/2026/11/04/nothing-teaser-new-ai-screen-less-product-launch/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: ガジェット</em></p>
+<p>AppleはwatchOS 27.3開発者ベータで、Apple Watchマイクを使ったAudio Intelligenceの新機能を公開した。Siri Recapは周囲の会話を聴き取り要約を生成し、Live Rewindは直近15秒の音声をテキスト起こしする。Digital Crownのダブルプレスで直前の文言を確認でき、Siriアプリへ保存も可能。</p>
+<p>プライバシー概要では、生の音声は専用ハードウェア内で処理されファイルとして保存されず、OS・アプリ・Appleからもアクセスできないと説明。保存した要約やテキストは、2要素認証とパスコード付きiCloud利用時にエンドツーエンド暗号化で同期されるとしている。</p>
+<p>同日のiOS 27.3ベータではHealthアプリの刷新もテスト開始。InsightsタブやFor You、教育コンテンツなどが追加され、対応言語も拡大した。</p>
+<p><a href="https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a7">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>7. iOS 27.3でiCloudの「リンクを知っている人」共有を有害コンテンツ検査——アカウント制裁も</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>9to5Mac ／ 2026-11-04
-      ／ 原文: <a href="https://9to5mac.com/2026/11/04/with-ios-27-3-apple-will-start-checking-icloud-public-links-for-harmful-content/" rel="noopener noreferrer">https://9to5mac.com/2026/11/04/with-ios-27-3-apple-will-start-checking-icloud-public-links-for-harmful-content/</a></div>
-    <p class="summary">Appleサポート文書。iPadOS／macOS／visionOS 27.3も対象。「リンクを知っている人」共有が検査対象で、削除やアカウント停止の余地を明記。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>7. Samsung Galaxy Ringに睡眠時無呼吸の検知が配信開始——Watch 9相当の強化アルゴリズム</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>The Verge ／ 2026-11-03
+      ／ 原文: <a href="https://www.theverge.com/tech/1025801/samsungs-galaxy-ring-now-supports-sleep-apnea-detection" rel="noopener noreferrer">https://www.theverge.com/tech/1025801/samsungs-galaxy-ring-now-supports-sleep-apnea-detection</a></div>
+    <p class="summary">7月のFDA認可後、スマートリングへ展開。睡眠中のバイタルを解析する強化アルゴリズムを使用。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（9to5Mac／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>AppleはiOS 27.3ベータ公開に合わせ、サポート文書でiCloudの公開リンク共有の扱いを更新した。写真やDriveファイルなどを「リンクを共有」する際、「選択した人」か「リンクを知っている人」かを選べるが、後者はこれまでもリンク保持者（Apple含む）がアクセス可能だった。27.3以降のiOS／iPadOS／macOS／visionOSでは、この「Anyone with the Link」共有についてAppleが有害コンテンツの検査を行う。</p>
-<p>有害と判断した場合、Appleはコンテンツの移動・拒否・変更・削除などの権利を留保する。有害コンテンツのアップロードを試みた場合は、Apple Accountのブロックや無効化、関連メール／電話での新規作成制限、必要なら法執行機関への関与もあり得るとしている。</p>
-<p>今回の変更は、もともと公開リンクだったものを「検査する」と明文化した点がポイント。特定の相手だけに共有する「People you choose」は今回の検査対象説明の中心ではない。</p>
-<p><a href="https://9to5mac.com/2026/11/04/with-ios-27-3-apple-will-start-checking-icloud-public-links-for-harmful-content/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: ガジェット</em></p>
+<p>Samsungは、Galaxy Ring向けに睡眠時無呼吸（sleep apnea）検知機能の配信を開始したと発表した。7月にFDAの認可を得たのちの展開で、強化アルゴリズムにより睡眠中のバイタルを解析する。これまで同様の高度な検知はGalaxy Watch 9向けに限定されていた。</p>
+<p>スマートリング単体で無呼吸リスクの把握が進むことで、就寝時の装着負担を抑えつつ健康モニタリングを拡げる狙いがあるとみられる。詳細な対応地域やアプリ要件はSamsungの案内に従う必要がある。</p>
+<p><a href="https://www.theverge.com/tech/1025801/samsungs-galaxy-ring-now-supports-sleep-apnea-detection" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a8">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>8. Pixel Watchの異常な電池消耗、Googleがアプリ更新で修正配信を確認</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>Android Authority ／ 2026-11-03
-      ／ 原文: <a href="https://www.androidauthority.com/google-pixel-watch-battery-drain-fix-rolling-out-3730991/" rel="noopener noreferrer">https://www.androidauthority.com/google-pixel-watch-battery-drain-fix-rolling-out-3730991/</a></div>
-    <p class="summary">複数世代で待機中心でも約12時間に落ちる報告。Playストアで「アプリを管理＞すべて更新」。数日でロールアウト完了見込み。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>8. Xbox Cloud Gaming、スマホをコントローラーに——NanoはWi‑Fi直結のクラウド接続を米で試験</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>Xbox Wire ／ 2026-11-04
+      ／ 原文: <a href="https://news.xbox.com/en-us/2026/11/04/cloud-gaming-inputs-preview/" rel="noopener noreferrer">https://news.xbox.com/en-us/2026/11/04/cloud-gaming-inputs-preview/</a></div>
+    <p class="summary">対応スマートTVで電話をブラウザ操作端末に。米国ではXbox NanoがクラウドへWi‑Fi直結し遅延低減を狙う。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Android Authority／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>GoogleはAndroid Authorityに対し、Pixel Watchの深刻な電池消耗問題向け修正の配信を始めたと明らかにした。過去1週間ほど、複数世代のPixel Watchでほぼ待機状態でも稼働が約12時間程度まで落ちる報告が相次ぎ、ハード不良よりバックグラウンドの不具合やWear OSアプリ側が疑われていた。</p>
-<p>広報は「少数のPixel Watchユーザーに影響する電池消耗の修正配信を開始し、今後数日で完了する。クラウンを押してPlayストアを開き、『アプリを管理』＞『すべて更新』で実装してほしい」と説明。原因アプリ名は明かしていないが、修正がアプリ更新経由であることからソフト起因との見方が強まる。</p>
-<p>段階配信のため、手元で手動更新チェックすれば先行して修正を取り込める可能性がある。更新後に電池持ちが戻ったかはユーザー側での確認が必要だ。</p>
-<p><a href="https://www.androidauthority.com/google-pixel-watch-battery-drain-fix-rolling-out-3730991/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（Xbox Wire／日本語訳） ／ テーマ: ガジェット</em></p>
+<p>Xboxはクラウドゲーミング向けに2つのプレビューを開始した。対応スマートTVでは、物理コントローラーがなくてもAndroid／iOSスマホをブラウザ経由の操作端末として使える。設定のアカウント内Preview Featuresを有効化し、コントローラー未接続でゲームを起動すると案内が出る。</p>
+<p>米国では新コントローラXbox Nano向けに「cloud connect」も試験中。TVへのBluetooth接続ではなく、Wi‑Fi経由でクラウド上のゲームセッションへ直接つなぎ、入力遅延の低減を狙う。セットアップにはXboxベータアプリ（Android）またはPCのXbox Accessoriesアプリ（Insider登録が必要）を使い、同一Xboxアカウントで対応体験にサインインする。</p>
+<p>いずれも試験段階で、対応タイトルや端末は限定され得る。フィードバックはプレビュー内やアプリから募集している。</p>
+<p><a href="https://news.xbox.com/en-us/2026/11/04/cloud-gaming-inputs-preview/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a9">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>9. Canon、天体・長時間撮影向けタイマーリモコンTC-N3／TC-E3と多機能シュー用マイクDM-E10D</span></div>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>9. Canon、Cinema EOS 15周年でC400／C80／C50／R5 Cに大型ファーム——色軸制御や高フレームAF拡張</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-04
-      ／ 原文: <a href="https://petapixel.com/2026/11/04/canon-announces-timer-remotes-for-astrophotographers-and-a-compact-hotshoe-mic/" rel="noopener noreferrer">https://petapixel.com/2026/11/04/canon-announces-timer-remotes-for-astrophotographers-and-a-compact-hotshoe-mic/</a></div>
-    <p class="summary">TC-80N3系の後継。大型LCD・橙バックライト・時計機能。TC-N3は189.99ドル、TC-E3は209.99ドルで1月出荷。マイクは12月末・209.99ドル。</p>
+      ／ 原文: <a href="https://petapixel.com/2026/11/04/canon-marks-15-years-of-its-cinema-eos-system-with-big-firmware-updates/" rel="noopener noreferrer">https://petapixel.com/2026/11/04/canon-marks-15-years-of-its-cinema-eos-system-with-big-firmware-updates/</a></div>
+    <p class="summary">Multi Matrix色軸制御、S&Fの72–96fps AF、SDI/HDMI外部音声、C50は1/8000秒など。12月提供予定。キットも発表。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
-<p>CanonはCinema EOS向け発表と同日、ミラーレスEOS Rシステム向けにタイマーリモコンTC-N3／TC-E3と、マルチファンクションシュー用デジタルマイクDM-E10Dを発表した。タイマーリモコンは銀塩／デジタル一眼時代のTC-80N3の系譜で、バルブの長時間露光や星景・タイムラプスなど間隔撮影の自動化向け。</p>
-<p>従来比でLCDは約20%大型化し、夜間視認用の橙色バックライト、撮影セッションを予約できる時計機能、三脚対応を追加。電源は単4形。TC-N3はR1／R3／R5／R5 Mark II／R5 CなどN3端子機、TC-E3はC50やR6系／R8系／R7／R10／R50 V／R100などE3端子機向け。出荷は1月初旬、価格はTC-N3が189.99ドル、TC-E3が209.99ドル。</p>
-<p>DM-E10Dはスーパーカーディオイドのモノラルデジタルマイクで、前方を優先しつつ後方の会話も拾う。ケーブルレスでカメラから給電し、ショックマウントとウィンドカバー内蔵。DMシリーズ最小最軽量とし、12月末出荷・209.99ドル。併せてR6 Mark III向けクロップガイド・ファーム（学校写真などの量産向け）も発表し、ガイド入りボディは12月初旬に2919ドル、既存機は120ドルのサービスで対応する。</p>
-<p><a href="https://petapixel.com/2026/11/04/canon-announces-timer-remotes-for-astrophotographers-and-a-compact-hotshoe-mic/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>CanonはCinema EOSシステムの15周年に合わせ、EOS C400／C80／C50／R5 C向けの大型ファームウェア更新を発表した。Multi Matrix Color Axis Controlにより、特定色軸の位相・ゲインをカメラ内や遠隔で調整し、マルチカメラの色合わせを迅速化できる。</p>
+<p>スロー＆ファスト（S&F）では72／75／90／96fpsでもAFが使え、SDI／HDMI経由の外部音声伝送も追加。C400／C80／C50ではセンサーモード切替をファンクションボタンに割り当て可能。C50には1/8000秒シャッターと写真モードの外部フラッシュ対応も入る。PTZや一部プロ映像機向けの無料Camera Control Center（Windowsは2027年1月予定）も予告された。</p>
+<p>ファームは12月提供予定。あわせてC50／C80とRFズームのレンズキット、マイクやヘッドホン付きのC50 Videographer Kit（5,999ドル）も発表された。</p>
+<p><a href="https://petapixel.com/2026/11/04/canon-marks-15-years-of-its-cinema-eos-system-with-big-firmware-updates/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a10">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>10. Anker eufy、窓の内側から屋外を監視するWindow Camera E10——2.5K・79.99ドル</span></div>
-    <div class="meta"><span class="tag">カメラ</span>The Verge ／ 2026-11-04
-      ／ 原文: <a href="https://www.theverge.com/tech/1026360/anker-eufy-window-camera-e10-indoors-security-ai-color-night-vision" rel="noopener noreferrer">https://www.theverge.com/tech/1026360/anker-eufy-window-camera-e10-indoors-security-ai-color-night-vision</a></div>
-    <p class="summary">貼り付け設置で1分未満を主張。人／動物／車両のAI検知、カラーナイトビジョン、最大256GBのmicroSD。USB-C給電でバッテリーなし。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>10. Nikon ZRの大型ファーム2.00詳細——H.265でLog3G10、高感度NR調整、低照度の黒レベル揺らぎ抑制</span></div>
+    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-04
+      ／ 原文: <a href="https://petapixel.com/2026/11/04/the-nikon-zrs-first-major-firmware-update-improves-video-quality-and-adds-more-control/" rel="noopener noreferrer">https://petapixel.com/2026/11/04/the-nikon-zrs-first-major-firmware-update-improves-video-quality-and-adds-more-control/</a></div>
+    <p class="summary">年末までに提供予定。ダイヤル／Fnへの割当拡充、HDMIへの3D LUT出力、フォーカスピーキング強化も。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（The Verge／日本語訳） ／ テーマ: カメラ</em></p>
-<p>Ankerは、庭や駐車場、玄関先を窓越しに監視する屋内設置のセキュリティカメラ「eufy Window Camera E10」を発表した。屋外機のような防水は不要で、付属の貼り付けマウントでガラス内側に密着させ反射を抑える。Wyze Window Camに近い発想だが、E10は2.5K（2688×1520／15fps）で、Wyzeの1080pより高解像。価格は79.99ドルとWyze（約35ドル）より高い。</p>
-<p>画角は水平105度・垂直57度。背面のダイヤルで上下25度調整でき、2階窓など設置位置がずれやすい場面向け。カラーナイトビジョン、人／動物／車両を区別するAIモーション検知、大きめの音向けマイクを備え、最大256GBのmicroSDへローカル録画、任意でクラウド課金にも対応。</p>
-<p>設置は1分未満とうたうが、バッテリー非搭載のためUSB-C電源ケーブルの取り回しが必要。Anker公式およびAmazonで販売中。</p>
-<p><a href="https://www.theverge.com/tech/1026360/anker-eufy-window-camera-e10-indoors-security-ai-color-night-vision" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
+<p>Nikonは映像特化ミラーレスZR向け初の大型更新となるファームウェア2.00の詳細を追加公開した。年末までの提供を予定し、H.265記録時にREDのLog3G10ガンマを選べるようになる。これまでR3D NE RAWに限られていた色科学を、より軽いコーデックでも使えるようになる点が大きい。</p>
+<p>H.265＋Log利用時にHigh ISO NRの強さを選べるほか、低照度や暗部で起きやすいフレームごとの黒レベル揺らぎを抑える新処理を入れる。コマンドダイヤルやFnへのISO／露出／ホワイトバランス／色温度の割当、3D LUT／View Assistのワンタッチ切替、R3D NEでLUT適用中のフォーカスピーキング、HDMI出力への3D LUT適用なども追加される。</p>
+<p>Open Gateやアナモルフィックのカメラ内デスイーズは2027年予定のまま。ZRはZ6 IIIと同系の部分積層センサーを採用しており、過去の低照度ノイズ問題との関係は明言されていない。</p>
+<p><a href="https://petapixel.com/2026/11/04/the-nikon-zrs-first-major-firmware-update-improves-video-quality-and-adds-more-control/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a11">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>11. Lomography、金メッキの限定MC-A 35mmコンパクトを発表——Noir版も、12月出荷</span></div>
-    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-04
-      ／ 原文: <a href="https://petapixel.com/2026/11/04/lomography-launches-gold-plated-point-and-shoot-film-camera/" rel="noopener noreferrer">https://petapixel.com/2026/11/04/lomography-launches-gold-plated-point-and-shoot-film-camera/</a></div>
-    <p class="summary">発売1周年記念。32mm f/2.8、多重露出対応。Gold Platedは649ドル、Noirは599ドル。装填や設定保持など使い勝手も改善。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>11. DJI Osmo Pocket 4Pに大型ファーム——最大ズーム18倍、3倍切替の露出ジャンプ改善、シーンプリセット追加</span></div>
+    <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-04
+      ／ 原文: <a href="https://www.cined.com/dji-osmo-pocket-4p-firmware-v01-02-1149-released-18x-zoom-smoother-lens-switching-and-scene-presets/" rel="noopener noreferrer">https://www.cined.com/dji-osmo-pocket-4p-firmware-v01-02-1149-released-18x-zoom-smoother-lens-switching-and-scene-presets/</a></div>
+    <p class="summary">約1.1GBのV01.02.1149。ActiveTrack安定化や配信画質改善、電源オフ時のUSBファイルアクセスも。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
-<p>Lomographyは、フルフレーム35mmコンパクト「Lomo MC-A」の発売1周年を記念し、実金メッキのGold Platedと、グロッシーな黒レザーのNoirという2つの限定デザインを発表した。光学系は従来どおり内蔵32mm f/2.8（5群5枚、絞りはf/16まで）で、AFまたは0.4mからのゾーンフォーカス、オート／絞り優先／マニュアル、内蔵キセノンフラッシュ、三脚穴、CR2電池、多重露出に対応する。</p>
-<p>コミュニティのフィードバックを反映し、フィルム装填の容易化、電源オフ後の設定保持、オート時にf/3.5を選びやすくする調整、半押しでLCD表示を少し長く保つ変更などを盛り込んだ。外装はGoldが茶レザー＋無料ガラスフィルターセット、Noirがスネークスキン調の黒レザーで、対応のレザーハーフケースもある。</p>
-<p>いずれも12月出荷予定で予約受付中。Noirは599ドル、Gold Platedは649ドル。通常の黒／銀MC-Aは549ドル。</p>
-<p><a href="https://petapixel.com/2026/11/04/lomography-launches-gold-plated-point-and-shoot-film-camera/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（CineD／日本語訳） ／ テーマ: カメラ</em></p>
+<p>DJIはOsmo Pocket 4P向けファームウェアV01.02.1149を配信した。約1.1GBの大型更新で、写真・動画の最大ズームを12倍から18倍（換算約360mm相当）へ引き上げ、60mm相当テレ側の4K/30p画質やズームの滑らかさも改善したとする。光学は広角20mm相当からテレ60mm相当への3倍切替までで、それ以上はクロップ／アップスケールだ。</p>
+<p>広角とテレの切替時に目立っていた露出ジャンプの改善も目玉。ユーザー報告では条件によって解消や1/3段程度まで縮小した例がある一方、まだ差が残るケースもある。ActiveTrackの安定性、ジンバル、Wi‑Fi配信／DisplayPort／ウェブカメラ画質、HDRまわりも強化。Stage／Sunsetシーンプリセット、Intelligent Highlight、撮影後の自動転送や電源オフ時のUSBファイルアクセスも加わった。</p>
+<p>Mimoアプリから無料で導入可能。米国では未発売のため公式ページアクセスに制限がある地域もある。</p>
+<p><a href="https://www.cined.com/dji-osmo-pocket-4p-firmware-v01-02-1149-released-18x-zoom-smoother-lens-switching-and-scene-presets/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 </main>
 <footer>
-  <p>前回ダイジェストは <a href="./archive/2026-11-05-0758/">archive/2026-11-05-0758/</a> に保管しています。／ <a href="./archive/">アーカイブ一覧</a></p>
+  <p>前回ダイジェストは <a href="./archive/2026-11-05-1958/">archive/2026-11-05-1958/</a> に保管しています。／ <a href="./archive/">アーカイブ一覧</a></p>
   <p>対象: 海外一次ソースのみ。日本語二次まとめサイトは含みません。</p>
 </footer>
 
