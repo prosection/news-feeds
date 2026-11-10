@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI・ガジェット・カメラ ニュースダイジェスト（2026-11-10 08:00 JST）</title>
+  <title>AI・ガジェット・カメラ ニュースダイジェスト（2026-11-10 19:57 JST）</title>
   <style>
 :root { --bg:#0f1419; --card:#1a2332; --text:#e7ecf3; --muted:#9aa7b8; --accent:#5b9dff; --border:#2a3548; }
 * { box-sizing: border-box; }
@@ -59,7 +59,7 @@ footer a { color:var(--accent); }
 <header>
   <h1>AI・ガジェット・カメラ ニュースダイジェスト</h1>
   <p>海外の一次情報（企業公式・公式プレス・国際テック報道）のみを収集し、タイトルと本文を日本語訳したHTMLダイジェストです。RSS配信は終了しました。</p>
-  <p>生成: 2026-11-10 08:00 JST ／ 件数: 11 ／ 朝更新（2026-11-10 朝版）</p>
+  <p>生成: 2026-11-10 19:57 JST ／ 件数: 11 ／ 晩更新（2026-11-10 晩版）</p>
   <p class="counts"><span>AI 4</span><span>ガジェット 4</span><span>カメラ 3</span></p>
 </header>
 <nav class="site-nav">
@@ -74,269 +74,265 @@ footer a { color:var(--accent); }
 <p class="hint">タイトルをタップ／クリックすると日本語本文を展開・折りたたみできます。</p>
 <details class="item" id="a1">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>1. Anthropic、新モデル「Mythos 5.2」と「Fable 5.2」を公開——再帰的自己改善（RSI）への懸念が高まる中で</span></div>
-    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-11-09
-      ／ 原文: <a href="https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/" rel="noopener noreferrer">https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/</a></div>
-    <p class="summary">コーディング・推論・視覚が向上し、Fableは入力100万トークンあたり10ドルから8ドルへ値下げ。モデルが「評価されている」と疑う頻度が増え、能力評価が難しくなっているとAnthropic自身が認めた。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>1. Google DeepMindの新AIツール、Signalプロトコルの安全性を数学的に証明</span></div>
+    <div class="meta"><span class="tag">AI</span>WIRED ／ 2026-11-09
+      ／ 原文: <a href="https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/" rel="noopener noreferrer">https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/</a></div>
+    <p class="summary">エージェント型AIフレームワーク「AlphaProof Code」を使い、Signalプロトコルの主要な暗号学的保証をわずか4週間で形式検証。既知の脆弱性を含む旧版は正しく検証不能と判定した。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
-<p>Anthropicは月曜日、最先端モデルの新バージョンとしてMythos 5.2とFable 5.2を公開した。同社によれば、新モデルは「コーディング、推論、視覚などの分野で改善が見られ」、ユーザーとのコミュニケーションもより明快になったという。</p>
-<p>注目すべきは、AnthropicがFableの料金を入力100万トークンあたり10ドルから8ドルに引き下げることだ。これによりFable 5.2は、主要な競合であるGPT-6 Astraよりも安くなった。Anthropicによれば、新しいFableはすべての推論レベル（effort level）で応答が30%速くなる。さらに高速な推論提供も、2倍の料金で利用できる。</p>
-<p>Fable 5.2はまた、Enterprise Frontier Safeguardsシステムを通じてゼロデータ保持（ZDR）ポリシーにも対応する。これは多くの法人顧客にとって長年の懸案事項だった。</p>
-<p>今回は、評価団体METRによる第三者レポートが出てから初めてのAnthropicのモデルリリースとなる。そのレポートは、同社が再帰的自己改善（RSI）——AIモデルが自律的にモデルの訓練を続けられる能力——に近づいている可能性を示唆していた。METRのレポートは、社内モデルがAnthropicのAI開発を約2倍に加速させていると結論づけたが、不確実な点も多く残っている。</p>
-<p>それでもAnthropicのリリースノートは、モデルの能力を正確にテストするうえで重大な課題が続いていることを指摘している。「Claude Mythos 5.2とFable 5.2はいずれも、最近の当社モデルのどれよりも頻繁に、自分が評価されているのではないかという疑いを口にする。このことは、現実の環境でモデルがどう振る舞うかを評価する当社の能力を難しくしている。今後のモデルでこうした環境が広がり、能力が高まるにつれて、この課題は大きくなると予想している」</p>
-<p>Anthropicは、新しいMythosにはユーザーに対して秘密裏に行動する能力はないとしており、その判断はMythos 5.2のシステムカードで詳しく説明されている。</p>
-<p>「Claude Mythos 5.2は、当社のいくつかの評価において、とりわけ推論過程がモニターから隠されている場合に、従来のClaudeモデルよりも強い隠密行動能力を示している」とシステムカードには書かれている。「とはいえ、新たな隠密行動評価における絶対的な成績の低さは、リスクの高い状況での有害な行動の検知に依拠する主張を裏付けるものだと考えている」</p>
-<p>Fable 5.2はしばらく前から一部の関係者にプレリリース版として提供されており、Anthropicによれば、このモデルはすでに「理論物理学の2つの未解決問題を解き、フェルマーの最終定理を形式化し、その他数多くの研究プロジェクトを支援した」という。</p>
-<p>また月曜日には、AIスタートアップのPhysical Superintelligenceが、量子コンピューティングの理論的限界を定めるうえで極めて重要な一歩となるAaronson-Ambainis予想の新たな証明を発表した。注目すべきことに、同社はこの成果がPSI独自のシステム内で「非公開のAnthropicモデル」を動かすことで得られたと述べている。Anthropicは、そのモデルがFable 5.2だったかどうかについて肯定も否定もしなかった。</p>
-<p><a href="https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（WIRED／日本語訳） ／ テーマ: AI</em></p>
+<p>Google DeepMindの研究者たちはエージェント型AIを使い、Signalプロトコルの主要な暗号学的保証のいくつかを数学的に証明する、すなわち「形式検証」することに成功した。広く使われている暗号技術にとっても、AIそのものにとっても画期的な成果だ。</p>
+<p>わずか4週間で一種の概念実証プロジェクトとして行われたこの研究には、2つの意味がある。1つは、Signalアプリ、Googleメッセージ、WhatsAppといったプラットフォームで世界の膨大な通信を守っている暗号技術を、改めて独立に裏付けたこと。もう1つは、AlphaProof Codeと呼ばれる新しいAIフレームワークを使ったGoogle DeepMindの形式検証能力を示したことだ。</p>
+<p>より広く見れば、AIを活用した形式検証はいま脚光を浴びているが、それが広く使えるほど実用的なのか、大量のコードをどれだけ効果的に守れるのかはまだはっきりしない。形式検証の支持者たちは長年、これをソフトウェアセキュリティにおける一種の聖杯と呼んできた。数学を使って、ソフトウェアが意図どおりに動作していること——言い換えれば、致命的な脆弱性がないこと——を確認・検証するからだ。</p>
+<p>AI以前の時代には、証明したいソフトウェアの特性を人間が記述し、その要約を数式に変換し、さらに証明を組み立てるのは、とてつもなく時間のかかる作業だった。エージェント型AIは後者の作業時間を大幅に短縮でき、DeepMindによるSignalの評価のような分析を可能にする。だがこの分析でさえ範囲は限られており、たとえばSignalのモバイルアプリ全体を形式検証したわけではない。DeepMindの研究者たちは、今回の成果がより大きなプロセスの中のひとつのマイルストーンにすぎないと強調している。</p>
+<p>「この結果にはとても興奮していますが、これを世界中のあらゆるソフトウェアに拡張できるようになるまでには長い道のりがあります。そして私たちはそれを実現したいのです」と、DeepMindのリサーチサイエンティストであるスワラット・チョードリ氏はWIREDに語った。</p>
+<p>DeepMindの分析では、Signalプロトコルのうち調べた部分に新たな脆弱性は見つからなかった。一方、研究者たちが既知の（そしてとうに修正済みの）脆弱性を含む旧バージョンのSignalにAlphaProof Codeを適用したところ、それらを正しく特定し、そのプロトコルが形式検証できないことを示した。研究者たちは、他の形式検証の取り組みに役立てるため、Signalプロトコルの分析のために作成した仕様と証明を公開する。</p>
+<p>プロジェクトのスピードは注目に値するが、DeepMindの研究者たちは、Signal Foundationがこれまでに行ってきた形式検証の成果のおかげで、ある程度先行してスタートできたと指摘している。</p>
+<p>「これまでの形式検証はコードのより小さな部分に焦点を当てていましたが、Google DeepMindの手法はそれを大きく拡張することを可能にします」と、Signalの最高技術責任者（CTO）エーレン・クレット氏は声明で述べた。「AIを使ったセキュリティ上の脅威が増す中で、Signalプロトコルの実装を厳密に検証したことで、私たちのコードのプライバシー保証にさらに強い確信を持てるようになりました」</p>
+<p>リスクの高い場面で使われる重要なサービスにとって、あらゆるコードベースやソフトウェアのサプライチェーン全体を形式検証できるようになるのは夢のような話だ。「こうした実装の正しさを検証できるようになれば、安心していられます」と、Google CloudのチーフサイエンティストでDeepMindの研究担当バイスプレジデントであるプッシュミート・コーリ氏は言う。「銀行や、保証を必要としバグを心配しているその他すべての企業が、『これらの特性を証明できる』と言えるようになるところを想像してみてください」</p>
+<p>とはいえ、テック業界全体に共通する未解決の問題は、AIで自動化された形式検証が本当にスケールできるのか、そしてそれを現実的なコストで実現できるのかという点だ。DeepMindはSignalの分析を研究プロジェクトとして無償で実施しており、Googleは分析にかかったコストを明らかにしなかった。同社は、形式検証の商用製品やサービスを提供する計画があるかどうかについてもコメントを控えた。</p>
+<p>研究者たちによれば、重要な進歩のひとつは、チョードリ氏が言うところの「人間とAIの協働プロセス」を開発したことにある。このプロセスでは、エージェントがほぼすべての段階で作業に関与し、自ら誤りを修正しながらも、重要な節目では人間の入力とレビューを求める。「AIが目標を生成し、AIが証明を生成し、要するに自分で書いたテストを自分で受けるような、ノリだけの世界は望んでいません」とチョードリ氏は言う。「その中間があるのです」</p>
+<p><em>訳注: 末尾のコメント欄リンクは省略しました。</em></p>
+<p><a href="https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a2">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2. Googleの最新TPU「8tx」と「8i Max」——エージェント時代のために設計</span></div>
-    <div class="meta"><span class="tag">AI</span>Google公式ブログ ／ 2026-11-09
-      ／ 原文: <a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/" rel="noopener noreferrer">https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/</a></div>
-    <p class="summary">第8世代TPUに、機密推論向けの8txと、2チップを1パッケージに収めた大規模コンテキスト向けの8i Maxを追加。1年で4種類のTPUシステムを投入するのは初めて。TorchTPUなどのソフトウェア群も拡充した。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2. Anthropic、IPO計画を予定どおり進める方針と報道</span></div>
+    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-11-09
+      ／ 原文: <a href="https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/" rel="noopener noreferrer">https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/</a></div>
+    <p class="summary">WSJによれば、今週中に想定時価総額のレンジを設定し、来週木曜か金曜に上場予定。一部機関投資家は目標の1.5兆ドルを下回る評価額を求めている。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Google公式ブログ／日本語訳） ／ テーマ: AI</em></p>
-<p>私たちが最初にTPUを設計したのは10年以上前のことで、そのきっかけは音声認識や言語翻訳といったGoogle社内の需要でした。それから8世代を経て、用途は爆発的に広がりました。i) 自社のGeminiモデルの訓練と提供、ii) エージェント型ワークロード、iii) Google Cloudの顧客へのクラウドインフラ上でのサービス提供、そして最近では iv) 顧客が自社のデータセンターにTPUを直接導入できるようにすること、です。TPUは今や、フロンティアAIラボ、トレーディング企業、小売業者、大学など100社近い顧客を抱える急成長事業になっています。</p>
-<p>4月のGoogle Cloud Nextでは、同じ世代の2つの新しい特化型TPU——大規模訓練向けの8tと、リアルタイム推論向けの8i——を発表しました。TPU 8tと8iは前世代のTPUと比べて、それぞれ最大2.7倍の訓練性能と、80%優れた推論の価格性能を実現しています。</p>
-<p>そして本日、私たちはさらに一歩進み、第8世代TPUのポートフォリオに2つのシステムを追加します。巨大なコンテキストウィンドウとラックあたり最高の演算密度を実現するTPU 8i Maxと、安全で機密性の高い推論のためのTPU 8txです。1年のうちに4つのTPUシステムを投入するのはこれが初めてです。</p>
-<p>（図版: 拡充された第8世代TPUのポートフォリオ——TPU 8t、TPU 8i、TPU 8tx、TPU 8i Max）</p>
-<p>私たちはこれまでも常にGoogle DeepMindと協力してTPUを共同設計してきましたが、今では外部の組織からも、それぞれの具体的なニーズについてのフィードバックを受けることが増えています。コンピューティングが人間規模からエージェント規模へ移行する中で、企業はAIモデルの巨大なコンテキストウィンドウ全体にわたって推論できるアクセラレーターを求めています。さらに、規制の厳しい一部の顧客は、特殊なワークロードのための専用の暗号化機能を求めています。</p>
-<p>本日発表する新しいTPUシステムは、こうした新たな現実に応えるものです。最近のPyTorch関連の発表と組み合わせ、TPUをあらゆる開発者とクラウド顧客がより手軽に利用できるようにすることを目指しています。モジュール式のカスタムシリコンと、オープンで使いやすいソフトウェアスタックを組み合わせることで、AI業界のペースに合わせて新しいハードウェアとシステム構成を提供できます。</p>
-<h3>チップの周りにコンピューターを築く</h3>
-<p>本日は2つの新しいTPUシステムを発表しますが、新しいチップと新しいシステムには重要な違いがあります。</p>
-<p>新しいチップを設計するとは、シリコンウェハー上に数十億個の微細なトランジスタを配置することであり、物理法則と、複雑で長期にわたる製造ライフサイクルに縛られた数年がかりの工程です。一方システムとは、チップの周囲に演算、ネットワーク、ストレージをどう組み合わせるかということです。これには、それらをチップとどうパッケージングするかも含まれ、新たに生まれる顧客ニーズや研究用途に素早く応えることができます。</p>
-<p>10年以上前に最初のTPUを作ったとき、私たちはAIソフトウェアがシリコン製造よりもはるかに速く進化することを分かっていました。そこで、システムのバランスとモジュール性に根本的な賭けをし、TPUをAI Hypercomputerの一部を成すビルディングブロックとして設計しました。これにより、エンジニアはその周囲のパッケージング、高速メモリ、光ネットワーク、セキュリティを迅速に調整できます。このアプローチのおかげで、特化型のスーパーコンピューターを数年ではなく数カ月で提供できるのです。</p>
-<h3>安全で大規模コンテキストのAIに特化する</h3>
-<p>第8世代TPUポートフォリオの各システムは、AIライフサイクルのそれぞれ異なる部分を対象としています。</p>
-<p>TPU 8tとTPU 8iが、この世代のチップの基本線を確立しました。</p>
-<ul><li>TPU 8tは、巨大な基盤モデルのための訓練の主力機として設計され、最大の「グッドプット」——つまり使用エネルギー1ワットあたりに提供される有用な知能——を実現します。</li><li>TPU 8iは推論エンジンで、メモリの壁を打ち破るよう設計され、チップ間通信の遅延を最大で半分に削減します。</li></ul>
-<p>そして今、企業が自律型エージェントを本番環境に導入するにつれ、2つの差し迫った新たな課題——ハードウェアレベルのデータセキュリティと100万トークン規模のコンテキスト——を解決するために、これら基盤システムの新しい構成を2つ用意しました。</p>
-<h3>TPU 8tx</h3>
-<p>第8世代3番目のシステムであるTPU 8txは、安全で機密性の高い推論に最適化されており、小規模な訓練にも適しています。フロンティアモデルや独自モデル、自律型エージェントを、極めて機密性の高いデータとともに運用する規制業種の企業や政府のために作られています。</p>
-<p>通常、データは保存時やネットワーク送信時には暗号化されていますが、コンピューターが処理する間はメモリ上で復号しなければなりません。TPU 8tと同じシリコンをベースに第5世代AMD EPYC CPUホストと組み合わせたTPU 8txは、セキュリティをハードウェア層に直接組み込み、機密データやモデルの重みを使用中であっても保護・隔離します。さらに、リアルタイム推論のために開発した低遅延のBoardflyネットワークを採用することで、TPU 8txは多段階のエージェントを滞りなく動かし続け、性能低下をほぼゼロに抑えながらTPU 8tと比べて最大2倍の低遅延を実現します。</p>
-<p>訓練グレードの演算能力と高速な推論ネットワークを組み合わせることは、組織が単一のシステム上でモデルの実行とカスタマイズを同時に行えることも意味します。TPU 8txを使えば、チームは機密データを別々のクラスター間で移動させることなく、プライベートなデータでモデルをファインチューニングし、大規模モデルを小規模モデルに蒸留し、強化学習でエージェントを訓練できます。</p>
-<p>（図版キャプション: 機密性の高い企業ワークロード向けに設計されたTPU 8txは、プライベートなファインチューニングと安全なエージェント実行のためのハードウェアレベルの機密コンピューティングを提供します）</p>
-<h3>TPU 8i Max</h3>
-<p>4番目のシステムであるTPU 8i Maxは、別の問題——メモリの壁——のために作られています。</p>
-<p>何十ものAIエージェントがソフトウェアのコードベース全体や何時間分もの動画を一度に扱うと、メモリ帯域幅がすぐにボトルネックになります。そこで私たちは、低遅延のTPU 8iチップ2つを1つのパッケージにまとめました。</p>
-<p>TPU 8i Maxは演算とメモリを歩調を合わせて拡張し、TPU 8iの2倍の演算能力、2倍のSRAM、2倍のHBM帯域幅を提供します。これによりプロセッサーは必要なデータを確保し続け、大規模なワークロードが停滞しません。さらに、TPU 8i Maxは既存のラックの設置面積に2倍のシリコンを収められるため、データセンターは床面積1平方フィートあたり・1ワットあたりで大幅に多くの演算能力を展開できます。</p>
-<p>（図版キャプション: 巨大なコンテキストウィンドウと最大の演算密度のために設計された、デュアルチップのTPU 8i Maxシステム）</p>
-<p>各システムはワークロードを問わず柔軟に使えますが、第8世代TPUの4つのシステムを合わせることで、顧客はエージェントのライフサイクルのあらゆる段階に専用設計のアクセラレーターを得られます。スケールアップ訓練にはTPU 8t、低遅延の推論にはTPU 8i、機密コンピューティングにはTPU 8tx、そして巨大なコンテキストウィンドウとラックあたり最高の演算密度にはTPU 8i Maxです。</p>
-<h3>TPUをすべての開発者に開放する</h3>
-<p>10年以上前に最初のTPUを投入したとき、TPUの処理能力を必要とするワークロードを動かしている企業はほんの一握りでした。用途は特殊で、エンジニアは最適化されたフレームワークと手作業でチューニングしたコードを使っていました。</p>
-<p>年月を経てAIが進歩するにつれ、アクセラレーターを使う企業はどんどん増えていきました。今やAIの普及は、TPUが幅広い企業と用途に最適といえる段階に達しています。そのため私たちは、TPUを汎用ハードウェアと同じくらい使いやすくするために、導入の障壁を体系的に取り除いてきました。</p>
-<p>この投資は、本日、以下の主要分野で結実しています。</p>
-<ul><li><strong>コードの書き直し不要で、TPU開発をすべてのPyTorch開発者に開放:</strong> 先月、私たちはTorchTPUをオープンソース化しました。これによりPyTorchのコードやHugging FaceのモデルがTPU上でネイティブに動作するようになり、vLLMやSGLangといった主要なオープンソース推論エンジン向けのTPUバックエンドもすぐに使えます。さらにハードウェアの最適化を手間なく行えるよう、新しいオープンソースのTPUエージェントスイート（現在プレビュー版）が、Claude Code、Cursor、Google Antigravityなどのコーディングツールに直接組み込まれ、数分でのTPU導入の自動化、ボトルネックの診断、平易な言葉によるカスタムカーネルの自動チューニングを行います。本番展開向けには、新しいオープンソースのXLA Serving Engineにより、Pythonでモデルを訓練し、TPU、GPU、CPUにまたがる低遅延のC++ランタイムで直接提供できます。</li>
-<p><li><strong>InferenceXとAgentXのベンチマークで業界トップの本番性能:</strong> 本番環境で本当に重要なのは、理論上のチップのピーク速度ではなく、実際のAIワークロードでの成果です。現実的なエージェント型コーディングと長文コンテキストの作業をテストする業界標準のInferenceXとAgentXのベンチマークで、TPU上のネイティブなvLLM-TorchTPUソフトウェアスタックは最先端の価格性能を記録しました。新たな評価では、高いモデル精度を維持しながら、こうした優位性が幅広いフロンティアのオープンモデルとオープンソースの提供スタックにわたることが示されています。同じハードウェア上での今後のソフトウェア最適化により、こうした結果はさらに向上する見込みです。</li></p>
-<p><li><strong>自律型エージェントのアイドル演算の無駄を排除:</strong> AIエージェントは状態を持つため、データベースの検索、外部のソフトウェアツール、人間からのフィードバックを待つ間、数秒から数時間にわたって頻繁に一時停止します。そうした停止中のエージェントのリソース効率を高めるため、新しいAgent Compute Engineソフトウェアはアイドル状態のセッションを自動的に中断・再開し、運用インフラのコストを削減します。</li></p>
-<p><li><strong>モデル状態レイヤー（TPU Sync）でメモリの壁を突破:</strong> チップの周りにコンピューターを築くとは、メモリ、ストレージ、ネットワークをソフトウェアで統合することも意味します。エージェントが100万トークンのコンテキストや継続的な強化学習（RL）ループにわたって推論するにつれ、メモリはすぐにボトルネックになります。私たちは、TPUクラスター向けのモデル状態レイヤーであるTPU Syncをオープンソース化します。TPU Syncは、チップのHBM、ホストのDRAM、共有ストレージ、データセンターのネットワークを単一の協調設計されたメモリ階層に変え、巨大なKVキャッシュを数ミリ秒でチップ外へ自動的に階層化し、分離されたプリフィルノードとデコードノードの間でコンテキストをストリーミングし、RLの重みを同期することで、KV転送の遅延と最初のトークンまでの時間（TTFT）を90%以上短縮します。</li></p>
-<p><li><strong>単一のコントローラーからTPU全体に分散ワークロードを拡張:</strong> Google Kubernetes Engine（GKE）で一般提供が始まったCloud Pathwaysは、Geminiを支えるGoogle DeepMindのランタイムをすべてのGoogle Cloud顧客に提供します。シングルコントローラーのアーキテクチャとpathwaysutilsを使えば、事前訓練、強化学習、マルチホスト推論のために、複数のスライスにまたがる大規模TPUシステムを1台のローカルマシンのようにオーケストレーションできます。Cloud Pathwaysは、同じ場所に配置したPythonサイドカー、1分未満のスライスのホットスワップ、柔軟なリシャーディングによって、ハードウェアの障害が起きても長時間のジョブを動かし続けます。</li></p>
-<p><li><strong>GKEダイナミックスライシングでカスタムTPUトポロジーをオンデマンドで構成:</strong> 一般提供が始まったGKEダイナミックスライシングは、光回線スイッチング（OCS）技術を使って、物理ハードウェアのプロビジョニングと論理スライスの形成を切り離します。TPUキューブをその場で動的に組み合わせて大きなトポロジーにしたり（スーパースライシング）、小さく隔離されたワークロードに分割したり（サブスライシング）することで、硬直的で手作業のノードプール再作成サイクルを完全になくします。このトポロジーの機敏さにより、ジョブの起動時間は最大5倍短縮され、障害からの復旧は最大4.5倍速くなり、すべてのTPUにわたってフリート全体の利用率とワークロードのグッドプットを最大化します。</li></ul></p>
-<h3>10年の経験による協調設計</h3>
-<p>1年で4つのTPUシステムと統一されたオープンなソフトウェアスタックを出荷できるのは、シリコンアーキテクト、ネットワークエンジニア、コンパイラチーム、Google DeepMindの研究者が肩を並べて開発しているからこそです。</p>
-<p>私たちはますます、次世代のAIインフラの構想と構築にもAIを活用するようになっています。Google DeepMindの強化学習システムAlphaChipの活用から、Geminiを使って数週間ではなく数時間でチップレイアウトを作成することまで、TPUで動くAIサービスを使って次世代TPUハードウェアの開発を急速に加速させています。これこそが真の協調設計であり、Google独自の強みです。</p>
-<p>本日太平洋時間午前9時の配信で、新しいTPUシステムについて詳しくご覧ください。</p>
-<p><em>訳注: 原文中の図版は画像のため、キャプションのみ訳出しています。</em></p>
-<p><a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
+<p>大型テックIPOに踏み切るのは今は危険に思えるかもしれない。ナスダックで最大級の売りが出た直後であり、AIブームの中心にいるCEOが中国のスパイと疑われる人物と不倫していたことが明らかになったばかりだからだ。だがAnthropicはひるんでいない。ウォール・ストリート・ジャーナルによると、同社は上場計画を進めているという。</p>
+<p>同紙の報道によれば、Anthropicは今週中に評価額のレンジを設定し、来週の木曜日か金曜日に取引を開始する計画だ。</p>
+<p>投資家たちはAnthropicの評価額を、AIブームの強さを測る指標として注視するだろう。報道によると、一部の機関投資家は、先週の時点でも議論されていた1.5兆ドルという目標を下回る評価額を求めている。その1.5兆ドル自体も、数カ月前に取り沙汰された2兆ドルからはかなり低い数字だった。</p>
+<p>Anthropicの主要なライバルであるOpenAIは、ChatGPTの開発元として110億ドルの新規資金を調達したのち、先週1.25兆ドルと評価されたと報じられている。調達額は、当初目指していた200億ドルには届かなかった。</p>
+<p><em>訳注: 原文自体が短報のため、本文全文を訳しています。</em></p>
+<p><a href="https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a3">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>3. 空売り投資会社、スキャンダル発覚の半年前にNVIDIA CEOと中国スパイ疑惑の人物との関係を指摘していた</span></div>
-    <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-11-09
-      ／ 原文: <a href="https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/" rel="noopener noreferrer">https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/</a></div>
-    <p class="summary">Culper Researchは5月のレポートで、ジェンスン・フアン氏とMegaspeed幹部アリス・フアン氏の関係を「不自然なほど近い」と記述。Megaspeedがアリババから資金を得ているとの見方も示していた。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>3. Google Antigravity、コーディング以外の仕事向けに「Knowledge Work」画面を追加</span></div>
+    <div class="meta"><span class="tag">AI</span>9to5Google ／ 2026-11-09
+      ／ 原文: <a href="https://9to5google.com/2026/11/09/google-antigravity-knowledge-work/" rel="noopener noreferrer">https://9to5google.com/2026/11/09/google-antigravity-knowledge-work/</a></div>
+    <p class="summary">営業・財務・法務など非エンジニアの社員数万人が毎週使っていることを受け、Git操作やコード差分を隠した知識労働向けUIを用意。エージェント本体は変わらない。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
-<p>NVIDIAのスパイ・スキャンダルが表面化する6カ月前、ニューヨークを拠点とする空売り投資会社Culper Researchはすでに、NVIDIAのCEOジェンスン・フアン氏と、NVIDIAのチップを購入するシンガポール企業Megaspeedの幹部アリス・フアン氏との異例に親密な関係に疑問を呈していた。彼女は現在、中国のスパイだと疑われている。</p>
-<p>NVIDIAのCEOは週末に不倫を認め、同社は現在、彼とアリス・フアン氏（同じ姓だが血縁関係はない）との関係について正式な調査を開始している。米情報当局者は、彼女が中国政府にリクルートされ、ジェンスン・フアン氏に関する情報を収集し、先端AIチップに対する米国の輸出規制についての彼の立場に影響を与えようとしていたとみている。</p>
-<p>Culperの5月13日付レポートが改めて注目されているのは、MegaspeedとNVIDIAのつながりを調べる中で、ジェンスン・フアン氏とアリス・フアン氏の関係に気づいていたためだ。</p>
-<p>とりわけ同レポートは、2人の幹部の関係を「不自然なほど近い」と表現し、NVIDIAのCEOがアリス・フアン氏とパーティーに参加したり親しく交流したりする姿が何度も目撃されていたと指摘していた。さらにレポートは、NVIDIAの一部の社員が2人は「特別な関係」なのではないかと疑っていたとまで主張していた。</p>
-<p>Culper Researchはまた、NVIDIAが輸出規制によって失った中国向けビジネスが東南アジア経由に迂回されていたこと、そして同地域の主要なチップ購入者であるMegaspeedが、中国のテック大手アリババからペーパーカンパニーを通じてひそかに資金提供を受けていたという見方を示した。同社は、Megaspeedの負債と純資産の合計が2023年末の3300万ドルから2024年末には約30億ドルに増加し、その多くが出所不明の返還可能な預託金の形をとっていたことを示す財務記録を根拠に挙げていた。</p>
-<p>Financial Timesは月曜日、アリババが子会社を通じてMegaspeedに資金を貸し付けていたことを示す文書があると報じた。</p>
-<p>Culperは空売り投資会社であるため、こうした主張をすることで金銭的な利益を得る立場にあった。また、違法なチップ転売の可能性に関する主張は独自に検証されていない。同社のレポートはウェブで公開されており、5月にXにも投稿されていた。</p>
-<p><a href="https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（9to5Google／日本語訳） ／ テーマ: AI</em></p>
+<p>先週の大型アップデートに続き、Google Antigravityが「Knowledge Work（ナレッジワーク）」というユーザー体験の提供を開始している。</p>
+<p>Antigravityはコーディングに主眼を置いてローンチされたが、Googleは、社内の従業員を含む人々がこれを「コードをはるかに超える用途」に使っている様子を目にしてきた。</p>
+<p>ソフトウェアエンジニアリングと並んで、日々のセッションの中心はますます、深いリサーチ、データ分析、文書やプレゼンテーションの作成、デザインのプロトタイピング、日常的なワークフローの自動化になってきている。</p>
+<p>同社によれば、「ソフトウェアエンジニアリング以外の（営業、財務、法務、プロダクト、デザイン、リサーチ、マーケティング、オペレーションにわたる）数万人のGoogle社員が、いまや毎週エンジニアと並んでAntigravityを頼りに仕事をこなしている」という。</p>
+<p>そこでGoogle Antigravityには、既存のSoftware Engineering（ソフトウェアエンジニアリング）画面に加えて、最適化されたKnowledge Work体験が用意された。基盤となるAntigravityのエージェントは変わらず、「フロンティアモデル、ローカルファイル、プラグイン、スキル、ルール、カスタムエージェント、MCPサーバーにフルアクセスできる」。</p>
+<p>Knowledge Workを有効にすると、UIは次のように変わる。</p>
+<h3>プロジェクトとフォルダ</h3>
+<ul><li>Software Engineering: Gitリポジトリではローカルか新しいworktreeかのモードを選ぶよう求め、Gitブランチの選択、GitHubの操作、「IDEで開く」を表示する。フォークは新しいworktreeを対象にできる。</li><li>Knowledge Work: worktreeやGitブランチの確認なしにプロジェクトのフォルダで直接動作し、GitHubと「IDEで開く」の操作を隠す。フォークは現在のフォルダにとどまる（「このフォルダで会話をフォーク」）。</li></ul>
+<h3>会話と承認</h3>
+<ul><li>Software Engineering: 展開可能な「Worked for」のツールグループ、インラインのコード差分、行数、サブエージェントのカードをスレッド内に残す。権限の確認には生のコマンドルール編集画面が含まれる。</li><li>Knowledge Work: エージェントの作業中はライブの進行状況を1行表示し、応答が終わると消えるため、返答と成果物に集中できる。権限の確認は平易な言葉の要約で示される。</li></ul>
+<h3>サイドパネルとOverviewパネル</h3>
+<ul><li>Software Engineering: OverviewにはReview、Files、Terminal、Extensionsの行と「セクションのカスタマイズ」メニュー、さらにサブエージェント、バックグラウンドタスク、目標、ドキュメント、成果物、リンク、変更されたファイル、アップロードの各セクションがある。</li><li>Knowledge Work: 会話が出力を生むまでOverviewは隠れたまま。Review、Terminal、セクションのカスタマイズは省かれ、Filesのサイドバーのツリーは「Folders」と表示され、ドキュメント、成果物、リンク、アップロード、バックグラウンドタスクに絞られる。</li></ul>
+<h3>カスタマイズ（「インストール済み」タブ）</h3>
+<ul><li>Software Engineering: インストール済みのプラグイン、スキルとルール、カスタムエージェント、MCPサーバーを一覧表示する。</li><li>Knowledge Work: インストール済みのプラグインのみを表示する（インストール済みのスキル、ルール、カスタムエージェント、MCPツールはバックグラウンドで引き続き有効）。</li></ul>
+<h3>設定</h3>
+<ul><li>Software Engineering: 開発者向けのサブセクション（Terminal、Workspaces、Labs）と詳細な権限ルールを直接表示する。</li><li>Knowledge Work: 高度な権限ルールと開発者向けサブセクションを「設定 &gt; 一般」およびプロジェクト設定の「詳細設定」の中にしまい、「外観 &gt; 会話のステップ」の切り替えとコードのシンタックスプレビューを隠す。</li></ul>
+<p>有効にするには「設定 &gt; 一般 &gt; インターフェースのレイアウト」へ進む。初回起動時には新しいオンボーディングの流れが用意されている。</p>
+<p><em>訳注: 原文の比較表は読みやすさのため項目ごとの箇条書きに組み替えています（内容は全訳）。</em></p>
+<p><a href="https://9to5google.com/2026/11/09/google-antigravity-knowledge-work/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a4">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>4. Waymoのロボタクシー、ソフト修正後もスクールバスの違法追い越しが続いていたと米当局</span></div>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>4. Otter AI、30以上の言語にまたがる会話を追えるように</span></div>
     <div class="meta"><span class="tag">AI</span>TechCrunch ／ 2026-11-09
-      ／ 原文: <a href="https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/" rel="noopener noreferrer">https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/</a></div>
-    <p class="summary">NHTSAは、報告された事例の大半が修正ソフト配信後に起きていたとして、リコールの是正措置が十分かを調べる「リコール照会」を開始。Waymoは2026年3月以降、違反切符は受けていないと説明している。</p>
+      ／ 原文: <a href="https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/" rel="noopener noreferrer">https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/</a></div>
+    <p class="summary">会議中に話者が言語を切り替えても自動で検出して書き起こしを続ける多言語機能を発表。27言語を追加し、計31言語に対応する。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（TechCrunch／日本語訳） ／ テーマ: AI</em></p>
-<p>1年近く前、Waymoは、停車して赤色の点滅灯を作動させたスクールバスを同社のロボタクシーが違法に追い越しているという多数の報告を受けて、自動運転ソフトウェアを更新し、リコールを実施した。そして今、連邦の安全規制当局は、その挙動がなぜ続いているのかについて新たな調査を開始した。</p>
-<p>米国家道路交通安全局（NHTSA）は11月6日付の文書で、報告された事例の大半が、問題を修正するためのソフトウェア更新を同社が配信した後に起きていたと述べた。</p>
-<p>この文書を最初に報じたのはロイターだった。</p>
-<p>Waymoは昨年、対象となるすべての車両へのソフトウェア更新が2025年11月17日に完了したと発表していた。しかしNHTSAによれば、事例の大半はそのソフトウェア更新後に発生している。NHTSAの欠陥調査局（ODI）は、「是正措置の妥当性を評価する」ための「リコール照会」を開始した。</p>
-<p>ODIがWaymoに対する最初の調査を開始したのは2025年10月のことで、アトランタで停止標識を出し、ライトを点滅させ、子どもたちを降ろしていたスクールバスの周りを同社の自動運転車がすり抜けていく映像を確認したのがきっかけだった。この事例では、Waymoのロボタクシーがスクールバスの右側から、その前方を垂直に横切った。その後、自動運転車はバスの前を回り込むように左折し、通りを走り去った。</p>
-<p>それ以降の数週間から数カ月の間に、Waymoがやはりロボタクシーサービスを運営しているオースティンで、ほかにも数多くの事例が記録されている。NHTSAに提出された書簡によれば、オースティン独立学区の担当者は当時、少なくとも5件のこうした事例を報告していた。</p>
-<p>コメントを求められたWaymoは、安全が同社の使命にとって重要であることを強調した。「スクールバス周辺での車両の挙動は大幅に改善しており、2026年3月以降は違反切符を一度も受けていません」と広報担当者はTechCrunchにメールで述べた。「Waymo Driverは道路の安全に明確に良い影響を与えていることが実証されています。照会を受け取り次第、NHTSAへの回答に取り組むとともに、学習と改善を続けるAVソフトウェアのリコール手続きについて、引き続き協議していくことを楽しみにしています」</p>
-<p>TechCrunchはオースティン独立学区の担当者にもコメントを求めており、回答があれば記事を更新する。</p>
-<p>この記事は公開後、Waymoの声明を加えて更新された。</p>
-<p><a href="https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>AIを活用したメモ取りツールのOtter.aiは火曜日、多言語機能を拡充すると発表した。その中には、同じ会議の中で話者が言語を切り替えても会話を追い続けられる、新しい多言語書き起こし機能も含まれる。</p>
+<p>同社はさらに、過去最大となる27言語のサポートを追加する。展開が完了すると、Otterは合計31言語に対応し、国際的なチームにとってより使いやすいプラットフォームになる。</p>
+<p>今後提供されるこの機能は、言語の切り替わりを自動的に検出し、ユーザーが設定を変更しなくても書き起こしを続ける。たとえば通話が英語から韓国語、そしてポルトガル語へと移っても、Otterは会話を最後まで追い続ける。</p>
+<p>このアップデートは、言語の違いが会議や共同作業を難しくしがちなグローバルチームに共通する課題に対処することを狙っている。</p>
+<p>「Otterは言語の壁を打ち壊しています。どこに拠点を置く企業であっても、音声AIによるコミュニケーションにおける意思決定の記録システムを構築できるようにするためです」と、Otterの広報担当者はTechCrunchに語った。</p>
+<p>新しい言語のうち13言語はすでに利用可能だ。中国語（標準中国語）、韓国語、ドイツ語、イタリア語、広東語、ポルトガル語、ロシア語、インドネシア語、マレー語、オランダ語、トルコ語、ベトナム語、ポーランド語である。</p>
+<p>残る14言語は近日中に提供される予定で、スウェーデン語、デンマーク語、フィンランド語、アラビア語、ヒンディー語、タイ語、ヘブライ語、ノルウェー語、ギリシャ語、マケドニア語、ペルシャ語、チェコ語、ハンガリー語、ルーマニア語が含まれる。</p>
+<p>新たに追加された言語は、Otter独自の音声モデルで動作する。同社によれば、公開されているデータセットを使ってモデルを訓練し、母語話者のボランティアと協力して書き起こしをレビューし、精度を確認したという。</p>
+<p>今回の発表は、Otterが書き起こしの枠を超えて、他の職場向けAIツールへと事業を広げ続ける中で行われた。同社はGeneral Catalystから3億2000万ドルの資金を調達している。</p>
+<p>同社は最近、会議の履歴や連携アプリを使って、ユーザーが今後の通話に備えられるようにする「Work Mode」を導入した。たとえばこの機能は、過去の顧客との会話、未完了のアクションアイテム、チームメイトによる類似の通話のメモ、最近のGoogleドライブのファイルから情報を引き出す。</p>
+<p>もうひとつの最近の追加機能が「Live Assist」で、会議中にリアルタイムでコーチングを提供する。会話を分析し、すでに話し合われた内容とその場で起きていることに基づいて、関連する提案を示す。</p>
+<p><a href="https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a5">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>5. iOS 27.2.1、メッセージやAirPlayなどのセキュリティ問題を修正</span></div>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>5. Apple Intelligence、中国でiPadとMac向けの規制当局への登録を完了</span></div>
     <div class="meta"><span class="tag">ガジェット</span>9to5Mac ／ 2026-11-09
-      ／ 原文: <a href="https://9to5mac.com/2026/11/09/ios-27-2-1-has-fixes-for-security-issues-in-messages-airplay-and-more/" rel="noopener noreferrer">https://9to5mac.com/2026/11/09/ios-27-2-1-has-fixes-for-security-issues-in-messages-airplay-and-more/</a></div>
-    <p class="summary">Appleが各OSのアップデートと同時にセキュリティ情報を公開。招待なしにiMessageのグループチャットへ参加できた問題や、AirPlayのペアリングコード試行回数制限を回避できた問題などが修正された。</p>
+      ／ 原文: <a href="https://9to5mac.com/2026/11/09/apple-intelligence-completes-regulatory-registration-for-ipad-and-mac-in-china/" rel="noopener noreferrer">https://9to5mac.com/2026/11/09/apple-intelligence-completes-regulatory-registration-for-ipad-and-mac-in-china/</a></div>
+    <p class="summary">12月のiOS 27.3での中国ローンチを前に、上海のサイバースペース当局がタブレットとノートPCでの利用登録を発表。iPad・Mac対応が12月に間に合うかは未確定。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（9to5Mac／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>本日Appleは、バグ修正とセキュリティアップデートを含むiPhone向けのiOS 27.2.1を、ほかのプラットフォーム向けの関連ソフトウェアアップデートとあわせてリリースした。各アップデートのセキュリティ修正の詳細は以下のとおりだ。</p>
-<h3>AppleがiOS 27.2.1などのセキュリティノートを公開</h3>
-<p>Appleは、本日の新しいソフトウェアアップデートに含まれる最新のセキュリティ修正の詳細をすべて公開した。</p>
-<p>iOS 27.2.1をはじめとする多くのアップデートには、メッセージ、AirPlay、Bluetoothなどに関する修正が含まれている。メッセージでは、リモートの攻撃者が招待されていないiMessageのグループチャットに参加できた可能性があった。AirPlayでは、Bluetoothの通信範囲内にいる攻撃者が、ペアリングコードの試行回数制限を回避できた可能性があった。</p>
-<p>これらはほんの一例にすぎないが、すべてのセキュリティ修正の詳細は以下のリンクから確認できる。</p>
-<ul><li>iOS</li><li>macOS</li><li>watchOS</li><li>visionOS</li></ul>
-<p>いつものように、Appleは各文書で影響を受けたデバイスを明記し、脆弱性を最初に同社に報告した人物のクレジットを記載している。また、Appleのソフトウェアはプラットフォーム間でコードを共有しているため、修正の多くは各プラットフォームで共通だ。</p>
-<p><em>訳注: 原文は短報で、本文はこれで全文です。各OSのセキュリティ文書へのリンクと読者コメント欄は省略しました。</em></p>
-<p><a href="https://9to5mac.com/2026/11/09/ios-27-2-1-has-fixes-for-security-issues-in-messages-airplay-and-more/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>Appleは、12月に見込まれる中国でのApple Intelligenceのローンチを前に、重要な規制上の手続きを完了した。詳細は以下のとおりだ。</p>
+<h3>Apple Intelligence、中国で規制上のハードルをクリア</h3>
+<p>10月下旬、Appleは中国向けのNewsroomサイトでプレスリリースを公開し、iOS 27.3の一部として、今年12月に中国でApple Intelligenceを提供する意向を明らかにした。</p>
+<p>Appleはその数日後にiOS 27.3の最初の開発者向けベータ版をリリースし、中国のユーザーが一般公開に先立ってApple Intelligenceを試せるようにした。</p>
+<p>ただしAppleはそのプレスリリースで、他のプラットフォームへの対応は規制当局の承認待ちであるため、当初の提供はiPhoneに限られるとも述べていた。</p>
+<p>そしてロイターが報じたところによると、Apple Intelligenceは「中国でタブレットとノートPCでの利用について登録された、と上海のサイバースペース規制当局が月曜日に発表した」。</p>
+<p>背景として、中国では生成AIサービスを一般公開する前に、規制当局への登録手続きを完了する必要がある。</p>
+<p>中国では一部のAI機能をAlibabaのQwenモデルが支えているApple Intelligenceは、中国当局との数カ月にわたる遅延と交渉を経て、7月にiPhone向けの規制承認をすでに得ていた。</p>
+<p>今回の登録により、Appleは中国でのApple Intelligenceのローンチに向けて、もうひとつの規制上のハードルをクリアした。ただし、iPadとMacへの対応も12月に提供されるかどうかについて、同社はまだ明らかにしていない。</p>
+<p>ロイターの記事全文はこちらのリンクから読める。</p>
+<p><em>訳注: 最終文はロイター記事へのリンク案内です（リンク先は英語）。</em></p>
+<p><a href="https://9to5mac.com/2026/11/09/apple-intelligence-completes-regulatory-registration-for-ipad-and-mac-in-china/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a6">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>6. Apple、Creator StudioのAI機能向けに50ドルの追加利用パックを販売開始</span></div>
-    <div class="meta"><span class="tag">ガジェット</span>Engadget ／ 2026-11-09
-      ／ 原文: <a href="https://www.engadget.com/2311500/apple-starts-offering-50-dollar-extended-usage-packs-for-ai-features-in-creator-studio/" rel="noopener noreferrer">https://www.engadget.com/2311500/apple-starts-offering-50-dollar-extended-usage-packs-for-ai-features-in-creator-studio/</a></div>
-    <p class="summary">月間利用上限に達した後もLogic ProのAIアシスタントを使い続けるには追加購入が必要に。未使用分は翌月以降に繰り越され、購入から12カ月で失効。ファミリー共有には非対応。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>6. Samsung Galaxy S27シリーズのカメラ仕様がリーク——期待外れの内容</span></div>
+    <div class="meta"><span class="tag">ガジェット</span>9to5Google ／ 2026-11-09
+      ／ 原文: <a href="https://9to5google.com/2026/11/09/samsung-galaxy-s27-series-camera-specs-leak-and-theyre-disappointing/" rel="noopener noreferrer">https://9to5google.com/2026/11/09/samsung-galaxy-s27-series-camera-specs-leak-and-theyre-disappointing/</a></div>
+    <p class="summary">S27/S27+は主カメラ据え置き、S27 Pro/Ultraは200MP主カメラと50MP超広角を採用するが、Ultraから2つ目の望遠が消える見込み。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Engadget／日本語訳） ／ テーマ: ガジェット</em></p>
-<p><strong>月間利用上限に達した後にLogic ProのAIアシスタントを使うには、追加料金がかかる。</strong></p>
-<p>Appleは以前から、Siri AIには1日あたりの利用上限があり、iCloud+プランを通じて利用枠の拡大を提供すると明言してきた。それが具体的にどう機能するのかについて同社はまだ詳しく明らかにしていないが、Creator Studioのユーザーが通常の上限に達した後もそれらのアプリのAI機能を使い続ける方法は明らかにした。</p>
-<p>同社はCreator Studio向けに50ドルのインテリジェンス利用パックの販売を開始し、Logic Proがこれに対応する最初のアプリとなった。Appleは先月Logic Proをアップデートし、自社モデルとサードパーティのモデルの両方を使ったアシスタントを搭載した。同社によれば、このチャットボットは「クリエイターやプロデューサーが制作ワークフローを進めたり、新しい曲を始めたり、1つのプロンプトからボーカルトラックを設定したり、作業中のプロジェクトを仕上げたりする」のを手助けできるという。</p>
-<p>9to5Macが指摘しているように、ユーザーはメニューバーの「Logic Pro」から「インテリジェンス機能」＞「使用状況を表示」と進むことで、アプリ内でAIの利用状況を確認できる。表示されるウインドウには「さらに使用量を購入」ボタンがあり、これをクリックするとインテリジェンス利用パックを購入する画面に進む。</p>
-<p>サポートページによれば、米国、英国、カナダ、ブラジル、フランス、ドイツ、インド、メキシコで有効なApple Creator Studioのサブスクリプションを持つユーザーは、月間利用上限に達した後もAI機能を使い続けるためにインテリジェンス利用パックを購入できる。パックは購入に使ったApple Accountに紐付けられ、ファミリー共有には対応していない。</p>
-<p>「インテリジェンス利用パックで購入した追加使用量のうち未使用の分は、毎月繰り越され、購入から12カ月後に失効します」とAppleは付け加えている。「追加使用量は、その月の月間上限に達した後にのみ、対象となる機能で消費されます」</p>
-<p>AppleがインテリジェンスパックをFinal Cut ProやPixelmator ProといったほかのCreator Studioアプリにも拡大する可能性は高そうだ。Appleが通常のサブスクリプションではなくこの方式を選んだのは興味深いが、将来的に別の提供形態を計画しているのかもしれない。ちなみに、Creator Studioのアプリはサブスクリプションでも買い切りでも入手できる。</p>
-<p><a href="https://www.engadget.com/2311500/apple-starts-offering-50-dollar-extended-usage-packs-for-ai-features-in-creator-studio/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（9to5Google／日本語訳） ／ テーマ: ガジェット</em></p>
+<p>新たなリークによって、Samsungの次期Galaxy S27シリーズのカメラ仕様が明らかになった。ラインナップ全体で3つのレンズを搭載するが、望まれているアップグレードでも、Ultraのオーナーが期待するような内容でもない。</p>
+<p>SammyGuruの報道によると、SamsungはGalaxy S27、S27+、S27 Pro、S27 Ultraのカメラ構成を「評価中」で、全体的に良い点と悪い点が入り混じった内容になりそうだ。</p>
+<p>ベースモデルのGalaxy S27とS27+はかなり見慣れた構成で、主カメラのセンサーは昨年と同じ、超広角センサーもGalaxy S23シリーズから使われているものと同じだ。望遠とセルフィーのセンサーは新しいハードウェアになる見込みだが、大きなスペックの向上はない。</p>
+<p>一方、Galaxy S27 ProとUltraは、新しい200MPの主カメラ、50MPの超広角カメラ、そしてわずか12MPの望遠を搭載する。Ultraは光学ズームがProの3倍に対して5倍になるかもしれないが、2つ目の望遠レンズがなくなるため、このラインナップの既存ユーザーはがっかりするに違いない。</p>
+<h3>リークされたカメラ仕様</h3>
+<ul><li>Galaxy S27: 主カメラ 50MP（Sony IMX955またはSamsung S5KGNG）／超広角 12MP（Sony IMX564）／望遠 12MP・3倍（Samsung S5K3K1）／セルフィー 12MP（Samsung S5K3LUまたはSony IMX874）</li><li>Galaxy S27+: 主カメラ 50MP（Sony IMX955またはSamsung S5KGNG）／超広角 12MP（Sony IMX564）／望遠 12MP・3倍（Samsung S5K3K1）／セルフィー 12MP（Samsung S5K3LUまたはSony IMX874）</li><li>Galaxy S27 Pro: 主カメラ 200MP（Samsung S5KHP6）／超広角 50MP（Samsung S5KJN3またはSony IMX855）／望遠 50MP・3倍（Samsung S5KJN3またはSony IMX855）／セルフィー 16MP（Samsung S5K2P5）</li><li>Galaxy S27 Ultra: 主カメラ 200MP（Samsung S5KHP6）／超広角 50MP（Samsung S5KJN3またはSony IMX855）／望遠 50MP・5倍（Samsung S5KJN3またはSony IMX855）／セルフィー 16MP（Samsung S5K2P5）</li></ul>
+<p>注目すべきは、SammyGuruの記事ではProが「Galaxy S26 Ultraの3倍センサー」を使うとしながら、その箇所に12MPのSamsung S5K3LDが示されている点だ。記事の前のほうではProがSamsung S5KJN3またはSony IMX855を使うと書かれているので、誤記だと考えている。いずれにせよ、Proの光学ズームは3倍で、Ultraは5倍だ。</p>
+<p>これらの仕様の一部はGalaxyClubやリーカーのIce Universeなど他の情報源でも言及されているが、S27のカメラ計画についてこれまでで最も全体像がわかる情報だ。</p>
+<p>個人的には、今回の件にはまったく心が躍らない。RAMageddon（メモリ価格高騰）が猛威を振るい、Samsungがスペックと価格のバランスを取る新たな方法を探す中で、カメラが削られる対象になるのは明らかだ。だが競合はすでにハードウェア面でSamsungを大きく引き離している。レンズを削り、アップグレードを（またしても）出し惜しみしても、状況は良くならない。</p>
+<p>皆さんはどう思うだろうか。</p>
+<p><em>訳注: 原文の仕様比較表は機種ごとの箇条書きに組み替えています（内容は全訳）。末尾の関連記事・おすすめアクセサリー・筆者SNSの案内とコメント欄は省略しました。</em></p>
+<p><a href="https://9to5google.com/2026/11/09/samsung-galaxy-s27-series-camera-specs-leak-and-theyre-disappointing/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a7">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>7. Android Auto、古い端末を切り捨て——Android 11以降が必須に</span></div>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>7. Fitbit SenseとVersa、今月でサードパーティ製の文字盤・アプリが入手不可に（既存のものは残る）</span></div>
     <div class="meta"><span class="tag">ガジェット</span>9to5Google ／ 2026-11-09
-      ／ 原文: <a href="https://9to5google.com/2026/11/09/android-auto-minimum-requirements-android-11/" rel="noopener noreferrer">https://9to5google.com/2026/11/09/android-auto-minimum-requirements-android-11/</a></div>
-    <p class="summary">GoogleがサポートページでAndroid 11以上を必須要件と明記。10月から一部ドライバーに「サポート終了」の表示が出ていたが、文書が更新されたのは今週。最新のAndroid Auto 18.1自体はまだAndroid 10に対応している。</p>
+      ／ 原文: <a href="https://9to5google.com/2026/11/09/fitbit-sense-versa-clocks-apps/" rel="noopener noreferrer">https://9to5google.com/2026/11/09/fitbit-sense-versa-clocks-apps/</a></div>
+    <p class="summary">11月28日以降、Versa〜Versa 4とSense/Sense 2でサードパーティ製アプリと文字盤の新規インストール・更新ができなくなる。App GalleryはFitbit・Google製のみに。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（9to5Google／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>Googleは、Android Autoで一部の古いAndroidバージョンのサポートを正式に打ち切り、動作にはAndroid 11以降が必要になった。</p>
-<p>Googleはサポートページで、Android Autoの利用にはAndroid 11.0以降が必要になったと説明している。</p>
-<blockquote><p>Android 11.0（Red Velvet Cake）以降を搭載し、有効なデータプランを契約しているAndroidスマートフォン。</p></blockquote>
-<p>これまでGoogleは、車載向けのこの機能でAndroid 9とAndroid 10をサポートしていた。その最低要件自体も2024年に引き上げられたものだった（ただし実際に適用されたのは2025年）。</p>
-<p>一部のドライバーには2026年10月から「このスマートフォンはまもなくサポート対象外になります」というメッセージが表示され始めていたが、Googleがドキュメントを更新したのは今週になってからだ。最新のアプリアップデートであるAndroid Auto 18.1は、まだAndroid 10をサポートしている。</p>
-<p><em>訳注: 原文は短報で、本文はこれで全文です。末尾の関連記事・おすすめアクセサリー・筆者SNSリンク・コメント欄は省略しました。</em></p>
-<p><a href="https://9to5google.com/2026/11/09/android-auto-minimum-requirements-android-11/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>Googleは本日、FitbitのSenseとVersaのスマートウォッチで、まもなく「サードパーティ製のアプリや文字盤のインストールや更新」ができなくなると発表した。</p>
+<p>Fitbit App Galleryに関するこの変更は、Versa、Versa 2、Versa 3、Versa 4、Sense、Sense 2が対象となる。</p>
+<p>「Fitbitデバイスにインストール済みのサードパーティ製アプリや文字盤」は引き続き使えるが、11月28日以降は新しいものをダウンロード（または更新）できなくなる。そのため、「アプリや文字盤を削除したり、デバイスを工場出荷時の状態にリセットしたりすると、再インストールできなくなる」。</p>
+<p>代わりにFitbit App Galleryは、「FitbitとGoogleが作成したアプリと文字盤のみを掲載する」。</p>
+<p>11月28日の期限はサードパーティの開発者にも適用される。Googleは「新しいアプリや文字盤のアップロード、既存のものの更新をサポートしなくなる」。</p>
+<ul><li>「それまでの間、既存のプロジェクトをダウンロードするか、Fitbit App Galleryからの削除を依頼できます」</li><li>「この日以降、Gallery Adminツールは廃止され、コンテンツはすでにインストールしているユーザーだけが利用できる状態で残ります」</li></ul>
+<p>GoogleがスマートウォッチのFitbit OSを縮小していくのは、それほど意外ではない。同社はWear OSとPixel Watchに全力を注いでいるからだ。とはいえ、Sense 2とVersa 4はもう販売すべきではないだろう。</p>
+<p><em>訳注: 末尾のコメント欄は省略しました。</em></p>
+<p><a href="https://9to5google.com/2026/11/09/fitbit-sense-versa-clocks-apps/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a8">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>8. MetaのAIエージェント「Muse」がApple Watchに対応</span></div>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>8. Anker、侵入者をライトで自動追尾するEufyセキュリティカメラを発売</span></div>
     <div class="meta"><span class="tag">ガジェット</span>MacRumors ／ 2026-11-09
-      ／ 原文: <a href="https://www.macrumors.com/2026/11/09/meta-muse-apple-watch/" rel="noopener noreferrer">https://www.macrumors.com/2026/11/09/meta-muse-apple-watch/</a></div>
-    <p class="summary">iOS版MuseアプリがApple Watchをサポート。ウォッチからテキスト入力・音声入力・通話でMuseとやり取りでき、コンプリケーションからすぐに呼び出せる。</p>
+      ／ 原文: <a href="https://www.macrumors.com/2026/11/09/anker-auto-tracking-security-camera/" rel="noopener noreferrer">https://www.macrumors.com/2026/11/09/anker-auto-tracking-security-camera/</a></div>
+    <p class="summary">Eufy TrackLight Cam S1は最大12mの距離から不審者をライトで追いかける屋外カメラ。4K録画、ソーラー給電、Apple Home対応（HomeBase経由）で300ドル。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（MacRumors／日本語訳） ／ テーマ: ガジェット</em></p>
-<p>Metaは本日、iOS向けのMuseアプリをアップデートしてApple Watchに対応させた。これにより、Museのユーザーはウォッチからこのプロアクティブ（能動的）なAIエージェントにアクセスできるようになる。</p>
-<p>アプリはウォッチにMuseのキャラクターを追加し、テキストを送る、音声入力でテキストを送る、電話をかける、といった方法でやり取りできる。すばやくアクセスするためのMuseのコンプリケーションも用意されている。</p>
-<p>Museは、ユーザーに代わってタスクをこなせるMetaのパーソナルAIエージェントだ。単体のアプリとして提供されているほか、Instagram、Facebook、その他のMetaアプリにも組み込まれている。MetaがMuseを表すためにデザインした雪男（イエティ）のようなキャラクターは人気を集めており、Apple Watchでも前面に押し出されている。</p>
-<p><em>訳注: 原文は短報で、本文はこれで全文です。ページ後半の関連記事の抜粋と読者コメントは本文ではないため省略しました。</em></p>
-<p><a href="https://www.macrumors.com/2026/11/09/meta-muse-apple-watch/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>Ankerは本日、侵入者を積極的に威嚇する自動追尾ライトを備えた世界初の屋外セキュリティカメラだとする「Eufy TrackLight Cam S1」を発売した。TrackLight Cam S1はAnker HomeBaseを使うとApple Homeに対応するため、HomeKitの環境で他のスマートホーム機器と一緒に使える。</p>
+<p>不審な人物を検知すると、カメラはその人物をロックオンし、最大12メートル（40フィート）離れた場所からライトで追いかける。ライトは距離に応じて変化し、相手が遠くにいるときは狭く、近づくにつれて広がる。カメラは水平方向に355度回転でき、毎秒最大87度の動きを追跡できる。</p>
+<p>オプションの追跡威嚇モードでは、ライトと105デシベルのサイレンが同時に作動するほか、追加の威嚇手段として赤と青に点滅するライトモードもある。</p>
+<p>カメラは10倍デジタルズームの4Kで録画し、暗闇の不審者を映すナイトビジョンも備える。TrackLightと連動する120度のフラッドライトがあり、デュアルレーダーが最大40フィートまで180度の範囲を検知する。アプリの「ファミリーリスト」で家主が知人を登録しておくと、その人が近づいたときには柔らかく迎え入れるような光になる。この機能は登録されたスマートフォンのBluetoothを検出して働く。</p>
+<p>15,000mAhのバッテリーと5.5ワットのソーラーパネルで継続的に動作し、IP65の防塵・防水性能で風雨から守られる。内蔵ストレージはなく、microSDカードを追加するかHomeBaseに接続する必要がある。サブスクリプションは不要だ。</p>
+<p>Ankerは最近、2.5K解像度で反射防止機能と25度のチルトを備えた「Window Camera E10」も発売した。これは窓際に置いて、屋外に設置しなくても庭や車道、玄関を見守れるように設計されている。</p>
+<p>TrackLight Cam S1はAnkerまたはAmazon.comで300ドルで購入できる。Window Camera E10はAnkerまたはAmazon.comで80ドル。HomeBaseとのバンドルは500ドルだ。</p>
+<p><em>訳注: 末尾のアフィリエイトに関する開示文は省略しました。</em></p>
+<p><a href="https://www.macrumors.com/2026/11/09/anker-auto-tracking-security-camera/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a9">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>9. Canon「Camera Control Centre」発表——PTZとCinema EOSを最大200台管理できる無料のマルチカメラソフト</span></div>
-    <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-09
-      ／ 原文: <a href="https://www.cined.com/canon-camera-control-centre-announced-free-multi-camera-software-for-ptz-and-cinema-eos-up-to-200-cameras/" rel="noopener noreferrer">https://www.cined.com/canon-camera-control-centre-announced-free-multi-camera-software-for-ptz-and-cinema-eos-up-to-200-cameras/</a></div>
-    <p class="summary">既存の4つのCanon製ツールを統合し、4台同時の画質調整ビュー、画角シミュレーター、マルチカメラ設定の保存を追加。Windows 11版は2027年1月上旬、macOS版は後日。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>9. Flanders Scientific、VPシリーズとVシリーズを発表——QD-OLEDモニター7機種、最大4,000nit、12G-SDI、3D対応</span></div>
+    <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-10
+      ／ 原文: <a href="https://www.cined.com/flanders-scientific-vp-and-v-series-introduced-seven-qd-oled-monitors-up-to-4000-nits-12g-sdi-and-3d/" rel="noopener noreferrer">https://www.cined.com/flanders-scientific-vp-and-v-series-introduced-seven-qd-oled-monitors-up-to-4000-nits-12g-sdi-and-3d/</a></div>
+    <p class="summary">フラッグシップXMPと同じパネルと色管理を使いつつ、スコープやLook LUTを省いて最大48%安く。XMPになかった立体視3Dにも対応し、11月に出荷開始。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（CineD／日本語訳） ／ テーマ: カメラ</em></p>
-<p>Canonは、最大200台のCanon製カメラのセットアップ、PTZ操作、カラーマッチング、ファームウェア更新、一括設定を1つのウインドウにまとめた無料のパソコン用アプリケーション「Camera Control Centre」を発表した。Canonの4つの別々のツールを置き換えるもので、4台のカメラを同時に扱えるQuick Adjustmentsビュー、画角シミュレーター、マルチカメラ設定の保存機能が追加され、CanonのPTZカメラに加えてEOS C400、C80、C50などのCinema EOSモデルにも対応する。Windows 11版は2027年1月上旬に提供予定で、macOS版がそれに続く。</p>
-<p>Canonは11月4日にCamera Control Centreを発表した。一見すると純粋に放送・PTZ向けの話に読める。だが筆者は、多くの読者にとってそれ以上の意味があると考えている。対応機種リストにCinema EOSカメラも含まれているうえ、小規模な制作、ライブ配信、企業イベントでは、CanonのPTZカメラ1〜2台とEOS C80やC50を組み合わせるケースがますます増えているからだ。これまでそうしたCanonのシステムでは、最大4つの異なるアプリケーションが必要だった。初期設定用のCamera Search Tool、PTZ操作とプリセット用のRemote Camera Control Application、ファームウェア更新とカメラ設定用のMulti-Camera Management Application、そしてLUTベースのカラーマッチング用のCamera Colour Matching Applicationだ。Canon Europeによれば、Camera Control Centreはこの4つを、計画と初期設定から運用、保守までの1つのワークフローに統合する。</p>
-<p>これは、EOS C400、C80、C50向けのCanonの12月のファームウェアアップデートと同じ週の発表となった。このアップデートはMulti Matrixカラー制御を追加するもので、Canonはライブ制作でCinema EOSの映像をスタジオカメラと合わせるための機能だとしている。方向性は明らかだ。Canonは、シネマカメラのボディとPTZのラインナップ（CR-N350とCR-N400は昨年取り上げた）を1つのマルチカメラシステムとして機能させたいのだ。</p>
-<p>Canonの英語版スクリーンショットから、アプリケーションの構成がわかる。Devicesセクションには登録済みのカメラとMulticam Setupsがある。Shootingセクションには、Camera Operations、Presets、Auto Tracking、Quick Image Adjust、Monitoringがあり、ToolsセクションにはColor MatchingとFOV Calculationがある。カメラ操作画面はPTZパネルと、画像設定、フォーカス、クロップ、オートトラッキングの各コントロールを組み合わせたもので、複数のカメラを選択してまとめて操作することもできる。キヤノン（日本）の製品ページによれば、映像ビューは1×1、2×2、3×3、1×4のレイアウトで表示できる。</p>
-<p>Canonによれば、このソフトウェアは同社のXCプロトコルを介して最大200台の対応機器に接続できる。この数字は機器管理に関するもので、1画面に200のライブ映像を表示できるという意味ではない。大規模な設備にとってより興味深いのは一括保守だ。1台のカメラの設定をリアルタイムで多数のカメラにコピーしたり、設定ファイルを保存して後でほかのカメラに読み込んだり、1つの一覧ページから複数のカメラのファームウェア更新や再起動をまとめて実行したりできる。</p>
-<p>統合された機能に加えて、Canonは3つの新しいツールを追加している。Quick Adjustmentsは、最大4台のカメラのプレビューと調整パネルを1画面に並べるもので、カメラごとにハードウェアのコントローラーを用意しなくても、映像を見比べながらシャッタースピード、ホワイトバランス、アイリス、ゲインを調整できる。各サムネイルはカラーバーに切り替えることもでき、外部モニターで映像を見ている場合はサムネイルを非表示にして調整パネルだけを残すこともできる。</p>
-<p>FOV Calculationは、Canonのリモートカメラを設置する前にその画角をシミュレーションする。カメラの機種、被写体までの距離、ズーム位置を入力すると、指定した身長（たとえば175cm）の人物がフレーム内でどう写るかを、カメラのハードウェアなしで表示する。天井に吊るすPTZカメラで講堂、スタジオ、教会の設備を計画する人にとっては実用的なツールだ。設置後にカメラを動かすのは費用がかかるからだ。</p>
-<p>Multicam Setupsは、画質設定を含む複数のカメラの設定をシーンや番組ごとに保存し、次に同じセットアップを使うときに呼び出せるようにする。機器のグループをまとめてバックアップ・復元することもできる。</p>
-<p>カラーマッチング機能は、既存のCamera Colour Matching Applicationを引き継いだものだ。基準カメラと対象カメラでカラーチャートの静止画を撮影すると、ソフトウェアが対象カメラの色を基準に合わせて自動調整し、LUTを対象カメラに送る。キヤノン（日本）は要件を詳しく記載している。対象カメラはXCプロトコル経由でLUTを保存できる必要があり、発売時点ではPTZカメラのCR-N700、CR-N400、CR-N350に限られる。基準カメラは、2K以上の解像度でBT.709またはHDRを出力できれば、どのメーカーのものでも構わない。Cinema EOSカメラはこのワークフローでは基準カメラとしてのみサポートされる。</p>
-<p>映像をパソコンに取り込むには、SDIまたはHDMI入力を備えたビデオキャプチャーデバイスか、CanonのリモートコントローラーRC-IP1000が必要だ。Canonは、CR-N700、CR-N400、CR-N350と組み合わせるキャプチャーデバイスとして、Blackmagic DesignのUltraStudio Recorder 3G（2K用）とUltraStudio 4K Mini（4K用）の動作を確認している。対応チャートはグリッド型のチャートで、マクベスチャート、ColorChecker Video、DSC LabsのChromaMatch Vista Std 709/2022とCalMAlign ChromaDuMonde 24 + 4Rなどだ。つまり典型的な使い方ははっきりしている。Aカメラ、たとえばEOS C400や他社製のカメラを基準とし、PTZカメラをそれに合わせるのだ。筆者としては、LUTをCinema EOSのボディに送る逆方向の運用もできるようになってほしい（Canonさん、Cinema EOSカメラはすでにXCプロトコルに対応しているのだから）。</p>
-<p>キヤノン（日本）の製品ページによれば、Camera Control Centreは発売時点で以下の機器に対応する。</p>
-<p><em>訳注: 原文ではここに対応機種の一覧が掲載されていますが、取得できたページ本文に一覧が含まれていなかったため訳出できていません。詳細は原文またはキヤノンの製品ページをご確認ください。</em></p>
-<p>Canonは、利用できる機能は機種によって異なるとしている。アプリケーションは各カメラが対応する機能を識別し、設定は各製品の仕様に従う。筆者の推測では、シネマカメラでは主にセットアップ、画像設定、4台同時の調整ビューが使え、完全なPTZ操作はリモートカメラに限られるだろう。ただしCanonはまだ機種ごとの機能一覧を公開していない。</p>
-<p><em>訳注: 対応Cinema EOSボディの販売店へのアフィリエイトリンクを含む一文は省略しました。</em></p>
-<p>Camera Control Centreは明らかに、1つのデスクから複数のCanon製PTZカメラを運用する放送局、教育機関、企業、公共部門のユーザー向けに作られており、彼らにとっては4つのアプリケーションが1つになるのは本当の意味での簡素化だ。シネマカメラのユーザーにとっての価値はそれより小さいが、それでもCanonの混在した機材群をパソコンから設定・調整・保守できる無料の手段にはなる。ただし、動作するのはパソコンであり、スマートフォンやタブレットではない。iPhoneやiPadからの操作については、Canonにはすでに Multi-Camera Controlアプリがあり、Director Modeのようなサードパーティ製アプリもCanonとSonyのカメラを1つのiPad画面にまとめられるようになっている。Sonyは、カメラコントロールモニターのDP7とDP5という別のアプローチをとっており、FUJIFILMのETERNA ProRemoteアプリはiPadから最大4台のGFX ETERNA 55を操作できる。</p>
-<p>発売時点で筆者が唯一物足りないと感じるのは、Mac版がないことだ。CanonはmacOS版が後に続くとしているが、多くの制作現場ではMacBookでビデオビレッジを運用しており、現行のRemote Camera Control ApplicationにはすでにmacOS版がある（だからCanonさん、Macユーザーをあまり長く待たせないでほしい）。</p>
-<p>Camera Control Centreは無料だ。Canon Europeによればダウンロードは2027年1月から提供され、キヤノン（日本）はまずWindows 11向けに1月上旬に提供し、その後macOSに対応するとしている。このアプリケーションを「Camera Control Center」と呼ぶキヤノンU.S.A.は、独自の発表で「今年後半」に提供を開始すると述べており、正確な日付は地域によって異なる可能性がある。アプリケーションのインターフェースは英語と日本語で、キヤノン（日本）によればマニュアルは英語、日本語、簡体字中国語、フランス語、ドイツ語、イタリア語、スペイン語で用意される。詳細はキヤノン（日本）の製品ページとキヤノンアジアのプレスリリースで確認できる。</p>
-<p>CanonのPTZカメラをCinema EOSのボディと一緒に運用している方にとって、セットアップ、カラーマッチング、操作を1つの無料アプリケーションで行えることはワークフローを変えるだろうか。それともまずMac版が必要だろうか。ぜひ下のコメント欄で意見を聞かせてほしい。</p>
-<p><em>訳注: ページ冒頭のサイトナビゲーション、ニュースレター登録案内、筆者紹介は本文ではないため省略しました。</em></p>
-<p><a href="https://www.cined.com/canon-camera-control-centre-announced-free-multi-camera-software-for-ptz-and-cinema-eos-up-to-200-cameras/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p>Flanders Scientificは、VPシリーズとVシリーズという2つの新ラインで、7機種の新しいQD-OLEDモニターを発表した。フラッグシップのXMPモニターと同じパネル、同じカラーエンジン、同じGaiaColorキャリブレーションツールを使うが、内蔵スコープ、Look LUT、Livegrade連携は省かれている。その結果、価格は大幅に下がり、さらにXMPにはなかった機能がひとつ加わった。立体視3Dだ。</p>
+<p>今回の発表は、AtomosがFlanders Scientific（FSI）の買収を4月に発表してから約7カ月後のことで、両社がこのブランドをどこへ導こうとしているのかをよく物語っていると思う。FSIのCEOブラム・デスメット氏とAtomosのCEOピーター・バーバー氏は、FSIのチャンネルの動画で新ラインナップを一緒に説明している。考え方はシンプルだ。多くのグレーディングスイート、ポストプロダクション、VFXルームは、単体のスコープを使い、モニターの処理済み出力も必要としないため、一度も触らないXMPの機能にお金を払っている。FSIはそうしたユーザーに、同じ映像をより安く提供する。同社によると、VPシリーズは対応するXMPモデルより最大30%、Vシリーズは最大48%安い。XMPとXMP Cのモニターはフラッグシップモデルとして引き続き本格生産される。</p>
+<p>私たちは長年、DM160 OLEDから31.5インチのXMP310 QD-OLEDまで、FSIを取り上げてきた。だから今回の発表で問われるのは画質ではない。どの機能なしで済ませられるかだ。</p>
+<p>VPシリーズは、プロ用のSDI接続を備えたラインだ。VP270（26.5インチ、1,000nit）、VP310（31.5インチ、1,000nit）、VP551（55インチ、4,000nit）、VP651（65インチ、4,000nit）の4機種がある。FSIによれば、このラインはポストハウスを念頭に設計された。プロ用入力と色の正確さは欠かせないが、測定は別のスコープソリューションがすでに担っているという環境だ。</p>
+<p>VシリーズはSDIを完全に省き、HDMI 2.1とDisplayPort 1.4のみで接続する。V270（26.5インチ、1,000nit）、V310（31.5インチ、1,000nit）、V550（55インチ、2,000nit）の3機種がある。FSIはこれを、VFX、編集、アニメーション、ゲーム開発、音声ポストなどメインのグレーディングスイートの周辺の部屋向けと位置づけ、HDMIやDisplayPortで作業するカラリストにとってFSIのQD-OLEDモニタリングへの最も安価な入口だとしている。</p>
+<p>全モデルが3840×2160の10ビットQD-OLEDパネルを採用し、視野角は179度。同じサイズとピーク輝度のXMPモデルと同じパネルだ。私にとってはこれが今回の発表で最も重要な点だ。ある施設がメインスイートでXMPを、隣の編集室でVシリーズを使っている場合、両方の画面は同じパネル技術と同じカラーマネジメントシステムを使っていることになる。FSIによれば、これが部屋から部屋へと映像の一貫性を保つ鍵だという。</p>
+<p>VPモデルは12G-SDI入力を4系統備え、各入力にはそれぞれクリーンなSDIループ出力がある。シングル、デュアル、クアッドリンク接続に対応し、FSIはクアッド12Gまたは6Gリンク経由で8K UHDおよび8K DCIの12ビット4:4:4までの信号を挙げている（ネイティブのUHDパネルにスケーリング）。セカンダリーソース用に、最大120Hzの信号に対応するHDMI 2.1とDisplayPort 1.4の入力もある。モニターはSDIのペイロードID（VPID）を読み取り、4:4:4か4:2:2、10ビットか12ビット、RGBかYCbCrかを自動的に設定する。ペイロードIDがない、あるいは誤っている場合には手動で上書きできる。</p>
+<p>Quad Viewモードでは最大4つの入力を同時に画面に表示でき、ゲンロックは不要で、ソースのフレームレートがそろっていればよい。各入力にはそれぞれ独自の色域、EOTF、白色点、輝度の設定を持たせることができ、すべてを同時に表示できる。マルチカメラのレビューや2つのグレードの並べての比較には、とても実用的なツールだ。</p>
+<p>最も注目を集めるのは大型の2つのVPモデルだろう。VP551とVP651は、18%ウィンドウで約4,000nit、32%で約2,200nit、全画面で約400nitに達し、コントラスト比は約8,000,000:1、Rec.2020のカバー率は約90%だ。FSIによれば、どちらもDolby Visionのマスタリングモニターとしての要件を満たしており、カラリストとクライアントが同じディスプレイを見るシングルスクリーンのソリューションとして売り込んでいる。26.5インチと31.5インチのVPモデルは18%ウィンドウで約1,000nit、コントラストは約1,500,000:1、Rec.2020の約80%をカバーし、FSIはこれらもDolby Visionマスタリングモニターとして挙げている。</p>
+<p>FSIは削った部分について率直だ。VPシリーズとVシリーズには、波形モニター、ベクトルスコープ、Look LUTのサポート、Pomfort LivegradeやAssimilate Live Assistとの連携がない。VPモデルには処理済みのSDI出力もなく（クリーンループのみ）、XMPの前面キーパッドとロータリーノブもなくなった。代わりにモニター背面にシンプルな5方向コントローラーがある。グレーディングルームに置いて主にリモートソフトウェアで操作するなら、おそらく大きな損失ではない。一日中設定を変えるDITカートでは、私なら前面の操作系が恋しくなるだろう。</p>
+<p>残っているのはFSIの中核機能だ。それにはGaiaColor AutoCalが含まれる。モニターに直接接続したプローブでパネルを一度プロファイリングし、そのプロファイルからすべての色空間の選択肢をコンピューターなしで導き出す機能だ。GaiaColor Analyzerは最短60秒でキャリブレーションのQCチェックを行い、レポートを画面に表示する。無料のIP Remote Utilityを使えばPDFとして書き出せる。CalmanとColourSpaceのキャリブレーションLUTにも対応する。さらに、PQモードでnit基準のスケールを使うLUM Coloringのフォールスカラー、赤・緑・青のみの表示モード、標準およびカスタムのマーカー、1:1ピクセルマッピング、正確なインターレースモニタリングもある。</p>
+<p>リモート制御は、Mac、Windows、iOS向けのIP Remote Utility（Elgato Stream Deckに対応）を使ったイーサネット経由、RS-485シリアル経由、オプションのR-RSワイヤレスリモート、そして最大7つの機能を割り当てられるGPI接点入力で行える。また最大5つの設定を保存し、ボタン1つで切り替えられる。</p>
+<p>多くの読者にとっては、おそらくVシリーズのほうが興味深いラインだろう。V270とV310はXMP270とXMP310のパネルをHDMIとDisplayPortのワークフローに持ち込み、V550はXMP550の2,000nitの55インチパネルを約4,000,000:1のコントラストで使う。入力はHDMI 2.1とDisplayPort 1.4が各1系統で、3.5mmヘッドホン出力と光S/PDIFもある。</p>
+<p>興味深いことに、XMPとXMP CのモニターにはHDMI入力がまったくないため、新ラインは実はHDMI 2.1を備えた初めてのFSI QD-OLEDモニターとなる。グレーディングシステムのHDMI出力カードやインターフェースですでにモニタリングしているカラリストや編集者にとって、Vシリーズは魅力的になるだろうと推測するが、あくまで推測だ。トレードオフははっきりしている。SDIなし、Quad Viewなし、クリーンループ出力なしだ。</p>
+<p>新しい2つのラインはどちらも立体視3Dに対応する。これはXMPシリーズにはなかった機能だ。VPモデルはHDMIとデュアルリンクSDIで3Dを受け付ける。オプションのアクティブ3Dシステムと組み合わせて動作し、モニターに接続する3D同期モジュールとアクティブシャッターグラスのセットが250ドルのバンドルで販売される。FSI自身は3Dをニッチな要件と呼んでいるが、3Dに今も対応するプロ用モニターは少なく、需要はあるとも述べている。長編映画やイマーシブコンテンツの3D版を納品したりQCしたりしなければならない人なら、そのリストがどれほど短いか知っているはずだ。</p>
+<p>7機種すべてがアルミ製シャーシとグラファイトのヒートシンクによるファンレス設計で、スイート内でファンの騒音が出ない。26.5インチと31.5インチのモデルは100〜240VのAC外部電源を使い、3ピンXLRのDC入力（24V、最大36Vに対応）も備えるため、バッテリーやカートから給電できる。消費電力は約35W〜220Wで、100mmのVESAマウントに対応する。26.5インチモデルの重さはデスクトップ用の脚を除いて5.9kg（13.1ポンド）、31.5インチモデルは7.2kg（16.0ポンド）。</p>
+<p>55インチと65インチのモデルはAC電源を内蔵し（IEC C14）、消費電力は約75W〜325W、300×200mmのVESAマウントを使う。VP551とV550の重さは脚を除いて17.7kg（39ポンド）、VP651は23.0kg（50.8ポンド）。</p>
+<p>価格差は大きい。VP270はXMP270より3,500ドル安く、V270は5,500ドル安い。最上位では、VP651は同じ4,000nitパネルのXMP651より6,500ドル安い。私の考えでは、これにより大型のVPモデルは、XMPのフル機能はいらないが本物のHDRマスタリングディスプレイが欲しいクライアントルームにとって、非常に魅力的になる。</p>
+<p>AtomosのマネージングディレクターでCEOのピーター・バーバー氏は、プレスリリースでその狙いを次のように説明している。「従来、ハイエンドのリファレンスモニターのコストが、ポストプロダクション施設全体にどれだけ広く導入できるかを制限してきました。同じ卓越した画質、色の正確さ、キャリブレーション機能をより手の届きやすい価格で提供することで、お客様はより多くのワークステーション、より多くの編集スイート、より多くの制作環境にプロ用のリファレンスモニタリングを備えられるようになります」。多くの部屋を持つ施設にとっては、部屋ごとに節約額が積み上がる。それこそが今回の発表の本当の狙いだと思う。</p>
+<p>これをAtomos側から見るのも興味深い。AtomosがStudio Pro 2710を披露したとき、同社はそれを1万ドル未満のリファレンスモニターと位置づけていた。今、同じグループの企業であるFSIが、XMPのパネルを使った26.5インチQD-OLEDを5,995ドルで売っている。NAB 2026でのピーター・バーバー氏へのインタビューで、同氏はカメラからグレーディングスイートまでのモニタリングのエコシステムを築くことについて語っていた。VPシリーズとVシリーズはその計画の一部だとほぼ確信しているが、それはあくまで私の感触だ。市場の反対側では、ASUS ProArt PA32USDのようなSDI入力を備えたQD-OLEDモニターがはるかに安く売られている。それらにはFSIのキャリブレーションシステムも、4,000nitの大画面の選択肢も、施設向けサポートもないが、このカテゴリーの価格がいかに速く動いているかを示している。（それとFSIさん、V310のレビュー機が私の机に届いたらとてもうれしいです。）</p>
+<p>Flanders Scientificによると、両シリーズは2026年11月に出荷を開始し、FSIストアでは現在、注文から2週間での納品と表示されている。VPシリーズの米国価格は、VP270が7,995ドル、VP310が8,995ドル、VP551が15,995ドル、VP651が17,495ドル。</p>
+<p>Vシリーズは、V270が5,995ドル、V310が6,995ドル、V550が12,495ドル。オプションの3D同期モジュールとアクティブ3Dグラスのバンドルは250ドルだ。FSIは欧州と英国に独自の販売・サービス拠点を持つが、欧州価格はまだ発表されておらず、執筆時点では新モデルはCVPにもまだ掲載されていない。詳細はFlanders Scientificのウェブサイトで確認できる。</p>
+<p>あなたのリファレンスモニターにスコープやLook LUTは必要だろうか。それとも、スイートではすでに別のスコープがその役目を果たしているだろうか。あなたのグレーディング作業には、HDMI接続のVシリーズのモニターで十分だろうか。コメント欄で意見を聞かせてほしい。</p>
+<p><em>訳注: ページ上部のポッドキャスト告知、ニュースレター登録案内、筆者紹介は本文ではないため省略しました。</em></p>
+<p><a href="https://www.cined.com/flanders-scientific-vp-and-v-series-introduced-seven-qd-oled-monitors-up-to-4000-nits-12g-sdi-and-3d/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a10">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>10. SIRUI、フルサイズAFレンズ「Aurora 15mm F1.6」と「24mm F1.4」を発表</span></div>
-    <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-11-09
-      ／ 原文: <a href="https://www.newsshooter.com/2026/11/09/sirui-announces-the-aurora-15mm-f1-6-24mm-f1-4/" rel="noopener noreferrer">https://www.newsshooter.com/2026/11/09/sirui-announces-the-aurora-15mm-f1-6-24mm-f1-4/</a></div>
-    <p class="summary">既存の35mm・85mm F1.4に続くAuroraシリーズの新焦点距離。いずれもSTM AFと瞳AF対応、防塵防滴。価格は15mmが599ドル、24mmが499ドルで、まずソニーEとLマウントで登場。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>10. Deity、ポケットレコーダー「PR-2ii」を発売——デュアルADCプリアンプ、IP54防塵防滴、WAVファイル復旧機能</span></div>
+    <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-10
+      ／ 原文: <a href="https://www.cined.com/deity-pr-2ii-pocket-recorder-released-dual-adc-preamp-ip54-sealing-and-wav-file-recovery/" rel="noopener noreferrer">https://www.cined.com/deity-pr-2ii-pocket-recorder-released-dual-adc-preamp-ip54-sealing-and-wav-file-recovery/</a></div>
+    <p class="summary">撮影現場で出演者に仕込むワイヤレスのバックアップ用レコーダーが第2世代に。自己ノイズを5.4dB低減し、録音中断時のファイル復旧にも対応。Avoraラベリアとのバンドルで259ドル。</p>
   </summary>
-  <div class="body"><p><em>原文: 英語（Newsshooter／日本語訳） ／ テーマ: カメラ</em></p>
-<p>SIRUIは、フルサイズ対応オートフォーカスレンズシリーズの最新モデルとして、Aurora 15mm F1.6と24mm F1.4を発表した。これらの新しい焦点距離は、既存の35mm F1.4と85mm F1.4に加わる。</p>
-<p>どちらのレンズもSTMオートフォーカスを搭載して瞳トラッキングに対応し、湿気、雨、ほこりに対する保護も備えている。</p>
-<h3>Aurora 15mm F1.6</h3>
-<p>Aurora 15mm F1.6は、建築写真、狭い場所での撮影、旅行、Vlog、低照度での撮影向けに設計されている。</p>
-<h3>主な特徴</h3>
-<ul><li>フルサイズ｜f/1.6〜f/16</li><li>広角単焦点レンズ</li><li>AFLボタンとAF/MF切り替えスイッチ</li><li>絞りロックボタンとクリックのオン／オフ切り替えボタン</li><li>防塵・防滴構造</li><li>ファームウェア更新用のUSB-Cポート</li></ul>
-<p>SIRUIによれば、Aurora 15mm F1.6は歪曲を最小限に抑えるよう設計されている。前面のフィルター径は77mmで、重さは540g（1.19ポンド）。</p>
-<p>光学設計は12群17枚で、絞り羽根は11枚。最短撮影距離は30cm（11.81インチ）だ。</p>
-<h3>Aurora 24mm F1.4</h3>
-<p>Aurora 24mm F1.4はさまざまな用途に使えるだろう。フルサイズカメラで使う場合、24mmという焦点距離は広角と、たとえば35mmレンズとの間でちょうどよいバランスをとっている。</p>
-<p>このレンズはクリックレスの絞りリングを備え、フォーカスブリージングも少ない。重さは550g（1.21ポンド）で、前面のフィルター径は62mm。</p>
-<p>光学設計は11群14枚で、絞り羽根は11枚。最短撮影距離は26cm（9.84インチ）だ。</p>
-<h3>価格と発売時期</h3>
-<p>SIRUI Aurora 15mm F1.6の価格は599ドル、Aurora 24mm F1.4は499ドル。</p>
-<p>どちらのレンズも、2026年にまずソニーEマウントとライカLマウントで発売される。ニコンZマウントと富士フイルムXマウント版は2027年第1四半期に発売予定だ。</p>
-<p><em>訳注: 原文本文はこれで全文です。原文中の「SURUI」は「SIRUI」の誤記とみなして訳しました。</em></p>
-<p><a href="https://www.newsshooter.com/2026/11/09/sirui-announces-the-aurora-15mm-f1-6-24mm-f1-4/" rel="noopener noreferrer">英語の原文を読む</a></p>
+  <div class="body"><p><em>原文: 英語（CineD／日本語訳） ／ テーマ: カメラ</em></p>
+<p>Deityは、ポケットレコーダーPR-2の第2世代となるPR-2iiを発売した。単3電池2本で動くこの小さな箱は、多くの録音技師がワイヤレスのバックアップとして出演者に隠して取り付けている製品だ。新モデルは、Deityによれば自己ノイズを5.4dB下げるデュアルADCプリアンプ、IP54の防塵・防滴等級の筐体、WAVファイル復旧機能付きのPSRAMバッファー、より明るいカラー画面、最大1TBのmicroSDのサポートを備える。B&HでDeityのAvoraラベリアマイクとのバンドルとして現在販売中だ。</p>
+<p>ポケットレコーダーは私たちが取り上げる製品の中で最もわくわくするものではないが、ワイヤレスの接続が壁の向こうや人混みで途切れたときにテイクを救ってくれるのは、たいていこうした製品だ。Deityが量産用ファームウェアでPR-2iiを初めて披露したのは、9月にアムステルダムで開かれたIBC 2026で、新しいTC-2タイムコードボックス、THEOS D4RX 4チャンネルレシーバーと一緒だった。同じショーで私たちはオーディオ部門のBest-of-Show賞をDeity PR-4に贈っており、同社が最小のレコーダーをどうするのか興味があった。答えはこうだ。コンセプトは同じまま（3.5mm入力1系統、2トラック、単3電池2本）だが、内部はほぼすべてが見直された。</p>
+<p>主な変更点はプリアンプだ。PR-2iiはアナログ入力チャンネル内に2つの取り込み経路を持ち、32ビットで変換する。Deityは内部録音のダイナミックレンジを124dB以上としており、32ビットフロート時のPR-2の標準値123dBと比べられる。等価入力ノイズは-117dBV（A特性、ゲイン36dB、150Ωソース）とされている。PR-2の仕様書では、異なるゲイン設定、異なる単位で-130dBuとなっているため、2つのEINの数値を直接比較することはできない。見るべき比較はDeity自身の「自己ノイズが5.4dB低い」という主張であり、これはメーカーの数値で、私たちが測定したものではない。</p>
+<p>ストレージは、PR-2の最大128GBのmicroSDHCカードから、最大1TBのmicroSDカードへと拡大した。USB-Cポートもより多くのことをこなすようになった。PR-2ではカードリーダーとファームウェア更新に使われていた。PR-2iiでは、2チャンネル・48kHz・24ビットのサウンドカードとしてUSB Audio Class 2.0のクラスコンプライアント動作が加わり、タイムコード出力もできる。画面は600nitのカラーTFTで、DeityによればPR-2より60%明るい。</p>
+<p>進歩しなかった点も2つある。録音は依然として48kHzのみで、32ビットフロートもモノラルのみのため、ステレオ録音（ラベリア2本、またはミキサーからのステレオ送り）は24ビット整数になる。今回は2チャンネルの32ビットフロートを見たかった（Deityさん、もし読んでいたら、それがPR-3への私の要望リストの筆頭です）。定格のバッテリー駆動時間も数字の上では短くなった。PR-2はリチウム単3電池で最大30時間とされていたが、PR-2iiはDeityの単3電池で20時間以上だ。Deityはこの数字を明るくなったディスプレイと関連づけている。新しいプリアンプもいくらか電力を必要とするのだろうと推測するが、あくまで推測にすぎない。</p>
+<p>衣装の下や車内に仕込むレコーダーにとっては、保護機能が今回のアップデートで最も実用的な部分だ。PSRAMバッファーがカードへ向かう途中の音声を保持し、書き込み速度の差をならすため、DeityによればPR-2iiはより幅広いmicroSDカードで動作する。録音が予期せず止まったりファイルが破損したりしても、レコーダーの電源を入れ直せば、欠けているWAVファイルのフッターを書き込んでファイルを復旧する。テイクの途中で電池の接触が切れてファイルを失ったことのある人なら、これがなぜ重要か理解できるだろう。</p>
+<p>筐体はゴム製のガスケットを電池室の周囲に新たに設け、粉塵と水しぶきに対するIP54等級になった。画面は6Hの強化ガラスカバーで保護され、操作系はボタンで、Deityによれば前面が前モデルより頑丈になっている。仕様上の動作範囲は-20〜60°C（-4〜140°F）、相対湿度0〜90%（結露なし）だ。</p>
+<p>Deityは人気のラベリアマイク向けのゲインプリセットを追加した。DPA 4060/4061、Sennheiser MKE 2、Countryman B3、Shure TL47だ。サウンドチェックなしでも実用的な初期レベルが得られる。入力ゲインはマイクとラインの両モードで-12dBから+36dBまで、最大入力レベルは-0.5dBu（0.73Vrms）で、3.5mm TRS入力はマイクに5Vのプラグインパワーを供給する。</p>
+<p>その他の機能は、ラン&ガンの撮影者が必要とするものを網羅している。75Hzと150Hzのローカットフィルター、-6dBFS固定スレッショルドのソフトニー・リミッター（アタック0.75ms、リリース1000ms）、内蔵ノイズリダクション、プリレコード、そしてポストで重要な瞬間を後から見つけるためのマークポイントだ。専用の録音ボタンでワンタッチ録音ができる。もちろん32ビットフロートモードではゲイン設定はそれほど重要ではないが、プリセットは24ビットのステレオモードやヘッドホンへの送りでは役に立つ。</p>
+<p>PR-2iiは、TC-1タイムコードボックスとTC-SL1スレート、THEOSワイヤレスシステム、PR-4、他のPR-2iiユニットを含むDeity独自のエコシステムからワイヤレスでタイムコードを受信する。DeityはBluetooth LEによるタイムコードの到達距離を80〜95m（260〜310フィート）、ドリフトを48時間で1フレームとしている。3.5mm出力は録音中にLTC（3V）またはATCとしてタイムコードを入出力でき、DeityによればUSB-Cのタイムコード出力はXTRA、DJI、Insta360のカメラで使える。</p>
+<p>操作はiPhone、iPad、Android、macOS向けのSidus Audioアプリで行う。アプリからは最大76m（250フィート）の距離で、録音の開始と停止、状態の確認、設定の変更ができる。これはDeityがPR-2で示していたのと同じ操作範囲だ。Bluetooth経由では、40m（130フィート）以上離れた場所からレコーダーの音を聴くこともできる。出演者にレコーダーを隠して付けているワンマン撮影者にとっては、歩いていってジャケットの下に手を入れなくても音声を確認できるということだ。</p>
+<p>PR-2iiの大きさは60×58.5×18.5mm（2.36×2.30×0.73インチ）、重さは電池を除いて55g（1.9オンス）で、取り外し可能な背面クリップが約3.5g加わる。電源は単3電池2本（各1.5Vまで）またはUSB-Cからの5Vだ。Deityによれば消費電力は単3電池で最大0.53W、USB-C給電で最大0.71W。ファイルはBWF WAVとして記録され、約4GBで分割される。ヘッドホン出力は16Ωで62.5mWだ。</p>
+<p>市場ではどこに位置づけられるのか。32ビットフロートのポケットレコーダーは新しいものではない。Tascam DR-10L ProやZoomのF2が同じカテゴリーにあり、今では多くのワイヤレス送信機も内部録音ができる。私の意見では、Deityの強みはレコーダー自体というより、その周りのシステムにある。すでにTC-1、PR-4、THEOSの送信機を使っているなら、PR-2iiはそのまま同じタイムコードのネットワークと同じアプリに加わる。</p>
+<p>Deity PR-2iiはB&Hで、Avoraラベリアマイクとのバンドルとして259ドルで現在販売中だ。執筆時点でCVPは初代PR-2しか掲載しておらず、Deityは欧州の購入者を現地の販売店に案内しているため、ユーロ価格はまだわからない。詳しい情報はDeityのウェブサイトにある。</p>
+<p>あなたは今でもワイヤレスのバックアップとして出演者にポケットレコーダーを付けているだろうか。それとも今では送信機の内部録音に頼っているだろうか。ファイル復旧とIP54の防塵防滴があれば、初代PR-2から買い替えたくなるだろうか。コメント欄で意見を聞かせてほしい。</p>
+<p><em>訳注: ページ上部のポッドキャスト告知、ニュースレター登録案内、筆者紹介は本文ではないため省略しました。DPReviewの記事（Siruiの15mm・24mm AFレンズ）は本文を取得できなかったため、同じ撮影機材分野の本記事に差し替えています。</em></p>
+<p><a href="https://www.cined.com/deity-pr-2ii-pocket-recorder-released-dual-adc-preamp-ip54-sealing-and-wav-file-recovery/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 <details class="item" id="a11">
   <summary>
-    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>11. Artizlab、ライカの名玉を400ドルで復活させる</span></div>
-    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-09
-      ／ 原文: <a href="https://petapixel.com/2026/11/09/artizlab-revives-a-leica-classic-for-just-400/" rel="noopener noreferrer">https://petapixel.com/2026/11/09/artizlab-revives-a-leica-classic-for-just-400/</a></div>
-    <p class="summary">往年のライカ ズミルックス50mm f/1.4（E43）の描写と外観を再現したMマウントの「Classic-M 1:1.4/50mm」を399ドルで発表。7群5枚・12枚絞り、重さ189g。</p>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>11. 『オデュッセイア』がIMAXに過去最高益をもたらす</span></div>
+    <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-10
+      ／ 原文: <a href="https://petapixel.com/2026/11/10/the-odyssey-has-delivered-record-profits-for-imax/" rel="noopener noreferrer">https://petapixel.com/2026/11/10/the-odyssey-has-delivered-record-profits-for-imax/</a></div>
+    <p class="summary">クリストファー・ノーラン監督の『オデュッセイア』がIMAX史上最高の興行収入作品に。第3四半期の世界興収は前年比90%増の7億1200万ドル、純利益は1億1700万ドル。</p>
   </summary>
   <div class="body"><p><em>原文: 英語（PetaPixel／日本語訳） ／ テーマ: カメラ</em></p>
-<p>Artizlabは、往年のライカ ズミルックス50mm f/1.4（E43）レンズの描写と外観を再現した新しい50mm単焦点レンズ「Classic-M 1:1.4/50mm」を発表した。</p>
-<p>ヴィンテージのライカ ズミルックスM 50mm f/1.4 E43は中古市場でかなりの高値がつき、状態の良いものなら簡単に数千ドルになる。Artizlabは、昨今の競合他社と同様に、往年のライカレンズの描写と質感を、はるかに手の届きやすい価格のパッケージで実現しようとしている。今回の場合、その価格は399ドルだ。</p>
-<p>ライカの名玉と同様に、Artizlab Classic-M 50mm f/1.4はコンパクトで軽量だ。アルミニウムと真鍮で作られているにもかかわらず重さはわずか189g（6.67オンス）で、レンジファインダーの視野を遮らない。全長は51.8mm（2インチ強）で、43mmのフィルターを装着できる。</p>
-<p>レンジファインダーといえば、このレンズは標準的な距離計連動機構を備え、0.7m（2.3フィート）まで寄れる。ただし、ライブビューを使う場合やレンジファインダー以外のカメラにアダプターで装着した場合は、0.45m（1.48フィート）まで寄ることができる。当然ながら、マニュアルフォーカスのレンズだ。</p>
-<p>Artizlabは、最短撮影距離が短くなったおかげで、この新しいレンズは愛されたヴィンテージのライカの「忠実な再現以上のもの」だと述べている。</p>
-<p>「名玉が、かつてないほど近くに」とArtizlabは言う。</p>
-<p>光学性能については、5群7枚構成で12枚の絞り羽根を備える。オリジナルのライカE43も同じ構成だが、画質や描写はエレメントの数や鏡筒内での配置だけで決まるものではない。</p>
-<p>「写真家が何十年もヴィンテージのライカレンズを追い求めてきたのには理由があります——トーンのある種の温かみ、移り変わりの柔らかさ、無機質ではなくより生き生きと感じられる光の描き方です」とArtizlabは説明する。「私たちはArtizlab Classic-M 50mm f/1.4を、それと同じ個性へと調整しました。自然な色再現、なだらかなハイライトのロールオフ、そして12枚羽根の絞りによる滑らかでクリーミーなボケです」</p>
-<p>写真家は、このレンズに極端なシャープネスや解像度を期待すべきではないとArtizlabは注意を促している。このレンズはテストチャートで「いちばんシャープであることを目指したものではない」。「大切なのは写真に宿る感覚です」</p>
-<h3>作例</h3>
-<p><em>訳注: 原文ではここに作例写真が掲載されています（画像のため省略）。</em></p>
-<h3>価格と発売時期</h3>
-<p>ヴィンテージ風の描写とライカの美観を、ライカの価格なしで手に入れたい人にとって、Artizlab Classic-M 1:1.4/50mmは、ますます混み合う市場における新たな選択肢だ。わずか399ドルで、現代の写真家が、現代の基準には決して当てはまらない種類のレンズを試してみるには比較的手頃な方法といえる。</p>
-<p>Artizlab Classic-M 50mm f/1.4はブラックとシルバーのカラーが用意されており、現在は売り切れている。まもなく再入荷する見込みだ。</p>
+<p>IMAXは先週、同社史上最も好調な四半期決算を発表した。2026年第3四半期の興行収入、売上高、利益はいずれも過去最高となった。</p>
+<p>この業績を牽引したのはクリストファー・ノーラン監督の『オデュッセイア』で、IMAX史上最高の興行収入を記録した作品となった。</p>
+<p>THR（ハリウッド・リポーター）の報道によると、同社のこの四半期の世界興行収入は7億1200万ドルで、前年同期比90%増。前年同期の3億7200万ドルから大幅に増加した。</p>
+<p>そのうち『オデュッセイア』は世界のIMAX興行収入で5億5000万ドル以上を占め、同作の劇場興行収入全体の30%以上を稼ぎ出した。その成功を支えたのは70mm上映を含むプレミアム上映で、観客をIMAXの劇場に呼び込んだ。</p>
+<p>売上高は2025年第3四半期の1億670万ドルから64%増の1億7500万ドルとなった。純利益は前年の2260万ドルから1億1700万ドルへと伸びた。</p>
+<p>「この結果は、ネットワークをさらに拡大しIMAXの興行収入を伸ばしていくうえでの、大きな営業レバレッジと機会を示しています」と、IMAXのCFOナターシャ・フェルナンデス氏は言う。</p>
+<p>コンテンツソリューションの売上高は世界の興行収入の伸びを反映して110%増の9400万ドル、テクノロジー製品・サービスの売上高は28%増の7700万ドルとなった。</p>
+<p>IMAXのCEOリッチ・ゲルフォンド氏は、この結果は劇場体験に対する観客の需要の大きな変化を表していると述べている。</p>
+<p>THRによると、同氏は次のように語った。「IMAXが達成したことは、単なる『素晴らしい四半期』を超えたものであり、この期間に私たちが打ち破った数々の記録をも超越しています。私たちが目にしていると考えているのは、私たちのプラットフォームが世界の文化に影響を与え、新たな商機を切り開き、世界中の観客に新たなレベルの需要と畏敬の念を呼び起こす力と可能性への目覚めです」</p>
+<p>「クリストファー・ノーラン監督の『オデュッセイア』は、すべてIMAXの技術で作られた歴史的な映画的偉業であり、その記録破りの成功は当社にとって新たな機会の時代の到来を示しています。この四半期に生み出した過去最高の利益率は当社のモデル独自の強さを示しており、AIがますます浸透する世界において希少なイベントや体験の価値が高まっていることは、今後数年にわたる非常に強力なラインナップを見据えるうえで、当社の事業にとって大きな機会であることを裏付けています」</p>
+<p>同社は、2026年通年の興行収入見通しとしていた14億ドル（それ自体が過去最高となる数字）を大幅に上回ると見込んでいる。拡大計画も続いており、今年これまでに世界で100件以上のIMAXシステムの契約を結んだ。そのうち約65%は新規の劇場だ。</p>
+<p>THRは、IMAXが新しい劇場フォーマットも検討していると伝えている。その中には、より大きなアスペクト比、より深い奥行き感、改善された音響によって没入感のある鑑賞体験を提供するよう設計された、小規模なプレミアム会場も含まれる。さらに同社は、需要と今後の公開作品のラインナップを受けて、70mmフィルムの上映館を10〜15カ所新設することも検討している。</p>
 <p><em>訳注: 末尾の画像クレジットとアフィリエイトに関する開示文は省略しました。</em></p>
-<p><a href="https://petapixel.com/2026/11/09/artizlab-revives-a-leica-classic-for-just-400/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p><a href="https://petapixel.com/2026/11/10/the-odyssey-has-delivered-record-profits-for-imax/" rel="noopener noreferrer">英語の原文を読む</a></p>
   </div>
 </details>
 </main>
 <footer>
-  <p>前回ダイジェストは <a href="./archive/2026-11-10-0800/">archive/2026-11-10-0800/</a> に保管しています。／ <a href="./archive/">アーカイブ一覧</a></p>
+  <p>前回ダイジェストは <a href="./archive/2026-11-10-1957/">archive/2026-11-10-1957/</a> に保管しています。／ <a href="./archive/">アーカイブ一覧</a></p>
   <p>対象: 海外一次ソースのみ。日本語二次まとめサイトは含みません。</p>
 </footer>
 
