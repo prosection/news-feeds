@@ -63,7 +63,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <body>
 <header>
   <h1>カテゴリ: カメラ</h1>
-  <p>過去のダイジェストから「カメラ」の記事を新しい順にまとめています（311件）。</p>
+  <p>過去のダイジェストから「カメラ」の記事を新しい順にまとめています（314件）。</p>
 </header>
 <nav class="site-nav">
   <a href="../../">最新</a>
@@ -77,6 +77,114 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="hint">タイトルをタップ／クリックすると日本語本文を展開・折りたたみできます。</p>
 <h2 class="datehead">2026-11-14</h2>
 <details class="item" id="camera-1">
+  <summary>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Adobeの最新写真編集ツールを使う前に知っておくべきこと</span></div>
+    <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-11-13
+      ／ 原文: <a href="https://www.dpreview.com/news/what-you-should-know-before-using-adobes-latest-photo-editing-tools/" rel="noopener noreferrer">https://www.dpreview.com/news/what-you-should-know-before-using-adobes-latest-photo-editing-tools/</a></div>
+    <p class="summary">Adobe MAXで発表されたPhotoshopの「Relight」「Generative Restyle」、Lightroomの「Blemish Removal」とUIカスタマイズを、製品担当者のデモと実地テストで検証。生成解像度は2K/約1K、8bit処理などの制約も。</p>
+  </summary>
+  <div class="body"><h3>Adobeのプロダクトマネージャーによるデモで、新機能の仕組みについてより深く知ることができた。自分で試してみると、さらにいくつかの疑問が浮かんだ。</h3>
+<p><small>開示：DPReviewはAdobe MAXに参加し、渡航費と宿泊費はAdobeが負担した。</small></p>
+<p>今年のMAX（Adobeの年次カンファレンス）で、同社はPhotoshopとLightroomの両方について一連のアップデートを発表した。大規模な基調講演で取り上げられたものもあれば、目立たずに通り過ぎたものもある。ただ、いずれの場合も詳細はあまり多くなかった。</p>
+<p>ありがたいことに、カンファレンス期間中に両プログラムのプロダクトマネージャーからデモを受ける機会があり、新機能とその仕組みをより詳しく見ることができた。</p>
+<h3>Photoshopの機能</h3>
+<h3>Relight（リライト）</h3>
+<p>Relightは、写真の見かけ上のライティングを変更できるツールだ。最大3灯のライトを追加でき、位置、奥行き、色、拡散などを制御できる。</p>
+<p>Photoshopのプロダクトマネジメント担当シニアディレクター、スティーブン・ニールセン氏とのデモでは、元のライティングをどれだけ残すかを制御できることが示された。既存の光をある程度残してより自然に溶け込ませることも、完全に置き換えて劇的に異なる雰囲気にすることもできる。</p>
+<p>しかし私にとって最も印象的だったのは、変更が反射にも及ぶことだ。ニールセン氏によれば、Relightは元のライティングに伴う反射を除去したり、新しい効果となじませたりできるという。このツールの背後にあるAI処理は、画像の各部分の明るさを調整する以上のことをはるかに多く行っている。</p>
+<p><small>（写真キャプション）左が元のファイル（追加編集なしでRawからJPGに変換）、右がRelight機能を使用したもの。</small></p>
+<p>Relightを使ってみたい人が留意すべき重要な点が一つある。写真の解像度と、生成されたコンテンツの解像度には違いがあるということだ。ニールセン氏によれば、Relightは2Kで出力を生成し、それを画像の解像度に合わせてアップスケールする。ドキュメントのピクセル寸法は変わらないが、だからといって元のディテールがすべて残るわけではない。ニールセン氏は、生成AIによくあることだが、この処理でディテールが一部失われる可能性があることを認めた。</p>
+<p>私が自分でRelightを試したところ、デモでは出てこなかった警告もPhotoshopに表示された。「Relightは8ビットの画像データで動作します。細かな色のディテールが失われる可能性があります」。つまり、潜在的な妥協点は解像度だけではなく、処理する色データにも制限があるということだ。</p>
+<p>また、Relightを使って深い影の中にいる被写体を浮かび上がらせた場合に何が起こるのか、元の画像では見えなかった顔のディテールをツールが生成してしまうのかも気になった。ニールセン氏は、おそらく人物を完全にでっち上げることはないだろうと述べたが、その具体的なシナリオはテストしていないとのことで、未解決の疑問として残っている。</p>
+<p>生成色の強い機能であるRelightは、Adobeの生成クレジットを必要とする。消費は30クレジット（付与数はプランによって異なるが、フォトプラン1TBでは毎月1,000クレジット）だが、ニールセン氏によれば、プレビュー段階ではライティングを好きなだけ確認し、何度でも変更でき、その間はクレジットを消費しない。クレジットが消費されるのは、コンテキストタスクバーで「完了」をクリックしたときだけだ。</p>
+<h3>Generative Restyle（生成リスタイル）</h3>
+<p>Generative Restyleもライティングを調整できるが、それをはるかに超えることができる。これは複数ステップの処理だ。まずPhotoshopのコンテキストタスクバーにプロンプトを書き、画像が生成されたらそのタスクバーに表示される「Generative Restyle」ボタンをクリックする。すると効果を調整するスライダーが使えるようになる。最後に「レイヤーとしてキャプチャ」をクリックして、より高解像度の最終版を得る必要がある。</p>
+<p>Restyleは、時間帯、天候、季節などを変えるなど、写真をまったく新しく解釈し直した画像を生成できる。生成AIに依存しているため、Restyleを使うとディテールが失われることがある。顔がゆがんだり、遠くの小さな人物や文字もうまく処理できないことがある。</p>
+<p>強度を調整できることである程度は結果をコントロールできるが、変えてほしくないものまで変わってしまうという問題は解決しない。ニールセン氏のデモでは結婚式のポートレートを調整したが、背景の雰囲気を変えるよう指示したところ、女性の顔立ちが変わってしまった。結局のところ、このツールは画像の一部ではなく全体を生成しているのだ。一つのプロンプトで、カップルがいた森もまったく変わり、完全に別の場所のように見えるようになった。</p>
+<p>ニールセン氏は、マスクを使って不要な変更を除外し、元の部分を残せると指摘したが、それでは編集を簡単にするはずだったツールの後始末をすることになる。効果量を調整できるのは便利だが、どのディテールを絶対に残すべきかをRestyleに指示できるのと同じではない。</p>
+<p><small>（写真キャプション）左が元の画像、右はプロンプトで夕暮れの雪景色に変えたRestyle後の画像。生成画像にはピンクの旗がいくつか追加され、ここでは見えにくいものの、画質が大幅に低下した。</small></p>
+<p>また、Restyleの出力解像度がRelightよりさらに低いことも知っておくべき重要な点だ。ニールセン氏は正確な解像度を知らなかったが、およそ1K程度だろうと推測しており、ディテールの損失は避けられない。実際、自分でツールをテストしてみたところ、ディテールが大幅に失われるのに気づいた。たとえば森の枝は、1本1本が見えるのではなく、ただのテクスチャの塊になってしまった。</p>
+<p>シリーズ全体での一貫性という問題もある。写真家が一連の画像にこれを使いたい状況は想像できる。ニールセン氏は結果は一貫しているはずだと示唆したが、デモでは、各画像に異なる変更を加えることなく、どれだけ確実に同じ処理を複数の写真に適用できるかは確認できなかった。今のところ私は、Restyleを一連の写真にまとまりのある雰囲気を与える信頼できる方法というより、創作上の実験として扱いたい。</p>
+<p>総じて、写真の内容を変えずにムードだけを変えたい場合や、細かなディテールや一貫性を保つ必要がある場合には、これらの制約は致命的になりうる。写真の現実性を変えることに伴う他の問題は言うまでもないが、それはまた別の機会の話題だ。</p>
+<p>生成クレジットの面では、Restyleははるかにコストがかかる。非常に生成負荷の高い処理で、使用には80クレジットが必要だ。</p>
+<h3>Lightroomの機能</h3>
+<h3>Blemish Removal（傷・シミ除去）</h3>
+<p>MAXでAdobeがプレス資料で言及した数少ないLightroomの機能の一つが、Blemish Removalだ。このツールは以前からLightroom Mobileで利用できたが、今回デスクトップ版でも使えるようになった。デモでは、最初のモバイル版はカジュアルな用途には十分だったものの、プロが必要とするレベルには達していなかったため、チームがデスクトップへの展開を遅らせたと説明された。</p>
+<p>Blemish RemovalはAIベースのツールで、シミや吹き出物などを検出して自動的に除去できる。単に肌をのっぺり滑らかにするのではなく、自然な肌の質感を保ち、レタッチ作業を大幅にスピードアップできる。とはいえこの機能の良いところは、結果をかなりコントロールできることだ。</p>
+<p><small>（写真キャプション）左：元画像。右：ブレミッシュを自動除去したもの。</small></p>
+<p>レタッチの強度を調整するスライダーがあり、重要なのは、それが顔全体の編集を単に薄めるだけではないという点だ。最も目立つブレミッシュから先に隠し、スライダーを動かすにつれて、より目立たない跡を順に除去していく仕組みだ。マスクを手動で編集して、取り残されたものを除去したり、残したいものを戻したりすることもできる。</p>
+<p>また、ほくろ（あざ）、ピアス、傷跡といった恒久的な特徴の扱いも調整できる。それらを残すことも、一時的なブレミッシュと一緒に消すこともできる。さらに、異なる人物を認識するので、上記のコントロールを人物ごとに調整できる。</p>
+<h3>カスタマイズ可能なUI</h3>
+<p>最後に、クラウド版のLightroomでは、UIをかなり細かくカスタマイズできるようになった。デフォルトのビューと、パワーユーザー向けのビューから選べる。あるいはClassic UIを選ぶこともでき、これはClassicを使い続けてきた人にとってクラウド版アプリへの移行をより魅力的なものにするかもしれない。</p>
+<p><small>（写真キャプション）お気に入りパネルは、最もよく使うコントロール専用のパネルだ。</small></p>
+<p>しかしおそらくもっと便利なのは「お気に入り」パネルで、ユーザーは事実上、自分だけの編集パネルを作成できる。つまり、まったく使わない調整項目やコントロールを非表示にし、常に使うものをより目立たせることができる。</p>
+<p>私はLightroomではなくAdobe Camera Raw（とPhotoshop）を使っているが、ACRでは使わない項目を常にスクロールして通り過ぎることになり、時間がかかるうえ少々いら立たしい。Lightroomでも似たような状況だろうと想像するので、自分の作業の仕方に基づいてUIを設定できるオプションは非常に魅力的で、編集作業の苦痛を少し和らげてくれるだろう。</p>
+<p><small>訳注: 原文の画像クレジット表記、著者紹介、フォロー呼びかけ、コメント欄は本文ではないため省略しました。DPReviewのページは自動取得が拒否されたため、同サイト公式RSSフィードに含まれる本文全文から翻訳しています。</small></p>
+<p><a href="https://www.dpreview.com/news/what-you-should-know-before-using-adobes-latest-photo-editing-tools/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p class="from">掲載ダイジェスト: <a href="../../#a9">2026-11-14 19:57 JST</a></p>
+  </div>
+</details>
+<details class="item" id="camera-2">
+  <summary>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Mandlerがライカそっくりの50mmレンズを発売――だがライカ品質の写真は撮れるのか？</span></div>
+    <div class="meta"><span class="tag">カメラ</span>Fstoppers ／ 2026-11-13
+      ／ 原文: <a href="https://fstoppers.com/gear/mandler-made-leica-lookalike-50mm-lens-does-it-take-leica-quality-photos-905478" rel="noopener noreferrer">https://fstoppers.com/gear/mandler-made-leica-lookalike-50mm-lens-does-it-take-leica-quality-photos-905478</a></div>
+    <p class="summary">ライカSummilux-M 50mm f/1.4（E46）プレ非球面に瓜二つのMandler 50mm f/1.4 Pre-A（Mマウント）をレビュー。真鍮版568ドル、アルミ版368ドル。開放の柔らかな描写と絞った時のシャープさを高評価し9.5/10。</p>
+  </summary>
+  <div class="body"><p>新しいMandler 50mm f/1.4 Pre-A Mマウントレンズをすでにレビューした写真家たちは、すぐにその画質をライカSummilux-M 50mm f/1.4 E46のプレ非球面（pre-aspherical）設計と比較している。私の考えはこうだ。そんなことはどうでもいい！</p>
+<p>確かに、この新しいMandlerのレンズは見た目の上ではライカのレンズのほぼ完全なコピーだが、光学設計は異なる。2本を並べてみても、前面の白い文字を見ない限り違いはわからない。確かに、ライカの有名な高価なレンズの手頃な代替品として作られている。確かに、Mandlerはライカの体験をできるだけ忠実に再現しようと決意しているようだ。</p>
+<p>ライカのように見えることと、ライカのレンズで撮ったような写真を生み出すことはまったく別の話だ。このレンズをレビューしている人は皆、そこに注目している。しかし私はMandler 50mmを受け取ったとき、それについてあまり深く考える価値はないと判断した。</p>
+<h3>第一印象</h3>
+<p>Mandler 50mm f/1.4をしばらく使ってみての第一印象は、信じられないほどよく作られたレンズだということだ。</p>
+<p>ライカの同等品の何分の一かの価格のレンズなら、製造品質に何らかの妥協があるだろうと考えがちだ。しかしMandlerに関しては、私の経験ではまったくそうではなかった。このレンズには2つのバージョンがある。シルバー仕上げで重さ385gの真鍮版と、ブラック仕上げで重さ290gのアルミニウム版だ。私が持っているのは真鍮版で、その重さは頼もしいほどしっかりしている。加工は素晴らしく、フォーカスリングはちょうどよい抵抗感でバターのように滑らかに回り、絞りリングは満足感のあるカチッとした精度を備えている。手にしたときに本物の品質を感じる。</p>
+<p>Mandlerは、クラシックなライカSummiluxの美学を再現するために多大な労力を注いでいる。プロポーション、刻印された文字や目盛り、引き出し式のレンズフードは驚くほど似ている。オリジナルにやや近すぎると考える人もいるかもしれない。その主張は理解できる。しかし、数千ドルを費やさずにこの独特のデザインを楽しめることを歓迎する写真家はたくさんいるのではないかと思う。私がテストしているMandlerの真鍮版は568ドル（アルミ版はわずか368ドル）だが、ライカのオリジナルの程度の良い中古品は最大4,000ドルもすることがある。</p>
+<p>私にとって重要なのは、Mandlerを手に取ったときに安っぽい模造品のように感じないことだ。きちんと設計された、質の高い写真機材だと感じられる。</p>
+<h3>画質</h3>
+<p>私にとってMandlerが本当に納得できるのはここからだ。他のレンズの画質がどうであるかは関係ない。このレンズが自分のカメラに付いているなら、私が関心を持つのは、それが自分にとってどう機能するかだけだ。画質は実に非常に良いと感じた。f/1.4の開放では、ヴィンテージレンズをあれほど魅力的にしているような描写を生み出す。画像には素敵な味わいがあり、心地よいボケ描写と、やや柔らかく、より有機的な雰囲気がある。</p>
+<p>確かに開放では周辺がソフトになるだろう――この種のレンズの多くはそうだ――最大絞りで臨床的に完璧な画像を生み出そうとしているわけではなく、それが魅力の一部なのだ。</p>
+<p>しかし12枚羽根の絞りを絞り込むと、状況はかなりはっきり変わる。シャープネスが向上し、コントラストが増し、画像ははるかにくっきりとした、より現代的な見た目になる。</p>
+<p>私はこの組み合わせが特に気に入っている。少し味わいが欲しいときは開放で使い、絞り込めば非常にシャープで精細な結果を楽しむこともできる。</p>
+<p>私が楽しむ種類の写真にとって、これは非常に魅力的な組み合わせだ。</p>
+<h3>で、ライカと比べてどうなのか？</h3>
+<p>当然ながら、ライカSummiluxとの比較は避けられない。2本のレンズを並べてテストした写真家たちから、画質の面でMandlerはライカに驚くほど近いと考えているという話を聞いた。Mandlerのほうがシャープだと言う人もいる。</p>
+<p>それは興味深いが、私は自問してしまう。それは本当に重要なのだろうか？</p>
+<p>すべてのレンズが、はるかに高価な代替品をどれだけ忠実に再現しているかで判断される必要はないと思う。そしてMandlerの価値が、それがライカの90％、95％、あるいは98％の良さであることを誰かが証明できるかどうかに左右されるべきでないことは確かだ。</p>
+<p>私がはるかに関心があるのは、このレンズがそれ自体の長所として実際に何をもたらすかだ。作りは良いか？　間違いなく良い。魅力的な画像を生み出すか？　はい。自分が楽しめる描写の味わいがあるか？　大いにある。そして私個人にとって大きなポイントは、使っていて気持ちがいいか？　実際に自分から使いたいと思うか？　答えは大きなイエスだ。</p>
+<p>使用感に関しては、近年作られているマニュアルレンズのほとんどは、作られている安いプラスチックレンズよりも常に好ましい。しかしこのMandler 50mmは、増え続ける金属製マニュアルフォーカスのMレンズの選択肢の中でも、感触と使いやすさの点でトップクラスにある。</p>
+<p>Mandlerで撮った写真が、ライカや他の同様のレンズで撮った写真よりわずかにシャープかソフトかを確かめることに時間を費やすことには、特に関心がない。テストチャートやピクセル等倍での粗探しはご自由にどうぞ。私はただ、使っていて楽しく、満足できる写真を生み出すレンズが欲しいだけだ。</p>
+<p>Mandlerはそれを実現している。</p>
+<h3>最後に</h3>
+<p>Mandler 50mm f/1.4は、手頃なライカMマウントレンズの選択肢が増えつつある中で、非常に興味深く歓迎すべき新顔だと思う。</p>
+<p>クラシックなライカSummiluxとの類似性は驚くべきものだ。外観の点では、Mandlerは驚くほど細部にこだわってあのレンズの見た目を再現している。さらに重要なのは、製造品質がそのスタイリングから期待されるとおりに素晴らしいことだ。</p>
+<p>しかし私にとって本当の魅力は、それがどれだけライカに似ているかではない。それ自体のレンズとしてどれだけよく機能するかだ。f/1.4の開放では素敵なヴィンテージの味わいと魅力的な有機的描写を生み出す。絞り込めば非常にシャープでくっきりした画像が得られる。これは非常に望ましい組み合わせであり、私が知る必要があるのは本当にそれだけだ。</p>
+<p>Mandlerをライカと直接比較した人たちが、画質は驚くほど近いと主張しているのを聞いた。それは確かに注目に値するが、それが最も気にすべき重要なことだとは思わない。Mandlerは、とても良いレンズであるためにライカSummiluxである必要はない。ただ、私が楽しめる画像を生み出し、使って気持ちがよく、価格に見合う価値を提供しさえすればよい。</p>
+<p>そしてそれらの点で、私は非常に感銘を受けた。私は、レンズを比較する時間を少し減らし、レンズを使って写真を撮る時間を少し増やすべきだと強く信じている。たくさんのレンズをレビューする立場の人間がそう言うのは、少々皮肉かもしれないが！</p>
+<p>重い真鍮版は感触がとても良く、私の真鍮製M3に付けると、頼もしい重量感があって完璧な組み合わせだ。しかし私はライカの機材では主にストリートと旅行の写真を撮っており、できるだけ軽くしたい。そのため、アルミ版のほうが良い選択肢だと思う。しかも200ドル安い368ドルだ。</p>
+<p>Mandler 50mm f/1.4 E46 Pre-Aは、私から文句なしの9.5/10の評価を得た。これは私の新しいお気に入りの50mm単焦点になるかもしれない。</p>
+<p><small>訳注: 原文末尾のFstoppersコミュニティ登録案内とコメント欄は本文ではないため省略しました。</small></p>
+<p><a href="https://fstoppers.com/gear/mandler-made-leica-lookalike-50mm-lens-does-it-take-leica-quality-photos-905478" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p class="from">掲載ダイジェスト: <a href="../../#a10">2026-11-14 19:57 JST</a></p>
+  </div>
+</details>
+<details class="item" id="camera-3">
+  <summary>
+    <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>NANLUX、FE/FMマウント照明向け「Bowens→FEマウントアダプター（AS-BA-FE）」を発表</span></div>
+    <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-11-13
+      ／ 原文: <a href="https://www.newsshooter.com/2026/11/13/nanlux-bowens-to-fe-mount-adapter-as-ba-fe/" rel="noopener noreferrer">https://www.newsshooter.com/2026/11/13/nanlux-bowens-to-fe-mount-adapter-as-ba-fe/</a></div>
+    <p class="summary">NANLUX独自のFE/FMマウント照明（EVOKE 150Cなど）で安価なBowensマウントのモディファイアを使えるようにするアダプター。180°チルトと調整式ハンドル付き。価格・発売時期は未定。</p>
+  </summary>
+  <div class="body"><p>NANLUXのBowens to FE Mount Adapter（AS-BA-FE）は、FEマウントおよびFMマウントの照明器具専用に設計された。これにより、NANLUX独自のマウントで、手頃な価格の幅広いBowensマウントのライティングモディファイアを使えるようになる。</p>
+<p>EVOKE 150CのようなFEおよびFMマウントの照明器具向けに、NANLUXがようやくBowensマウントアダプターを発売したのは喜ばしい。</p>
+<p>Bowens to FE Mount Adapterは、180°のチルト調整機能と調整可能なハンドルを備えている。</p>
+<h3>仕様</h3>
+<ul><li>対応製品：FEマウントおよびFMマウントの照明器具</li><li>製品サイズ：205.6×121.2×33.7mm／8.09×4.77×1.33インチ</li><li>製品重量：0.19kg／0.42ポンド</li><li>同梱品：Bowens to FE Mount Adapter×1、ユーザーマニュアル×1</li></ul>
+<h3>価格と発売時期</h3>
+<p>この製品は発表されたばかりのため、価格や出荷時期に関する現時点の情報はない。</p>
+<p><a href="https://www.newsshooter.com/2026/11/13/nanlux-bowens-to-fe-mount-adapter-as-ba-fe/" rel="noopener noreferrer">英語の原文を読む</a></p>
+<p class="from">掲載ダイジェスト: <a href="../../#a11">2026-11-14 19:57 JST</a></p>
+  </div>
+</details>
+<details class="item" id="camera-4">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Nikon Z30向け改造ファーム「Wonder Lantern」、4Kで最大200Mbps、スロー25分、写真用ゼブラなどを追加</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-13
@@ -99,10 +207,10 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p>Nikon Z30を持っているだろうか？このようなパッチ適用済みファームウェアをインストールするだろうか？2026年の今も、フルHDの高ビットレートは重要だろうか？コメント欄で意見を聞かせてほしい。</p>
 <p><small>訳注: ページ上部のポッドキャスト告知・サイトメニュー、末尾のニュースレター登録案内と筆者紹介は本文外のため省略しました。</small></p>
 <p><a href="https://www.cined.com/nikon-z30-wonder-lantern-mod-adds-higher-bitrates-200-mbps-4k-25-minute-slow-motion-photo-zebras/" rel="noopener noreferrer">英語の原文を読む</a></p>
-<p class="from">掲載ダイジェスト: <a href="../../#a9">2026-11-14 07:51 JST</a></p>
+<p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-14-1957/#a9">2026-11-14 07:51 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-2">
+<details class="item" id="camera-5">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Camp Snapのレトロなデジタルカムコーダー、キーホルダーサイズの最小モデルが登場</span></div>
     <div class="meta"><span class="tag">カメラ</span>The Verge ／ 2026-11-13
@@ -117,10 +225,10 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p><em>訂正（11月13日）: Camp Snap CS-8 Miniは11月17日に発売されます。</em></p>
 <p><small>訳注: 原文の訂正文は「CS-8 Mini」と記載されていますが、文脈上CS-8 Microの発売日に関する訂正とみられます。原文どおり訳しています。</small></p>
 <p><a href="https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain" rel="noopener noreferrer">英語の原文を読む</a></p>
-<p class="from">掲載ダイジェスト: <a href="../../#a10">2026-11-14 07:51 JST</a></p>
+<p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-14-1957/#a10">2026-11-14 07:51 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-3">
+<details class="item" id="camera-6">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>写真家、自作写真を無断使用したジグソーパズル会社を提訴へ――裁判所が訴訟継続を認める</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-13
@@ -137,11 +245,11 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p>判事はまた、マクガッケン氏の代位責任（vicarious）による著作権侵害の請求の継続も認めた。これは、企業が他者の著作権侵害行為を監督する能力を持ち、そこから経済的利益を得ている場合、その侵害について責任を問われうることを意味する。マクガッケン氏は、Karminとそのマーケティング関連会社Playviewが共同でパズルを製造・販売し、双方が売上から利益を得たと主張している。</p>
 <p><small>訳注: 末尾の画像クレジットとアフィリエイト開示文は本文外のため省略しました。</small></p>
 <p><a href="https://petapixel.com/2026/11/13/photographer-can-take-jigsaw-puzzle-company-to-court-over-use-of-his-photos/" rel="noopener noreferrer">英語の原文を読む</a></p>
-<p class="from">掲載ダイジェスト: <a href="../../#a11">2026-11-14 07:51 JST</a></p>
+<p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-14-1957/#a11">2026-11-14 07:51 JST</a></p>
   </div>
 </details>
 <h2 class="datehead">2026-11-13</h2>
-<details class="item" id="camera-5">
+<details class="item" id="camera-8">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ARRI、フィルムカメラの資料アーカイブを公開：ARRIFLEX 35、16SR、416のマニュアル・カタログ・仕様をオンラインで</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-13
@@ -168,7 +276,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-14-0751/#a9">2026-11-13 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-6">
+<details class="item" id="camera-9">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Blackmagic Ambisonic Microphone発表：7次アンビソニックス、108個のMEMSマイク、USB-Cケーブル1本で接続</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-12
@@ -193,7 +301,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-14-0751/#a10">2026-11-13 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-7">
+<details class="item" id="camera-10">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>28年間無償で高校アメフト部を撮影してきた写真家、突然撮影禁止に</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-12
@@ -213,7 +321,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-14-0751/#a11">2026-11-13 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-8">
+<details class="item" id="camera-11">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Leica、M-AとM11-Pに「ハンマートーン」仕上げの特別仕様を投入</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-12
@@ -234,7 +342,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-13-1954/#a9">2026-11-13 08:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-9">
+<details class="item" id="camera-12">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>写真家がソニーを提訴　スティーヴィー・ワンダーの写真をめぐり15万ドルの著作権侵害訴訟</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-12
@@ -254,7 +362,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-13-1954/#a10">2026-11-13 08:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-10">
+<details class="item" id="camera-13">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>『ナイブズ・アウト』の監督が13ドルのカメラアプリをリリース</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-12
@@ -278,7 +386,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-11-12</h2>
-<details class="item" id="camera-12">
+<details class="item" id="camera-15">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Apple Vision Pro版「Strada」が登場　任意のMacからApple Immersive Videoをストリーミング、BRAWからイマーシブデイリーも生成</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-12
@@ -302,7 +410,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-13-0800/#a9">2026-11-12 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-13">
+<details class="item" id="camera-16">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Blackmagic Design、108基のMEMSマイクを搭載した7次アンビソニックマイクを発表</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-11-11
@@ -320,7 +428,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-13-0800/#a10">2026-11-12 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-14">
+<details class="item" id="camera-17">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>アニー・リーボヴィッツ、ジャガーの新型「Type 01」とフローレンス・ピューを撮影</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-12
@@ -344,7 +452,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-13-0800/#a11">2026-11-12 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-15">
+<details class="item" id="camera-18">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ベイヤーカラーフィルターに取って代わる新センサー技術、スマホ写真を一変させる可能性</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-11
@@ -375,7 +483,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-12-1954/#a9">2026-11-12 07:51 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-16">
+<details class="item" id="camera-19">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ライカ、ノクティルックス60周年を240ページの書籍で記念</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-11
@@ -394,7 +502,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-12-1954/#a10">2026-11-12 07:51 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-17">
+<details class="item" id="camera-20">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>RØDE Capture、Androidで提供開始——Wireless Micro／Wireless GO（Gen 3）／Wireless PROのダイレクト接続とNDI出力に対応</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-11
@@ -417,7 +525,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-11-11</h2>
-<details class="item" id="camera-19">
+<details class="item" id="camera-22">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>OM デジタルソリューションズ「岡谷事業場」の内部を訪ねて</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-10
@@ -465,7 +573,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-12-0751/#a9">2026-11-11 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-20">
+<details class="item" id="camera-23">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Adobeが語らなかった、Adobe Camera Rawの素晴らしいアップデートのすべて</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-10
@@ -485,7 +593,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-12-0751/#a10">2026-11-11 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-21">
+<details class="item" id="camera-24">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Adobe Premiere 27.0リリース——Color Mode、AIアシスタントパネル、生成オーディオツール</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-11
@@ -518,7 +626,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-12-0751/#a11">2026-11-11 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-22">
+<details class="item" id="camera-25">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Photoshop、AIで写真の「ライティング」と「スタイル」を変更可能に</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-10
@@ -547,7 +655,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-11-1955/#a9">2026-11-11 07:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-23">
+<details class="item" id="camera-26">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>VSCO、ユーザーの写真で生成AIを訓練しないことをポリシーに明記</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-10
@@ -574,7 +682,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-11-1955/#a10">2026-11-11 07:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-24">
+<details class="item" id="camera-27">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>「Forma」——構図探しのための身につけられるビューファインダー</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-10
@@ -601,7 +709,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-11-10</h2>
-<details class="item" id="camera-26">
+<details class="item" id="camera-29">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Flanders Scientific、VPシリーズとVシリーズを発表——QD-OLEDモニター7機種、最大4,000nit、12G-SDI、3D対応</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-10
@@ -636,7 +744,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-11-0753/#a9">2026-11-10 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-27">
+<details class="item" id="camera-30">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Deity、ポケットレコーダー「PR-2ii」を発売——デュアルADCプリアンプ、IP54防塵防滴、WAVファイル復旧機能</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-10
@@ -663,7 +771,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-11-0753/#a10">2026-11-10 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-28">
+<details class="item" id="camera-31">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>『オデュッセイア』がIMAXに過去最高益をもたらす</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-10
@@ -687,7 +795,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-11-0753/#a11">2026-11-10 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-29">
+<details class="item" id="camera-32">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Canon「Camera Control Centre」発表——PTZとCinema EOSを最大200台管理できる無料のマルチカメラソフト</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-09
@@ -717,7 +825,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-10-1957/#a9">2026-11-10 08:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-30">
+<details class="item" id="camera-33">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>SIRUI、フルサイズAFレンズ「Aurora 15mm F1.6」と「24mm F1.4」を発表</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-11-09
@@ -744,7 +852,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-10-1957/#a10">2026-11-10 08:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-31">
+<details class="item" id="camera-34">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Artizlab、ライカの名玉を400ドルで復活させる</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-09
@@ -771,7 +879,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-11-09</h2>
-<details class="item" id="camera-33">
+<details class="item" id="camera-36">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>XTRA Muse 2／Muse 2 Proが11月10日にグローバル発売へ——1インチセンサー、デュアルカメラのPro、10ビットX-Log 3</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-09
@@ -799,7 +907,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-10-0800/#a9">2026-11-09 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-34">
+<details class="item" id="camera-37">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Canonの無料3D写真ソフト「Dual Pixel 3D」に対応するカメラはどれか</span></div>
     <div class="meta"><span class="tag">カメラ</span>Engadget ／ 2026-11-08
@@ -828,7 +936,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-10-0800/#a10">2026-11-09 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-35">
+<details class="item" id="camera-38">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>信号機の上に取り付けられた白いカメラ、その意外と知られていない役割</span></div>
     <div class="meta"><span class="tag">カメラ</span>Engadget ／ 2026-11-08
@@ -846,7 +954,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-10-0800/#a11">2026-11-09 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-36">
+<details class="item" id="camera-39">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Appleが忘れ去った画像フォーマットを復活させる——QuickTakeとQuickTime VRを現代のMacで</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-08
@@ -907,7 +1015,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-09-1958/#a3">2026-11-09 07:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-37">
+<details class="item" id="camera-40">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>149ドルのSirui Swift 40mm F2.2を、より高価な40mm単焦点3本と比較</span></div>
     <div class="meta"><span class="tag">カメラ</span>Fstoppers ／ 2026-11-08
@@ -927,7 +1035,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-09-1958/#a6">2026-11-09 07:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-38">
+<details class="item" id="camera-41">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Wandrdのマグネット式カメラストラップが、私の新しいお気に入りアクセサリーに</span></div>
     <div class="meta"><span class="tag">カメラ</span>WIRED ／ 2026-11-08
@@ -951,7 +1059,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-11-08</h2>
-<details class="item" id="camera-40">
+<details class="item" id="camera-43">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Samyang AF 60-180mm f/2.8レビュー：大三元がついに完成</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-07
@@ -989,7 +1097,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-09-0754/#a9">2026-11-08 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-41">
+<details class="item" id="camera-44">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>C7 Adapters、Blackmagic URSA Cine LF／65用のライカMレンズマウントを発売</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-11-07
@@ -1006,7 +1114,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-09-0754/#a10">2026-11-08 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-42">
+<details class="item" id="camera-45">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Video Village「Mirage」発表——レイトレーシングでプリズムやディオプター効果を再現するガラスエフェクトプラグイン</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-11-07
@@ -1035,7 +1143,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-09-0754/#a11">2026-11-08 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-43">
+<details class="item" id="camera-46">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>スーツケースから数千枚のネガ——先駆的女性写真家ヴィオレット・コルネリウスの作品が初の本格展示へ</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-07
@@ -1057,7 +1165,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-08-1958/#a9">2026-11-08 07:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-44">
+<details class="item" id="camera-47">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>「Chromagraph Camera」はまさに求めていたiPhoneカメラアプリだ——ライアン・ジョンソン監督発の12.99ドルアプリ（コラム）</span></div>
     <div class="meta"><span class="tag">カメラ</span>9to5Mac ／ 2026-11-07
@@ -1078,7 +1186,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-08-1958/#a10">2026-11-08 07:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-45">
+<details class="item" id="camera-48">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>マルチカメラ制作アプリ「Director Mode」正式版がApp Storeで公開——キヤノン／ソニー機を最大4台同時モニター・一括録画</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-11-07
@@ -1101,7 +1209,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-11-07</h2>
-<details class="item" id="camera-47">
+<details class="item" id="camera-50">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Meike、APS-C用ポートレート単焦点「58mm f/1.2 Mix」を449ドルで発売——ソニーE／富士フイルムX／ニコンZ対応</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-06
@@ -1124,7 +1232,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-08-0752/#a9">2026-11-07 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-48">
+<details class="item" id="camera-51">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>撮影監督Steve Yedlinと監督Rian Johnson、iPhone用静止画アプリ「Chromagraph Camera」を公開——映画と同じカラー処理をRAWに適用</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-06
@@ -1155,7 +1263,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-08-0752/#a10">2026-11-07 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-49">
+<details class="item" id="camera-52">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>CineDファーストルック：HONOR Magic9 Pro Max——ARRIのカラーサイエンスを手の届く価格のスマホで</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-06
@@ -1196,7 +1304,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-08-0752/#a11">2026-11-07 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-50">
+<details class="item" id="camera-53">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Blackmagic、DaVinci Resolve 21.2——PROLED XDRタッチMac対応、Gen 6 LUT、M5 Pro／Maxで最大5倍レンダー公称</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-06
@@ -1212,7 +1320,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-07-1959/#a9">2026-11-07 08:02 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-51">
+<details class="item" id="camera-54">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Imaging Resource、Nikonが無線リモコン申請図で未発表機を露出か——Z70噂のAPS‑C機か</span></div>
     <div class="meta"><span class="tag">カメラ</span>Imaging Resource ／ 2026-11-06
@@ -1227,7 +1335,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-07-1959/#a10">2026-11-07 08:02 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-52">
+<details class="item" id="camera-55">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>DPReview計測：Sigma FP2のセンサー読み出しは先代の2倍超——単写14.2ms、バースト11.1ms</span></div>
     <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-11-06
@@ -1244,7 +1352,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-11-06</h2>
-<details class="item" id="camera-54">
+<details class="item" id="camera-57">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Glyph、クリエイター向けカードリーダー2機——CFexpress Type A USB4とデュアルSD</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-05
@@ -1258,7 +1366,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-07-0802/#a9">2026-11-06 20:07 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-55">
+<details class="item" id="camera-58">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>韓国Lutra、画面もファインダーもない「HOA A1」——枠自体がファインダーの認証志向カメラ</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-05
@@ -1273,7 +1381,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-07-0802/#a10">2026-11-06 20:07 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-56">
+<details class="item" id="camera-59">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Sony FX5、欧州で出荷再開——北米は11月8–9日開始との情報、約3か月の遅延に区切りか</span></div>
     <div class="meta"><span class="tag">カメラ</span>Imaging Resource ／ 2026-11-03
@@ -1288,7 +1396,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-07-0802/#a11">2026-11-06 20:07 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-57">
+<details class="item" id="camera-60">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Sony RIALTO 65詳細——単板65mmセンサー、ユニバーサルマウント、本体7.2万ユーロ</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-05
@@ -1302,7 +1410,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-06-2007/#a9">2026-11-06 07:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-58">
+<details class="item" id="camera-61">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>PetaPixelのPixelMeter、カメラ／レンズの並び比較に対応——レビュー集約の次ステップ</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-05
@@ -1316,7 +1424,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-06-2007/#a10">2026-11-06 07:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-59">
+<details class="item" id="camera-62">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Sony、高価格帯カメラへシフトが奏功——台数減でもイメージング利益を下支え</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-11-05
@@ -1331,7 +1439,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-11-05</h2>
-<details class="item" id="camera-61">
+<details class="item" id="camera-64">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Canon、Cinema EOS 15周年でC400／C80／C50／R5 Cに大型ファーム——色軸制御や高フレームAF拡張</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-04
@@ -1345,7 +1453,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-06-0754/#a9">2026-11-05 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-62">
+<details class="item" id="camera-65">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Nikon ZRの大型ファーム2.00詳細——H.265でLog3G10、高感度NR調整、低照度の黒レベル揺らぎ抑制</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-04
@@ -1359,7 +1467,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-06-0754/#a10">2026-11-05 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-63">
+<details class="item" id="camera-66">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>DJI Osmo Pocket 4Pに大型ファーム——最大ズーム18倍、3倍切替の露出ジャンプ改善、シーンプリセット追加</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-04
@@ -1373,7 +1481,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-06-0754/#a11">2026-11-05 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-64">
+<details class="item" id="camera-67">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Canon、天体・長時間撮影向けタイマーリモコンTC-N3／TC-E3と多機能シュー用マイクDM-E10D</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-04
@@ -1387,7 +1495,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-05-1958/#a9">2026-11-05 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-65">
+<details class="item" id="camera-68">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Anker eufy、窓の内側から屋外を監視するWindow Camera E10——2.5K・79.99ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>The Verge ／ 2026-11-04
@@ -1401,7 +1509,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-05-1958/#a10">2026-11-05 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-66">
+<details class="item" id="camera-69">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Lomography、金メッキの限定MC-A 35mmコンパクトを発表——Noir版も、12月出荷</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-04
@@ -1416,7 +1524,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-11-04</h2>
-<details class="item" id="camera-68">
+<details class="item" id="camera-71">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Nikon ZRファーム2.00の詳細——H.265でLog3G10、High ISO NR選択、HDMIへ3D LUT</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-04
@@ -1430,7 +1538,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-05-0758/#a9">2026-11-04 19:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-69">
+<details class="item" id="camera-72">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Canon、EOS C400／C80／C50向け大型ファームを発表——Multi-MatrixとC50のSpeedlite対応</span></div>
     <div class="meta"><span class="tag">カメラ</span>RedShark News ／ 2026-11-04
@@ -1444,7 +1552,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-05-0758/#a10">2026-11-04 19:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-70">
+<details class="item" id="camera-73">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Nextorage、プロ映像向けUHS-II SD「NX-F2AE」発表——最大1TB・V90</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-03
@@ -1458,7 +1566,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-04-1950/#a9">2026-11-04 07:50 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-71">
+<details class="item" id="camera-74">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Peak Design、Qi2対応ワイヤレスバッテリーなど充電アクセサリー4製品を投入</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-03
@@ -1472,7 +1580,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-04-1950/#a10">2026-11-04 07:50 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-72">
+<details class="item" id="camera-75">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>AI生成の商品写真は購買自信を下げる——米調査で60%が「自信が減る」と回答</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-03
@@ -1487,7 +1595,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-11-03</h2>
-<details class="item" id="camera-74">
+<details class="item" id="camera-77">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>OFFBIT、カメラ部門向け電子ペーパー「M1」発表——レンズチャート／スタッフ表／メモを1画面に、電池は最大3週間</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-03
@@ -1502,7 +1610,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-04-0750/#a9">2026-11-03 19:48 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-75">
+<details class="item" id="camera-78">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ニコン、通期営業利益予想を50%上方修正——一方でカメラ・レンズの下期売上計画は引き下げ</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-02
@@ -1517,7 +1625,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-04-0750/#a10">2026-11-03 19:48 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-76">
+<details class="item" id="camera-79">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>OM幹部、フルサイズ／APS-C進出を社内で検討した経緯を語る——結局はMicro Four Thirdsに集中</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-02
@@ -1532,7 +1640,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-04-0750/#a11">2026-11-03 19:48 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-77">
+<details class="item" id="camera-80">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>リコー、米国初の「GR Space」をニューヨークに開設へ——2027年冬オープン予定</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-02
@@ -1550,7 +1658,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-03-1948/#a9">2026-11-03 08:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-78">
+<details class="item" id="camera-81">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>「Weather Photographer of the Year」最終候補30点が公開——一般投票は11月5日まで</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-02
@@ -1569,7 +1677,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-03-1948/#a10">2026-11-03 08:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-79">
+<details class="item" id="camera-82">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>半判ライカの試作機など希少品が競売へ——Leitz Photographica Auction 49、最高推定50万ユーロ</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-02
@@ -1592,7 +1700,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-11-02</h2>
-<details class="item" id="camera-81">
+<details class="item" id="camera-84">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>F1メキシコGPでフォトグラファーの機材約3万ドル相当が盗難——Canon R1×2台とレンズ、作業員を装った2人組</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-02
@@ -1617,7 +1725,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-03-0800/#a9">2026-11-02 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-82">
+<details class="item" id="camera-85">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Vimeoに「人質」に取られた18年分の動画——無料で上げた昔の作品が5GB上限でロックされ、見るにも落とすにも課金が必要に（CineD寄稿）</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-02
@@ -1666,7 +1774,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-03-0800/#a10">2026-11-02 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-83">
+<details class="item" id="camera-86">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>映像制作見本市「Eurocine 2027」、ブダペストで4月29日〜5月1日に開催——会期は1日延長、入場無料</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-11-02
@@ -1687,7 +1795,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-03-0800/#a11">2026-11-02 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-84">
+<details class="item" id="camera-87">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>【論考】動画機能が少し増えたからといって、カメラメーカーが写真を見放したわけではない</span></div>
     <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-11-01
@@ -1724,7 +1832,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-02-1958/#a9">2026-11-02 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-85">
+<details class="item" id="camera-88">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>国際宇宙ステーションと木星を同じフレームに——2年越しの狙いを実現した天体写真</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-01
@@ -1748,7 +1856,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-02-1958/#a10">2026-11-02 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-86">
+<details class="item" id="camera-89">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ナダールやマン・レイの作品が登場——写真誕生200年を祝うクリスティーズのオークション</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-11-01
@@ -1769,7 +1877,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-11-01</h2>
-<details class="item" id="camera-88">
+<details class="item" id="camera-91">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>キヤノン、メモリー価格高騰で来年以降カメラ値上げの方針——部品不足のコスト増を「価格転嫁で吸収」</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-30
@@ -1797,7 +1905,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-02-0758/#a8">2026-11-01 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-89">
+<details class="item" id="camera-92">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Viltrox 35mm f/1.4 Proレビュー：美しき“巨漢”レンズ——周辺まで驚異的にシャープ、ただし重い</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-31
@@ -1830,7 +1938,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-02-0758/#a9">2026-11-01 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-90">
+<details class="item" id="camera-93">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ショットの途中で時間を曲げる——ザック・スナイダーの「スピードランプ」は単なるギミックか</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-30
@@ -1857,7 +1965,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-02-0758/#a10">2026-11-01 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-91">
+<details class="item" id="camera-94">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>サム・テイラー＝ジョンソンの写真シリーズ「Crying Men」、米アトランタの大規模個展で展示</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-31
@@ -1879,7 +1987,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-02-0758/#a11">2026-11-01 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-92">
+<details class="item" id="camera-95">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>DJ-Optical、厚さ15mmのライカMマウント用パンケーキレンズ「Ultra Slim 35mm f/3.5」を発売</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-31
@@ -1898,7 +2006,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-01-1957/#a10">2026-11-01 07:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-93">
+<details class="item" id="camera-96">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Nikon Z5IIC発売後、8年前の初代Nikon Z6が検索トレンドに——その理由は「完全に納得できる」</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-31
@@ -1926,7 +2034,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-01-1957/#a11">2026-11-01 07:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-94">
+<details class="item" id="camera-97">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ハッブルとジェイムズ・ウェッブ宇宙望遠鏡がタッグ、ハロウィーンに「猫の頭星雲」を撮影</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-31
@@ -1947,7 +2055,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-31</h2>
-<details class="item" id="camera-96">
+<details class="item" id="camera-99">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ニコン、2027年3月期の通期予想を上方修正し純利益160億円の黒字へ――ただし映像事業は下期販売計画を見直し売上予想を引き下げ</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-10-30
@@ -1966,7 +2074,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-01-0753/#a10">2026-10-31 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-97">
+<details class="item" id="camera-100">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>リコー、GRシリーズ専用拠点「GR Space」をニューヨークに開設へ――米国初、2027年冬オープン予定</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-30
@@ -1988,7 +2096,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-01-0753/#a11">2026-10-31 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-98">
+<details class="item" id="camera-101">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>伝説のドローン「DJI Phantom」が正式に終幕――最後のPhantom 4 Pro V2が10月31日で修理・技術サポート終了</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-30
@@ -2016,7 +2124,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-11-01-0753/#a12">2026-10-31 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-99">
+<details class="item" id="camera-102">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ハックされたHasselblad X2D II 100C、動画撮影・ChatGPT・Linuxまで動作――オープンソースの改造ファームが次々登場</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-30
@@ -2036,7 +2144,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-31-1955/#a9">2026-10-31 07:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-100">
+<details class="item" id="camera-103">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>リサイクル店Goodwillのオークションに未知のライカ試作レンズ――約5万ドルで売れた「Leica / Hughes Leitz 17mm f/2」の2本目か</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-30
@@ -2057,7 +2165,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-31-1955/#a10">2026-10-31 07:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-101">
+<details class="item" id="camera-104">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>『ナイブズ・アウト』のライアン・ジョンソン監督、映画と同じ画作りのiPhoneカメラアプリ「Chromagraph Camera」を公開</span></div>
     <div class="meta"><span class="tag">カメラ</span>9to5Mac ／ 2026-10-30
@@ -2083,7 +2191,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-31-1955/#a11">2026-10-31 07:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-102">
+<details class="item" id="camera-105">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ニューヨーク州初の黒人弁護士ジョージ・B・ヴァションの唯一のダゲレオタイプ発見――「眼鏡の紳士」として882ドルで落札された1枚が23万ドル超に</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-30
@@ -2107,7 +2215,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-30</h2>
-<details class="item" id="camera-104">
+<details class="item" id="camera-107">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>キヤノン、メモリ価格が高止まりすれば2027年にカメラを値上げする可能性――影響は他メーカーにも</span></div>
     <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-10-29
@@ -2131,7 +2239,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-31-0754/#a9">2026-10-30 20:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-105">
+<details class="item" id="camera-108">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ニコン「NIKKOR Z 120-300mm f/2.8 TC VR S」正式発表――1.4倍テレコン内蔵で420mm f/4、6.5段VR、F版より515g軽量</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-29
@@ -2155,7 +2263,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-31-0754/#a10">2026-10-30 20:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-106">
+<details class="item" id="camera-109">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>米上院議員、Metaのカメラ付きスマートグラスを調査へ――同意なき撮影とAI学習データ収集を問題視</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-30
@@ -2174,7 +2282,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-31-0754/#a11">2026-10-30 20:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-107">
+<details class="item" id="camera-110">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2枚の尾びれ写真が明かしたザトウクジラの大移動――AI照合が支える写真識別と「記録に残る尾びれ」の撮り方</span></div>
     <div class="meta"><span class="tag">カメラ</span>Fstoppers ／ 2026-10-29
@@ -2216,7 +2324,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-31-0754/#a12">2026-10-30 20:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-108">
+<details class="item" id="camera-111">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ソニー「RIALTO 65」正式発表――VENICE 2に接続する65mmセンサーのカメラヘッド、9.6KオープンゲートとX-OCN 16bit、2027年前半発売</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-29
@@ -2242,7 +2350,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-30-2000/#a9">2026-10-30 07:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-109">
+<details class="item" id="camera-112">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Sirui、新シリーズ「Swift」のフルサイズ対応AF単焦点20mm F2.4と40mm F2.2を発表――各149ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-29
@@ -2261,7 +2369,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-30-2000/#a10">2026-10-30 07:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-110">
+<details class="item" id="camera-113">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Viltrox「AF 35mm f/1.4 Pro」発表――ソニーE／ニコンZ向け、F1.4 Proシリーズ3本がそろう、829ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-29
@@ -2284,7 +2392,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-30-2000/#a11">2026-10-30 07:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-111">
+<details class="item" id="camera-114">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>デジタルカメラの出荷、コンパクト機ブームでも失速――CIPA統計で2026年は8月までに前年割れ、3年連続増は厳しく</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-29
@@ -2306,7 +2414,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-29</h2>
-<details class="item" id="camera-113">
+<details class="item" id="camera-116">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Nikon、1.4倍テレコン内蔵の「NIKKOR Z 120-300mm f/2.8 TC VR S」を正式発表――1万3,999.95ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-28
@@ -2331,7 +2439,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-30-0754/#a9">2026-10-29 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-114">
+<details class="item" id="camera-117">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Capture One 16.9、ほつれ毛の自動除去と色編集の強化を追加</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-29
@@ -2357,7 +2465,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-30-0754/#a10">2026-10-29 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-115">
+<details class="item" id="camera-118">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>SmallHD「Focus 504」発表――1000nitの5インチモニター、3G-SDI／HDMI 2.0とWi-Fiカメラ制御、999ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-29
@@ -2386,7 +2494,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-30-0754/#a11">2026-10-29 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-116">
+<details class="item" id="camera-119">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>米国防情報局、中国の秘密宇宙機「神龍」を衛星から捉えた高解像度写真を公開</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-29
@@ -2407,7 +2515,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-30-0754/#a12">2026-10-29 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-117">
+<details class="item" id="camera-120">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Accsoon「CineView Master 4K II」発表――DCI 4K60のトライバンド無線映像伝送、送受信機の両方にUSB-C出力、カメラ制御に対応</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-28
@@ -2441,7 +2549,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-29-1953/#a9">2026-10-29 07:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-118">
+<details class="item" id="camera-121">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>写真の殿堂『LIFE』誌が紙の雑誌として復刊へ――11月23日、250ページ・45ドルの大判で創刊号</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-28
@@ -2465,7 +2573,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-29-1953/#a10">2026-10-29 07:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-119">
+<details class="item" id="camera-122">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ファッション業界の生成AI導入で写真スタジオの閉鎖が相次ぐ――Zalandoはベルリンの2スタジオを閉鎖、モデルの肖像権にも波紋</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-28
@@ -2489,7 +2597,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-29-1953/#a11">2026-10-29 07:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-120">
+<details class="item" id="camera-123">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>キヤノン×バンダイのミニチュアカメラガチャに新作――PowerShot G7 X Mark IIIとIXY 210が仲間入り、2027年2月から1回400円</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-28
@@ -2509,7 +2617,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-28</h2>
-<details class="item" id="camera-122">
+<details class="item" id="camera-125">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Feiyu Pocket 4発表――1/1.55インチセンサー、4K60、111GBの内蔵ストレージを備えた299ドルのジンバルカメラ</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-28
@@ -2537,7 +2645,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-29-0759/#a9">2026-10-28 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-123">
+<details class="item" id="camera-126">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ソニー、スマホ向け50MPイメージセンサー「LYTIA 720」を開発――低照度ノイズ50%減、全画素AFで4K60 HDR動画</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-10-28
@@ -2569,7 +2677,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-29-0759/#a10">2026-10-28 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-124">
+<details class="item" id="camera-127">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ソニー、延期していたCinema Line「FX5」の国内発売日を2026年11月20日（金）に決定</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-10-27
@@ -2598,7 +2706,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-29-0759/#a11">2026-10-28 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-125">
+<details class="item" id="camera-128">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>『デューン 砂の惑星 PART3』のためのカスタムレンズ――Atlas Lens Co.がIMAX 70mm用の球面レンズを開発</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-10-28
@@ -2619,7 +2727,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-29-0759/#a12">2026-10-28 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-126">
+<details class="item" id="camera-129">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Thypoch初のAF単焦点「AF 23mm f/1.4 Sculptor」――富士フイルムXマウント用、349ドル・283gで同クラス最軽量・最安</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-27
@@ -2642,7 +2750,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-28-1958/#a9">2026-10-28 08:02 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-127">
+<details class="item" id="camera-130">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Godox、23gのポケットサイズ小型フラッシュ「iM10」を24.90ドルで発売――単接点ホットシューでフィルムカメラにも対応</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-27
@@ -2662,7 +2770,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-28-1958/#a10">2026-10-28 08:02 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-128">
+<details class="item" id="camera-131">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Apple Creator Studio大型アップデート――Final Cut ProにMotionVFX統合、Pixelmator Proに生成AI「Generate Fill」</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-27
@@ -2681,7 +2789,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-28-1958/#a11">2026-10-28 08:02 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-129">
+<details class="item" id="camera-132">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Sirui、4通りに使える79ドルの折りたたみ卓上三脚「TC50 + BH-19」――ハンドグリップ、クランプ、吊り下げフックにも</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-27
@@ -2704,7 +2812,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-27</h2>
-<details class="item" id="camera-131">
+<details class="item" id="camera-134">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>富士フイルム「instax mini Evo 2」発表――背面液晶は4.5インチに大型化、撮影前4秒を残す「Immersive Movie」も</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-26
@@ -2722,7 +2830,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-28-0802/#a9">2026-10-27 20:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-132">
+<details class="item" id="camera-135">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Westcott、「Rapid Box Switch」ソフトボックスを完全に平らに畳める新設計に刷新</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-26
@@ -2742,7 +2850,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-28-0802/#a10">2026-10-27 20:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-133">
+<details class="item" id="camera-136">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>SmallRig、シグマ「FP2」用ケージとL字プレートを発表――木製グリップ、HawkLock NATOレール、アルカスイス互換ベース</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-27
@@ -2762,7 +2870,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-28-0802/#a11">2026-10-27 20:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-134">
+<details class="item" id="camera-137">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>パリの抗議デモを取材中の写真家、警察のグレネードで大腿動脈を損傷し「死にかけた」――検察が捜査開始</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-27
@@ -2782,7 +2890,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-28-0802/#a12">2026-10-27 20:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-135">
+<details class="item" id="camera-138">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>シグマ、50mm F1.4 CL DG | Contemporaryを発表――あえて柔らかく描く375gの総金属単焦点、新開発のリング型AFモーター「RDD」搭載</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-26
@@ -2807,7 +2915,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-27-2001/#a9">2026-10-27 08:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-136">
+<details class="item" id="camera-139">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Godox、85ドルの新クリップオンストロボ「TT350II」――ハイブリッドシューで主要メーカーにほぼ対応、カラー液晶とLEDモデリングライトも</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-26
@@ -2829,7 +2937,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-27-2001/#a10">2026-10-27 08:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-137">
+<details class="item" id="camera-140">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>カメラアプリHalide、iPhone Duo向け初のアップデート――半開きでウエストレベルファインダー風に撮影可能に</span></div>
     <div class="meta"><span class="tag">カメラ</span>Engadget ／ 2026-10-26
@@ -2844,7 +2952,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-27-2001/#a11">2026-10-27 08:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-138">
+<details class="item" id="camera-141">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>GoPro、MISSION 1向けクローズアップフィルターを発売――PolarPro製の+0.5〜+2ディオプター、単体49.99ドル／3枚セット99.99ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-26
@@ -2867,7 +2975,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-26</h2>
-<details class="item" id="camera-140">
+<details class="item" id="camera-143">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>W杯決勝で主審が装着した14gの頭部装着カメラ「Riedel RefCam」がドイツ博物館入り――ARRIを買収したRiedelの名を冠した小型カメラが1839年製ダゲール・カメラの向かいに</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-26
@@ -2900,7 +3008,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-27-0801/#a9">2026-10-26 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-141">
+<details class="item" id="camera-144">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>OPPO Find X10 Ultraのカメラ仕様がリーク――LOFIC対応の200MPメイン、1/1.95型の大型10倍望遠、100MPの正方形自撮りカメラ</span></div>
     <div class="meta"><span class="tag">カメラ</span>Android Authority ／ 2026-10-26
@@ -2918,7 +3026,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-27-0801/#a10">2026-10-26 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-142">
+<details class="item" id="camera-145">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>GoProを2000年代のMiniDVハンディカム風に変える3Dプリント製リグ「6OH5OH MINI 60」――光学ファインダー付き、60ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-10-25
@@ -2939,7 +3047,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-27-0801/#a11">2026-10-26 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-143">
+<details class="item" id="camera-146">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Blackmagic Design、SMPTE 2110映像向けの「Ethernet Switch 820」を発売――100G×8ポート、冗長PTP・冗長電源で2525ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-10-25
@@ -2959,7 +3067,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-27-0801/#a12">2026-10-26 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-144">
+<details class="item" id="camera-147">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>カメラ4台・レンズ7本――コモンウェルスゲームズを撮るのに必要なもの：スポーツ写真家がグラスゴー2026の機材と考え方を解説</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-25
@@ -3014,7 +3122,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-26-1957/#a9">2026-10-26 08:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-145">
+<details class="item" id="camera-148">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>写真のために笑うという空虚なしぐさ――湿板写真家が「はい、チーズ」の歴史をたどり、作り笑いをやめようと提言</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-25
@@ -3046,7 +3154,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-26-1957/#a10">2026-10-26 08:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-146">
+<details class="item" id="camera-149">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>マグナム、「Fact/Fiction」スクエアプリントセールを10月26日から開催――マーティン・パーらの署名入りプリント、初の9×9インチも登場</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-25
@@ -3065,7 +3173,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-26-1957/#a11">2026-10-26 08:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-147">
+<details class="item" id="camera-150">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ポートレートモードが最も優秀なスマホは？――iPhone・Pixel 11 Pro XL・Galaxy S26 Plusを比較、総合ではPixelに軍配</span></div>
     <div class="meta"><span class="tag">カメラ</span>Android Authority ／ 2026-10-25
@@ -3104,7 +3212,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-25</h2>
-<details class="item" id="camera-149">
+<details class="item" id="camera-152">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2017年発売の初代Sony α9、今も現役――1/8000秒で捉えた「魚をくわえて水中から飛び出すカワセミ」を専門家が講評</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-25
@@ -3144,7 +3252,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-26-0801/#a9">2026-10-25 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-150">
+<details class="item" id="camera-153">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>小川の底、朽ちた葉のレースのような葉脈の中で寄り添う2匹の小さなエビのような生き物――OurNature環境写真賞「水」部門で次点</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-25
@@ -3166,7 +3274,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-26-0801/#a10">2026-10-25 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-151">
+<details class="item" id="camera-154">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>【コラム】2026年でも一眼レフを買う価値はある――中古の安さ、光学ファインダー、バッテリー持ち、グリップ</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-25
@@ -3195,7 +3303,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-26-0801/#a11">2026-10-25 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-152">
+<details class="item" id="camera-155">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>【コラム】あなたのカメラは多機能すぎる――本当に必要なのは「約2100万画素、優れたAF、AF-ONボタン、カスタムボタン2つ」だけ</span></div>
     <div class="meta"><span class="tag">カメラ</span>Amateur Photographer ／ 2026-10-25
@@ -3246,7 +3354,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-26-0801/#a12">2026-10-25 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-153">
+<details class="item" id="camera-156">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>死亡事故が相次ぐアイスランドの海岸で、波の中に「幽霊の顔」を捉えた写真</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-24
@@ -3271,7 +3379,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-25-1958/#a9">2026-10-25 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-154">
+<details class="item" id="camera-157">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>移動式暗室でティンタイプを制作する写真家ララ・ポーザック、初の作品集『The Chemistry of Memory』を刊行</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-24
@@ -3291,7 +3399,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-25-1958/#a10">2026-10-25 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-155">
+<details class="item" id="camera-158">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>iPhone Duoでレトロな映像を撮れるカメラアプリ「Flipcorder」――1本の「テープ」に20秒ずつ記録</span></div>
     <div class="meta"><span class="tag">カメラ</span>9to5Mac ／ 2026-10-24
@@ -3311,7 +3419,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-25-1958/#a11">2026-10-25 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-156">
+<details class="item" id="camera-159">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>10年かけて全米の黒人カウボーイ・カウガールを撮影――アイヴァン・マクレラン氏の写真集『Eight Seconds』</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-24
@@ -3332,7 +3440,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-24</h2>
-<details class="item" id="camera-158">
+<details class="item" id="camera-161">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ジェイムズ・ウェッブ宇宙望遠鏡、大マゼラン雲の星形成領域N159を撮影――「星形成の荒れ狂う大釜」</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-23
@@ -3353,7 +3461,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-25-0758/#a9">2026-10-24 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-159">
+<details class="item" id="camera-162">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>「ヨーロッパ野生生物写真家オブ・ザ・イヤー2026」発表――大賞はコウモリの糞に生えるカビと冬眠中のコウモリを捉えたハンガリーのイムレ・ポチョ氏</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-23
@@ -3382,7 +3490,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-25-0758/#a10">2026-10-24 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-160">
+<details class="item" id="camera-163">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>マイケル・ジョーダン伝説の「フリースローラインダンク」を捉えたオリジナル写真がオークションに――撮影者「チャンスは一度きりだった」</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-23
@@ -3408,7 +3516,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-25-0758/#a11">2026-10-24 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-161">
+<details class="item" id="camera-164">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ロン・ハワード監督のドキュメンタリー『Avedon』、Netflixが予告編を公開――伝説の写真家リチャード・アヴェドンの生涯を未公開アーカイブで描く</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-23
@@ -3429,7 +3537,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-25-0758/#a12">2026-10-24 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-162">
+<details class="item" id="camera-165">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Thypoch、Simera-C 100mm T1.9を発表――低価格フルサイズ・シネプライム7本シリーズが完成、879ドルから</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-23
@@ -3451,7 +3559,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-24-1959/#a9">2026-10-24 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-163">
+<details class="item" id="camera-166">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Canva、写真ではなくデザインテンプレートで学習した初の画像生成AI「Canva Craft」を公開</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-23
@@ -3469,7 +3577,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-24-1959/#a10">2026-10-24 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-164">
+<details class="item" id="camera-167">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>F1中継の「物理法則を無視したカメラ切り替え」はAI生成？ SNSで疑惑が拡大</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-23
@@ -3493,7 +3601,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-24-1959/#a11">2026-10-24 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-165">
+<details class="item" id="camera-168">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>疲れ果てた消防士の写真でピュリツァー賞、報道写真家ジェリー・ゲイ氏が死去――79歳</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-23
@@ -3518,7 +3626,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-23</h2>
-<details class="item" id="camera-167">
+<details class="item" id="camera-170">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>シグマ「FP2」発表――6Kオープンゲート、ProRes RAW内部収録、2450万画素の部分積層型センサーを搭載した7年ぶりのfp後継機</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-23
@@ -3565,7 +3673,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-24-0755/#a9">2026-10-23 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-168">
+<details class="item" id="camera-171">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>シグマ、シャープさより「味」を重視したコンパクトなヴィンテージ調レンズの新ライン「CL」を発表――第1弾は50mm F1.4 CL DG Contemporary</span></div>
     <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-10-23
@@ -3587,7 +3695,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-24-0755/#a10">2026-10-23 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-169">
+<details class="item" id="camera-172">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>シュナイダー・クロイツナッハ、シネマレンズ用保護フィルター「Nano Clear」を発表――広帯域反射防止ナノコートで色かぶりをほぼゼロに</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-23
@@ -3608,7 +3716,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-24-0755/#a11">2026-10-23 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-170">
+<details class="item" id="camera-173">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>クック、伝説的なS4/i S35シリーズをフルサイズ化した「S4 FF/i」シネマプライム6本を発表――全本T2.0、1本1万5000ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-22
@@ -3630,7 +3738,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-24-0755/#a12">2026-10-23 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-171">
+<details class="item" id="camera-174">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Oppo、Hasselblad共同開発の「Find X10 Pro Max」を発表――背面3眼すべて2億画素の世界初スマホ</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-22
@@ -3666,7 +3774,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-23-1953/#a9">2026-10-23 08:02 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-172">
+<details class="item" id="camera-175">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>GoPro、Mission 1／1 Pro用クローズアップフィルターをPolarProと共同で発売――最大の弱点だった最短撮影距離を半分に</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-22
@@ -3685,7 +3793,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-23-1953/#a10">2026-10-23 08:02 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-173">
+<details class="item" id="camera-176">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Insta360、内蔵ストレージをmicroSDに置き換えて80ドル安くしたワイヤレスマイク「Insta360 Mic」を発表</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-22
@@ -3703,7 +3811,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-23-1953/#a11">2026-10-23 08:02 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-174">
+<details class="item" id="camera-177">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Lensbaby、Omniクリエイティブフィルター用の新コレクション「Omni Color II」「Omni Crystal II」を発表</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-22
@@ -3727,7 +3835,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-22</h2>
-<details class="item" id="camera-176">
+<details class="item" id="camera-179">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Cooke「S4 FF/i」発表――フルフレーム対応T2.0シネプライム6本、平均最短撮影距離385mm・前玉径87mmで統一</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-22
@@ -3763,7 +3871,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-23-0802/#a9">2026-10-22 20:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-177">
+<details class="item" id="camera-180">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Canon、EOS C50の「静止画が保存されない」不具合を修正する新ファームウェアを公開――C80/C400はIPストリーミングのセキュリティを強化</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-22
@@ -3785,7 +3893,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-23-0802/#a10">2026-10-22 20:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-178">
+<details class="item" id="camera-181">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ニコン「Small World」顕微鏡写真コンテスト2026、優勝はインクジェットプリンターが紙にインクを吹き付ける瞬間</span></div>
     <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-10-21
@@ -3828,7 +3936,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-23-0802/#a11">2026-10-22 20:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-179">
+<details class="item" id="camera-182">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>旧型Canonフルサイズ一眼レフで「Kodak Gold」風に――有志がEOS 6D用フィルムエミュレーション・ツールを公開</span></div>
     <div class="meta"><span class="tag">カメラ</span>Amateur Photographer ／ 2026-10-22
@@ -3854,7 +3962,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-23-0802/#a12">2026-10-22 20:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-180">
+<details class="item" id="camera-183">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>撮った写真を見るまで24時間待つ――“使い捨てカメラ”体験のiPhoneアプリ「WorthWait」</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-21
@@ -3875,7 +3983,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-22-2000/#a9">2026-10-22 07:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-181">
+<details class="item" id="camera-184">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>OMデジタルソリューションズ、「OM System PEN」の国内発売を11月28日に延期</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-21
@@ -3896,7 +4004,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-22-2000/#a10">2026-10-22 07:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-182">
+<details class="item" id="camera-185">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Forza Silicon、フルHDで6,613fpsを実現する4/3型2.1MPグローバルシャッターセンサー「ForzaFAST1024」</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-10-21
@@ -3915,7 +4023,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-22-2000/#a11">2026-10-22 07:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-183">
+<details class="item" id="camera-186">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Oppo Find X10 Pro Maxハンズオン：200MPトリプルカメラ搭載も驚きは少なめ</span></div>
     <div class="meta"><span class="tag">カメラ</span>Engadget ／ 2026-10-21
@@ -3950,7 +4058,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-21</h2>
-<details class="item" id="camera-185">
+<details class="item" id="camera-188">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Leica、F1コラボの限定版「Q3 43 Formula 1 Edition」を発表――カーボン製グリップと赤のアクセント、専用「Formula 1」ルックを搭載し9950ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-20
@@ -3981,7 +4089,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-22-0759/#a9">2026-10-21 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-186">
+<details class="item" id="camera-189">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Blackmagic Design、36製品を値上げ――AIデータセンター向けへのシフトによるメモリー高騰が理由、カメラ本体とアクセサリーは対象外</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-10-20
@@ -4039,7 +4147,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-22-0759/#a10">2026-10-21 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-187">
+<details class="item" id="camera-190">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Antigravity A1が「ウェアラブル操作の8K 360°フォローカメラ」に――腕時計型とリング型リモコンで追尾・操縦する「Follow Me Bundle」を799ドルで発売</span></div>
     <div class="meta"><span class="tag">カメラ</span>Newsshooter ／ 2026-10-20
@@ -4059,7 +4167,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-22-0759/#a11">2026-10-21 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-188">
+<details class="item" id="camera-191">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Googleフォト、「ハイライト動画」を「Video maker」に改称か――思い出の自動BGMを一括オフにする設定やモーションフォトの自動再生ショートカットもテスト中</span></div>
     <div class="meta"><span class="tag">カメラ</span>Android Authority ／ 2026-10-21
@@ -4085,7 +4193,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-22-0759/#a12">2026-10-21 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-189">
+<details class="item" id="camera-192">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Leicaの対抗馬、仏Pixiiが経営破綻の危機――裁判所が清算手続きに移行、新型レンジファインダーの発売は絶望的か</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-20
@@ -4108,7 +4216,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-21-1954/#a9">2026-10-21 08:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-190">
+<details class="item" id="camera-193">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>DxO ViewPoint 6発表――AIマスクで建物ごとに個別の歪み補正、トリミングなしで遠近感を修正</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-20
@@ -4133,7 +4241,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-21-1954/#a10">2026-10-21 08:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-191">
+<details class="item" id="camera-194">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>富士フイルム、instaxフィルム増産に30億円を追加投資――2028年春に生産能力を約20％増強、2022年度比で約70％増に</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-20
@@ -4152,7 +4260,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-21-1954/#a11">2026-10-21 08:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-192">
+<details class="item" id="camera-195">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ARRI、ALEXA 35／265向けSUP 6.2.0を公開――Focusbug Cine RTを直結、フォーカスマーク共有、ライブ向け被写界深度ランピング</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-20
@@ -4171,7 +4279,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-20</h2>
-<details class="item" id="camera-194">
+<details class="item" id="camera-197">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Adobe、モバイル版Lightroomに生成AIで閉じた目を開かせる「Open Eyes」機能を追加</span></div>
     <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-10-19
@@ -4190,7 +4298,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-21-0800/#a9">2026-10-20 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-195">
+<details class="item" id="camera-198">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>スーパー8風デジタルビデオカメラ「Camp Snap CS-8」と「Aura6」を比較――画面なし、フィルムルックを撮影時に焼き込む</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-20
@@ -4231,7 +4339,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-21-0800/#a10">2026-10-20 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-196">
+<details class="item" id="camera-199">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>世界報道写真コンテスト、2027年大会に「ネイチャー賞」と「スポーツ賞」を新設</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-20
@@ -4256,7 +4364,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-21-0800/#a11">2026-10-20 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-197">
+<details class="item" id="camera-200">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>vivo X500 Ultra、1/1.12型の2億画素望遠カメラをテスト中との情報――実現すればスマホ最大の200MP望遠に</span></div>
     <div class="meta"><span class="tag">カメラ</span>Android Authority ／ 2026-10-20
@@ -4278,7 +4386,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-21-0800/#a12">2026-10-20 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-198">
+<details class="item" id="camera-201">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>スマホに「本物の」キセノンフラッシュを――Godox、マグネット式アクセサリー「A2」を85ドルで発表</span></div>
     <div class="meta"><span class="tag">カメラ</span>Android Authority ／ 2026-10-19
@@ -4298,7 +4406,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-20-1954/#a9">2026-10-20 07:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-199">
+<details class="item" id="camera-202">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>マイクロフォーサーズ規格団体、非加盟企業の製品について「互換性を保証しない」と異例の警告</span></div>
     <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-10-19
@@ -4317,7 +4425,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-20-1954/#a10">2026-10-20 07:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-200">
+<details class="item" id="camera-203">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Flashback「One75」――真鍮ボタンとアルミプレートで高級感を高めた、フィルム体験を再現するハーフサイズ風トイデジカメ</span></div>
     <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-10-19
@@ -4336,7 +4444,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-20-1954/#a11">2026-10-20 07:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-201">
+<details class="item" id="camera-204">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>AstrHori、中判カメラの広角記録を大幅更新――「自分の後ろまで写る」画角220度の円周魚眼「MF 8mm F2.4」</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-19
@@ -4354,7 +4462,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-19</h2>
-<details class="item" id="camera-203">
+<details class="item" id="camera-206">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Sony α7 IVのファームウェアをハックしてシャッター角機能を追加――「パストラバーサルのバグを見つけた」</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-19
@@ -4377,7 +4485,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-20-0755/#a9">2026-10-19 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-204">
+<details class="item" id="camera-207">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>カメラの手ブレ補正「○段」は人の手ではなく振動台で測られている――CIPA規格の測定方法を読み解く</span></div>
     <div class="meta"><span class="tag">カメラ</span>Fstoppers ／ 2026-10-18
@@ -4417,7 +4525,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-20-0755/#a10">2026-10-19 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-205">
+<details class="item" id="camera-208">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>LENSGO、DJI Osmo Pocket 3／4向けの8インチテレプロンプター「TCQI 8 Pocket」を発表――マグネット式、Bluetoothリモコン付き</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-19
@@ -4447,7 +4555,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-20-0755/#a11">2026-10-19 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-206">
+<details class="item" id="camera-209">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>解任されたホワイトハウス報道官、機密とみられる情報が写り込んだ写真を投稿――雑なぼかし・消し込みが話題に</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-19
@@ -4472,7 +4580,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-20-0755/#a12">2026-10-19 19:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-207">
+<details class="item" id="camera-210">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Nikon、GoPro、Instaxのカメラが米TIME誌「2026年の最優秀発明」に選出——それぞれ本当は誰向けなのか</span></div>
     <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-10-18
@@ -4498,7 +4606,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-19-1957/#a3">2026-10-19 07:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-208">
+<details class="item" id="camera-211">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>フォクトレンダー「APO-LANTHAR 90mm F4」が発売、Mマウントで寄れる中望遠</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-18
@@ -4519,7 +4627,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-19-1957/#a6">2026-10-19 07:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-209">
+<details class="item" id="camera-212">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>粒子の粗いモノクロ写真に特化した新iPhoneカメラアプリ「MARS」</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-18
@@ -4541,7 +4649,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-19-1957/#a9">2026-10-19 07:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-210">
+<details class="item" id="camera-213">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>膨らませるLEDライトは本当に使えるのか——Neewer GC30Cを試す</span></div>
     <div class="meta"><span class="tag">カメラ</span>Fstoppers ／ 2026-10-18
@@ -4579,7 +4687,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-18</h2>
-<details class="item" id="camera-212">
+<details class="item" id="camera-215">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>キヤノン「史上最もクレイジーなレンズ」が特許に登場——フルサイズ対応70-200mm F2ズーム</span></div>
     <div class="meta"><span class="tag">カメラ</span>Fstoppers ／ 2026-10-17
@@ -4596,7 +4704,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-19-0756/#a2">2026-10-18 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-213">
+<details class="item" id="camera-216">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>「Robot」カメラの秘史——1930年代の革新的な35mm連写機は、やがて銀行の監視ツールになった</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-18
@@ -4624,7 +4732,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-19-0756/#a6">2026-10-18 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-214">
+<details class="item" id="camera-217">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>BenQ PD2732Uレビュー：写真家のためのモニターになり得るか</span></div>
     <div class="meta"><span class="tag">カメラ</span>Fstoppers ／ 2026-10-17
@@ -4664,7 +4772,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-19-0756/#a10">2026-10-18 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-215">
+<details class="item" id="camera-218">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>6年かけて米国28州・400人超の少女と「大切なもの」を大判フィルムで撮影——写真集『America’s Girls』</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-17
@@ -4689,7 +4797,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-19-0756/#a12">2026-10-18 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-216">
+<details class="item" id="camera-219">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>GoPro初のレンズ交換式「Mission 1 Pro ILS」がTIME誌「2026年の最高の発明」に選出——「銀の天井を打ち破った」</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-17
@@ -4709,7 +4817,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-18-1959/#a3">2026-10-18 07:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-217">
+<details class="item" id="camera-220">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>19世紀の「自撮り」——F・ホランド・デイの『The Seven Words』を米トレド美術館が取得、「知られざる最重要写真」</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-17
@@ -4733,7 +4841,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-18-1959/#a6">2026-10-18 07:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-218">
+<details class="item" id="camera-221">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>リコーGR 30周年記念のカメラ型ピンバッジ16個セット——歴代GR14機種を精巧に再現、発売は11月13日に延期</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-17
@@ -4751,7 +4859,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-18-1959/#a9">2026-10-18 07:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-219">
+<details class="item" id="camera-222">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>マグナムのアレックス・ウェッブ、ブルースに導かれ米国40都市を巡った新写真集『Walking Blues』をApertureから刊行</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-17
@@ -4770,7 +4878,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-17</h2>
-<details class="item" id="camera-221">
+<details class="item" id="camera-224">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>【論説】カメラの高価格は「メーカーの強欲」の証拠ではない——DPReview編集長</span></div>
     <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-10-16
@@ -4797,7 +4905,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-18-0754/#a3">2026-10-17 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-222">
+<details class="item" id="camera-225">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>CINELUX「REDUXA A1」の日程と価格が決定——旧型ARRI ALEXAでフルサイズレンズを使える0.71倍フォーカルレデューサー</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-16
@@ -4820,7 +4928,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-18-0754/#a6">2026-10-17 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-223">
+<details class="item" id="camera-226">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>カメラ内蔵の歯ブラシ「Dyson CameraJet」がTIMEの「2026年の最高の発明」に選出</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-17
@@ -4835,7 +4943,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-18-0754/#a9">2026-10-17 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-224">
+<details class="item" id="camera-227">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>死にゆく星の中心をのぞき込む——天体写真家クフィル・シモン氏、らせん星雲の奥に無数の遠方銀河を捉える</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-17
@@ -4858,7 +4966,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-18-0754/#a12">2026-10-17 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-225">
+<details class="item" id="camera-228">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Z CAM E2-F6 Proにファームウェア0.9.10——内部ProRes RAW収録に対応、6K最大60fps</span></div>
     <div class="meta"><span class="tag">カメラ</span>CineD ／ 2026-10-16
@@ -4877,7 +4985,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-17-1956/#a9">2026-10-17 07:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-226">
+<details class="item" id="camera-229">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>AstrHori、中判ミラーレス用「MF 8mm F2.4 Fisheye」発売——画角220度の円周魚眼、GFX／XCD向け</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-16
@@ -4898,7 +5006,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-17-1956/#a10">2026-10-17 07:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-227">
+<details class="item" id="camera-230">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ニコンZR、TIME誌「2026年の最高の発明」に選出——SNS向け動画制作とハイエンド映像の橋渡しを評価</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-16
@@ -4918,7 +5026,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-17-1956/#a11">2026-10-17 07:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-228">
+<details class="item" id="camera-231">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>iPhone 18 Proの可変絞り、夜景でどれだけ違う？——f/1.48でナイトモード短縮、f/4で水面を滑らかに</span></div>
     <div class="meta"><span class="tag">カメラ</span>9to5Mac ／ 2026-10-16
@@ -4946,7 +5054,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-16</h2>
-<details class="item" id="camera-230">
+<details class="item" id="camera-233">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ニコンZ6 IIIにファーム2.01——Bluetoothリモートでプリレリーズキャプチャ対応</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-15
@@ -4961,7 +5069,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-17-0750/#a9">2026-10-16 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-231">
+<details class="item" id="camera-234">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Hipstamatic、Camera Clubを刷新——Winter 26/27のアナログ風カメラ4本を含む全解放</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-15
@@ -4976,7 +5084,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-17-0750/#a10">2026-10-16 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-232">
+<details class="item" id="camera-235">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ソニーFX5、欧米とも出荷がさらにずれ込みか——米小売も月末表記に、欧州は11月中旬</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-07
@@ -4991,7 +5099,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-17-0750/#a11">2026-10-16 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-233">
+<details class="item" id="camera-236">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Yashica、1959年機インスパイアのコンデジ「Y16 Pocket」——約114ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-15
@@ -5006,7 +5114,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-16-1956/#a9">2026-10-16 07:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-234">
+<details class="item" id="camera-237">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Vaonis、モジュール式スマート望遠鏡「Atlas」発表——DSLRのように光学交換</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-15
@@ -5021,7 +5129,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-16-1956/#a10">2026-10-16 07:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-235">
+<details class="item" id="camera-238">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Adobe、Photoshop／Premiere／Substance 3DをNVIDIA RTX Spark向けに最適化</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-15
@@ -5037,7 +5145,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-15</h2>
-<details class="item" id="camera-237">
+<details class="item" id="camera-240">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>キヤノン、国際スポーツのボリューメトリック映像を約750端末へ同時ライブ配信</span></div>
     <div class="meta"><span class="tag">カメラ</span>Canon（公式） ／ 2026-10-15
@@ -5052,7 +5160,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-16-0755/#a9">2026-10-15 19:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-238">
+<details class="item" id="camera-241">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>富士フイルム、instax Square 2を発表——Mood Filterと新フィルムSoft Haze</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-13
@@ -5067,7 +5175,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-16-0755/#a10">2026-10-15 19:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-239">
+<details class="item" id="camera-242">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>OM System、3本の望遠ズームに50fps連写対応ファームウェア1.1</span></div>
     <div class="meta"><span class="tag">カメラ</span>Digital Camera World ／ 2026-10-14
@@ -5082,7 +5190,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-16-0755/#a11">2026-10-15 19:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-240">
+<details class="item" id="camera-243">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ソニー、新ワイヤレスマイク「ECM-W5」発表——カメラ内4ch記録や32bit floatに対応</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-14
@@ -5107,7 +5215,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-15-1952/#a7">2026-10-15 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-241">
+<details class="item" id="camera-244">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>DPReview読者が「カメラメーカーに追加してほしい」10の機能</span></div>
     <div class="meta"><span class="tag">カメラ</span>DPReview ／ 2026-10-14
@@ -5164,7 +5272,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-15-1952/#a8">2026-10-15 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-242">
+<details class="item" id="camera-245">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>未来を予見していた、忘れられた30年前のデジタルカメラ</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-14
@@ -5195,7 +5303,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-14</h2>
-<details class="item" id="camera-244">
+<details class="item" id="camera-247">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>タムロン、APS-C用「16-50mm F2.8 A」を4マウントで発表</span></div>
     <div class="meta"><span class="tag">カメラ</span>TAMRON（公式） ／ 2026-10-14
@@ -5209,7 +5317,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-15-0758/#a7">2026-10-14 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-245">
+<details class="item" id="camera-248">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ニコン、Z6III用ファームウェア2.01公開——Bluetooth遠隔プリキャプチャなど</span></div>
     <div class="meta"><span class="tag">カメラ</span>Nikon Download Center（公式） ／ 2026-10-14
@@ -5223,7 +5331,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-15-0758/#a8">2026-10-14 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-246">
+<details class="item" id="camera-249">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>キヤノン、EOS R6 Mark III／R6 Vに記録不完了を修正するファーム1.1.2</span></div>
     <div class="meta"><span class="tag">カメラ</span>Canon Rumors（公式DL案内） ／ 2026-10-13
@@ -5237,7 +5345,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-15-0758/#a9">2026-10-14 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-247">
+<details class="item" id="camera-250">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>TTArtisan、99ドルの超薄型AF 24mm f/3.8 Miniパンケーキを発表</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-13
@@ -5251,7 +5359,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-14-1956/#a8">2026-10-14 07:51 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-248">
+<details class="item" id="camera-251">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>GoPro、MISSION 1シリーズを「本気の写真機」へ無料アップデート</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-13
@@ -5265,7 +5373,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-14-1956/#a9">2026-10-14 07:51 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-249">
+<details class="item" id="camera-252">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>AppleとLG、Home連携の接続カメラ4機種を「Home Collection」で投入</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-13
@@ -5280,7 +5388,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-13</h2>
-<details class="item" id="camera-251">
+<details class="item" id="camera-254">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>「祖母のローライフレックスをすり替えられた」ロサンゼルスの女性がカメラ修理店を告発</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-12
@@ -5302,7 +5410,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-14-0751/#a7">2026-10-13 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-252">
+<details class="item" id="camera-255">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>地上と宇宙のカメラが山火事防衛の最前線に</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-12
@@ -5329,7 +5437,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-14-0751/#a8">2026-10-13 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-253">
+<details class="item" id="camera-256">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>身を潜めるユキヒョウの子どもたちも受賞、2026年シエナ国際写真賞の受賞作発表</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-12
@@ -5365,7 +5473,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-14-0751/#a9">2026-10-13 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-254">
+<details class="item" id="camera-257">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>「OM System PEN」予約殺到 予約済みでも2027年春以降の可能性</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel
@@ -5381,7 +5489,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-13-1955/#a10">2026-10-13 08:22 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-255">
+<details class="item" id="camera-258">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ゲッティイメージズ、チャプター11で非公開化へ ゲッティ家とコッホが5億3,300万ドル出資</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel（Reuters報道）
@@ -5397,7 +5505,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-13-1955/#a11">2026-10-13 08:22 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-256">
+<details class="item" id="camera-259">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ライカ「0シリーズ」試作機、約475万ドルで落札 カメラ史上屈指の高値</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel
@@ -5412,7 +5520,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-13-1955/#a12">2026-10-13 08:22 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-257">
+<details class="item" id="camera-260">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>アップル「Reference Image」とC2PA 「本物の写真」を証明する2つのアプローチ</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel
@@ -5429,7 +5537,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-12</h2>
-<details class="item" id="camera-259">
+<details class="item" id="camera-262">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>強力な磁石がiPhoneの背面カメラを妨げる理由</span></div>
     <div class="meta"><span class="tag">カメラ</span>Engadget ／ 2026-10-11
@@ -5448,7 +5556,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-12-1954/#a7">2026-10-12 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-260">
+<details class="item" id="camera-263">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Apple Homeの防犯カメラ向けAI要約、意外と高くつくコスト</span></div>
     <div class="meta"><span class="tag">カメラ</span>Engadget ／ 2026-10-11
@@ -5471,7 +5579,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-12-1954/#a8">2026-10-12 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-261">
+<details class="item" id="camera-264">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Flockの監視カメラ契約を解除しようとしたイリノイ州の大学、同社は拒否</span></div>
     <div class="meta"><span class="tag">カメラ</span>The Verge ／ 2026-10-11
@@ -5487,7 +5595,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-12-1954/#a9">2026-10-12 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-262">
+<details class="item" id="camera-265">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>富士フイルム「X half」は構図から逃げられなくする——スマホと本格カメラをつなぐ「移行デバイス」としての評価</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-11
@@ -5508,7 +5616,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-12-0759-morning/#a8">2026-10-12 07:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-263">
+<details class="item" id="camera-266">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>X線写真家ジム・ウェーティエ、貝殻の内部構造を写す——米国立貝類博物館で23点の展示が開幕</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-11
@@ -5524,7 +5632,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-12-0759-morning/#a9">2026-10-12 07:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-264">
+<details class="item" id="camera-267">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>写真集『Giant Panda』、中国のジャイアントパンダ保護の歩みと個々の物語を80点超の写真で描く</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-11
@@ -5540,7 +5648,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-11</h2>
-<details class="item" id="camera-266">
+<details class="item" id="camera-269">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>報道写真のジャンルを確立したロバート・キャパの写真集が復刻</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-10
@@ -5557,7 +5665,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-12-0759/#a7">2026-10-11 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-267">
+<details class="item" id="camera-270">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>マーティン・パーの代表作『Common Sense』、27年ぶりに再展示</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-10
@@ -5574,7 +5682,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-12-0759/#a8">2026-10-11 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-268">
+<details class="item" id="camera-271">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>バックカメラは実際どう動いているのか</span></div>
     <div class="meta"><span class="tag">カメラ</span>Engadget ／ 2026-10-11
@@ -5591,7 +5699,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-12-0759/#a9">2026-10-11 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-269">
+<details class="item" id="camera-272">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Viltrox EVO 26mm f/2.8 レビュー：好みのパンケーキレンズ</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-10
@@ -5609,7 +5717,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-11-1955/#a7">2026-10-11 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-270">
+<details class="item" id="camera-273">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>MLBのホームラン飛距離はどう測る？ 答えはカメラ</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-10
@@ -5631,7 +5739,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-10</h2>
-<details class="item" id="camera-272">
+<details class="item" id="camera-275">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>富士フイルム「instax WIDE」フィルムレビュー：インスタントフィルムが好調なのには理由がある</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-09
@@ -5652,7 +5760,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-11-0758/#a10">2026-10-10 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-273">
+<details class="item" id="camera-276">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>写真家ヒュー・ブラウンストーンとOberwerth、NYCをモチーフにした高級カメラバッグ「The Street Bag」を発表</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-09
@@ -5677,7 +5785,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-11-0758/#a11">2026-10-10 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-274">
+<details class="item" id="camera-277">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ウィンブルドン、「撮影会」をするインフルエンサー対策に軍の要員を投入と表明</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-09
@@ -5699,7 +5807,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-11-0758/#a12">2026-10-10 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-275">
+<details class="item" id="camera-278">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ニコン、「Small World in Motion」優勝作品を生成AI使用で失格に</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-09
@@ -5724,7 +5832,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-10-1958/#a9">2026-10-10 07:51 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-276">
+<details class="item" id="camera-279">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Godox、コンテンツクリエイター向けフルカラーリングライト「Litemons SR20R」を89ドルで発売</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-09
@@ -5743,7 +5851,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-10-1958/#a10">2026-10-10 07:51 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-277">
+<details class="item" id="camera-280">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Godox、iPhone向けマグネット式キセノンフラッシュ「A2」——Profoto C1の後を継ぐ</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-08
@@ -5766,7 +5874,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-09</h2>
-<details class="item" id="camera-279">
+<details class="item" id="camera-282">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ソニー、スマホ用空間オーディオマイク「ECM-AX10」——4つの無指向性カプセルでAmbisonics収録、Eclipsa Audio認証は世界初、250ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-08
@@ -5785,7 +5893,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-10-0751/#a11">2026-10-09 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-280">
+<details class="item" id="camera-283">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>2026年ライカ・オスカー・バルナック賞の受賞者発表——大賞はダゲスタンを記録したダミル・ファイズリン氏、初の「LOBA Women Grant」も</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-08
@@ -5813,7 +5921,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-10-0751/#a12">2026-10-09 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-281">
+<details class="item" id="camera-284">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>OM SYSTEM、ミトンに変形する撮影用グローブ「Octamitten」——72mmまでのレンズキャップ収納ポケット付き、日本で11,680円</span></div>
     <div class="meta"><span class="tag">カメラ</span>PetaPixel ／ 2026-10-08
@@ -5833,7 +5941,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-10-0751/#a13">2026-10-09 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-282">
+<details class="item" id="camera-285">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Yashica、168ドルの超小型コンデジ「Crew」を発表——チルト液晶と6倍ズーム、126gの薄型ボディで「仲間との撮影」向け</span></div>
     <div class="meta"><span class="tag">カメラ</span>dpreview.com
@@ -5858,7 +5966,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-09-1953/#a10">2026-10-09 12:25 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-283">
+<details class="item" id="camera-286">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>パナソニック、グローバルシャッター搭載PTZカメラ「AW-UE200／AW-UER200」シリーズを発表——1.2型5Kセンサー、ロール軸付きモデルは縦横同時出力も</span></div>
     <div class="meta"><span class="tag">カメラ</span>cined.com
@@ -5893,7 +6001,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-08</h2>
-<details class="item" id="camera-285">
+<details class="item" id="camera-288">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>シグマ、APS-C用望遠ズーム「50-120mm F2.8 OS DC | Contemporary」を発表——390gでコーラ缶より小さく、手ブレ補正と絞りリングを搭載、799ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>dpreview.com
@@ -5924,7 +6032,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-09-1225/#a9">2026-10-08 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-286">
+<details class="item" id="camera-289">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>シグマ初のニコンZマウント用ズーム——APS-C用高倍率「16-300mm F3.5-6.7 DC OS」がZマウントに、最大6段の手ブレ補正</span></div>
     <div class="meta"><span class="tag">カメラ</span>dpreview.com
@@ -5944,7 +6052,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-09-1225/#a10">2026-10-08 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-287">
+<details class="item" id="camera-290">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>タムロン「20-40mm F2.8 Di III VXD」がニコンZマウントに——380gの小型大口径ズーム、10月22日発売で729ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -5967,7 +6075,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-09-1225/#a11">2026-10-08 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-288">
+<details class="item" id="camera-291">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Photoshop・Premiere・Lightroomなど7本を無料オープンソースで再実装した「ArtCraft」登場——Claude Opus 5.5でRustに書き直し、「1か月で機能を完全再現」と開発者</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -5998,7 +6106,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-08-1953/#a9">2026-10-08 07:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-289">
+<details class="item" id="camera-292">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>学校写真をAIで「自作」する親が増加——ChatGPTで背景を加工・透かしを除去、英写真家団体では会員の58％がAIに仕事を奪われたと回答</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6023,7 +6131,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-08-1953/#a10">2026-10-08 07:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-290">
+<details class="item" id="camera-293">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Instagramの編集アプリ「Edits」でカルーセル投稿を作成可能に——写真と動画を自由なキャンバスに配置、スライドをまたぐレイアウトも（まずiOS）</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6047,7 +6155,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-07</h2>
-<details class="item" id="camera-292">
+<details class="item" id="camera-295">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>キヤノン・ニコン・ソニー・富士フイルムの幹部が語るカメラの未来——動画、共通プラットフォーム、そしてAI</span></div>
     <div class="meta"><span class="tag">カメラ</span>cined.com
@@ -6080,7 +6188,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-08-0759/#a9">2026-10-07 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-293">
+<details class="item" id="camera-296">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Imaging Worldが2027年にケルンへ移転、ケルンメッセが主催——「photokina」の名が6年ぶりに復活</span></div>
     <div class="meta"><span class="tag">カメラ</span>cined.com
@@ -6109,7 +6217,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-08-0759/#a10">2026-10-07 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-294">
+<details class="item" id="camera-297">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>IFAで目撃された中国製「マイクロフォーサーズ」カメラ、Sonidaは関与を否定——マウントも実はMFTではなかった</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6132,7 +6240,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-08-0759/#a11">2026-10-07 19:59 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-295">
+<details class="item" id="camera-298">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ソニー「FX5」がまた延期——欧州の公式ストアは出荷日を11月16日に変更、当初予定から約3カ月遅れ</span></div>
     <div class="meta"><span class="tag">カメラ</span>cined.com
@@ -6154,7 +6262,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-07-1959/#a9">2026-10-07 08:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-296">
+<details class="item" id="camera-299">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ロモグラフィー「Joseph Petzval Métamorphose 35 f/1.8」発表——7段階のボケ制御で中心シャープ・周辺が歪み伸びる描写、E／RF／Zマウントで649ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>cined.com
@@ -6179,7 +6287,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-07-1959/#a10">2026-10-07 08:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-297">
+<details class="item" id="camera-300">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Shoten、世界初のf/1.1レンズ「Zunow 50mm F1.1」へのオマージュ「Tribute 01 LTM 50mm f/1.1」を発売——ライカL39／M用で約11.5万円</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6200,7 +6308,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-06</h2>
-<details class="item" id="camera-299">
+<details class="item" id="camera-302">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>LiDAR搭載のDJIドローン5機種、米FCCが「軍事技術」扱いで店頭から撤去の恐れ——Mini 5 Pro、Mavic 4 Proなど</span></div>
     <div class="meta"><span class="tag">カメラ</span>digitalcameraworld.com
@@ -6233,7 +6341,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-07-0800/#a9">2026-10-06 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-300">
+<details class="item" id="camera-303">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>磁気フィルターのMaven、折りたたみ式LEDライト「Talon」シリーズを発表——開発7年、10月13日にKickstarter開始</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6257,7 +6365,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-07-0800/#a10">2026-10-06 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-301">
+<details class="item" id="camera-304">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Google「Snapseed」カメラにフォーカスピーキング機能が登場へ——APK解析で発見、LUTはHaldCLUTにも対応</span></div>
     <div class="meta"><span class="tag">カメラ</span>androidauthority.com
@@ -6280,7 +6388,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-07-0800/#a11">2026-10-06 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-302">
+<details class="item" id="camera-305">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>写真見本市「Imaging World」、2027年にケルンへ移転——フォトキナの後継を目指し「inspired by photokina」に</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6304,7 +6412,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-06-1958/#a9">2026-10-06 08:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-303">
+<details class="item" id="camera-306">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>キヤノン、EOS Kiss X9i（Rebel T7i）・EOS 9000D（77D）・EOS M100など旧機種の修理受付を年内に終了</span></div>
     <div class="meta"><span class="tag">カメラ</span>digitalcameraworld.com
@@ -6327,7 +6435,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-06-1958/#a10">2026-10-06 08:01 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-304">
+<details class="item" id="camera-307">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Skylum、AIポートレート編集アプリ「Aperty」を11月4日で終了——「5年間のアップデート」約束を守れず</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6350,7 +6458,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-05</h2>
-<details class="item" id="camera-306">
+<details class="item" id="camera-309">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ローマ教皇レオ14世、AIアートを批判「アルゴリズムには人間の輝きが欠けている」——教会は人間の芸術家を「必要としている」</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6371,7 +6479,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-06-0801/#a9">2026-10-05 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-307">
+<details class="item" id="camera-310">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ハーランド選手、ノルウェー航空を提訴——機体に金髪ポニーテールを合成した画像広告で「特徴の無断使用」</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6394,7 +6502,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-06-0801/#a10">2026-10-05 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-308">
+<details class="item" id="camera-311">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Viltrox AF 16mm F1.8がLマウントに登場——580ドル、防塵防滴・鏡筒に情報表示、星景向けの明るい超広角</span></div>
     <div class="meta"><span class="tag">カメラ</span>fstoppers.com
@@ -6413,7 +6521,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-06-0801/#a11">2026-10-05 19:53 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-309">
+<details class="item" id="camera-312">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>iPhone Duoのグループ自撮り機能を解説——折りたたみで48MP背面カメラを使用、iOS 27「Smart Take」と「Duo Preview」</span></div>
     <div class="meta"><span class="tag">カメラ</span>engadget.com
@@ -6438,7 +6546,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-05-1950/#a8">2026-10-05 07:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-310">
+<details class="item" id="camera-313">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Laowa 24mm f/2 Zero-D Tilt-Shift——「史上最速」のティルトシフト、±10°／±12mm、GFX・XCDも対応で11月5日・1,249ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>digitalcameraworld.com
@@ -6458,7 +6566,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-05-1950/#a9">2026-10-05 07:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-311">
+<details class="item" id="camera-314">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Photoshop「Relight」（ベータ）——撮影後の写真の光を移動・拡散・色変更、確定ごとに30クレジット</span></div>
     <div class="meta"><span class="tag">カメラ</span>fstoppers.com
@@ -6478,7 +6586,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-05-1950/#a10">2026-10-05 07:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-312">
+<details class="item" id="camera-315">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>PetaPixelレビュー——NiSi 16mm f/2.8 ASPH（GFX用）、Fujifilm純正にない超広角118°、MF・電子接点なしでも「ニッチで優秀」</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6507,7 +6615,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-04</h2>
-<details class="item" id="camera-314">
+<details class="item" id="camera-317">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ソニー、FE 600mm F6.3 GM OSSの供給遅延を公式告知——受注が想定を大幅超過</span></div>
     <div class="meta"><span class="tag">カメラ</span>sony.jp
@@ -6522,7 +6630,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-05-0752/#a9">2026-10-04 20:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-315">
+<details class="item" id="camera-318">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>RICOH GR IV 30th Anniversary Edition——世界6000台、10月21日出荷、希望小売1799ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>us.ricoh-imaging.com
@@ -6537,7 +6645,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-05-0752/#a10">2026-10-04 20:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-316">
+<details class="item" id="camera-319">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>富士フイルム、日本でカメラ／Instaxを最大約23%値上げ——10月1日から部品・材料費高騰</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6552,7 +6660,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-05-0752/#a11">2026-10-04 20:00 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-317">
+<details class="item" id="camera-320">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Sony FX5の出荷遅延、背面LCDの組立不良が裏付け——複数台で内部露出の報告</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6564,7 +6672,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-04-2000/#a9">2026-10-04 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-318">
+<details class="item" id="camera-321">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>FUJIFILM、X halfファームウェア2.00——SOFT GLOW追加、フィルムモードに12／24コマ、AF高速化</span></div>
     <div class="meta"><span class="tag">カメラ</span>fujifilm-x.com
@@ -6576,7 +6684,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-04-2000/#a10">2026-10-04 07:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-319">
+<details class="item" id="camera-322">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>OM SYSTEM PENが北米再上陸——EVF＋IBISのレンジファインダー風、ボディ999.99ドルで10月下旬出荷</span></div>
     <div class="meta"><span class="tag">カメラ</span>prnewswire.com
@@ -6589,7 +6697,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-03</h2>
-<details class="item" id="camera-321">
+<details class="item" id="camera-324">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ShiftCam、Apple協力のiPhone向け「ProRig」——光学・ライト・マイクを一体システム化</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6604,7 +6712,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-04-0755/#a8">2026-10-03 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-322">
+<details class="item" id="camera-325">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Halide 3.2、iPhone 18 Proの可変絞りを任意F値で操作——絞り優先とISO手動も</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6619,7 +6727,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-04-0755/#a9">2026-10-03 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-323">
+<details class="item" id="camera-326">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Huawei、スマホに載せる丸ごとカメラ「Ruiying Z10」——50MP＋24-240mm相当、約900ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6634,7 +6742,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-04-0755/#a10">2026-10-03 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-324">
+<details class="item" id="camera-327">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Nocs Provisions、画面なし冒険カメラ「Portal」——179〜180ドル、Kodak風プリセット</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6650,7 +6758,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-02</h2>
-<details class="item" id="camera-326">
+<details class="item" id="camera-329">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Panasonic、LUMIX S9ファーム2.1——MP4 Liteで4K60／FHD120、10月13日無料</span></div>
     <div class="meta"><span class="tag">カメラ</span>cined.com
@@ -6665,7 +6773,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-03-0758/#a9">2026-10-02 19:50 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-327">
+<details class="item" id="camera-330">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Canon、生成AIで印刷体験を拡張するConnected Value Platform——PIXUS向け本日開始</span></div>
     <div class="meta"><span class="tag">カメラ</span>global.canon
@@ -6680,7 +6788,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-03-0758/#a10">2026-10-02 19:50 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-328">
+<details class="item" id="camera-331">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Nikon、フルフレーム入門「Z5IIC」——シーンモード初搭載、10月中旬1399.95ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>nikonusa.com
@@ -6695,7 +6803,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-03-0758/#a11">2026-10-02 19:50 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-329">
+<details class="item" id="camera-332">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Huawei、Mate 90向け外付けカメラ「Ruiying Z10」——1インチセンサー内蔵の24–240mmズーム</span></div>
     <div class="meta"><span class="tag">カメラ</span>theverge.com
@@ -6710,7 +6818,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-02-1948/#a8">2026-10-02 07:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-330">
+<details class="item" id="camera-333">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>富士フイルム、国内でデジカメ等を最大約23%値上げ——10月1日から</span></div>
     <div class="meta"><span class="tag">カメラ</span>fujifilm.com
@@ -6725,7 +6833,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-02-1948/#a9">2026-10-02 07:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-331">
+<details class="item" id="camera-334">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Nocs Provisions、初カメラ「Portal AFN7」——画面なしEVF、179ドル、双眼鏡連携</span></div>
     <div class="meta"><span class="tag">カメラ</span>dpreview.com
@@ -6740,7 +6848,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-02-1948/#a10">2026-10-02 07:57 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-332">
+<details class="item" id="camera-335">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Fstoppers——Sony FE 600mm F6.3 GM OSS、野鳥の手持ち追尾で「軽い」が勝つ場面</span></div>
     <div class="meta"><span class="tag">カメラ</span>fstoppers.com
@@ -6756,7 +6864,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-10-01</h2>
-<details class="item" id="camera-334">
+<details class="item" id="camera-337">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Sony、世界最軽量級400mm／600mm G Master発表——各約1kg弱、10月発売</span></div>
     <div class="meta"><span class="tag">カメラ</span>prnewswire.com
@@ -6771,7 +6879,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-02-0755/#a10">2026-10-01 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-335">
+<details class="item" id="camera-338">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>DJI Osmo 360 II——1インチ相当8K/60fps HDR、交換式超硬レンズ、IFA 2026で公開</span></div>
     <div class="meta"><span class="tag">カメラ</span>dji.com
@@ -6786,7 +6894,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-02-0755/#a11">2026-10-01 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-336">
+<details class="item" id="camera-339">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>GoPro MISSION 1 PRO ILS——初の交換レンズ式シネマカメラ、MFTマニュアル、699.99ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>gopro.com
@@ -6801,7 +6909,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-02-0755/#a12">2026-10-01 19:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-337">
+<details class="item" id="camera-340">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Nikon Z5IIC発表——ファインダーレスの日常フルサイズ、本文1399.95ドルで10月中旬発売</span></div>
     <div class="meta"><span class="tag">カメラ</span>nikon.com
@@ -6816,7 +6924,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-01-1954/#a10">2026-10-01 07:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-338">
+<details class="item" id="camera-341">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Polaroid Mod発表——レンズ周りのダイヤルで4種のアナログ創造モード、169.99ドルで即日発売</span></div>
     <div class="meta"><span class="tag">カメラ</span>theverge.com
@@ -6831,7 +6939,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-01-1954/#a11">2026-10-01 07:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-339">
+<details class="item" id="camera-342">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Canon EOS R8 Mark II——IBIS搭載最軽量級フルサイズ、電子シャッター最大約40コマ／秒、10月末1899ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>globenewswire.com
@@ -6847,7 +6955,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-09-30</h2>
-<details class="item" id="camera-341">
+<details class="item" id="camera-344">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Final Cut Camera 2.4——ProRes 422系列・Kelvin WB・USB-C直結取り込み、可変絞り対応を深掘り</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6862,7 +6970,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-01-0755/#a9">2026-09-30 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-342">
+<details class="item" id="camera-345">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Sony、世界最軽量級の400mm／600mm G Master発表——各約1kg弱、10月発売2699.99／3699.99ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>alphauniverse.com
@@ -6877,7 +6985,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-01-0755/#a10">2026-09-30 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-343">
+<details class="item" id="camera-346">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Fujifilm、instax Pal 2発表——光学ファインダー＋1インチLCDの掌サイズ機、169.95ドル</span></div>
     <div class="meta"><span class="tag">カメラ</span>fujifilm.com
@@ -6892,7 +7000,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-01-0755/#a11">2026-09-30 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-344">
+<details class="item" id="camera-347">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Pixel 11の「Camera Looks」——HDR+処理パイプラインを調整し「フィルタではない」色科学を返す</span></div>
     <div class="meta"><span class="tag">カメラ</span>androidcentral.com
@@ -6907,7 +7015,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-10-01-0755/#a12">2026-09-30 19:58 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-345">
+<details class="item" id="camera-348">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Final Cut Camera大幅刷新——iPhone 18 Pro可変絞り対応、スコープ／SDI／シネマティック連携</span></div>
     <div class="meta"><span class="tag">カメラ</span>theverge.com
@@ -6922,7 +7030,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-09-30-1956/#a10">2026-09-30 07:52 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-346">
+<details class="item" id="camera-349">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>SmallRig、28mm／35mm外付け光学ファインダー発売——各46.99ドル、GR系やZ5IIC向け</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6938,7 +7046,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-09-29</h2>
-<details class="item" id="camera-348">
+<details class="item" id="camera-351">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Instagram、Stories向けAI「Pixel」効果——相手を切り抜いてモザイク、ソフトローンチ用</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6953,7 +7061,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-09-30-0752/#a10">2026-09-29 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-349">
+<details class="item" id="camera-352">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Adobe、Lightroom／PhotoshopなどをGoogle Gemini内で利用可能に——チャットから本格編集</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6968,7 +7076,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-09-30-0752/#a11">2026-09-29 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-350">
+<details class="item" id="camera-353">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Leica、iPhone向けカメラアプリ「Lux 2.0」——Steve McCurry協力のArtist LookとUI刷新</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -6983,7 +7091,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-09-30-0752/#a12">2026-09-29 19:54 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-351">
+<details class="item" id="camera-354">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>HONOR、Magic9 Pro Maxを中国発売——ARRI共同のシネマワークフローとデュアル200MP</span></div>
     <div class="meta"><span class="tag">カメラ</span>honor.com
@@ -6999,7 +7107,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-09-29-1954/#a9">2026-09-29 07:56 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-352">
+<details class="item" id="camera-355">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Brightin Star、ボケ可変の50mm F2「Tri-Sight」を正式発売——E／L／RF／Zマウントで349.99ドル〜</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -7015,7 +7123,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
   </div>
 </details>
 <h2 class="datehead">2026-09-28</h2>
-<details class="item" id="camera-354">
+<details class="item" id="camera-357">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ヤシカ、1959年機を思わせる薄型コンデジ「Y16」を開発発表——12MP＋キセノンフラッシュ</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -7030,7 +7138,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-09-29-0755/#a10">2026-09-28 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-355">
+<details class="item" id="camera-358">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ソニーFE 600mm F6.3 GM OSS——995gの超望遠、3699ドルで10月出荷</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -7045,7 +7153,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-09-29-0755/#a11">2026-09-28 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-356">
+<details class="item" id="camera-359">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ニコンZ5IIC、PetaPixel詳報——EVF省略で450ドル安、プリキャプチャと魚検出も継承</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -7060,7 +7168,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-09-29-0755/#a12">2026-09-28 19:55 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-357">
+<details class="item" id="camera-360">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>ソニーFX5、発売が再度延期——「10月末以降」に、生産上の理由と発表</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
@@ -7075,7 +7183,7 @@ nav a[aria-current] { font-weight:700; text-decoration:none; }
 <p class="from">掲載ダイジェスト: <a href="../../archive/2026-09-28-html/#a9">2026-09-28 08:15 JST</a></p>
   </div>
 </details>
-<details class="item" id="camera-358">
+<details class="item" id="camera-361">
   <summary>
     <div class="item-title"><span class="chev" aria-hidden="true">▶</span><span>Viltrox、Lマウント向けAir単焦点4本を投入——168〜199ドルの軽量AFレンズ</span></div>
     <div class="meta"><span class="tag">カメラ</span>petapixel.com
