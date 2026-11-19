@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Build data/articles.json, category pages, and ensure nav links.
+"""Build data/articles.json, category pages, ensure nav links, and rebuild feed.xml.
 
 Run from anywhere:  python3 scripts/build_index.py
 Stdlib only. Idempotent. Safe to run after every digest.
+Also rebuilds root feed.xml (latest edition, full text) via build_feed.py.
 """
-import html, json, os, re, sys
+import html, json, os, re, subprocess, sys
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -113,7 +114,8 @@ def parse(doc, page_url, dt):
 
 def nav_html(prefix, active):
     links = [("", "最新"), ("category/ai/", "AI"), ("category/gadget/", "ガジェット"),
-             ("category/camera/", "カメラ"), ("search/", "検索"), ("archive/", "アーカイブ")]
+             ("category/camera/", "カメラ"), ("search/", "検索"), ("archive/", "アーカイブ"),
+             ("feed.xml", "RSS")]
     out = []
     for href, lab in links:
         cur = ' aria-current="page"' if lab == active else ""
@@ -129,6 +131,25 @@ def ensure_nav(path, prefix, active):
         doc2 = re.sub(r'<nav>.*?</nav>', lambda m: new, doc, count=1, flags=re.S)
     if doc2 != doc:
         write(path, doc2)
+
+FEED_LINK = ('<link rel="alternate" type="application/rss+xml" '
+             'title="AI・ガジェット・カメラ ニュース（全文訳）" href="feed.xml">')
+RSS_ENDED = "RSS配信は終了しました。"
+RSS_LIVE = '最新版の日本語全文は<a href="./feed.xml">RSS</a>でも配信しています。'
+
+def ensure_feed_discover(path):
+    """Keep a feed autodiscovery link and live RSS copy on the latest digest."""
+    doc = read(path)
+    orig = doc
+    if 'type="application/rss+xml"' not in doc:
+        if re.search(r'</title>', doc):
+            doc = re.sub(r'</title>', lambda m: m.group(0) + "\n  " + FEED_LINK, doc, count=1)
+        elif re.search(r'</head>', doc):
+            doc = re.sub(r'</head>', lambda m: "  " + FEED_LINK + "\n" + m.group(0), doc, count=1)
+    if RSS_ENDED in doc:
+        doc = doc.replace(RSS_ENDED, RSS_LIVE)
+    if doc != orig:
+        write(path, doc)
 
 def main():
     pages = []
@@ -219,12 +240,17 @@ def main():
         write(os.path.join(ROOT, "category", slug, "index.html"), page)
 
     ensure_nav(root_index, "./", "最新")
+    ensure_feed_discover(root_index)
     ensure_nav(os.path.join(adir, "index.html"), "../", "アーカイブ")
     sp = os.path.join(ROOT, "search", "index.html")
     if os.path.exists(sp):
         ensure_nav(sp, "../", "検索")
     print(f"articles: {len(articles)} " + " ".join(f"{s}={data['categories'][s]}" for s, _ in CATS)
           + f" other={sum(a['category']=='other' for a in articles)}")
+    feed_py = os.path.join(os.path.dirname(os.path.abspath(__file__)), "build_feed.py")
+    r = subprocess.run([sys.executable, feed_py], cwd=ROOT)
+    if r.returncode != 0:
+        sys.exit(r.returncode)
 
 if __name__ == "__main__":
     main()
